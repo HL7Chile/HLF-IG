@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="VSOcupaciones"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSOcupaciones.html"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code></a></li></ul></div>
+  </text>
+  <url value="http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones"/>
+  <version value="0.1.0"/>
+  <name value="VSOcupaciones"/>
+  <title value="Ultimo nivel aprobado"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-01-18T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="www.hospitallaflorida.cl"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Código del último nivel aprobado"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"/>
+    </include>
+  </compose>
+</ValueSet>

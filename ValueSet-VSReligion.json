@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSReligion",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSReligion.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion</code></a></li></ul></div>"
+  },
+  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion",
+  "version" : "0.1.0",
+  "name" : "VSReligion",
+  "title" : "Religiones o Cultos",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "www.hospitallaflorida.cl"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Códigos de Religiones o Cultos declarados",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion"
+    }]
+  }
+}

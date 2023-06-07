@@ -1,0 +1,205 @@
+[
+  {
+    "id" : "CSEstadoCivil",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil",
+    "version" : "0.1.0",
+    "name" : "CSEstadoCivil"
+  },
+  {
+    "id" : "CSIdentidadGenero",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "CSIdentidadGenero"
+  },
+  {
+    "id" : "CSOcupaciones",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones",
+    "version" : "0.1.0",
+    "name" : "CSOcupaciones"
+  },
+  {
+    "id" : "CSOcupacionesDet",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet",
+    "version" : "0.1.0",
+    "name" : "CSOcupacionesDet"
+  },
+  {
+    "id" : "CSPuebloIndigena",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena",
+    "version" : "0.1.0",
+    "name" : "CSPuebloIndigena"
+  },
+  {
+    "id" : "CSReligion",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion",
+    "version" : "0.1.0",
+    "name" : "CSReligion"
+  },
+  {
+    "id" : "CSSexoBiologico",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico",
+    "version" : "0.1.0",
+    "name" : "CSSexoBiologico"
+  },
+  {
+    "id" : "CSUCursoAprobado",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado",
+    "version" : "0.1.0",
+    "name" : "CSUCursoAprobado"
+  },
+  {
+    "id" : "CSUNivelAprob",
+    "type" : "CodeSystem",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob",
+    "version" : "0.1.0",
+    "name" : "CSUNivelAprob"
+  },
+  {
+    "id" : "fhir.hlf.hosp",
+    "type" : "ImplementationGuide",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp",
+    "version" : "0.1.0",
+    "name" : "HlfHosp"
+  },
+  {
+    "id" : "Educacion",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion",
+    "version" : "0.1.0",
+    "name" : "Educacion"
+  },
+  {
+    "id" : "IdentidadGenero",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "IdentidadGenero"
+  },
+  {
+    "id" : "NivelInstrucion",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion",
+    "version" : "0.1.0",
+    "name" : "NivelIntruccion"
+  },
+  {
+    "id" : "NombreSocial",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
+    "version" : "0.1.0",
+    "name" : "NombreSocial"
+  },
+  {
+    "id" : "ObsPesoPediatrico",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico",
+    "version" : "0.1.0",
+    "name" : "ObsPesoPediatrico"
+  },
+  {
+    "id" : "Ocupaciones",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones",
+    "version" : "0.1.0",
+    "name" : "Ocupaciones"
+  },
+  {
+    "id" : "PacienteHLF",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF",
+    "version" : "0.1.0",
+    "name" : "PacienteHLF"
+  },
+  {
+    "id" : "PueblosIndigenas",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas",
+    "version" : "0.1.0",
+    "name" : "PueblosIndigenas"
+  },
+  {
+    "id" : "ReligionesCultos",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
+    "version" : "0.1.0",
+    "name" : "ReligionesCultos"
+  },
+  {
+    "id" : "SexoNacimiento820",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
+    "version" : "0.1.0",
+    "name" : "SexoNacimiento820"
+  },
+  {
+    "id" : "SexoReg",
+    "type" : "StructureDefinition",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg",
+    "version" : "0.1.0",
+    "name" : "SexoReg"
+  },
+  {
+    "id" : "VSIdentidadGenero",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero",
+    "version" : "0.1.0",
+    "name" : "VSIdentidadGenero"
+  },
+  {
+    "id" : "VSOcupaciones",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones",
+    "version" : "0.1.0",
+    "name" : "VSOcupaciones"
+  },
+  {
+    "id" : "VSOcupacionesDet",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
+    "version" : "0.1.0",
+    "name" : "VSOcupacionesDet"
+  },
+  {
+    "id" : "VSPuebloIndigena",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena",
+    "version" : "0.1.0",
+    "name" : "VSPuebloIndigena"
+  },
+  {
+    "id" : "VSReligion",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion",
+    "version" : "0.1.0",
+    "name" : "VSReligion"
+  },
+  {
+    "id" : "VSSexoBiologico",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico",
+    "version" : "0.1.0",
+    "name" : "VSSexoBiologico"
+  },
+  {
+    "id" : "VSUCursoAprobado",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado",
+    "version" : "0.1.0",
+    "name" : "VSUCursoAprobado"
+  },
+  {
+    "id" : "VSUNivelAprob",
+    "type" : "ValueSet",
+    "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob",
+    "version" : "0.1.0",
+    "name" : "VSUNivelAprob"
+  }
+]
