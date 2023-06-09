@@ -3,9 +3,9 @@
   "id" : "VSOcupaciones",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupaciones.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupaciones.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code></a></li></ul></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones",
   "version" : "0.1.0",
   "name" : "VSOcupaciones",
   "title" : "Ultimo nivel aprobado",
@@ -34,7 +34,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"
     }]
   }
 }

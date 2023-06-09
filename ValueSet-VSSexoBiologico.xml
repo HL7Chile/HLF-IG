@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSSexoBiologico"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSSexoBiologico.html"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSSexoBiologico.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico</code></a></li></ul></div>
   </text>
-  <url value="http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico"/>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico"/>
   <version value="0.1.0"/>
   <name value="VSSexoBiologico"/>
   <title value="Códigos para sexo biológico en Chile"/>
@@ -34,7 +34,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico"/>
+      <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico"/>
     </include>
   </compose>
 </ValueSet>

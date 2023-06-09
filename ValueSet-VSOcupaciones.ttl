@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones> a fhir:ValueSet ;
+<https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "VSOcupaciones"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupaciones.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupaciones.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VSOcupaciones"] ; # 
   fhir:title [ fhir:v "Ultimo nivel aprobado"] ; # 
@@ -40,7 +40,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"^^xsd:anyURI ]
      ] )
   ] . # 
 

@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp> a fhir:ImplementationGuide ;
+<https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fhir.hlf.hosp"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "HlfHosp"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Procesos de Hospitalizado"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-02T15:10:45-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-06-08T21:42:18-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
@@ -153,7 +153,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/history.html" ]
+         fhir:value [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -372,7 +372,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/history.html" ]
+         fhir:value [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -508,31 +508,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion> ;
-         fhir:reference [ fhir:v "StructureDefinition/Educacion" ]
-       ] ;
-       fhir:name [ fhir:v "Nivel Educacional" ] ;
-       fhir:description [ fhir:v "Perfil de observaciones asociado al nivel educacional del paciente" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico> ;
-         fhir:reference [ fhir:v "StructureDefinition/ObsPesoPediatrico" ]
-       ] ;
-       fhir:name [ fhir:v "Peso medido al momento de nacer" ] ;
-       fhir:description [ fhir:v "Perfil de observaciones de recién nacidos" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones> ;
          fhir:reference [ fhir:v "StructureDefinition/Ocupaciones" ]
        ] ;
        fhir:name [ fhir:v "Aspectos Laborales" ] ;
@@ -541,14 +517,65 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF> ;
-         fhir:reference [ fhir:v "StructureDefinition/PacienteHLF" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero> ;
+         fhir:reference [ fhir:v "CodeSystem/CSIdentidadGenero" ]
        ] ;
-       fhir:name [ fhir:v "PacienteHLF" ] ;
-       fhir:description [ fhir:v "Perfil de Paciente definido por HLF" ] ;
+       fhir:name [ fhir:v "Códigos para Identidad de Género" ] ;
+       fhir:description [ fhir:v "Códigos para Identidad de Género DEIS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico> ;
+         fhir:reference [ fhir:v "ValueSet/VSSexoBiologico" ]
+       ] ;
+       fhir:name [ fhir:v "Códigos para sexo biológico en Chile" ] ;
+       fhir:description [ fhir:v "Códigos para sexo biológico en Chile según tabla 820." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico> ;
+         fhir:reference [ fhir:v "CodeSystem/CSSexoBiologico" ]
+       ] ;
+       fhir:name [ fhir:v "Códigos para Sexo de Nacimiento de Paciente" ] ;
+       fhir:description [ fhir:v "Codigos definidos para el sexo de nacimiento de un paciente en Chile" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/EjPacienteHLF> ;
+         fhir:reference [ fhir:v "Patient/EjPacienteHLF" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de Recurso de Paciente HLF" ] ;
+       fhir:description [ fhir:v "Paciente ficticio según datos requeridos por Hospital que contiene: \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente\n     * La dirección se declara con códigos por extensión.\n     * Se agrega identidad de género y sexo registral\n     * Se declara sexo de nacimiento" ] ;
+       fhir:example [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil> ;
+         fhir:reference [ fhir:v "CodeSystem/CSEstadoCivil" ]
+       ] ;
+       fhir:name [ fhir:v "Estado Civil" ] ;
+       fhir:description [ fhir:v "El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -556,43 +583,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero> ;
-         fhir:reference [ fhir:v "StructureDefinition/IdentidadGenero" ]
-       ] ;
-       fhir:name [ fhir:v "Identidad de Género" ] ;
-       fhir:description [ fhir:v "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local " ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion> ;
-         fhir:reference [ fhir:v "StructureDefinition/NivelInstrucion" ]
-       ] ;
-       fhir:name [ fhir:v "Nivel Instrucción" ] ;
-       fhir:description [ fhir:v "El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial> ;
-         fhir:reference [ fhir:v "StructureDefinition/NombreSocial" ]
-       ] ;
-       fhir:name [ fhir:v "Nombre Social de Paciente" ] ;
-       fhir:description [ fhir:v "Esta extensión permite agregar un nombre social al paciente" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas> ;
          fhir:reference [ fhir:v "StructureDefinition/PueblosIndigenas" ]
        ] ;
        fhir:name [ fhir:v "Extensión de Pueblos Indígenas u Origenarios" ] ;
@@ -604,7 +595,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos> ;
          fhir:reference [ fhir:v "StructureDefinition/ReligionesCultos" ]
        ] ;
        fhir:name [ fhir:v "Extensión que define Religion o Culto" ] ;
@@ -616,23 +607,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820> ;
-         fhir:reference [ fhir:v "StructureDefinition/SexoNacimiento820" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero> ;
+         fhir:reference [ fhir:v "StructureDefinition/IdentidadGenero" ]
        ] ;
-       fhir:name [ fhir:v "Sexo biológico al nacer" ] ;
-       fhir:description [ fhir:v "Extensión de Sexdo biológico al nacer para Chile" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg> ;
-         fhir:reference [ fhir:v "StructureDefinition/SexoReg" ]
-       ] ;
-       fhir:name [ fhir:v "Sexo Registral" ] ;
-       fhir:description [ fhir:v "Extensión para dato es de del sexo registrado oficialmente por el/la paciente" ] ;
+       fhir:name [ fhir:v "Identidad de Género" ] ;
+       fhir:description [ fhir:v "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local " ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -640,7 +619,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero> ;
          fhir:reference [ fhir:v "ValueSet/VSIdentidadGenero" ]
        ] ;
        fhir:name [ fhir:v "Identidad de Género" ] ;
@@ -649,14 +628,38 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones> ;
-         fhir:reference [ fhir:v "ValueSet/VSOcupaciones" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion> ;
+         fhir:reference [ fhir:v "StructureDefinition/Educacion" ]
        ] ;
-       fhir:name [ fhir:v "Ultimo nivel aprobado" ] ;
-       fhir:description [ fhir:v "Código del último nivel aprobado" ] ;
+       fhir:name [ fhir:v "Nivel Educacional" ] ;
+       fhir:description [ fhir:v "Perfil de observaciones asociado al nivel educacional del paciente" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion> ;
+         fhir:reference [ fhir:v "StructureDefinition/NivelInstrucion" ]
+       ] ;
+       fhir:name [ fhir:v "Nivel Instrucción" ] ;
+       fhir:description [ fhir:v "El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial> ;
+         fhir:reference [ fhir:v "StructureDefinition/NombreSocial" ]
+       ] ;
+       fhir:name [ fhir:v "Nombre Social de Paciente" ] ;
+       fhir:description [ fhir:v "Esta extensión permite agregar un nombre social al paciente" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -664,7 +667,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet> ;
          fhir:reference [ fhir:v "ValueSet/VSOcupacionesDet" ]
        ] ;
        fhir:name [ fhir:v "Ocupaciones Detalladas" ] ;
@@ -673,106 +676,10 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena> ;
-         fhir:reference [ fhir:v "ValueSet/VSPuebloIndigena" ]
-       ] ;
-       fhir:name [ fhir:v "Pueblo Indígena u Originarioi" ] ;
-       fhir:description [ fhir:v "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion> ;
-         fhir:reference [ fhir:v "ValueSet/VSReligion" ]
-       ] ;
-       fhir:name [ fhir:v "Religiones o Cultos" ] ;
-       fhir:description [ fhir:v "Códigos de Religiones o Cultos declarados" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico> ;
-         fhir:reference [ fhir:v "ValueSet/VSSexoBiologico" ]
-       ] ;
-       fhir:name [ fhir:v "Códigos para sexo biológico en Chile" ] ;
-       fhir:description [ fhir:v "Códigos para sexo biológico en Chile según tabla 820." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado> ;
-         fhir:reference [ fhir:v "ValueSet/VSUCursoAprobado" ]
-       ] ;
-       fhir:name [ fhir:v "Ultimo Curso Aprobado" ] ;
-       fhir:description [ fhir:v "Categoría del último curso aprobado" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob> ;
-         fhir:reference [ fhir:v "ValueSet/VSUNivelAprob" ]
-       ] ;
-       fhir:name [ fhir:v "Ultimo nivel aprobado" ] ;
-       fhir:description [ fhir:v "Código del último nivel aprobado" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil> ;
-         fhir:reference [ fhir:v "CodeSystem/CSEstadoCivil" ]
-       ] ;
-       fhir:name [ fhir:v "Estado Civil" ] ;
-       fhir:description [ fhir:v "El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero> ;
-         fhir:reference [ fhir:v "CodeSystem/CSIdentidadGenero" ]
-       ] ;
-       fhir:name [ fhir:v "Códigos para Identidad de Género" ] ;
-       fhir:description [ fhir:v "Códigos para Identidad de Género DEIS" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones> ;
-         fhir:reference [ fhir:v "CodeSystem/CSOcupaciones" ]
-       ] ;
-       fhir:name [ fhir:v "Ocupaciones Paciente" ] ;
-       fhir:description [ fhir:v "Código asociados a la Ocupación del paciente" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet> ;
          fhir:reference [ fhir:v "CodeSystem/CSOcupacionesDet" ]
        ] ;
        fhir:name [ fhir:v "Ocupaciones Detalladas" ] ;
@@ -784,8 +691,44 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena> ;
-         fhir:reference [ fhir:v "CodeSystem/CSPuebloIndigena" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones> ;
+         fhir:reference [ fhir:v "CodeSystem/CSOcupaciones" ]
+       ] ;
+       fhir:name [ fhir:v "Ocupaciones Paciente" ] ;
+       fhir:description [ fhir:v "Código asociados a la Ocupación del paciente" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF> ;
+         fhir:reference [ fhir:v "StructureDefinition/PacienteHLF" ]
+       ] ;
+       fhir:name [ fhir:v "PacienteHLF" ] ;
+       fhir:description [ fhir:v "Perfil de Paciente definido por HLF" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico> ;
+         fhir:reference [ fhir:v "StructureDefinition/ObsPesoPediatrico" ]
+       ] ;
+       fhir:name [ fhir:v "Peso medido al momento de nacer" ] ;
+       fhir:description [ fhir:v "Perfil de observaciones de recién nacidos" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena> ;
+         fhir:reference [ fhir:v "ValueSet/VSPuebloIndigena" ]
        ] ;
        fhir:name [ fhir:v "Pueblo Indígena u Originarioi" ] ;
        fhir:description [ fhir:v "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos" ] ;
@@ -796,8 +739,20 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion> ;
-         fhir:reference [ fhir:v "CodeSystem/CSReligion" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena> ;
+         fhir:reference [ fhir:v "CodeSystem/CSPuebloIndigena" ]
+       ] ;
+       fhir:name [ fhir:v "Pueblo Indígena u Originarioi" ] ;
+       fhir:description [ fhir:v "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion> ;
+         fhir:reference [ fhir:v "ValueSet/VSReligion" ]
        ] ;
        fhir:name [ fhir:v "Religiones o Cultos" ] ;
        fhir:description [ fhir:v "Códigos de Religiones o Cultos declarados" ] ;
@@ -808,20 +763,44 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico> ;
-         fhir:reference [ fhir:v "CodeSystem/CSSexoBiologico" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion> ;
+         fhir:reference [ fhir:v "CodeSystem/CSReligion" ]
        ] ;
-       fhir:name [ fhir:v "Códigos para Sexo de Nacimiento de Paciente" ] ;
-       fhir:description [ fhir:v "Codigos definidos para el sexo de nacimiento de un paciente en Chile" ] ;
+       fhir:name [ fhir:v "Religiones o Cultos" ] ;
+       fhir:description [ fhir:v "Códigos de Religiones o Cultos declarados" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado> ;
-         fhir:reference [ fhir:v "CodeSystem/CSUCursoAprobado" ]
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820> ;
+         fhir:reference [ fhir:v "StructureDefinition/SexoNacimiento820" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo biológico al nacer" ] ;
+       fhir:description [ fhir:v "Extensión de Sexdo biológico al nacer para Chile" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg> ;
+         fhir:reference [ fhir:v "StructureDefinition/SexoReg" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo Registral" ] ;
+       fhir:description [ fhir:v "Extensión para dato es de del sexo registrado oficialmente por el/la paciente" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado> ;
+         fhir:reference [ fhir:v "ValueSet/VSUCursoAprobado" ]
        ] ;
        fhir:name [ fhir:v "Ultimo Curso Aprobado" ] ;
        fhir:description [ fhir:v "Categoría del último curso aprobado" ] ;
@@ -832,7 +811,43 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob> ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado> ;
+         fhir:reference [ fhir:v "CodeSystem/CSUCursoAprobado" ]
+       ] ;
+       fhir:name [ fhir:v "Ultimo Curso Aprobado" ] ;
+       fhir:description [ fhir:v "Categoría del último curso aprobado" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob> ;
+         fhir:reference [ fhir:v "ValueSet/VSUNivelAprob" ]
+       ] ;
+       fhir:name [ fhir:v "Ultimo nivel aprobado" ] ;
+       fhir:description [ fhir:v "Código del último nivel aprobado" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones> ;
+         fhir:reference [ fhir:v "ValueSet/VSOcupaciones" ]
+       ] ;
+       fhir:name [ fhir:v "Ultimo nivel aprobado" ] ;
+       fhir:description [ fhir:v "Código del último nivel aprobado" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob> ;
          fhir:reference [ fhir:v "CodeSystem/CSUNivelAprob" ]
        ] ;
        fhir:name [ fhir:v "Ultimo nivel aprobado" ] ;

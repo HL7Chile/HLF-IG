@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSUCursoAprobado"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSUCursoAprobado.html"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSUCursoAprobado.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado</code></a></li></ul></div>
   </text>
-  <url value="http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado"/>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado"/>
   <version value="0.1.0"/>
   <name value="VSUCursoAprobado"/>
   <title value="Ultimo Curso Aprobado"/>
@@ -34,7 +34,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"/>
+      <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"/>
     </include>
   </compose>
 </ValueSet>

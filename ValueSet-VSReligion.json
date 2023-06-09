@@ -3,9 +3,9 @@
   "id" : "VSReligion",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSReligion.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSReligion.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion</code></a></li></ul></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion",
   "version" : "0.1.0",
   "name" : "VSReligion",
   "title" : "Religiones o Cultos",
@@ -34,7 +34,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion"
     }]
   }
 }

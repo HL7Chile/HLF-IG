@@ -1,10 +1,10 @@
 ﻿HlfHosp : Validation Results
 =========================================
 
-err = 1, warn = 473, info = 1
-IG Publisher Version: 1.3.13
-Generated Fri Jun 02 15:13:15 CLT 2023. FHIR version 4.0.1 for fhir.hlf.hosp#0.1.0 (canonical = http://hospitallaflorida.cl/fhir/hlfhosp)
- Build Errors : 197 / 5 / 1
+err = 8, warn = 473, info = 2
+IG Publisher Version: 1.3.16
+Generated Thu Jun 08 21:44:11 CLT 2023. FHIR version 4.0.1 for fhir.hlf.hosp#0.1.0 (canonical = https://hospitallaflorida.cl/fhir/hlfhosp)
+ Build Errors : 202 / 5 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSEstadoCivil : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSIdentidadGenero : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupaciones : 0 / 5 / 1
@@ -15,14 +15,15 @@ Generated Fri Jun 02 15:13:15 CLT 2023. FHIR version 4.0.1 for fhir.hlf.hosp#0.1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUCursoAprobado : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUNivelAprob : 0 / 1 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Patient-EjPacienteHLF : 7 / 0 / 2
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Educacion : 0 / 1 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-IdentidadGenero : 0 / 2 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NivelInstrucion : 0 / 2 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NivelInstrucion : 0 / 4 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NombreSocial : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ObsPesoPediatrico : 0 / 1 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Ocupaciones : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PacienteHLF : 1 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PueblosIndigenas : 0 / 2 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PacienteHLF : 1 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PueblosIndigenas : 0 / 1 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ReligionesCultos : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoNacimiento820 : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoReg : 0 / 2 / 1
@@ -92,31 +93,36 @@ ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.html#/html/body/di
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.json.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.ttl.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-definitions.html#/html/body/div/div/div/p/a at Line 1226, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-EjPacienteHLF.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-EjPacienteHLF.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-EjPacienteHLF.json.html#/html/body/div/div/div/p/a at Line 456, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-EjPacienteHLF.ttl.html#/html/body/div/div/div/p/a at Line 365, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-EjPacienteHLF.xml.html#/html/body/div/div/div/p/a at Line 391, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-definitions.html#/html/body/div/div/div/p/a at Line 1228, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-examples.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-mappings.html#/html/body/div/div/div/p/a at Line 436, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.html#/html/body/div/div/div/p/a at Line 1101, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.json.html#/html/body/div/div/div/p/a at Line 3624, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.ttl.html#/html/body/div/div/div/p/a at Line 2658, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.xml.html#/html/body/div/div/div/p/a at Line 3401, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-definitions.html#/html/body/div/div/div/p/a at Line 405, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-mappings.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.json.html#/html/body/div/div/div/p/a at Line 3625, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.ttl.html#/html/body/div/div/div/p/a at Line 2659, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.xml.html#/html/body/div/div/div/p/a at Line 3402, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.html#/html/body/div/div/div/p/a at Line 522, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.json.html#/html/body/div/div/div/p/a at Line 608, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.ttl.html#/html/body/div/div/div/p/a at Line 523, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.xml.html#/html/body/div/div/div/p/a at Line 565, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-definitions.html#/html/body/div/div/div/p/a at Line 986, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-mappings.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.xml.html#/html/body/div/div/div/p/a at Line 511, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-definitions.html#/html/body/div/div/div/p/a at Line 956, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-mappings.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.html#/html/body/div/div/div/p/a at Line 624, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.html#/html/body/div/div/div/p/a at Line 680, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.json.html#/html/body/div/div/div/p/a at Line 2361, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.ttl.html#/html/body/div/div/div/p/a at Line 1685, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.xml.html#/html/body/div/div/div/p/a at Line 2181, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.json.html#/html/body/div/div/div/p/a at Line 2233, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.ttl.html#/html/body/div/div/div/p/a at Line 1597, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.xml.html#/html/body/div/div/div/p/a at Line 2043, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-definitions.html#/html/body/div/div/div/p/a at Line 377, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
@@ -125,65 +131,65 @@ ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.hi
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.json.html#/html/body/div/div/div/p/a at Line 537, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.xml.html#/html/body/div/div/div/p/a at Line 501, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-definitions.html#/html/body/div/div/div/p/a at Line 1183, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-definitions.html#/html/body/div/div/div/p/a at Line 1188, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-examples.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-mappings.html#/html/body/div/div/div/p/a at Line 430, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.html#/html/body/div/div/div/p/a at Line 1099, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.html#/html/body/div/div/div/p/a at Line 1115, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.json.html#/html/body/div/div/div/p/a at Line 3436, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.ttl.html#/html/body/div/div/div/p/a at Line 2524, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.xml.html#/html/body/div/div/div/p/a at Line 3226, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-definitions.html#/html/body/div/div/div/p/a at Line 1226, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.json.html#/html/body/div/div/div/p/a at Line 3451, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.ttl.html#/html/body/div/div/div/p/a at Line 2533, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.xml.html#/html/body/div/div/div/p/a at Line 3239, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-definitions.html#/html/body/div/div/div/p/a at Line 1228, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-examples.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-mappings.html#/html/body/div/div/div/p/a at Line 436, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.html#/html/body/div/div/div/p/a at Line 1101, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.json.html#/html/body/div/div/div/p/a at Line 3624, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.ttl.html#/html/body/div/div/div/p/a at Line 2658, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.xml.html#/html/body/div/div/div/p/a at Line 3399, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-definitions.html#/html/body/div/div/div/p/a at Line 4248, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-examples.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-mappings.html#/html/body/div/div/div/p/a at Line 627, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.html#/html/body/div/div/div/p/a at Line 1923, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.json.html#/html/body/div/div/div/p/a at Line 11104, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.ttl.html#/html/body/div/div/div/p/a at Line 7821, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.xml.html#/html/body/div/div/div/p/a at Line 10057, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-definitions.html#/html/body/div/div/div/p/a at Line 778, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-mappings.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.json.html#/html/body/div/div/div/p/a at Line 3625, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.ttl.html#/html/body/div/div/div/p/a at Line 2659, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.xml.html#/html/body/div/div/div/p/a at Line 3400, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-definitions.html#/html/body/div/div/div/p/a at Line 3972, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-mappings.html#/html/body/div/div/div/p/a at Line 605, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-testing.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.html#/html/body/div/div/div/p/a at Line 1901, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.history.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.json.html#/html/body/div/div/div/p/a at Line 10354, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.ttl.html#/html/body/div/div/div/p/a at Line 7307, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.xml.html#/html/body/div/div/div/p/a at Line 9371, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-definitions.html#/html/body/div/div/div/p/a at Line 585, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.html#/html/body/div/div/div/p/a at Line 587, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.html#/html/body/div/div/div/p/a at Line 566, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.json.html#/html/body/div/div/div/p/a at Line 1752, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.ttl.html#/html/body/div/div/div/p/a at Line 1262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.xml.html#/html/body/div/div/div/p/a at Line 1613, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-definitions.html#/html/body/div/div/div/p/a at Line 572, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-mappings.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.json.html#/html/body/div/div/div/p/a at Line 1147, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.ttl.html#/html/body/div/div/div/p/a at Line 849, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.xml.html#/html/body/div/div/div/p/a at Line 1055, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-definitions.html#/html/body/div/div/div/p/a at Line 560, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-mappings.html#/html/body/div/div/div/p/a at Line 273, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.html#/html/body/div/div/div/p/a at Line 575, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.html#/html/body/div/div/div/p/a at Line 567, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.json.html#/html/body/div/div/div/p/a at Line 1149, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.ttl.html#/html/body/div/div/div/p/a at Line 892, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.xml.html#/html/body/div/div/div/p/a at Line 1057, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-definitions.html#/html/body/div/div/div/p/a at Line 405, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-mappings.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.json.html#/html/body/div/div/div/p/a at Line 1087, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.ttl.html#/html/body/div/div/div/p/a at Line 850, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.xml.html#/html/body/div/div/div/p/a at Line 1003, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.html#/html/body/div/div/div/p/a at Line 522, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.json.html#/html/body/div/div/div/p/a at Line 608, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.ttl.html#/html/body/div/div/div/p/a at Line 523, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.xml.html#/html/body/div/div/div/p/a at Line 562, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-definitions.html#/html/body/div/div/div/p/a at Line 405, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-mappings.html#/html/body/div/div/div/p/a at Line 263, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.xml.html#/html/body/div/div/div/p/a at Line 508, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.html#/html/body/div/div/div/p/a at Line 522, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.json.html#/html/body/div/div/div/p/a at Line 608, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.ttl.html#/html/body/div/div/div/p/a at Line 523, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.xml.html#/html/body/div/div/div/p/a at Line 565, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.xml.html#/html/body/div/div/div/p/a at Line 511, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.html#/html/body/div/div/div/p/a at Line 300, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
@@ -232,7 +238,7 @@ ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.html#/html/body/div/
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\artifacts.html#/html/body/div/div/div/p/a at Line 459, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\artifacts.html#/html/body/div/div/div/p/a at Line 489, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\index.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\toc.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
@@ -698,37 +704,46 @@ WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[443].display: el valor 
 == fsh-generated\resources\CodeSystem-CSUNivelAprob.json ==
 WARNING: CodeSystem/CSUNivelAprob: CodeSystem.concept[1].display: el valor no puede empezar o terminar con espacios en blanco 'Especial o Diferencial '
 == fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp.json ==
-WARNING: ImplementationGuide/fhir.hlf.hosp: ImplementationGuide.definition.resource[4].description: el valor no puede empezar o terminar con espacios en blanco 'Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local '
+WARNING: ImplementationGuide/fhir.hlf.hosp: ImplementationGuide.definition.resource[8].description: el valor no puede empezar o terminar con espacios en blanco 'Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local '
+== fsh-generated\resources\Patient-EjPacienteHLF.json ==
+ERROR: Patient.extension[0]: Propiedad No Reconocida 'valueCodeableConcept'
+ERROR: Patient/EjPacienteHLF: Patient.extension[0]: La regla ext-1: 'Must have either extensions or value[x], not both' falló
+ERROR: Patient/EjPacienteHLF: Patient.extension[0]: La definición para la Extensión 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas' permite los tipos  [] pero se encontró code
+ERROR: Patient/EjPacienteHLF: Patient.extension[0]: Extension.value[x]: max permitido = 0, pero se han encontrado 1 (de https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas|0.1.0)
+ERROR: Patient/EjPacienteHLF: Patient.extension[0]: Patient.extension:PueblosIndigenas.value[x]: max permitido = 0, pero se han encontrado 1 (de https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.1.0)
+ERROR: Patient/EjPacienteHLF: Patient.identifier[0].type.coding[0]: Código desconocido NNCHL en http://terminology.hl7.org/CodeSystem/v2-0203 para 'http://terminology.hl7.org/CodeSystem/v2-0203#NNCHL'
+ERROR: Patient/EjPacienteHLF: Patient.identifier[0].type: Ninguno de los codings provistos están en el conjunto de valores 'Tipos de Documentos' (https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos|1.8.0), y se requiere un código de este conjunto de valores) (codes = http://terminology.hl7.org/CodeSystem/v2-0203#NNCHL)
+INFORMATION: Patient/EjPacienteHLF: Patient.name[0].family.extension[0]: Este elemento no coincide con ninguna partición conocida defined in the profile https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.1.0
 == fsh-generated\resources\StructureDefinition-Educacion.json ==
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-IdentidadGenero.json ==
 WARNING: StructureDefinition/IdentidadGenero: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-NivelInstrucion.json ==
+WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.snapshot.element[29].short: el valor no puede empezar o terminar con espacios en blanco 'CodeSystem de Nivel aprobado '
+WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.differential.element[13].short: el valor no puede empezar o terminar con espacios en blanco 'CodeSystem de Nivel aprobado '
 WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-NombreSocial.json ==
 WARNING: StructureDefinition/NombreSocial: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-ObsPesoPediatrico.json ==
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-Ocupaciones.json ==
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-PacienteHLF.json ==
 ERROR: StructureDefinition/PacienteHLF: StructureDefinition.text.div: La URL no es válida porque '(La URL contiene 3 Caracteres Inválidos ([\]))': file://C:\GI_FHIR\clcore\output/StructureDefinition-CorePacienteCl.html
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-PueblosIndigenas.json ==
 WARNING: StructureDefinition/PueblosIndigenas: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-ReligionesCultos.json ==
 WARNING: StructureDefinition/ReligionesCultos: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-SexoNacimiento820.json ==
 WARNING: StructureDefinition/SexoNacimiento820: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-SexoReg.json ==
 WARNING: StructureDefinition/SexoReg: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg'): The Implementation Guide contains no examples for this extension
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\ValueSet-VSIdentidadGenero.json ==
 == fsh-generated\resources\ValueSet-VSOcupaciones.json ==
 == fsh-generated\resources\ValueSet-VSOcupacionesDet.json ==

@@ -3,9 +3,9 @@
   "id" : "VSPuebloIndigena",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSPuebloIndigena.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSPuebloIndigena.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena</code></a></li></ul></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena",
   "version" : "0.1.0",
   "name" : "VSPuebloIndigena",
   "title" : "Pueblo Indígena u Originarioi",
@@ -34,7 +34,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena"
     }]
   }
 }

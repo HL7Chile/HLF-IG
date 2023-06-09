@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado> a fhir:ValueSet ;
+<https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "VSUCursoAprobado"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUCursoAprobado.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUCursoAprobado.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VSUCursoAprobado"] ; # 
   fhir:title [ fhir:v "Ultimo Curso Aprobado"] ; # 
@@ -40,7 +40,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"^^xsd:anyURI ]
      ] )
   ] . # 
 

@@ -3,9 +3,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSUNivelAprob"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSUNivelAprob.html"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSUNivelAprob.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob</code></a></li></ul></div>
   </text>
-  <url value="http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob"/>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob"/>
   <version value="0.1.0"/>
   <name value="VSUNivelAprob"/>
   <title value="Ultimo nivel aprobado"/>
@@ -34,7 +34,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"/>
+      <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"/>
     </include>
   </compose>
 </ValueSet>

@@ -4,18 +4,16 @@
   "fhirVersion": "4.0.1",
   "extensions": [
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
       "title": "Identidad de Género",
       "types": [
-        "code",
         "code"
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion",
       "title": "Nivel Instrucción",
       "types": [
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -28,7 +26,6 @@
         "string",
         "boolean",
         "string",
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -94,29 +91,17 @@
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
       "title": "Nombre Social de Paciente",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas",
       "title": "Extensión de Pueblos Indígenas u Origenarios",
       "types": [
         "CodeableConcept",
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
-        "code",
-        "string",
-        "boolean",
-        "string",
         "string",
         "base64Binary",
         "boolean",
@@ -171,10 +156,9 @@
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
       "title": "Extensión que define Religion o Culto",
       "types": [
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -190,18 +174,16 @@
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
       "title": "Sexo biológico al nacer",
       "types": [
-        "code",
         "code"
       ]
     },
     {
-      "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg",
       "title": "Sexo Registral",
       "types": [
-        "code",
         "code"
       ]
     }
@@ -209,21 +191,21 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion",
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion",
         "title": "Nivel Educacional"
       },
       {
-        "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico",
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico",
         "title": "Peso medido al momento de nacer"
       },
       {
-        "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones",
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones",
         "title": "Aspectos Laborales"
       }
     ],
     "Patient": [
       {
-        "url": "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF",
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF",
         "title": "PacienteHLF"
       }
     ]
@@ -248,7 +230,8 @@
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
-      "Patient.contact.name.family"
+      "Patient.contact.name.family",
+      "Patient.name.family"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
@@ -284,30 +267,40 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero": [
-      "Patient"
-    ],
-    "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas": [
-      "Patient"
-    ],
-    "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos": [
-      "Patient"
-    ],
-    "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820": [
-      "Patient"
-    ],
-    "http://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg": [
-      "Patient"
-    ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises": [
       "Patient",
+      "Patient.address.country",
       "Patient.identifier.type"
+    ],
+    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl": [
+      "Patient.address.city"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto": [
       "Patient.contact"
     ],
+    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl": [
+      "Patient.address.district"
+    ],
+    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl": [
+      "Patient.address.state"
+    ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido": [
       "Patient.name.family"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero": [
+      "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas": [
+      "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos": [
+      "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820": [
+      "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg": [
+      "Patient"
     ]
   }
 }

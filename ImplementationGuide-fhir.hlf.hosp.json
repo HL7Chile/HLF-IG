@@ -3,14 +3,14 @@
   "id" : "fhir.hlf.hosp",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp",
   "version" : "0.1.0",
   "name" : "HlfHosp",
   "title" : "Guía de Implementación Procesos de Hospitalizado",
   "status" : "draft",
-  "date" : "2023-06-02T15:10:45-04:00",
+  "date" : "2023-06-08T21:42:18-04:00",
   "publisher" : "Hospital Eloisa Diaz de la Florida",
   "contact" : [{
     "name" : "Hospital Eloisa Diaz de la Florida",
@@ -159,7 +159,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hospitallaflorida.cl/fhir/hlfhosp/history.html"
+        "valueString" : "https://hospitallaflorida.cl/fhir/hlfhosp/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -427,7 +427,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "http://hospitallaflorida.cl/fhir/hlfhosp/history.html"
+        "valueString" : "https://hospitallaflorida.cl/fhir/hlfhosp/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -591,30 +591,6 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/Educacion"
-      },
-      "name" : "Nivel Educacional",
-      "description" : "Perfil de observaciones asociado al nivel educacional del paciente",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/ObsPesoPediatrico"
-      },
-      "name" : "Peso medido al momento de nacer",
-      "description" : "Perfil de observaciones de recién nacidos",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
         "reference" : "StructureDefinition/Ocupaciones"
       },
       "name" : "Aspectos Laborales",
@@ -624,49 +600,61 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/PacienteHLF"
+        "reference" : "CodeSystem/CSIdentidadGenero"
       },
-      "name" : "PacienteHLF",
-      "description" : "Perfil de Paciente definido por HLF",
+      "name" : "Códigos para Identidad de Género",
+      "description" : "Códigos para Identidad de Género DEIS",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/IdentidadGenero"
+        "reference" : "ValueSet/VSSexoBiologico"
       },
-      "name" : "Identidad de Género",
-      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local ",
+      "name" : "Códigos para sexo biológico en Chile",
+      "description" : "Códigos para sexo biológico en Chile según tabla 820.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NivelInstrucion"
+        "reference" : "CodeSystem/CSSexoBiologico"
       },
-      "name" : "Nivel Instrucción",
-      "description" : "El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.",
+      "name" : "Códigos para Sexo de Nacimiento de Paciente",
+      "description" : "Codigos definidos para el sexo de nacimiento de un paciente en Chile",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "Patient"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/NombreSocial"
+        "reference" : "Patient/EjPacienteHLF"
       },
-      "name" : "Nombre Social de Paciente",
-      "description" : "Esta extensión permite agregar un nombre social al paciente",
+      "name" : "Ejemplo de Recurso de Paciente HLF",
+      "description" : "Paciente ficticio según datos requeridos por Hospital que contiene: \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente\n     * La dirección se declara con códigos por extensión.\n     * Se agrega identidad de género y sexo registral\n     * Se declara sexo de nacimiento",
+      "exampleCanonical" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSEstadoCivil"
+      },
+      "name" : "Estado Civil",
+      "description" : "El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles.",
       "exampleBoolean" : false
     },
     {
@@ -699,6 +687,174 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/IdentidadGenero"
+      },
+      "name" : "Identidad de Género",
+      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local ",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSIdentidadGenero"
+      },
+      "name" : "Identidad de Género",
+      "description" : "Códigos para Identidad de Género DEIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Educacion"
+      },
+      "name" : "Nivel Educacional",
+      "description" : "Perfil de observaciones asociado al nivel educacional del paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NivelInstrucion"
+      },
+      "name" : "Nivel Instrucción",
+      "description" : "El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NombreSocial"
+      },
+      "name" : "Nombre Social de Paciente",
+      "description" : "Esta extensión permite agregar un nombre social al paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSOcupacionesDet"
+      },
+      "name" : "Ocupaciones Detalladas",
+      "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSOcupacionesDet"
+      },
+      "name" : "Ocupaciones Detalladas",
+      "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSOcupaciones"
+      },
+      "name" : "Ocupaciones Paciente",
+      "description" : "Código asociados a la Ocupación del paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/PacienteHLF"
+      },
+      "name" : "PacienteHLF",
+      "description" : "Perfil de Paciente definido por HLF",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/ObsPesoPediatrico"
+      },
+      "name" : "Peso medido al momento de nacer",
+      "description" : "Perfil de observaciones de recién nacidos",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSPuebloIndigena"
+      },
+      "name" : "Pueblo Indígena u Originarioi",
+      "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSPuebloIndigena"
+      },
+      "name" : "Pueblo Indígena u Originarioi",
+      "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSReligion"
+      },
+      "name" : "Religiones o Cultos",
+      "description" : "Códigos de Religiones o Cultos declarados",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSReligion"
+      },
+      "name" : "Religiones o Cultos",
+      "description" : "Códigos de Religiones o Cultos declarados",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/SexoNacimiento820"
       },
       "name" : "Sexo biológico al nacer",
@@ -723,79 +879,19 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/VSIdentidadGenero"
-      },
-      "name" : "Identidad de Género",
-      "description" : "Códigos para Identidad de Género DEIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VSOcupaciones"
-      },
-      "name" : "Ultimo nivel aprobado",
-      "description" : "Código del último nivel aprobado",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VSOcupacionesDet"
-      },
-      "name" : "Ocupaciones Detalladas",
-      "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VSPuebloIndigena"
-      },
-      "name" : "Pueblo Indígena u Originarioi",
-      "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VSReligion"
-      },
-      "name" : "Religiones o Cultos",
-      "description" : "Códigos de Religiones o Cultos declarados",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/VSSexoBiologico"
-      },
-      "name" : "Códigos para sexo biológico en Chile",
-      "description" : "Códigos para sexo biológico en Chile según tabla 820.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/VSUCursoAprobado"
+      },
+      "name" : "Ultimo Curso Aprobado",
+      "description" : "Categoría del último curso aprobado",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSUCursoAprobado"
       },
       "name" : "Ultimo Curso Aprobado",
       "description" : "Categoría del último curso aprobado",
@@ -816,97 +912,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
+        "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "CodeSystem/CSEstadoCivil"
+        "reference" : "ValueSet/VSOcupaciones"
       },
-      "name" : "Estado Civil",
-      "description" : "El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSIdentidadGenero"
-      },
-      "name" : "Códigos para Identidad de Género",
-      "description" : "Códigos para Identidad de Género DEIS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSOcupaciones"
-      },
-      "name" : "Ocupaciones Paciente",
-      "description" : "Código asociados a la Ocupación del paciente",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSOcupacionesDet"
-      },
-      "name" : "Ocupaciones Detalladas",
-      "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSPuebloIndigena"
-      },
-      "name" : "Pueblo Indígena u Originarioi",
-      "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSReligion"
-      },
-      "name" : "Religiones o Cultos",
-      "description" : "Códigos de Religiones o Cultos declarados",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSSexoBiologico"
-      },
-      "name" : "Códigos para Sexo de Nacimiento de Paciente",
-      "description" : "Codigos definidos para el sexo de nacimiento de un paciente en Chile",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CSUCursoAprobado"
-      },
-      "name" : "Ultimo Curso Aprobado",
-      "description" : "Categoría del último curso aprobado",
+      "name" : "Ultimo nivel aprobado",
+      "description" : "Código del último nivel aprobado",
       "exampleBoolean" : false
     },
     {

@@ -3,9 +3,9 @@
   "id" : "VSUNivelAprob",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUNivelAprob.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUNivelAprob.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob</code></a></li></ul></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob",
   "version" : "0.1.0",
   "name" : "VSUNivelAprob",
   "title" : "Ultimo nivel aprobado",
@@ -34,7 +34,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"
     }]
   }
 }

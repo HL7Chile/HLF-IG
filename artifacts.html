@@ -114,7 +114,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.1.0). See the <a href="http://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.1.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Artifacts Summary</h2>
   
   
@@ -134,6 +134,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <li>
          <a href="#4">Terminology: Code Systems</a>
       </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
    </ul>
 </div>
 <div xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="http://hl7.org/fhir">
@@ -149,22 +152,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-Educacion.html" title="StructureDefinition/Educacion">Nivel Educacional</a>
-               </td>
-               <td>
-<p>Perfil de observaciones asociado al nivel educacional del paciente</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-ObsPesoPediatrico.html" title="StructureDefinition/ObsPesoPediatrico">Peso medido al momento de nacer</a>
-               </td>
-               <td>
-<p>Perfil de observaciones de recién nacidos</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-Ocupaciones.html" title="StructureDefinition/Ocupaciones">Aspectos Laborales</a>
                </td>
                <td>
@@ -173,10 +160,26 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-Educacion.html" title="StructureDefinition/Educacion">Nivel Educacional</a>
+               </td>
+               <td>
+<p>Perfil de observaciones asociado al nivel educacional del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-PacienteHLF.html" title="StructureDefinition/PacienteHLF">PacienteHLF</a>
                </td>
                <td>
 <p>Perfil de Paciente definido por HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ObsPesoPediatrico.html" title="StructureDefinition/ObsPesoPediatrico">Peso medido al momento de nacer</a>
+               </td>
+               <td>
+<p>Perfil de observaciones de recién nacidos</p>
 </td>
             </tr>
          </tbody>
@@ -191,6 +194,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <table class="grid">
          <col style="width:20%"/>
          <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PueblosIndigenas.html" title="StructureDefinition/PueblosIndigenas">Extensión de Pueblos Indígenas u Origenarios</a>
+               </td>
+               <td>
+<p>Se reconoce como pueblos indígenas u originarios en Chile a: mapuche, aymara, Rapanui, lickanantay, quechuas, colla, diaguitas, kawésqar, yagán y chango.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ReligionesCultos.html" title="StructureDefinition/ReligionesCultos">Extensión que define Religion o Culto</a>
+               </td>
+               <td>
+<p>Información sobre la Religión o Credo declarada por el paciente</p>
+</td>
+            </tr>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-IdentidadGenero.html" title="StructureDefinition/IdentidadGenero">Identidad de Género</a>
@@ -213,22 +232,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Esta extensión permite agregar un nombre social al paciente</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-PueblosIndigenas.html" title="StructureDefinition/PueblosIndigenas">Extensión de Pueblos Indígenas u Origenarios</a>
-               </td>
-               <td>
-<p>Se reconoce como pueblos indígenas u originarios en Chile a: mapuche, aymara, Rapanui, lickanantay, quechuas, colla, diaguitas, kawésqar, yagán y chango.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-ReligionesCultos.html" title="StructureDefinition/ReligionesCultos">Extensión que define Religion o Culto</a>
-               </td>
-               <td>
-<p>Información sobre la Religión o Credo declarada por el paciente</p>
 </td>
             </tr>
             <tr>
@@ -261,18 +264,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSIdentidadGenero.html" title="ValueSet/VSIdentidadGenero">Identidad de Género</a>
+                  <a href="ValueSet-VSSexoBiologico.html" title="ValueSet/VSSexoBiologico">Códigos para sexo biológico en Chile</a>
                </td>
                <td>
-<p>Códigos para Identidad de Género DEIS</p>
+<p>Códigos para sexo biológico en Chile según tabla 820.</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSOcupaciones.html" title="ValueSet/VSOcupaciones">Ultimo nivel aprobado</a>
+                  <a href="ValueSet-VSIdentidadGenero.html" title="ValueSet/VSIdentidadGenero">Identidad de Género</a>
                </td>
                <td>
-<p>Código del último nivel aprobado</p>
+<p>Códigos para Identidad de Género DEIS</p>
 </td>
             </tr>
             <tr>
@@ -301,14 +304,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSSexoBiologico.html" title="ValueSet/VSSexoBiologico">Códigos para sexo biológico en Chile</a>
-               </td>
-               <td>
-<p>Códigos para sexo biológico en Chile según tabla 820.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-VSUCursoAprobado.html" title="ValueSet/VSUCursoAprobado">Ultimo Curso Aprobado</a>
                </td>
                <td>
@@ -318,6 +313,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="ValueSet-VSUNivelAprob.html" title="ValueSet/VSUNivelAprob">Ultimo nivel aprobado</a>
+               </td>
+               <td>
+<p>Código del último nivel aprobado</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VSOcupaciones.html" title="ValueSet/VSOcupaciones">Ultimo nivel aprobado</a>
                </td>
                <td>
 <p>Código del último nivel aprobado</p>
@@ -337,14 +340,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CSEstadoCivil.html" title="CodeSystem/CSEstadoCivil">Estado Civil</a>
-               </td>
-               <td>
-<p>El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="CodeSystem-CSIdentidadGenero.html" title="CodeSystem/CSIdentidadGenero">Códigos para Identidad de Género</a>
                </td>
                <td>
@@ -353,10 +348,18 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CSOcupaciones.html" title="CodeSystem/CSOcupaciones">Ocupaciones Paciente</a>
+                  <a href="CodeSystem-CSSexoBiologico.html" title="CodeSystem/CSSexoBiologico">Códigos para Sexo de Nacimiento de Paciente</a>
                </td>
                <td>
-<p>Código asociados a la Ocupación del paciente</p>
+<p>Codigos definidos para el sexo de nacimiento de un paciente en Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CSEstadoCivil.html" title="CodeSystem/CSEstadoCivil">Estado Civil</a>
+               </td>
+               <td>
+<p>El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles.</p>
 </td>
             </tr>
             <tr>
@@ -365,6 +368,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Código asociados a el detalle de las ocupaciones de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CSOcupaciones.html" title="CodeSystem/CSOcupaciones">Ocupaciones Paciente</a>
+               </td>
+               <td>
+<p>Código asociados a la Ocupación del paciente</p>
 </td>
             </tr>
             <tr>
@@ -385,14 +396,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CSSexoBiologico.html" title="CodeSystem/CSSexoBiologico">Códigos para Sexo de Nacimiento de Paciente</a>
-               </td>
-               <td>
-<p>Codigos definidos para el sexo de nacimiento de un paciente en Chile</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="CodeSystem-CSUCursoAprobado.html" title="CodeSystem/CSUCursoAprobado">Ultimo Curso Aprobado</a>
                </td>
                <td>
@@ -405,6 +408,33 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Código del último nivel aprobado</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-EjPacienteHLF.html" title="Patient/EjPacienteHLF">Ejemplo de Recurso de Paciente HLF</a>
+               </td>
+               <td>
+<p>Paciente ficticio según datos requeridos por Hospital que contiene: 
+     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente
+     * La dirección se declara con códigos por extensión.
+     * Se agrega identidad de género y sexo registral
+     * Se declara sexo de nacimiento</p>
 </td>
             </tr>
          </tbody>
@@ -433,8 +463,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l807">​</a>
-          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="www.hospitallaflorida.cl">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 2, 2023 15:10-0400">2023-06-02</span>
+        <p><a name="l851">​</a>
+          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="www.hospitallaflorida.cl">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 8, 2023 21:42-0400">2023-06-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -3,9 +3,9 @@
   "id" : "VSOcupacionesDet",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupacionesDet.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupacionesDet.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet</code></a></li></ul></div>"
   },
-  "url" : "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
   "version" : "0.1.0",
   "name" : "VSOcupacionesDet",
   "title" : "Ocupaciones Detalladas",
@@ -34,7 +34,7 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet"
     }]
   }
 }

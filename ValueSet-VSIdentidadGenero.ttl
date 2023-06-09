@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero> a fhir:ValueSet ;
+<https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "VSIdentidadGenero"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSIdentidadGenero.html\"><code>http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSIdentidadGenero.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero</code></a></li></ul></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "VSIdentidadGenero"] ; # 
   fhir:title [ fhir:v "Identidad de Género"] ; # 
@@ -40,7 +40,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "http://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero"^^xsd:anyURI ]
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero"^^xsd:anyURI ]
      ] )
   ] . # 
 
