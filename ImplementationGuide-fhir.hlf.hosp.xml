@@ -10,7 +10,7 @@
   <name value="HlfHosp"/>
   <title value="Guía de Implementación Procesos de Hospitalizado"/>
   <status value="draft"/>
-  <date value="2023-06-08T21:42:18-04:00"/>
+  <date value="2023-06-11T16:05:51-04:00"/>
   <publisher value="Hospital Eloisa Diaz de la Florida"/>
   <contact>
     <name value="Hospital Eloisa Diaz de la Florida"/>
@@ -481,10 +481,43 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjNivEduca"/>
+      </reference>
+      <name value="Ejemplo de nivel educacional de paciente"/>
+      <description value="Ejemplo para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF"/>
+      <exampleCanonical value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjOcupacion"/>
+      </reference>
+      <name value="Ejemplo de Ocupación del Paciente"/>
+      <description value="Ejemplo para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF"/>
+      <exampleCanonical value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjPesoRecienNacido"/>
+      </reference>
+      <name value="Ejemplo de Peso Pediátrico"/>
+      <description value="Ejemplo para el uso de un recurso de Observación asociado al peso medido al momento de nacer"/>
+      <exampleCanonical value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/EjPacienteHLF"/>
+        <reference value="Patient/007"/>
       </reference>
       <name value="Ejemplo de Recurso de Paciente HLF"/>
       <description value="Paciente ficticio según datos requeridos por Hospital que contiene: &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión.&#xA;     * Se agrega identidad de género y sexo registral&#xA;     * Se declara sexo de nacimiento"/>

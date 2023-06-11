@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NivelIntruccion"] ; # 
   fhir:title [ fhir:v "Nivel Instrucción"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-08T21:42:18-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-06-11T16:05:51-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
