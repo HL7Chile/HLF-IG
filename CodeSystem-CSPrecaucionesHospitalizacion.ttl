@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSPrecaucionesHospitalizacion"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">estandar<a name=\"CSPrecaucionesHospitalizacion-estandar\"> </a></td><td>Estándar</td></tr><tr><td style=\"white-space:nowrap\">aerea<a name=\"CSPrecaucionesHospitalizacion-aerea\"> </a></td><td>Aérea</td></tr><tr><td style=\"white-space:nowrap\">gotitas<a name=\"CSPrecaucionesHospitalizacion-gotitas\"> </a></td><td>Gotitas</td></tr><tr><td style=\"white-space:nowrap\">contacto<a name=\"CSPrecaucionesHospitalizacion-contacto\"> </a></td><td>Contacto</td></tr><tr><td style=\"white-space:nowrap\">protector<a name=\"CSPrecaucionesHospitalizacion-protector\"> </a></td><td>Protector</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:name [ fhir:v "CSPrecaucionesHospitalizacion"] ; # 
+  fhir:title [ fhir:v "Precauciones Hospitalización"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Opciones del tipo de precauciones de hospitalización que se deben tomar para un paciente"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "estandar" ] ;
+     fhir:display [ fhir:v "Estándar" ]
+  ] [
+     fhir:code [ fhir:v "aerea" ] ;
+     fhir:display [ fhir:v "Aérea" ]
+  ] [
+     fhir:code [ fhir:v "gotitas" ] ;
+     fhir:display [ fhir:v "Gotitas" ]
+  ] [
+     fhir:code [ fhir:v "contacto" ] ;
+     fhir:display [ fhir:v "Contacto" ]
+  ] [
+     fhir:code [ fhir:v "protector" ] ;
+     fhir:display [ fhir:v "Protector" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

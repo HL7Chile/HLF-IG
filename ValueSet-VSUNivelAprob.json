@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUNivelAprob.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob</code></a></li></ul></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob",
-  "version" : "0.1.0",
+  "version" : "0.3.0",
   "name" : "VSUNivelAprob",
   "title" : "Ultimo nivel aprobado",
   "status" : "active",
@@ -17,7 +17,7 @@
     "name" : "Hospital Eloisa Diaz de la Florida",
     "telecom" : [{
       "system" : "url",
-      "value" : "www.hospitallaflorida.cl"
+      "value" : "https://www.hospitallaflorida.cl/"
     },
     {
       "system" : "email",

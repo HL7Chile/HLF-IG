@@ -3,10 +3,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CSOcupaciones"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSOcupaciones-1"> </a></td><td>Miembro del Poder Ejecutivo de los Cuerpos Legislativos, Personal Directivo de la Administración Pública y de Empresa.</td></tr><tr><td style="white-space:nowrap">2<a name="CSOcupaciones-2"> </a></td><td>Profesionales Científicos o Intelectuales. </td></tr><tr><td style="white-space:nowrap">3<a name="CSOcupaciones-3"> </a></td><td>Técnicos y Profesionales de Nivel Medio</td></tr><tr><td style="white-space:nowrap">4<a name="CSOcupaciones-4"> </a></td><td>Empleados de Oficina </td></tr><tr><td style="white-space:nowrap">5<a name="CSOcupaciones-5"> </a></td><td>Trabajadores de los Servicios y Vendedores de Comercio y Mercado</td></tr><tr><td style="white-space:nowrap">6<a name="CSOcupaciones-6"> </a></td><td>Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros </td></tr><tr><td style="white-space:nowrap">7<a name="CSOcupaciones-7"> </a></td><td>Oficiales, Operarios y Artesanos de Artes Mecánicas y de Otros Oficios</td></tr><tr><td style="white-space:nowrap">8<a name="CSOcupaciones-8"> </a></td><td>Operadores de Instalaciones y Máquinas y Montadoras </td></tr><tr><td style="white-space:nowrap">9<a name="CSOcupaciones-9"> </a></td><td>Trabajadores No Calificados</td></tr><tr><td style="white-space:nowrap">10<a name="CSOcupaciones-10"> </a></td><td>Fuerzas Armadas </td></tr><tr><td style="white-space:nowrap">99<a name="CSOcupaciones-99"> </a></td><td>Desconocido</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSOcupaciones-1"> </a></td><td>Miembro del Poder Ejecutivo de los Cuerpos Legislativos, Personal Directivo de la Administración Pública y de Empresa.</td></tr><tr><td style="white-space:nowrap">2<a name="CSOcupaciones-2"> </a></td><td>Profesionales Científicos o Intelectuales.</td></tr><tr><td style="white-space:nowrap">3<a name="CSOcupaciones-3"> </a></td><td>Técnicos y Profesionales de Nivel Medio</td></tr><tr><td style="white-space:nowrap">4<a name="CSOcupaciones-4"> </a></td><td>Empleados de Oficina</td></tr><tr><td style="white-space:nowrap">5<a name="CSOcupaciones-5"> </a></td><td>Trabajadores de los Servicios y Vendedores de Comercio y Mercado</td></tr><tr><td style="white-space:nowrap">6<a name="CSOcupaciones-6"> </a></td><td>Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros</td></tr><tr><td style="white-space:nowrap">7<a name="CSOcupaciones-7"> </a></td><td>Oficiales, Operarios y Artesanos de Artes Mecánicas y de Otros Oficios</td></tr><tr><td style="white-space:nowrap">8<a name="CSOcupaciones-8"> </a></td><td>Operadores de Instalaciones y Máquinas y Montadoras</td></tr><tr><td style="white-space:nowrap">9<a name="CSOcupaciones-9"> </a></td><td>Trabajadores No Calificados</td></tr><tr><td style="white-space:nowrap">10<a name="CSOcupaciones-10"> </a></td><td>Fuerzas Armadas</td></tr><tr><td style="white-space:nowrap">99<a name="CSOcupaciones-99"> </a></td><td>Desconocido</td></tr></table></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"/>
-  <version value="0.1.0"/>
+  <version value="0.3.0"/>
   <name value="CSOcupaciones"/>
   <title value="Ocupaciones Paciente"/>
   <status value="active"/>
@@ -17,7 +17,7 @@
     <name value="Hospital Eloisa Diaz de la Florida"/>
     <telecom>
       <system value="url"/>
-      <value value="www.hospitallaflorida.cl"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
     </telecom>
     <telecom>
       <system value="email"/>
@@ -41,7 +41,7 @@
   </concept>
   <concept>
     <code value="2"/>
-    <display value="Profesionales Científicos o Intelectuales. "/>
+    <display value="Profesionales Científicos o Intelectuales."/>
   </concept>
   <concept>
     <code value="3"/>
@@ -49,7 +49,7 @@
   </concept>
   <concept>
     <code value="4"/>
-    <display value="Empleados de Oficina "/>
+    <display value="Empleados de Oficina"/>
   </concept>
   <concept>
     <code value="5"/>
@@ -57,7 +57,7 @@
   </concept>
   <concept>
     <code value="6"/>
-    <display value="Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros "/>
+    <display value="Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros"/>
   </concept>
   <concept>
     <code value="7"/>
@@ -65,7 +65,7 @@
   </concept>
   <concept>
     <code value="8"/>
-    <display value="Operadores de Instalaciones y Máquinas y Montadoras "/>
+    <display value="Operadores de Instalaciones y Máquinas y Montadoras"/>
   </concept>
   <concept>
     <code value="9"/>
@@ -73,7 +73,7 @@
   </concept>
   <concept>
     <code value="10"/>
-    <display value="Fuerzas Armadas "/>
+    <display value="Fuerzas Armadas"/>
   </concept>
   <concept>
     <code value="99"/>

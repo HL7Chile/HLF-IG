@@ -1,747 +1,102 @@
 ﻿HlfHosp : Validation Results
 =========================================
 
-err = 10, warn = 474, info = 2
-IG Publisher Version: 1.3.16
-Generated Sun Jun 11 16:07:39 CLT 2023. FHIR version 4.0.1 for fhir.hlf.hosp#0.1.0 (canonical = https://hospitallaflorida.cl/fhir/hlfhosp)
- Build Errors : 217 / 5 / 1
+err = 0, warn = 42, info = 0
+IG Publisher Version: 1.3.18 Out of date - current version is 1.3.21
+Generated Fri Jun 30 15:49:55 CLT 2023. FHIR version 5.0.0 for fhir.hlf.hosp#0.3.0 (canonical = https://hospitallaflorida.cl/fhir/hlfhosp)
+ Build Errors : 3 / 3 / 0
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSCodigoDNI : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSComplejidadCama : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSEspecialidadMedica : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSEstadoCivil : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSIdentidadGenero : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupaciones : 0 / 5 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupacionesDet : 0 / 443 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSMotivoSolicitudHosp : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupaciones : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupacionesDet : 0 / 4 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPrecaucionesHospitalizacion : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPrevision : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPuebloIndigena : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSReligion : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSSexoBiologico : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUCursoAprobado : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUNivelAprob : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjNivEduca : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjOcupacion : 2 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjPesoRecienNacido : 0 / 2 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Patient-007 : 7 / 0 / 2
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Educacion : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUNivelAprob : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\SearchParameter-complejidad : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\SearchParameter-is-pediatrica : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-DiagnosticoCondHLf : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Educacion : 0 / 1 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-IdentidadGenero : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NivelInstrucion : 0 / 4 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NombreSocial : 0 / 2 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ObsPesoPediatrico : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Ocupaciones : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PacienteHLF : 1 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PueblosIndigenas : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ObsPesoPediatrico : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Ocupaciones : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PacienteHLF : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Prevision : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PueblosIndigenas : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ReligionesCultos : 0 / 2 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SegundoApellido : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoNacimiento820 : 0 / 2 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoReg : 0 / 2 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-complejidad-cama : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-complejidad-unidad : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-motivo-solicitud-hospitalizacion : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-precauciones-solicitud-hospitalizacion : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-registro-atencion : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-solicitud-hospitalizacion : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-clinica-hlf : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-clinica-origen : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-pediatrica : 0 / 1 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSComplejidadCama : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSDiagnosticoCie10 : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSEspecialidadMedica : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSIdentidadGenero : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSMotivoSolicitudHosp : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSOcupaciones : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSOcupacionesDet : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPrecaucionesHospitalizacion : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPrevision : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPuebloIndigena : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSReligion : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSSexoBiologico : 0 / 0 / 1
+ C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSTiposDocumentos : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSUCursoAprobado : 0 / 0 / 1
  C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSUNivelAprob : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-INFORMATION: ImplementationGuide.dependency[2].url: The correct canonical URL for this dependency is https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil.html#/html/body/div/div/div/p/a at Line 249, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil.json.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil.ttl.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSEstadoCivil.xml.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSIdentidadGenero.xml.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones.json.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones.ttl.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupaciones.xml.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet.json.html#/html/body/div/div/div/p/a at Line 2036, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet.ttl.html#/html/body/div/div/div/p/a at Line 1588, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSOcupacionesDet.xml.html#/html/body/div/div/div/p/a at Line 2160, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena.json.html#/html/body/div/div/div/p/a at Line 304, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena.ttl.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSPuebloIndigena.xml.html#/html/body/div/div/div/p/a at Line 296, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion.ttl.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSReligion.xml.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico.json.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico.ttl.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSSexoBiologico.xml.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado.json.html#/html/body/div/div/div/p/a at Line 296, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUCursoAprobado.xml.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.json.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.ttl.html#/html/body/div/div/div/p/a at Line 280, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\CodeSystem-CSUNivelAprob.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjNivEduca.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjNivEduca.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjNivEduca.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjNivEduca.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjNivEduca.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjOcupacion.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjOcupacion.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjOcupacion.json.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjOcupacion.ttl.html#/html/body/div/div/div/p/a at Line 252, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjOcupacion.xml.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjPesoRecienNacido.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjPesoRecienNacido.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjPesoRecienNacido.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjPesoRecienNacido.ttl.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Observation-EjPesoRecienNacido.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-007.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-007.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-007.json.html#/html/body/div/div/div/p/a at Line 456, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-007.ttl.html#/html/body/div/div/div/p/a at Line 365, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\Patient-007.xml.html#/html/body/div/div/div/p/a at Line 391, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-definitions.html#/html/body/div/div/div/p/a at Line 1246, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-mappings.html#/html/body/div/div/div/p/a at Line 446, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion-testing.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.html#/html/body/div/div/div/p/a at Line 1115, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.history.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.json.html#/html/body/div/div/div/p/a at Line 3640, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.ttl.html#/html/body/div/div/div/p/a at Line 2676, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Educacion.profile.xml.html#/html/body/div/div/div/p/a at Line 3418, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-IdentidadGenero.profile.xml.html#/html/body/div/div/div/p/a at Line 511, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-definitions.html#/html/body/div/div/div/p/a at Line 956, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-mappings.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.html#/html/body/div/div/div/p/a at Line 680, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.json.html#/html/body/div/div/div/p/a at Line 2233, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.ttl.html#/html/body/div/div/div/p/a at Line 1597, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NivelInstrucion.profile.xml.html#/html/body/div/div/div/p/a at Line 2043, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-definitions.html#/html/body/div/div/div/p/a at Line 377, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.html#/html/body/div/div/div/p/a at Line 505, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.json.html#/html/body/div/div/div/p/a at Line 537, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.ttl.html#/html/body/div/div/div/p/a at Line 470, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-NombreSocial.profile.xml.html#/html/body/div/div/div/p/a at Line 501, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-definitions.html#/html/body/div/div/div/p/a at Line 1206, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-mappings.html#/html/body/div/div/div/p/a at Line 440, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico-testing.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.html#/html/body/div/div/div/p/a at Line 1137, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.history.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.json.html#/html/body/div/div/div/p/a at Line 3466, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.ttl.html#/html/body/div/div/div/p/a at Line 2550, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ObsPesoPediatrico.profile.xml.html#/html/body/div/div/div/p/a at Line 3255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-definitions.html#/html/body/div/div/div/p/a at Line 1246, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-mappings.html#/html/body/div/div/div/p/a at Line 446, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones-testing.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.html#/html/body/div/div/div/p/a at Line 1115, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.history.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.json.html#/html/body/div/div/div/p/a at Line 3640, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.ttl.html#/html/body/div/div/div/p/a at Line 2676, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-Ocupaciones.profile.xml.html#/html/body/div/div/div/p/a at Line 3416, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-definitions.html#/html/body/div/div/div/p/a at Line 3972, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-examples.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-mappings.html#/html/body/div/div/div/p/a at Line 605, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF-testing.html#/html/body/div/div/div/p/a at Line 261, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.html#/html/body/div/div/div/p/a at Line 1901, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.history.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.json.html#/html/body/div/div/div/p/a at Line 10354, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.ttl.html#/html/body/div/div/div/p/a at Line 7307, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PacienteHLF.profile.xml.html#/html/body/div/div/div/p/a at Line 9371, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-definitions.html#/html/body/div/div/div/p/a at Line 585, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.html#/html/body/div/div/div/p/a at Line 566, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.json.html#/html/body/div/div/div/p/a at Line 1147, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.ttl.html#/html/body/div/div/div/p/a at Line 849, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-PueblosIndigenas.profile.xml.html#/html/body/div/div/div/p/a at Line 1055, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-definitions.html#/html/body/div/div/div/p/a at Line 560, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-mappings.html#/html/body/div/div/div/p/a at Line 273, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.html#/html/body/div/div/div/p/a at Line 567, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.json.html#/html/body/div/div/div/p/a at Line 1087, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.ttl.html#/html/body/div/div/div/p/a at Line 850, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-ReligionesCultos.profile.xml.html#/html/body/div/div/div/p/a at Line 1003, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoNacimiento820.profile.xml.html#/html/body/div/div/div/p/a at Line 508, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-definitions.html#/html/body/div/div/div/p/a at Line 380, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-mappings.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg-testing.html#/html/body/div/div/div/p/a at Line 251, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.html#/html/body/div/div/div/p/a at Line 510, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.history.html#/html/body/div/div/div/p/a at Line 245, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.json.html#/html/body/div/div/div/p/a at Line 545, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.ttl.html#/html/body/div/div/div/p/a at Line 480, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-SexoReg.profile.xml.html#/html/body/div/div/div/p/a at Line 511, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.html#/html/body/div/div/div/p/a at Line 300, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSIdentidadGenero.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupaciones.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSOcupacionesDet.xml.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSPuebloIndigena.xml.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSReligion.xml.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico.html#/html/body/div/div/div/p/a at Line 298, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSSexoBiologico.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUCursoAprobado.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob-testing.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.json.html#/html/body/div/div/div/p/a at Line 262, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.ttl.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\ValueSet-VSUNivelAprob.xml.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\artifacts.html#/html/body/div/div/div/p/a at Line 514, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\index.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\toc.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'www.hospitallaflorida.cl' for "Hospital Eloisa Diaz de la Florida" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 703, column 273: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 406, column 2890: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 762, column 2890: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-CSCodigoDNI.json ==
+== fsh-generated\resources\CodeSystem-CSComplejidadCama.json ==
+== fsh-generated\resources\CodeSystem-CSEspecialidadMedica.json ==
 == fsh-generated\resources\CodeSystem-CSEstadoCivil.json ==
 == fsh-generated\resources\CodeSystem-CSIdentidadGenero.json ==
+== fsh-generated\resources\CodeSystem-CSMotivoSolicitudHosp.json ==
 == fsh-generated\resources\CodeSystem-CSOcupaciones.json ==
-WARNING: CodeSystem/CSOcupaciones: CodeSystem.concept[1].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales Científicos o Intelectuales. '
-WARNING: CodeSystem/CSOcupaciones: CodeSystem.concept[3].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de Oficina '
-WARNING: CodeSystem/CSOcupaciones: CodeSystem.concept[5].display: el valor no puede empezar o terminar con espacios en blanco 'Agricultores y Trabajadores Calificados Agropecuarios y Pesqueros '
-WARNING: CodeSystem/CSOcupaciones: CodeSystem.concept[7].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de Instalaciones y Máquinas y Montadoras '
-WARNING: CodeSystem/CSOcupaciones: CodeSystem.concept[9].display: el valor no puede empezar o terminar con espacios en blanco 'Fuerzas Armadas '
 == fsh-generated\resources\CodeSystem-CSOcupacionesDet.json ==
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[1].display: el valor no puede empezar o terminar con espacios en blanco 'Suboficiales de las Fuerzas Armadas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[2].display: el valor no puede empezar o terminar con espacios en blanco 'Otros miembros de las Fuerzas Armadas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[3].display: el valor no puede empezar o terminar con espacios en blanco 'Miembros del poder ejecutivo y legislativo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[4].display: el valor no puede empezar o terminar con espacios en blanco 'Personal directivo de la administración pública\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[5].display: el valor no puede empezar o terminar con espacios en blanco 'Jefes de comunidades indígenas\t'
 WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[6].display: el valor no puede empezar o terminar con espacios en blanco 'Dirigentes de organizaciones sociales y/o políticas (sindicatos, organizaciones sociales, partidos políticos, entre otras)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[7].display: el valor no puede empezar o terminar con espacios en blanco 'Directores y gerentes generales de empresas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[8].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de finanzas \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[9].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de recursos humanos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[10].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de políticas empresariales y planificación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[11].display: el valor no puede empezar o terminar con espacios en blanco 'Otros directores, gerentes y administradores de servicios administrativos no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[12].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores comercialización\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[13].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de publicidad y relaciones públicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[14].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de investigación y desarrollo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[15].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de producción y operaciones agropecuarias y de silvicultura\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[16].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de producción y operaciones de acuicultura y pesca\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[17].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de industrias manufactureras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[18].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de explotaciones mineras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[19].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de construcción\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[20].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de empresas de abastecimiento, almacenamiento y distribución\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[21].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios de tecnología de la información y las comunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[22].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios de cuidados infantiles\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[23].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios de salud\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[24].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios de cuidado de adultos mayores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[25].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, generales y administradores de servicios de bienestar social\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[26].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios de educación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[27].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de servicios financieros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[28].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de otros servicios profesionales no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[29].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de hoteles\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[30].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de restaurantes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[31].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de comercios al por mayor y al por menor\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[32].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de centros deportivos, de esparcimiento y culturales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[33].display: el valor no puede empezar o terminar con espacios en blanco 'Directores, gerentes y administradores de otros servicios no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[34].display: el valor no puede empezar o terminar con espacios en blanco 'Físicos y astrónomos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[35].display: el valor no puede empezar o terminar con espacios en blanco 'Meteorólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[36].display: el valor no puede empezar o terminar con espacios en blanco 'Químicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[37].display: el valor no puede empezar o terminar con espacios en blanco 'Geólogos y geofísicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[38].display: el valor no puede empezar o terminar con espacios en blanco 'Matemáticos y estadísticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[39].display: el valor no puede empezar o terminar con espacios en blanco 'Biólogos, botánicos, zoólogos, genetista y farmacólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[40].display: el valor no puede empezar o terminar con espacios en blanco 'Agrónomos y profesionales del ámbito forestal y pesquero\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[41].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de la protección medioambiental\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[42].display: el valor no puede empezar o terminar con espacios en blanco 'Bioquímicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[43].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros industriales y de producción\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[44].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros civiles, ingenieros en construcción y constructores civiles\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[45].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros mediambientales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[46].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros mecánicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[47].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros químicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[48].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros en minas y metalúrgicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[49].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros biomédicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[50].display: el valor no puede empezar o terminar con espacios en blanco 'Otros ingenieros no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[51].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros eléctricos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[52].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros electrónicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[53].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros en telecomunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[54].display: el valor no puede empezar o terminar con espacios en blanco 'Arquitectos \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[55].display: el valor no puede empezar o terminar con espacios en blanco 'Arquitectos paisajistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[56].display: el valor no puede empezar o terminar con espacios en blanco 'Diseñadores de productos y de vestuario\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[57].display: el valor no puede empezar o terminar con espacios en blanco 'Urbanistas e ingenieros de transporte y tránsito\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[58].display: el valor no puede empezar o terminar con espacios en blanco 'Cartógrafos y agrimensores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[59].display: el valor no puede empezar o terminar con espacios en blanco 'Diseñadores gráficos y de multimedia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[60].display: el valor no puede empezar o terminar con espacios en blanco 'Médicos generales  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[61].display: el valor no puede empezar o terminar con espacios en blanco 'Médicos especialistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[62].display: el valor no puede empezar o terminar con espacios en blanco 'Enfermeros profesionales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[63].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de matronería\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[64].display: el valor no puede empezar o terminar con espacios en blanco 'Veterinarios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[65].display: el valor no puede empezar o terminar con espacios en blanco 'Dentistas  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[66].display: el valor no puede empezar o terminar con espacios en blanco 'Químicos farmaceúticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[67].display: el valor no puede empezar o terminar con espacios en blanco 'Ingenieros en prevención de riesgos y otros profesionales de la seguridad e higiene laboral y ambiental\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[68].display: el valor no puede empezar o terminar con espacios en blanco 'Kinesiólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[69].display: el valor no puede empezar o terminar con espacios en blanco 'Dietistas y nutricionistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[70].display: el valor no puede empezar o terminar con espacios en blanco 'Fonoaudiólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[71].display: el valor no puede empezar o terminar con espacios en blanco 'Tecnólogos médicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[72].display: el valor no puede empezar o terminar con espacios en blanco 'Terapeutas ocupacionales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[73].display: el valor no puede empezar o terminar con espacios en blanco 'Otros profesionales de la salud no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[74].display: el valor no puede empezar o terminar con espacios en blanco 'Profesores de la educación superior\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[75].display: el valor no puede empezar o terminar con espacios en blanco 'Profesores de educación media técnico profesional (especialidades) y de formación laboral \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[76].display: el valor no puede empezar o terminar con espacios en blanco 'Profesores de educación media  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[77].display: el valor no puede empezar o terminar con espacios en blanco 'Profesores de educación básica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[78].display: el valor no puede empezar o terminar con espacios en blanco 'Educadores de párvulos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[79].display: el valor no puede empezar o terminar con espacios en blanco 'Especialistas en métodos pedagógicos \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[80].display: el valor no puede empezar o terminar con espacios en blanco 'Educadores para necesidades especiales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[81].display: el valor no puede empezar o terminar con espacios en blanco 'Otros profesores de idiomas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[82].display: el valor no puede empezar o terminar con espacios en blanco 'Otros profesores de música\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[83].display: el valor no puede empezar o terminar con espacios en blanco 'otros profesores de artes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[84].display: el valor no puede empezar o terminar con espacios en blanco 'Instructores en tecnologías de la información\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[85].display: el valor no puede empezar o terminar con espacios en blanco 'Otros profesionales de la educación no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[86].display: el valor no puede empezar o terminar con espacios en blanco 'Contadores  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[87].display: el valor no puede empezar o terminar con espacios en blanco 'Asesores financieros y en inversiones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[88].display: el valor no puede empezar o terminar con espacios en blanco 'Analistas financieros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[89].display: el valor no puede empezar o terminar con espacios en blanco 'Especialistas y asesores de gestión \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[90].display: el valor no puede empezar o terminar con espacios en blanco 'Especialistas en políticas de administración\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[91].display: el valor no puede empezar o terminar con espacios en blanco 'Especialistas en políticas y servicios de personal\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[92].display: el valor no puede empezar o terminar con espacios en blanco 'Especialistas en formación del personal\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[93].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de la publicidad y la comercialización\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[94].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de las relaciones públicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[95].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de ventas técnicas y médicas (excluyendo las TIC)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[96].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales de ventas de tecnología de la información y las comunicaciones (TIC)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[97].display: el valor no puede empezar o terminar con espacios en blanco 'Analistas de sistemas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[98].display: el valor no puede empezar o terminar con espacios en blanco 'Desarrolladores de software\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[99].display: el valor no puede empezar o terminar con espacios en blanco 'Desarrolladores web y multimedia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[100].display: el valor no puede empezar o terminar con espacios en blanco 'Programadores de aplicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[101].display: el valor no puede empezar o terminar con espacios en blanco 'Otros desarrolladores y analistas de software y multimedia no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[102].display: el valor no puede empezar o terminar con espacios en blanco 'Diseñadores y administradores de bases de datos  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[103].display: el valor no puede empezar o terminar con espacios en blanco 'Administradores de sistemas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[104].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales en redes de computadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[105].display: el valor no puede empezar o terminar con espacios en blanco 'Otros especialistas en bases de datos y en redes de computadores no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[106].display: el valor no puede empezar o terminar con espacios en blanco 'Abogados \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[107].display: el valor no puede empezar o terminar con espacios en blanco 'Jueces\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[108].display: el valor no puede empezar o terminar con espacios en blanco 'Otros profesionales del derecho no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[109].display: el valor no puede empezar o terminar con espacios en blanco 'Archivistas y curadores de museos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[110].display: el valor no puede empezar o terminar con espacios en blanco 'Bibliotecarios y documentalistas de archivos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[111].display: el valor no puede empezar o terminar con espacios en blanco 'Economistas \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[112].display: el valor no puede empezar o terminar con espacios en blanco 'Sociólogos, antropólogos, geógrafos y arqueólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[113].display: el valor no puede empezar o terminar con espacios en blanco 'Filósofos, historiadores y especialistas en ciencias políticas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[114].display: el valor no puede empezar o terminar con espacios en blanco 'Psicólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[115].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales del trabajo social\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[116].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales religiosos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[117].display: el valor no puede empezar o terminar con espacios en blanco 'Autores y otros escritores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[118].display: el valor no puede empezar o terminar con espacios en blanco 'Periodistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[119].display: el valor no puede empezar o terminar con espacios en blanco 'Traductores, intérpretes de lengua de señas y lingüistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[120].display: el valor no puede empezar o terminar con espacios en blanco 'Artistas de artes plásticas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[121].display: el valor no puede empezar o terminar con espacios en blanco 'Músicos, cantantes y compositores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[122].display: el valor no puede empezar o terminar con espacios en blanco 'Bailarines y coreógrafos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[123].display: el valor no puede empezar o terminar con espacios en blanco 'Directores de cine, radio y teatro\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[124].display: el valor no puede empezar o terminar con espacios en blanco 'Actores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[125].display: el valor no puede empezar o terminar con espacios en blanco 'Locutores de radio, televisión y otros medios de comunicación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[126].display: el valor no puede empezar o terminar con espacios en blanco 'Otros artistas creativos e interpretativos no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[127].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en ciencias físicas y químicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[128].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en construcción y topógrafos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[129].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en electricidad\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[130].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en electrónica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[131].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en ingeniería mecánica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[132].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en química industrial\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[133].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en ingeniería de minas y metalurgia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[134].display: el valor no puede empezar o terminar con espacios en blanco 'Delineantes y dibujantes técnicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[135].display: el valor no puede empezar o terminar con espacios en blanco 'Otros técnicos en ciencias físicas y en ingeniería no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[136].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de minas  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[137].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de industrias manufactureras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[138].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de la construcción\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[139].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de producción de energía\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[140].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de incineradores y de instalaciones de tratamiento de agua\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[141].display: el valor no puede empezar o terminar con espacios en blanco 'Controladores de instalaciones de procesamiento de productos químicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[142].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de refinación de petróleo y gas natural\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[143].display: el valor no puede empezar o terminar con espacios en blanco 'Controladores de procesos de producción de metales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[144].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en control de procesos no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[145].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en ciencias biológicas (excluyendo la medicina)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[146].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos agropecuarios (incluyendo acuícolas)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[147].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos forestales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[148].display: el valor no puede empezar o terminar con espacios en blanco 'Oficiales maquinistas en navegación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[149].display: el valor no puede empezar o terminar con espacios en blanco 'Capitanes y oficiales de cubierta\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[150].display: el valor no puede empezar o terminar con espacios en blanco 'Pilotos de aviación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[151].display: el valor no puede empezar o terminar con espacios en blanco 'Controladores de tráfico aéreo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[152].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos electrónicos aeronáuticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[153].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de radiología e imagenología y otros aparatos de diagnóstico y tratamiento médico \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[154].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de laboratorios clínicos y servicios de sangre\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[155].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y asistentes farmacéuticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[156].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de prótesis médicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[157].display: el valor no puede empezar o terminar con espacios en blanco 'Laboratoristas dentales o técnicos en prótesis dentales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[158].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares paramédicos de anatomía patológica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[159].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de enfermería \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[160].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de esterilización\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[161].display: el valor no puede empezar o terminar con espacios en blanco 'Ayudantes de ambulancia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[162].display: el valor no puede empezar o terminar con espacios en blanco 'Profesionales y técnicos de las terapias complementarias  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[163].display: el valor no puede empezar o terminar con espacios en blanco 'Practicantes de la medicina tradicional\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[164].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y asistentes veterinarios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[165].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos en odontología\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[166].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en documentación e información sanitaria\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[167].display: el valor no puede empezar o terminar con espacios en blanco 'Podólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[168].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos ópticos y contactólogos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[169].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y asistentes fisioterapeutas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[170].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de alimentación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[171].display: el valor no puede empezar o terminar con espacios en blanco 'Inspectores de la salud y técnicos en prevención de riesgos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[172].display: el valor no puede empezar o terminar con espacios en blanco 'Quiroprácticos y osteópatas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[173].display: el valor no puede empezar o terminar con espacios en blanco 'Otros técnicos de la salud no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[174].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de bolsa y otros servicios financieros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[175].display: el valor no puede empezar o terminar con espacios en blanco 'Ejecutivos de préstamos y créditos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[176].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y asistentes en contabilidad\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[177].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de servicios estadísticos y metamáticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[178].display: el valor no puede empezar o terminar con espacios en blanco 'Tasadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[179].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de seguros y ejecutivos de fondos de pensiones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[180].display: el valor no puede empezar o terminar con espacios en blanco 'Representantes comerciales (excepto venta de productos y servicios industriales, farmacéuticos y de tecnologías de la información y las comunicaciones)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[181].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes responsables de adquisiciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[182].display: el valor no puede empezar o terminar con espacios en blanco 'Corredores comerciales y consignatarios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[183].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de aduana \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[184].display: el valor no puede empezar o terminar con espacios en blanco 'Organizadores de conferencias y eventos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[185].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de empleo y contratistas de personal\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[186].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes inmobiliarios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[187].display: el valor no puede empezar o terminar con espacios en blanco 'Otros agentes de servicios comerciales no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[188].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de oficina  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[189].display: el valor no puede empezar o terminar con espacios en blanco 'Secretarios jurídicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[190].display: el valor no puede empezar o terminar con espacios en blanco 'Secretarios administrativos y ejecutivos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[191].display: el valor no puede empezar o terminar con espacios en blanco 'Secretarios médicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[192].display: el valor no puede empezar o terminar con espacios en blanco 'Inspectores de aduana\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[193].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de la administración tributaria\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[194].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de servicios de prestaciones sociales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[195].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de servicios de tramitación y entrega de licencias y permisos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[196].display: el valor no puede empezar o terminar con espacios en blanco 'Inspectores y detectives de la Policía de Investigaciones (PDI)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[197].display: el valor no puede empezar o terminar con espacios en blanco 'Agentes de la administración pública para la aplicación de la ley no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[198].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de los servicios jurídicos  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[199].display: el valor no puede empezar o terminar con espacios en blanco 'Técnico en trabajo social\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[200].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de los servicios religiosos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[201].display: el valor no puede empezar o terminar con espacios en blanco 'Atletas y deportistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[202].display: el valor no puede empezar o terminar con espacios en blanco 'Entrenadores, instructores y árbitros de actividades deportivas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[203].display: el valor no puede empezar o terminar con espacios en blanco 'Instructores de acondicionamiento físico y actividades recreativas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[204].display: el valor no puede empezar o terminar con espacios en blanco 'Fotógrafos \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[205].display: el valor no puede empezar o terminar con espacios en blanco 'Diseñadores y decorador de interior\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[206].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en galerías de arte, museos y bibliotecas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[207].display: el valor no puede empezar o terminar con espacios en blanco 'Chefs\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[208].display: el valor no puede empezar o terminar con espacios en blanco 'Tatuadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[209].display: el valor no puede empezar o terminar con espacios en blanco 'Otros técnicos en actividades culturales y artísticas no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[210].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en operaciones de tecnología de la información y las comunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[211].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en asistencia al usuario de tecnología de la información y las comunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[212].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en redes y sistemas de computadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[213].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de la web\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[214].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de radiodifusión y grabación audiovisual\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[215].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos de ingeniería de las telecomunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[216].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en educación parvularia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[217].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos en educación diferencial\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[218].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de tareas administrativas generales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[219].display: el valor no puede empezar o terminar con espacios en blanco 'Secretarios generales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[220].display: el valor no puede empezar o terminar con espacios en blanco 'Oeradores de equipo de procesamiento de texto y mecanógrafos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[221].display: el valor no puede empezar o terminar con espacios en blanco 'Digitadores de datos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[222].display: el valor no puede empezar o terminar con espacios en blanco 'Cajeros de bancos y de oficinas de correo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[223].display: el valor no puede empezar o terminar con espacios en blanco 'Receptores de apuestas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[224].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de casa de empeño y prestamistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[225].display: el valor no puede empezar o terminar con espacios en blanco 'Cobradores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[226].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de agencias de viajes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[227].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de centros de llamadas de informaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[228].display: el valor no puede empezar o terminar con espacios en blanco 'Telefonistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[229].display: el valor no puede empezar o terminar con espacios en blanco 'Recepcionistas de hoteles\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[230].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de informaciones, reclamos o sugerencias\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[231].display: el valor no puede empezar o terminar con espacios en blanco 'Recepcionistas (funciones generales)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[232].display: el valor no puede empezar o terminar con espacios en blanco 'Entrevistadores de investigaciones de mercado, estudios de opinión pública y encuestadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[233].display: el valor no puede empezar o terminar con espacios en blanco 'Otros empleados de servicios de información al cliente no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[234].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares y ayudantes de registros de contabilidad y cálculo de costos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[235].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares y ayudantes de servicios estadísticos, financieros y de seguros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[236].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados encargados de nóminas o registros de remuneraciones \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[237].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados encargados del control de abastecimiento e inventario\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[238].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de cálculo de los insumos y materiales para la producción\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[239].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados de servicios de transporte\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[240].display: el valor no puede empezar o terminar con espacios en blanco 'Asistentes y ayudantes de bibliotecas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[241].display: el valor no puede empezar o terminar con espacios en blanco 'Carteros y empleados de servicios de correos y encomiendas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[242].display: el valor no puede empezar o terminar con espacios en blanco 'Codificadores de datos y correctores de pruebas de imprenta\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[243].display: el valor no puede empezar o terminar con espacios en blanco 'Escribientes públicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[244].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados administrativos de archivos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[245].display: el valor no puede empezar o terminar con espacios en blanco 'Empleados y asistentes de recursos humanos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[246].display: el valor no puede empezar o terminar con espacios en blanco 'Otro personal de apoyo administrativo no clasificado previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[247].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares de servicio a bordo de aeronaves y barcos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[248].display: el valor no puede empezar o terminar con espacios en blanco 'Revisores y cobradores de los transportes públicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[249].display: el valor no puede empezar o terminar con espacios en blanco 'Guías de turismo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[250].display: el valor no puede empezar o terminar con espacios en blanco 'Cocineros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[251].display: el valor no puede empezar o terminar con espacios en blanco 'Garzones de mesa  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[252].display: el valor no puede empezar o terminar con espacios en blanco 'bármanes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[253].display: el valor no puede empezar o terminar con espacios en blanco 'Peluqueros \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[254].display: el valor no puede empezar o terminar con espacios en blanco 'Cosmetólogos y especialistas en tratamiento de belleza\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[255].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de mantenimiento y limpieza en oficinas, hoteles y otros establecimientos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[256].display: el valor no puede empezar o terminar con espacios en blanco 'Amas de llaves, mayordomos domésticos y dueños/administradores de pequeños establecimientos de alojamiento\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[257].display: el valor no puede empezar o terminar con espacios en blanco 'Conserjes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[258].display: el valor no puede empezar o terminar con espacios en blanco 'Astrólogos y adivinadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[259].display: el valor no puede empezar o terminar con espacios en blanco 'Acompañantes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[260].display: el valor no puede empezar o terminar con espacios en blanco 'Personal de pompas fúnebres y embalsamadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[261].display: el valor no puede empezar o terminar con espacios en blanco 'Cuidadores de animales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[262].display: el valor no puede empezar o terminar con espacios en blanco 'Instructores de manejo\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[263].display: el valor no puede empezar o terminar con espacios en blanco 'Otros trabajadores de servicios a las personas no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[264].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores en quioscos o puestos de feria  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[265].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores ambulantes de productos comestibles de consumo inmediato (elaboración propia)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[266].display: el valor no puede empezar o terminar con espacios en blanco 'Comerciantes y dueños - operadores de locales comerciales, tiendas, almacenes y mercados\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[267].display: el valor no puede empezar o terminar con espacios en blanco 'Supervisores de locales comerciales, tiendas y almacenes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[268].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores y asistentes de venta de tiendas, almacenes y puestos de mercado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[269].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores de entrada (entretenciones y eventos deportivos) y cajeros de comercio\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[270].display: el valor no puede empezar o terminar con espacios en blanco 'Modelos de moda, arte y publicidad\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[271].display: el valor no puede empezar o terminar con espacios en blanco 'Promotores de tiendas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[272].display: el valor no puede empezar o terminar con espacios en blanco 'Representantes de ventas de puerta a puerta (venta a hogares)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[273].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores por internet y otros medios de comunicación\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[274].display: el valor no puede empezar o terminar con espacios en blanco 'Bomberos de gasolineras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[275].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores de comida al mostrador\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[276].display: el valor no puede empezar o terminar con espacios en blanco 'Otros vendedores no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[277].display: el valor no puede empezar o terminar con espacios en blanco 'Cuidadores de niños en instituciones y a domicilios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[278].display: el valor no puede empezar o terminar con espacios en blanco 'Asistentes de aulas e inspectores de patio\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[279].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de los cuidados personales en instituciones \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[280].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de los cuidados personales a domicilio\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[281].display: el valor no puede empezar o terminar con espacios en blanco 'Otros trabajadores de los cuidados personales en instituciones y a domicilio no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[282].display: el valor no puede empezar o terminar con espacios en blanco 'Bomberos  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[283].display: el valor no puede empezar o terminar con espacios en blanco 'Carabineros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[284].display: el valor no puede empezar o terminar con espacios en blanco 'Gendarmes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[285].display: el valor no puede empezar o terminar con espacios en blanco 'Guardias de seguridad\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[286].display: el valor no puede empezar o terminar con espacios en blanco 'Otro personal de los servicios de protección no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[287].display: el valor no puede empezar o terminar con espacios en blanco 'Agricultores y trabajadores calificados de cultivos extensivos  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[288].display: el valor no puede empezar o terminar con espacios en blanco 'Agricultores y trabajadores calificados de plantaciones de árboles y arbustos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[289].display: el valor no puede empezar o terminar con espacios en blanco 'Agricultores y trabajadores calificados de huertas, invernaderos, viveros y jardines\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[290].display: el valor no puede empezar o terminar con espacios en blanco 'Agricultores y trabajadores calificados de cultivos mixtos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[291].display: el valor no puede empezar o terminar con espacios en blanco 'Criadores de ganado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[292].display: el valor no puede empezar o terminar con espacios en blanco 'Avicultores y trabajadores calificados de la avicultura\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[293].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores calificados de la apicultura y la sericultura\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[294].display: el valor no puede empezar o terminar con espacios en blanco 'Otros criadores y trabajadores calificados de la cría de animales no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[295].display: el valor no puede empezar o terminar con espacios en blanco 'Productores y trabajadores calificados de explotaciones agropecuarias mixtas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[296].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores forestales calificados \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[297].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de explotaciones de acuicultura  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[298].display: el valor no puede empezar o terminar con espacios en blanco 'Pescadores en agua dulce y en aguas costeras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[299].display: el valor no puede empezar o terminar con espacios en blanco 'Pescadores de alta mar\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[300].display: el valor no puede empezar o terminar con espacios en blanco 'Cazadores y tramperos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[301].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores agrícolas de subsistencia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[302].display: el valor no puede empezar o terminar con espacios en blanco 'Criadores de subsistencia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[303].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores agropecuarios de subsitencia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[304].display: el valor no puede empezar o terminar con espacios en blanco 'Pescadores, cazadores, tramperos y recolectores de subsistencia\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[305].display: el valor no puede empezar o terminar con espacios en blanco 'Constructores de casas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[306].display: el valor no puede empezar o terminar con espacios en blanco 'Albañiles\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[307].display: el valor no puede empezar o terminar con espacios en blanco 'Tronzadores, labrantes y grabadores de piedra\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[308].display: el valor no puede empezar o terminar con espacios en blanco 'Operarios en cemento armado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[309].display: el valor no puede empezar o terminar con espacios en blanco 'Carpinteros de obra\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[310].display: el valor no puede empezar o terminar con espacios en blanco 'Otros operarios de la construcción (obra gruesa) no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[311].display: el valor no puede empezar o terminar con espacios en blanco 'Instaladores o reparadores de techos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[312].display: el valor no puede empezar o terminar con espacios en blanco 'Instaladores de parqué, cerámicas, baldosas y alfombras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[313].display: el valor no puede empezar o terminar con espacios en blanco 'Yeseros, estucadores y revocadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[314].display: el valor no puede empezar o terminar con espacios en blanco 'Instaladores de material aislante y de insonorización\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[315].display: el valor no puede empezar o terminar con espacios en blanco 'Cristaleros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[316].display: el valor no puede empezar o terminar con espacios en blanco 'Gásfiter e instaladores de tuberías\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[317].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos de instalaciones de refrigeración y aire acondicionado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[318].display: el valor no puede empezar o terminar con espacios en blanco 'Pintores y empapeladores de paredes\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[319].display: el valor no puede empezar o terminar con espacios en blanco 'Barnizadores y pulverizadores de productos manufacturados\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[320].display: el valor no puede empezar o terminar con espacios en blanco 'Limpiadores de fachadas y deshollinadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[321].display: el valor no puede empezar o terminar con espacios en blanco 'Moldeadores y macheros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[322].display: el valor no puede empezar o terminar con espacios en blanco 'Soldadores y oxicortadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[323].display: el valor no puede empezar o terminar con espacios en blanco 'Chapistas y caldereros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[324].display: el valor no puede empezar o terminar con espacios en blanco 'Montadores de estructuras metálicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[325].display: el valor no puede empezar o terminar con espacios en blanco 'Aparejadores y empalmadores de cables no eléctricos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[326].display: el valor no puede empezar o terminar con espacios en blanco 'Herreros y forjadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[327].display: el valor no puede empezar o terminar con espacios en blanco 'Herramentistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[328].display: el valor no puede empezar o terminar con espacios en blanco 'Reguladores y operarios de máquinas herramientas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[329].display: el valor no puede empezar o terminar con espacios en blanco 'Pulidores de metales y afiladores de herramientas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[330].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos y reparadores de vehículos de motor\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[331].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos y reparadores de motores de avión\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[332].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos y reparadores de máquinas agrícolas e industriales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[333].display: el valor no puede empezar o terminar con espacios en blanco 'Reparadores de bicicletas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[334].display: el valor no puede empezar o terminar con espacios en blanco 'mecánicos y reparadores de instrumentos de precisión\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[335].display: el valor no puede empezar o terminar con espacios en blanco 'Fabricantes y afinadores de instrumentos musicales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[336].display: el valor no puede empezar o terminar con espacios en blanco 'Joyeros, orfebres y plateros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[337].display: el valor no puede empezar o terminar con espacios en blanco 'Alfareros (barro, arcilla y abrasivos)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[338].display: el valor no puede empezar o terminar con espacios en blanco 'Sopladores, modeladores, laminadores, cortadores y pulidores de vidrio\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[339].display: el valor no puede empezar o terminar con espacios en blanco 'Pintores de carteles, pintores decorativos y grabadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[340].display: el valor no puede empezar o terminar con espacios en blanco 'Artesanos en madera, cestería y materiales similares\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[341].display: el valor no puede empezar o terminar con espacios en blanco 'Artesanos de los tejidos, el cuero y materiales similares\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[342].display: el valor no puede empezar o terminar con espacios en blanco 'Artesanos no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[343].display: el valor no puede empezar o terminar con espacios en blanco 'Tipógrafos  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[344].display: el valor no puede empezar o terminar con espacios en blanco 'Impresores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[345].display: el valor no puede empezar o terminar con espacios en blanco 'Encuadernadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[346].display: el valor no puede empezar o terminar con espacios en blanco 'Electricistas de obras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[347].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos y ajustadores electricistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[348].display: el valor no puede empezar o terminar con espacios en blanco 'Instaladores y reparadores de líneas eléctricas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[349].display: el valor no puede empezar o terminar con espacios en blanco 'Mecánicos y reparadores en electrónica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[350].display: el valor no puede empezar o terminar con espacios en blanco 'Instaladores y reparadores en tecnología de la información y las comunicaciones\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[351].display: el valor no puede empezar o terminar con espacios en blanco 'Carniceros y pescaderos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[352].display: el valor no puede empezar o terminar con espacios en blanco 'Panaderos, pasteleros y confíteros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[353].display: el valor no puede empezar o terminar con espacios en blanco 'Operarios de la elaboración de productos lácteos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[354].display: el valor no puede empezar o terminar con espacios en blanco 'Operarios de la conservación de frutas, legumbres y verduras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[355].display: el valor no puede empezar o terminar con espacios en blanco 'Catadores, clasificadores y controladores de calidad de alimentos y bebidas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[356].display: el valor no puede empezar o terminar con espacios en blanco 'Elaboradores de tabaco y sus productos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[357].display: el valor no puede empezar o terminar con espacios en blanco 'Operarios del tratamiento de la madera \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[358].display: el valor no puede empezar o terminar con espacios en blanco 'Ebanistas y mueblistas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[359].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores y reguladores de máquinas para trabajar la madera\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[360].display: el valor no puede empezar o terminar con espacios en blanco 'Sastres, modistos, peleteros y sombrereros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[361].display: el valor no puede empezar o terminar con espacios en blanco 'Patronistas y cortadores de telas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[362].display: el valor no puede empezar o terminar con espacios en blanco 'Costureros y bordadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[363].display: el valor no puede empezar o terminar con espacios en blanco 'Tapiceros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[364].display: el valor no puede empezar o terminar con espacios en blanco 'Apelambradores, pellejeros y curtidores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[365].display: el valor no puede empezar o terminar con espacios en blanco 'Zapateros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[366].display: el valor no puede empezar o terminar con espacios en blanco 'Buzos \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[367].display: el valor no puede empezar o terminar con espacios en blanco 'Dinamiteros y pegadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[368].display: el valor no puede empezar o terminar con espacios en blanco 'Clasificadores, probadores de productos e inspectores de calidad (excluyendo alimentos y bebidas)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[369].display: el valor no puede empezar o terminar con espacios en blanco 'Fumigadores y otros controladores de plagas y malezas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[370].display: el valor no puede empezar o terminar con espacios en blanco 'Operarios de otros oficios no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[371].display: el valor no puede empezar o terminar con espacios en blanco 'Mineros y operadores de instalaciones mineras \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[372].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de procesamiento de minerales y rocas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[373].display: el valor no puede empezar o terminar con espacios en blanco 'Perforadores y sondistas de pozos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[374].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar cemento y otros productos minerales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[375].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de procesamiento de metales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[376].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de acabado de metales (pulidores, galvanizadores y recubridores de metales)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[377].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de plantas y máquinas para fabricar productos químicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[378].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar productos fotográficos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[379].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar productos de caucho \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[380].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar productos de material plástico\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[381].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar productos de papel\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[382].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de preparación de fibras, hilado y devanado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[383].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de telares y otras máquinas tejedoras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[384].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de coser\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[385].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de blanqueamiento, teñido y limpieza de tejidos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[386].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de tratamiento de pieles y cueros\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[387].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para la fabricación de calzado, bolsos y accesorios de talabartería\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[388].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de lavanderías\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[389].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para fabricar productos textiles y artículos de piel y cuero no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[390].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas para elaborar alimentos, bebidas y cigarrillos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[391].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones para la preparación de papel y de pasta para papel\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[392].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de procesamiento de la madera\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[393].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de instalaciones de vidrieriía y cerámica\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[394].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de vapor y calderas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[395].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de embalaje, embotellamiento y etiquetado\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[396].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas y de instalaciones fijas no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[397].display: el valor no puede empezar o terminar con espacios en blanco 'Ensambladores de maquinaria mecánica \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[398].display: el valor no puede empezar o terminar con espacios en blanco 'Ensambladores de equipos eléctricos y electrónicos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[399].display: el valor no puede empezar o terminar con espacios en blanco 'Ensambladores no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[400].display: el valor no puede empezar o terminar con espacios en blanco 'Maquinistas de locomotoras  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[401].display: el valor no puede empezar o terminar con espacios en blanco 'Guardafrenos, guardagujas y agentes de maniobras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[402].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de motocicletas \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[403].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de automóviles, taxis y camionetas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[404].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de buses y trolebuses\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[405].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de camiones pesados y de alto tonelaje\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[406].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de maquinaria agrícola y forestal móvil\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[407].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de máquinas de movimiento de tierras\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[408].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de grúas y aparatos elevadores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[409].display: el valor no puede empezar o terminar con espacios en blanco 'Operadores de autoelevadoras y montacargas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[410].display: el valor no puede empezar o terminar con espacios en blanco 'Tripulantes de cubierta de barco\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[411].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de casa particular y asistentes domésticos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[412].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares de aseo de oficinas, hoteles y otros establecimientos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[413].display: el valor no puede empezar o terminar con espacios en blanco 'Lavadores y planchadores manuales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[414].display: el valor no puede empezar o terminar con espacios en blanco 'Limpiadores de vehículos \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[415].display: el valor no puede empezar o terminar con espacios en blanco 'Limpiadores de ventanas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[416].display: el valor no puede empezar o terminar con espacios en blanco 'Otro personal de limpieza no clasificado previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[417].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de explotaciones agrícolas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[418].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de explotaciones ganaderas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[419].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de explotaciones agropecuarias\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[420].display: el valor no puede empezar o terminar con espacios en blanco 'Ayudantes de jardinería y horticultura\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[421].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros forestales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[422].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de pesca y acuicultura\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[423].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de la minería\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[424].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de obras públicas\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[425].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de la construcción de edificios\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[426].display: el valor no puede empezar o terminar con espacios en blanco 'Empacadores manuales\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[427].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de la industria manufacturera no clasificados previamente\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[428].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de vehículos accionados a pedal o a brazo (no motorizados)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[429].display: el valor no puede empezar o terminar con espacios en blanco 'Conductores de vehículos y máquinas de tracción animal\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[430].display: el valor no puede empezar o terminar con espacios en blanco 'Obreros de carga\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[431].display: el valor no puede empezar o terminar con espacios en blanco 'Reponedores de estanterías\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[432].display: el valor no puede empezar o terminar con espacios en blanco 'Cocineros de comida rápida  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[433].display: el valor no puede empezar o terminar con espacios en blanco 'Ayudantes de cocina\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[434].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores ambulantes de servicios  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[435].display: el valor no puede empezar o terminar con espacios en blanco 'Vendedores ambulantes (excluyendo comida de consumo inmediato)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[436].display: el valor no puede empezar o terminar con espacios en blanco 'Recolectores de basura y material reciclable  \t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[437].display: el valor no puede empezar o terminar con espacios en blanco 'Clasificadores de desechos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[438].display: el valor no puede empezar o terminar con espacios en blanco 'Barrenderos\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[439].display: el valor no puede empezar o terminar con espacios en blanco 'Mensajeros, estafetas, maleteros y repartidores de folletos y diarios a domicilio\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[440].display: el valor no puede empezar o terminar con espacios en blanco 'Auxiliares de mantenimiento (pequeñas reparaciones)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[441].display: el valor no puede empezar o terminar con espacios en blanco 'Recolectores de dinero en máquinas expendedoras de venta automática y lectores de medidores\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[442].display: el valor no puede empezar o terminar con espacios en blanco 'Acarreadores de agua y recolectores de leña\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[443].display: el valor no puede empezar o terminar con espacios en blanco 'Otras ocupaciones elementales no clasificadas previamente\t'
+WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[159].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de enfermería '
+WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[279].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de los cuidados personales en instituciones '
+WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[366].display: el valor no puede empezar o terminar con espacios en blanco 'Buzos '
+== fsh-generated\resources\CodeSystem-CSPrecaucionesHospitalizacion.json ==
+== fsh-generated\resources\CodeSystem-CSPrevision.json ==
 == fsh-generated\resources\CodeSystem-CSPuebloIndigena.json ==
 == fsh-generated\resources\CodeSystem-CSReligion.json ==
 == fsh-generated\resources\CodeSystem-CSSexoBiologico.json ==
 == fsh-generated\resources\CodeSystem-CSUCursoAprobado.json ==
 == fsh-generated\resources\CodeSystem-CSUNivelAprob.json ==
-WARNING: CodeSystem/CSUNivelAprob: CodeSystem.concept[1].display: el valor no puede empezar o terminar con espacios en blanco 'Especial o Diferencial '
 == fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp.json ==
-WARNING: ImplementationGuide/fhir.hlf.hosp: ImplementationGuide.definition.resource[11].description: el valor no puede empezar o terminar con espacios en blanco 'Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local '
-== fsh-generated\resources\Observation-EjNivEduca.json ==
-WARNING: Observation/EjNivEduca: Observation.code.coding[0]: Error performing tx4 operation 'validate-code: Connection reset' (parameters = "")
-== fsh-generated\resources\Observation-EjOcupacion.json ==
-WARNING: Observation/EjOcupacion: Observation.code.coding[0]: Error performing tx4 operation 'validate-code: Failed to connect to tx.fhir.org/104.196.166.17:80' (parameters = "")
-ERROR: Observation/EjOcupacion: Observation.value.ofType(CodeableConcept): El nombre de display para https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet#2147 debe ser ''Ingenieros biomédicos	'', no 'Ingenieros biomédicos'
-ERROR: Observation/EjOcupacion: Observation.value.ofType(CodeableConcept).coding[0]: El nombre de display para https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet#2147 debe ser ''Ingenieros biomédicos	'', no 'Ingenieros biomédicos' para 'https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet#2147'
-== fsh-generated\resources\Observation-EjPesoRecienNacido.json ==
-WARNING: Observation/EjPesoRecienNacido: Observation.code.coding[0]: Error performing tx4 operation 'validate-code: Failed to connect to tx.fhir.org/104.196.166.17:80' (parameters = "")
-WARNING: Observation/EjPesoRecienNacido: Observation.value.ofType(Quantity): Error performing tx4 operation 'validate-code: Software caused connection abort: no further information' (parameters = "")
-== fsh-generated\resources\Patient-007.json ==
-ERROR: Patient.extension[0]: Propiedad No Reconocida 'valueCodeableConcept'
-ERROR: Patient/007: Patient.extension[0]: La regla ext-1: 'Must have either extensions or value[x], not both' falló
-ERROR: Patient/007: Patient.extension[0]: La definición para la Extensión 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas' permite los tipos  [] pero se encontró code
-ERROR: Patient/007: Patient.extension[0]: Extension.value[x]: max permitido = 0, pero se han encontrado 1 (de https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas|0.1.0)
-ERROR: Patient/007: Patient.extension[0]: Patient.extension:PueblosIndigenas.value[x]: max permitido = 0, pero se han encontrado 1 (de https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.1.0)
-ERROR: Patient/007: Patient.identifier[0].type.coding[0]: Código desconocido NNCHL en http://terminology.hl7.org/CodeSystem/v2-0203 para 'http://terminology.hl7.org/CodeSystem/v2-0203#NNCHL'
-ERROR: Patient/007: Patient.identifier[0].type: Ninguno de los codings provistos están en el conjunto de valores 'Tipos de Documentos' (https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos|1.8.0), y se requiere un código de este conjunto de valores) (codes = http://terminology.hl7.org/CodeSystem/v2-0203#NNCHL)
-INFORMATION: Patient/007: Patient.name[0].family.extension[0]: Este elemento no coincide con ninguna partición conocida defined in the profile https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.1.0
+== fsh-generated\resources\SearchParameter-complejidad.json ==
+WARNING: SearchParameter/complejidad: SearchParameter: La regla cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
+== fsh-generated\resources\SearchParameter-is-pediatrica.json ==
+WARNING: SearchParameter/is-pediatrica: SearchParameter: La regla cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
+== fsh-generated\resources\StructureDefinition-DiagnosticoCondHLf.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-Educacion.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-IdentidadGenero.json ==
 WARNING: StructureDefinition/IdentidadGenero: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero'): The Implementation Guide contains no examples for this extension
@@ -754,25 +109,58 @@ WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfh
 WARNING: StructureDefinition/NombreSocial: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-ObsPesoPediatrico.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-Ocupaciones.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-PacienteHLF.json ==
-ERROR: StructureDefinition/PacienteHLF: StructureDefinition.text.div: La URL no es válida porque '(La URL contiene 3 Caracteres Inválidos ([\]))': file://C:\GI_FHIR\clcore\output/StructureDefinition-CorePacienteCl.html
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-Prevision.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-PueblosIndigenas.json ==
 WARNING: StructureDefinition/PueblosIndigenas: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-ReligionesCultos.json ==
 WARNING: StructureDefinition/ReligionesCultos: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-SegundoApellido.json ==
+WARNING: StructureDefinition/SegundoApellido: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SegundoApellido'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-SexoNacimiento820.json ==
 WARNING: StructureDefinition/SexoNacimiento820: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-SexoReg.json ==
 WARNING: StructureDefinition/SexoReg: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-complejidad-cama.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-complejidad-unidad.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-motivo-solicitud-hospitalizacion.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-precauciones-solicitud-hospitalizacion.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-registro-atencion.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-solicitud-hospitalizacion.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-unidad-clinica-hlf.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-unidad-clinica-origen.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-unidad-pediatrica.json ==
+WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\ValueSet-VSComplejidadCama.json ==
+== fsh-generated\resources\ValueSet-VSDiagnosticoCie10.json ==
+== fsh-generated\resources\ValueSet-VSEspecialidadMedica.json ==
 == fsh-generated\resources\ValueSet-VSIdentidadGenero.json ==
+== fsh-generated\resources\ValueSet-VSMotivoSolicitudHosp.json ==
 == fsh-generated\resources\ValueSet-VSOcupaciones.json ==
 == fsh-generated\resources\ValueSet-VSOcupacionesDet.json ==
+== fsh-generated\resources\ValueSet-VSPrecaucionesHospitalizacion.json ==
+== fsh-generated\resources\ValueSet-VSPrevision.json ==
 == fsh-generated\resources\ValueSet-VSPuebloIndigena.json ==
 == fsh-generated\resources\ValueSet-VSReligion.json ==
 == fsh-generated\resources\ValueSet-VSSexoBiologico.json ==
+== fsh-generated\resources\ValueSet-VSTiposDocumentos.json ==
 == fsh-generated\resources\ValueSet-VSUCursoAprobado.json ==
 == fsh-generated\resources\ValueSet-VSUNivelAprob.json ==

@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSEspecialidadMedica",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSEspecialidadMedica.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</code></a></li></ul></div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica",
+  "version" : "0.3.0",
+  "name" : "VSEspecialidadMedica",
+  "title" : "Codigos de especialidades médicas",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Códigos de especialidades médicas",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica"
+    }]
+  }
+}

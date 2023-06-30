@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSMotivoSolicitudHosp"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSMotivoSolicitudHosp-1"> </a></td><td>Hospitalización</td><td>Hospitalización</td></tr><tr><td style="white-space:nowrap">2<a name="CSMotivoSolicitudHosp-2"> </a></td><td>Intervención Quirúrgica</td><td>Intervención Quirúrgica</td></tr><tr><td style="white-space:nowrap">3<a name="CSMotivoSolicitudHosp-3"> </a></td><td>Orden Judicial</td><td>Orden Judicial</td></tr><tr><td style="white-space:nowrap">4<a name="CSMotivoSolicitudHosp-4"> </a></td><td>Nuevo Nacimiento</td><td>Nuevo Nacimiento</td></tr><tr><td style="white-space:nowrap">99<a name="CSMotivoSolicitudHosp-99"> </a></td><td>Otro</td><td>Otro</td></tr></table></div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp"/>
+  <version value="0.3.0"/>
+  <name value="CSMotivoSolicitudHosp"/>
+  <title value="Motivo Solicitud Hospitalización"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Códigos para el motivo de solicitud de hospitalización"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Hospitalización"/>
+    <definition value="Hospitalización"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Intervención Quirúrgica"/>
+    <definition value="Intervención Quirúrgica"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Orden Judicial"/>
+    <definition value="Orden Judicial"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Nuevo Nacimiento"/>
+    <definition value="Nuevo Nacimiento"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="Otro"/>
+    <definition value="Otro"/>
+  </concept>
+</CodeSystem>

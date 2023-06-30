@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSMotivoSolicitudHosp",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSMotivoSolicitudHosp-1\"> </a></td><td>Hospitalización</td><td>Hospitalización</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSMotivoSolicitudHosp-2\"> </a></td><td>Intervención Quirúrgica</td><td>Intervención Quirúrgica</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSMotivoSolicitudHosp-3\"> </a></td><td>Orden Judicial</td><td>Orden Judicial</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSMotivoSolicitudHosp-4\"> </a></td><td>Nuevo Nacimiento</td><td>Nuevo Nacimiento</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"CSMotivoSolicitudHosp-99\"> </a></td><td>Otro</td><td>Otro</td></tr></table></div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp",
+  "version" : "0.3.0",
+  "name" : "CSMotivoSolicitudHosp",
+  "title" : "Motivo Solicitud Hospitalización",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Códigos para el motivo de solicitud de hospitalización",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 5,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Hospitalización",
+    "definition" : "Hospitalización"
+  },
+  {
+    "code" : "2",
+    "display" : "Intervención Quirúrgica",
+    "definition" : "Intervención Quirúrgica"
+  },
+  {
+    "code" : "3",
+    "display" : "Orden Judicial",
+    "definition" : "Orden Judicial"
+  },
+  {
+    "code" : "4",
+    "display" : "Nuevo Nacimiento",
+    "definition" : "Nuevo Nacimiento"
+  },
+  {
+    "code" : "99",
+    "display" : "Otro",
+    "definition" : "Otro"
+  }]
+}

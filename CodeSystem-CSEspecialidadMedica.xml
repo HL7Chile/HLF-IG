@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSEspecialidadMedica"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>abstract</td><td>boolean</td><td>Indica si el concepto es abstracto o no</td></tr></table><p><b>Concepts</b></p><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</code> defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>abstract</b></td></tr><tr><td>1</td><td style="white-space:nowrap">adulto<a name="CSEspecialidadMedica-adulto"> </a></td><td>Adulto</td><td>Especialidad médica para mayores de 18 años</td><td>true</td></tr><tr><td>2</td><td style="white-space:nowrap">  101<a name="CSEspecialidadMedica-101"> </a></td><td>Anestesiología Adulto</td><td>Especialidad médica de anestesiología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  102<a name="CSEspecialidadMedica-102"> </a></td><td>Broncopulmonar Adulto</td><td>Especialidad médica de broncopulmonar para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  103<a name="CSEspecialidadMedica-103"> </a></td><td>Cardiología Adulto</td><td>Especialidad médica de cardiología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  104<a name="CSEspecialidadMedica-104"> </a></td><td>Cirugía Abdominal Adulto</td><td>Especialidad médica de cirugía abdominal para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  105<a name="CSEspecialidadMedica-105"> </a></td><td>Cirugía Adulto</td><td>Especialidad médica de cirugía para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  106<a name="CSEspecialidadMedica-106"> </a></td><td>Cirugía Plástica Adulto</td><td>Especialidad médica de cirugía plástica para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  107<a name="CSEspecialidadMedica-107"> </a></td><td>Cirugía Proctológica</td><td>Especialidad médica de cirugía proctológica</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  108<a name="CSEspecialidadMedica-108"> </a></td><td>Cirugía Tórax Adulto</td><td>Especialidad médica de cirugía de tórax para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  109<a name="CSEspecialidadMedica-109"> </a></td><td>Cirugía Vascular Periférica</td><td>Especialidad médica de cirugía vascular periférica para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  110<a name="CSEspecialidadMedica-110"> </a></td><td>Dermatología Adulto</td><td>Especialidad médica de dermatología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  111<a name="CSEspecialidadMedica-111"> </a></td><td>Diabetes</td><td>Especialidad médica de diabetes</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  112<a name="CSEspecialidadMedica-112"> </a></td><td>Endocrinología Adulto</td><td>Especialidad médica de endocrinología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  113<a name="CSEspecialidadMedica-113"> </a></td><td>Gastroenterología Adulto</td><td>Especialidad médica de gastroenterología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  114<a name="CSEspecialidadMedica-114"> </a></td><td>Geriatría</td><td>Especialidad médica de geriatría</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  115<a name="CSEspecialidadMedica-115"> </a></td><td>Ginecología Adulto</td><td>Especialidad médica de ginecología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  116<a name="CSEspecialidadMedica-116"> </a></td><td>Hematología Adulto</td><td>Especialidad médica de hematología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  117<a name="CSEspecialidadMedica-117"> </a></td><td>Infectología Adulto</td><td>Especialidad médica de infectología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  118<a name="CSEspecialidadMedica-118"> </a></td><td>Inmunología Adulto</td><td>Especialidad médica de inmunología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  119<a name="CSEspecialidadMedica-119"> </a></td><td>Medicina Física y Rehabilitación Adulto</td><td>Especialidad médica de medicina física y rehabilitación para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  120<a name="CSEspecialidadMedica-120"> </a></td><td>Medicina Familiar</td><td>Especialidad médica de medicina familiar</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  121<a name="CSEspecialidadMedica-121"> </a></td><td>Medicina Interna</td><td>Especialidad médica de medicina interna</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  122<a name="CSEspecialidadMedica-122"> </a></td><td>Nefrología Adulto</td><td>Especialidad médica de nefrología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  123<a name="CSEspecialidadMedica-123"> </a></td><td>Neurología Adulto</td><td>Especialidad médica de neurología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  124<a name="CSEspecialidadMedica-124"> </a></td><td>Nutriólogo</td><td>Especialidad médica de nutriólogo</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  125<a name="CSEspecialidadMedica-125"> </a></td><td>Oftalmología</td><td>Especialidad médica de oftalmología</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  126<a name="CSEspecialidadMedica-126"> </a></td><td>Otorrinolaringología</td><td>Especialidad médica de otorrinolaringología</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  127<a name="CSEspecialidadMedica-127"> </a></td><td>Psiquiatría Adulto</td><td>Especialidad médica de psiquiatría para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  128<a name="CSEspecialidadMedica-128"> </a></td><td>Reumatología</td><td>Especialidad médica de reumatología</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  129<a name="CSEspecialidadMedica-129"> </a></td><td>Traumatología Adulto</td><td>Especialidad médica de traumatología para adultos</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  130<a name="CSEspecialidadMedica-130"> </a></td><td>Urología Adulto</td><td>Especialidad médica de urología para adultos</td><td/></tr><tr><td>1</td><td style="white-space:nowrap">infantil<a name="CSEspecialidadMedica-infantil"> </a></td><td>Infantil</td><td>Especialidad médica para menores de 18 años</td><td>true</td></tr><tr><td>2</td><td style="white-space:nowrap">  201<a name="CSEspecialidadMedica-201"> </a></td><td>Broncopulmonar Infantil</td><td>Especialidad médica de broncopulmonar para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  202<a name="CSEspecialidadMedica-202"> </a></td><td>Cardiología Infantil</td><td>Especialidad médica de cardiología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  203<a name="CSEspecialidadMedica-203"> </a></td><td>Cirugía Infantil</td><td>Especialidad médica de cirugía para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  204<a name="CSEspecialidadMedica-204"> </a></td><td>Cirugía Plástica Infantil</td><td>Especialidad médica de cirugía plástica para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  205<a name="CSEspecialidadMedica-205"> </a></td><td>Endocrinología Infantil</td><td>Especialidad médica de endocrinología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  206<a name="CSEspecialidadMedica-206"> </a></td><td>Gastroenterología Infantil</td><td>Especialidad médica de gastroenterología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  207<a name="CSEspecialidadMedica-207"> </a></td><td>Ginecología Infantil</td><td>Especialidad médica de ginecología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  208<a name="CSEspecialidadMedica-208"> </a></td><td>Hematología Infantil</td><td>Especialidad médica de hematología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  209<a name="CSEspecialidadMedica-209"> </a></td><td>Infectología Infantil</td><td>Especialidad médica de infectología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  210<a name="CSEspecialidadMedica-210"> </a></td><td>Nefrología Infantil</td><td>Especialidad médica de nefrología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  211<a name="CSEspecialidadMedica-211"> </a></td><td>Neonatología</td><td>Especialidad médica de neonatología</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  212<a name="CSEspecialidadMedica-212"> </a></td><td>Neurología Infantil</td><td>Especialidad médica de neurología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  213<a name="CSEspecialidadMedica-213"> </a></td><td>Nutriólogo pediátrico</td><td>Especialidad médica de nutriólogo para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  214<a name="CSEspecialidadMedica-214"> </a></td><td>Pediatría</td><td>Especialidad médica de pediatría</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  215<a name="CSEspecialidadMedica-215"> </a></td><td>Psiquiatría Infantil</td><td>Especialidad médica de psiquiatría para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  216<a name="CSEspecialidadMedica-216"> </a></td><td>Traumatología Infantil</td><td>Especialidad médica de traumatología para menores de 18 años</td><td/></tr><tr><td>2</td><td style="white-space:nowrap">  217<a name="CSEspecialidadMedica-217"> </a></td><td>Urología Infantil</td><td>Especialidad médica de urología para menores de 18 años</td><td/></tr></table></div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica"/>
+  <version value="0.3.0"/>
+  <name value="CSEspecialidadMedica"/>
+  <title value="Códigos de Especialidad Médica"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Códigos de Especialidad Médica utilizados por HLF"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="CL"/>
+      <display value="Chile"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="classified-with"/>
+  <content value="complete"/>
+  <count value="49"/>
+  <property>
+    <code value="abstract"/>
+    <description value="Indica si el concepto es abstracto o no"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="adulto"/>
+    <display value="Adulto"/>
+    <definition value="Especialidad médica para mayores de 18 años"/>
+    <property>
+      <code value="abstract"/>
+      <valueBoolean value="true"/>
+    </property>
+    <concept>
+      <code value="101"/>
+      <display value="Anestesiología Adulto"/>
+      <definition value="Especialidad médica de anestesiología para adultos"/>
+    </concept>
+    <concept>
+      <code value="102"/>
+      <display value="Broncopulmonar Adulto"/>
+      <definition value="Especialidad médica de broncopulmonar para adultos"/>
+    </concept>
+    <concept>
+      <code value="103"/>
+      <display value="Cardiología Adulto"/>
+      <definition value="Especialidad médica de cardiología para adultos"/>
+    </concept>
+    <concept>
+      <code value="104"/>
+      <display value="Cirugía Abdominal Adulto"/>
+      <definition value="Especialidad médica de cirugía abdominal para adultos"/>
+    </concept>
+    <concept>
+      <code value="105"/>
+      <display value="Cirugía Adulto"/>
+      <definition value="Especialidad médica de cirugía para adultos"/>
+    </concept>
+    <concept>
+      <code value="106"/>
+      <display value="Cirugía Plástica Adulto"/>
+      <definition value="Especialidad médica de cirugía plástica para adultos"/>
+    </concept>
+    <concept>
+      <code value="107"/>
+      <display value="Cirugía Proctológica"/>
+      <definition value="Especialidad médica de cirugía proctológica"/>
+    </concept>
+    <concept>
+      <code value="108"/>
+      <display value="Cirugía Tórax Adulto"/>
+      <definition value="Especialidad médica de cirugía de tórax para adultos"/>
+    </concept>
+    <concept>
+      <code value="109"/>
+      <display value="Cirugía Vascular Periférica"/>
+      <definition value="Especialidad médica de cirugía vascular periférica para adultos"/>
+    </concept>
+    <concept>
+      <code value="110"/>
+      <display value="Dermatología Adulto"/>
+      <definition value="Especialidad médica de dermatología para adultos"/>
+    </concept>
+    <concept>
+      <code value="111"/>
+      <display value="Diabetes"/>
+      <definition value="Especialidad médica de diabetes"/>
+    </concept>
+    <concept>
+      <code value="112"/>
+      <display value="Endocrinología Adulto"/>
+      <definition value="Especialidad médica de endocrinología para adultos"/>
+    </concept>
+    <concept>
+      <code value="113"/>
+      <display value="Gastroenterología Adulto"/>
+      <definition value="Especialidad médica de gastroenterología para adultos"/>
+    </concept>
+    <concept>
+      <code value="114"/>
+      <display value="Geriatría"/>
+      <definition value="Especialidad médica de geriatría"/>
+    </concept>
+    <concept>
+      <code value="115"/>
+      <display value="Ginecología Adulto"/>
+      <definition value="Especialidad médica de ginecología para adultos"/>
+    </concept>
+    <concept>
+      <code value="116"/>
+      <display value="Hematología Adulto"/>
+      <definition value="Especialidad médica de hematología para adultos"/>
+    </concept>
+    <concept>
+      <code value="117"/>
+      <display value="Infectología Adulto"/>
+      <definition value="Especialidad médica de infectología para adultos"/>
+    </concept>
+    <concept>
+      <code value="118"/>
+      <display value="Inmunología Adulto"/>
+      <definition value="Especialidad médica de inmunología para adultos"/>
+    </concept>
+    <concept>
+      <code value="119"/>
+      <display value="Medicina Física y Rehabilitación Adulto"/>
+      <definition value="Especialidad médica de medicina física y rehabilitación para adultos"/>
+    </concept>
+    <concept>
+      <code value="120"/>
+      <display value="Medicina Familiar"/>
+      <definition value="Especialidad médica de medicina familiar"/>
+    </concept>
+    <concept>
+      <code value="121"/>
+      <display value="Medicina Interna"/>
+      <definition value="Especialidad médica de medicina interna"/>
+    </concept>
+    <concept>
+      <code value="122"/>
+      <display value="Nefrología Adulto"/>
+      <definition value="Especialidad médica de nefrología para adultos"/>
+    </concept>
+    <concept>
+      <code value="123"/>
+      <display value="Neurología Adulto"/>
+      <definition value="Especialidad médica de neurología para adultos"/>
+    </concept>
+    <concept>
+      <code value="124"/>
+      <display value="Nutriólogo"/>
+      <definition value="Especialidad médica de nutriólogo"/>
+    </concept>
+    <concept>
+      <code value="125"/>
+      <display value="Oftalmología"/>
+      <definition value="Especialidad médica de oftalmología"/>
+    </concept>
+    <concept>
+      <code value="126"/>
+      <display value="Otorrinolaringología"/>
+      <definition value="Especialidad médica de otorrinolaringología"/>
+    </concept>
+    <concept>
+      <code value="127"/>
+      <display value="Psiquiatría Adulto"/>
+      <definition value="Especialidad médica de psiquiatría para adultos"/>
+    </concept>
+    <concept>
+      <code value="128"/>
+      <display value="Reumatología"/>
+      <definition value="Especialidad médica de reumatología"/>
+    </concept>
+    <concept>
+      <code value="129"/>
+      <display value="Traumatología Adulto"/>
+      <definition value="Especialidad médica de traumatología para adultos"/>
+    </concept>
+    <concept>
+      <code value="130"/>
+      <display value="Urología Adulto"/>
+      <definition value="Especialidad médica de urología para adultos"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="infantil"/>
+    <display value="Infantil"/>
+    <definition value="Especialidad médica para menores de 18 años"/>
+    <property>
+      <code value="abstract"/>
+      <valueBoolean value="true"/>
+    </property>
+    <concept>
+      <code value="201"/>
+      <display value="Broncopulmonar Infantil"/>
+      <definition value="Especialidad médica de broncopulmonar para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="202"/>
+      <display value="Cardiología Infantil"/>
+      <definition value="Especialidad médica de cardiología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="203"/>
+      <display value="Cirugía Infantil"/>
+      <definition value="Especialidad médica de cirugía para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="204"/>
+      <display value="Cirugía Plástica Infantil"/>
+      <definition value="Especialidad médica de cirugía plástica para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="205"/>
+      <display value="Endocrinología Infantil"/>
+      <definition value="Especialidad médica de endocrinología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="206"/>
+      <display value="Gastroenterología Infantil"/>
+      <definition value="Especialidad médica de gastroenterología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="207"/>
+      <display value="Ginecología Infantil"/>
+      <definition value="Especialidad médica de ginecología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="208"/>
+      <display value="Hematología Infantil"/>
+      <definition value="Especialidad médica de hematología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="209"/>
+      <display value="Infectología Infantil"/>
+      <definition value="Especialidad médica de infectología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="210"/>
+      <display value="Nefrología Infantil"/>
+      <definition value="Especialidad médica de nefrología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="211"/>
+      <display value="Neonatología"/>
+      <definition value="Especialidad médica de neonatología"/>
+    </concept>
+    <concept>
+      <code value="212"/>
+      <display value="Neurología Infantil"/>
+      <definition value="Especialidad médica de neurología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="213"/>
+      <display value="Nutriólogo pediátrico"/>
+      <definition value="Especialidad médica de nutriólogo para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="214"/>
+      <display value="Pediatría"/>
+      <definition value="Especialidad médica de pediatría"/>
+    </concept>
+    <concept>
+      <code value="215"/>
+      <display value="Psiquiatría Infantil"/>
+      <definition value="Especialidad médica de psiquiatría para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="216"/>
+      <display value="Traumatología Infantil"/>
+      <definition value="Especialidad médica de traumatología para menores de 18 años"/>
+    </concept>
+    <concept>
+      <code value="217"/>
+      <display value="Urología Infantil"/>
+      <definition value="Especialidad médica de urología para menores de 18 años"/>
+    </concept>
+  </concept>
+</CodeSystem>

@@ -1,7 +1,7 @@
 {
   "package": "fhir.hlf.hosp",
-  "version": "0.1.0",
-  "fhirVersion": "4.0.1",
+  "version": "0.3.0",
+  "fhirVersion": "5.0.0",
   "extensions": [
     {
       "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
@@ -15,10 +15,10 @@
       "title": "Nivel Instrucción",
       "types": [
         "CodeableConcept",
-        "string",
+        "id",
         "Extension",
         "Coding",
-        "string",
+        "id",
         "Extension",
         "uri",
         "string",
@@ -27,10 +27,10 @@
         "boolean",
         "string",
         "CodeableConcept",
-        "string",
+        "id",
         "Extension",
         "Coding",
-        "string",
+        "id",
         "Extension",
         "uri",
         "string",
@@ -48,6 +48,7 @@
         "id",
         "instant",
         "integer",
+        "integer64",
         "markdown",
         "oid",
         "positiveInt",
@@ -62,6 +63,7 @@
         "Annotation",
         "Attachment",
         "CodeableConcept",
+        "CodeableReference",
         "Coding",
         "ContactPoint",
         "Count",
@@ -74,18 +76,20 @@
         "Quantity",
         "Range",
         "Ratio",
+        "RatioRange",
         "Reference",
         "SampledData",
         "Signature",
         "Timing",
         "ContactDetail",
-        "Contributor",
         "DataRequirement",
         "Expression",
         "ParameterDefinition",
         "RelatedArtifact",
         "TriggerDefinition",
         "UsageContext",
+        "Availability",
+        "ExtendedContactDetail",
         "Dosage",
         "Meta"
       ]
@@ -113,6 +117,7 @@
         "id",
         "instant",
         "integer",
+        "integer64",
         "markdown",
         "oid",
         "positiveInt",
@@ -127,6 +132,7 @@
         "Annotation",
         "Attachment",
         "CodeableConcept",
+        "CodeableReference",
         "Coding",
         "ContactPoint",
         "Count",
@@ -139,18 +145,20 @@
         "Quantity",
         "Range",
         "Ratio",
+        "RatioRange",
         "Reference",
         "SampledData",
         "Signature",
         "Timing",
         "ContactDetail",
-        "Contributor",
         "DataRequirement",
         "Expression",
         "ParameterDefinition",
         "RelatedArtifact",
         "TriggerDefinition",
         "UsageContext",
+        "Availability",
+        "ExtendedContactDetail",
         "Dosage",
         "Meta"
       ]
@@ -160,16 +168,23 @@
       "title": "Extensión que define Religion o Culto",
       "types": [
         "CodeableConcept",
-        "string",
+        "id",
         "Extension",
         "Coding",
-        "string",
+        "id",
         "Extension",
         "uri",
         "string",
         "code",
         "string",
         "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SegundoApellido",
+      "title": "Segundo Apellido",
+      "types": [
         "string"
       ]
     },
@@ -186,9 +201,148 @@
       "types": [
         "code"
       ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama",
+      "title": "Complejidad Cama",
+      "types": [
+        "Coding",
+        "id",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad",
+      "title": "Complejidad Unidad Clinica HLF",
+      "types": [
+        "CodeableConcept",
+        "id",
+        "Extension",
+        "Coding",
+        "id",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion",
+      "title": "Motivo Solicitud Hospitalización",
+      "types": [
+        "Coding",
+        "id",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "integer64",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "CodeableReference",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "RatioRange",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Availability",
+        "ExtendedContactDetail",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion",
+      "title": "Precauciones Solicitud Hospitalización",
+      "types": [
+        "CodeableConcept",
+        "id",
+        "Extension",
+        "Coding",
+        "id",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen",
+      "title": "Unidad Clínica Origen",
+      "types": [
+        "Reference"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica",
+      "title": "Extensión para indicar si la Unidad Clinica HLF es pediatrica",
+      "types": [
+        "boolean"
+      ]
     }
   ],
   "profiles": {
+    "Condition": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf",
+        "title": "DiagnosticoCondHLf"
+      }
+    ],
     "Observation": [
       {
         "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion",
@@ -208,6 +362,30 @@
         "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF",
         "title": "PacienteHLF"
       }
+    ],
+    "Coverage": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision",
+        "title": "Prevision"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion",
+        "title": "Registro Atencion"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion",
+        "title": "Solicitud Hospitalización"
+      }
+    ],
+    "HealthcareService": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf",
+        "title": "Unidad Clinica HLF"
+      }
     ]
   },
   "usage": {
@@ -223,15 +401,8 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
-      "Patient.contact.name.family",
-      "Patient.name.family"
     ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
@@ -251,12 +422,14 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-type-characteristics": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/binding-definition": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
@@ -264,28 +437,11 @@
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
       "ImplementationGuide.dependsOn"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/no-binding": [
+      "StructureDefinition.snapshot.element"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises": [
-      "Patient",
-      "Patient.address.country",
-      "Patient.identifier.type"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl": [
-      "Patient.address.city"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto": [
-      "Patient.contact"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl": [
-      "Patient.address.district"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl": [
-      "Patient.address.state"
-    ],
-    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido": [
-      "Patient.name.family"
     ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero": [
       "Patient"
@@ -296,11 +452,32 @@
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos": [
       "Patient"
     ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SegundoApellido": [
+      "Patient.name.family"
+    ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820": [
       "Patient"
     ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg": [
       "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama": [
+      "ServiceRequest"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad": [
+      "HealthcareService"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion": [
+      "ServiceRequest"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion": [
+      "ServiceRequest"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen": [
+      "ServiceRequest"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica": [
+      "HealthcareService"
     ]
   }
 }

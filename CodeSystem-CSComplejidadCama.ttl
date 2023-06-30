@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSComplejidadCama"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">baja<a name=\"CSComplejidadCama-baja\"> </a></td><td>Baja</td><td>Camas de baja complejidad</td></tr><tr><td style=\"white-space:nowrap\">media<a name=\"CSComplejidadCama-media\"> </a></td><td>Media</td><td>Camas de media complejidad</td></tr><tr><td style=\"white-space:nowrap\">intermedia<a name=\"CSComplejidadCama-intermedia\"> </a></td><td>Intermedia</td><td>Camas de intermedia complejidad</td></tr><tr><td style=\"white-space:nowrap\">alta<a name=\"CSComplejidadCama-alta\"> </a></td><td>Alta</td><td>Camas de alta complejidad</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:name [ fhir:v "CSComplejidadCama"] ; # 
+  fhir:title [ fhir:v "Complejidad cama"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Códigos para identificar la complejidad de una cama HLF"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "baja" ] ;
+     fhir:display [ fhir:v "Baja" ] ;
+     fhir:definition [ fhir:v "Camas de baja complejidad" ]
+  ] [
+     fhir:code [ fhir:v "media" ] ;
+     fhir:display [ fhir:v "Media" ] ;
+     fhir:definition [ fhir:v "Camas de media complejidad" ]
+  ] [
+     fhir:code [ fhir:v "intermedia" ] ;
+     fhir:display [ fhir:v "Intermedia" ] ;
+     fhir:definition [ fhir:v "Camas de intermedia complejidad" ]
+  ] [
+     fhir:code [ fhir:v "alta" ] ;
+     fhir:display [ fhir:v "Alta" ] ;
+     fhir:definition [ fhir:v "Camas de alta complejidad" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

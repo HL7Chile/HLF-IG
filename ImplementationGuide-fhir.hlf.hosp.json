@@ -6,17 +6,17 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp",
-  "version" : "0.1.0",
+  "version" : "0.3.0",
   "name" : "HlfHosp",
   "title" : "Guía de Implementación Procesos de Hospitalizado",
   "status" : "draft",
-  "date" : "2023-06-11T16:05:51-04:00",
+  "date" : "2023-06-30T15:47:06-04:00",
   "publisher" : "Hospital Eloisa Diaz de la Florida",
   "contact" : [{
     "name" : "Hospital Eloisa Diaz de la Florida",
     "telecom" : [{
       "system" : "url",
-      "value" : "www.hospitallaflorida.cl"
+      "value" : "https://www.hospitallaflorida.cl/"
     },
     {
       "system" : "email",
@@ -25,7 +25,7 @@
   }],
   "packageId" : "fhir.hlf.hosp",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["4.0.1"],
+  "fhirVersion" : ["5.0.0"],
   "dependsOn" : [{
     "id" : "hl7tx",
     "extension" : [{
@@ -33,7 +33,7 @@
       "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
-    "packageId" : "hl7.terminology.r4",
+    "packageId" : "hl7.terminology.r5",
     "version" : "5.0.0"
   },
   {
@@ -43,14 +43,8 @@
       "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
-    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "packageId" : "hl7.fhir.uv.extensions.r5",
     "version" : "1.0.0"
-  },
-  {
-    "id" : "clcore",
-    "uri" : "https://hl7chile.cl/fhir/ig/clcore",
-    "packageId" : "hl7.fhir.cl.clcore",
-    "version" : "dev"
   }],
   "definition" : {
     "extension" : [{
@@ -72,6 +66,17 @@
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "display-warnings"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -320,270 +325,6 @@
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
       "valueCode" : "hl7.fhir.uv.tools#current"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "copyrightyear"
-      },
-      {
-        "url" : "value",
-        "valueString" : "2023+"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "releaselabel"
-      },
-      {
-        "url" : "value",
-        "valueString" : "ci-build"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "autoload-resources"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "template/liquid"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-liquid"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/liquid"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-qa"
-      },
-      {
-        "url" : "value",
-        "valueString" : "temp/qa"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-temp"
-      },
-      {
-        "url" : "value",
-        "valueString" : "temp/pages"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-output"
-      },
-      {
-        "url" : "value",
-        "valueString" : "output"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-suppressed-warnings"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/ignoreWarnings.txt"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "https://hospitallaflorida.cl/fhir/hlfhosp/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "template-html"
-      },
-      {
-        "url" : "value",
-        "valueString" : "template-page.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "template-md"
-      },
-      {
-        "url" : "value",
-        "valueString" : "template-page-md.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-contact"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-context"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-copyright"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-jurisdiction"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-license"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-publisher"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-version"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "active-tables"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "fmm-definition"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/versions.html#maturity"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "propagate-status"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "excludelogbinaryformat"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "tabbed-snapshots"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
       "extension" : [{
@@ -595,7 +336,103 @@
       },
       "name" : "Aspectos Laborales",
       "description" : "Perfil de observaciones asociado a los aspectos laborales  de un paciente",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSEspecialidadMedica"
+      },
+      "name" : "Codigos de especialidades médicas",
+      "description" : "Códigos de especialidades médicas",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/complejidad"
+      },
+      "name" : "complejidad",
+      "description" : "Retorna las Unidades Clinicas HLF que tienen la complejidad indicada",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/complejidad-cama"
+      },
+      "name" : "Complejidad Cama",
+      "description" : "Extensión para complejidad de la cama",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSComplejidadCama"
+      },
+      "name" : "Complejidad Cama",
+      "description" : "Códigos para identificar la complejidad de una cama HLF",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSComplejidadCama"
+      },
+      "name" : "Complejidad cama",
+      "description" : "Códigos para identificar la complejidad de una cama HLF",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/complejidad-unidad"
+      },
+      "name" : "Complejidad Unidad Clinica HLF",
+      "description" : "Extensión para indicar la complejidad de la Unidad Clinica HLF",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSCodigoDNI"
+      },
+      "name" : "Códigos de Documentos DNI para LATAM y el Caribe",
+      "description" : "Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSEspecialidadMedica"
+      },
+      "name" : "Códigos de Especialidad Médica",
+      "description" : "Códigos de Especialidad Médica utilizados por HLF",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -607,7 +444,7 @@
       },
       "name" : "Códigos para Identidad de Género",
       "description" : "Códigos para Identidad de Género DEIS",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -619,7 +456,7 @@
       },
       "name" : "Códigos para sexo biológico en Chile",
       "description" : "Códigos para sexo biológico en Chile según tabla 820.",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -631,55 +468,31 @@
       },
       "name" : "Códigos para Sexo de Nacimiento de Paciente",
       "description" : "Codigos definidos para el sexo de nacimiento de un paciente en Chile",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
+        "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "Observation/EjNivEduca"
+        "reference" : "ValueSet/VSDiagnosticoCie10"
       },
-      "name" : "Ejemplo de nivel educacional de paciente",
-      "description" : "Ejemplo para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF",
-      "exampleCanonical" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"
+      "name" : "Diagnostico o Condición Mórbida de paciente",
+      "description" : "Definición de diagnóstico o condición mórbida del paciente, definido en CIE-10",
+      "isExample" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "Observation/EjOcupacion"
+        "reference" : "StructureDefinition/DiagnosticoCondHLf"
       },
-      "name" : "Ejemplo de Ocupación del Paciente",
-      "description" : "Ejemplo para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF",
-      "exampleCanonical" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/EjPesoRecienNacido"
-      },
-      "name" : "Ejemplo de Peso Pediátrico",
-      "description" : "Ejemplo para el uso de un recurso de Observación asociado al peso medido al momento de nacer",
-      "exampleCanonical" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/007"
-      },
-      "name" : "Ejemplo de Recurso de Paciente HLF",
-      "description" : "Paciente ficticio según datos requeridos por Hospital que contiene: \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente\n     * La dirección se declara con códigos por extensión.\n     * Se agrega identidad de género y sexo registral\n     * Se declara sexo de nacimiento",
-      "exampleCanonical" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"
+      "name" : "DiagnosticoCondHLf",
+      "description" : "Perfil para Diagnósticos y Condiciones Mórbidas del Paciente",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -691,7 +504,7 @@
       },
       "name" : "Estado Civil",
       "description" : "El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles.",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -703,7 +516,19 @@
       },
       "name" : "Extensión de Pueblos Indígenas u Origenarios",
       "description" : "Se reconoce como pueblos indígenas u originarios en Chile a: mapuche, aymara, Rapanui, lickanantay, quechuas, colla, diaguitas, kawésqar, yagán y chango.",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/unidad-pediatrica"
+      },
+      "name" : "Extensión para indicar si la Unidad Clinica HLF es pediatrica",
+      "description" : "Extensión que contiene un booleano que indica si la Unidad Clinica HLF es pediatrica",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -715,7 +540,7 @@
       },
       "name" : "Extensión que define Religion o Culto",
       "description" : "Información sobre la Religión o Credo declarada por el paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -726,8 +551,8 @@
         "reference" : "StructureDefinition/IdentidadGenero"
       },
       "name" : "Identidad de Género",
-      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local ",
-      "exampleBoolean" : false
+      "description" : "Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -739,7 +564,55 @@
       },
       "name" : "Identidad de Género",
       "description" : "Códigos para Identidad de Género DEIS",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/is-pediatrica"
+      },
+      "name" : "is-pediatrica",
+      "description" : "Retorna las Unidades Clinicas HLF que son pediatricas",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/motivo-solicitud-hospitalizacion"
+      },
+      "name" : "Motivo Solicitud Hospitalización",
+      "description" : "Extensión para motivo de solicitud de hospitalización",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSMotivoSolicitudHosp"
+      },
+      "name" : "Motivo Solicitud Hospitalización",
+      "description" : "ValueSet para el motivo de solicitud de hospitalización",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSMotivoSolicitudHosp"
+      },
+      "name" : "Motivo Solicitud Hospitalización",
+      "description" : "Códigos para el motivo de solicitud de hospitalización",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -751,7 +624,7 @@
       },
       "name" : "Nivel Educacional",
       "description" : "Perfil de observaciones asociado al nivel educacional del paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -763,7 +636,7 @@
       },
       "name" : "Nivel Instrucción",
       "description" : "El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -775,7 +648,7 @@
       },
       "name" : "Nombre Social de Paciente",
       "description" : "Esta extensión permite agregar un nombre social al paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -787,7 +660,7 @@
       },
       "name" : "Ocupaciones Detalladas",
       "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -799,7 +672,7 @@
       },
       "name" : "Ocupaciones Detalladas",
       "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -811,7 +684,7 @@
       },
       "name" : "Ocupaciones Paciente",
       "description" : "Código asociados a la Ocupación del paciente",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -823,7 +696,7 @@
       },
       "name" : "PacienteHLF",
       "description" : "Perfil de Paciente definido por HLF",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -835,7 +708,79 @@
       },
       "name" : "Peso medido al momento de nacer",
       "description" : "Perfil de observaciones de recién nacidos",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSPrecaucionesHospitalizacion"
+      },
+      "name" : "Precauciones Hospitalización",
+      "description" : "ValueSet para el tipo de precauciones de hospitalización que se deben tomar para un paciente",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSPrecaucionesHospitalizacion"
+      },
+      "name" : "Precauciones Hospitalización",
+      "description" : "Opciones del tipo de precauciones de hospitalización que se deben tomar para un paciente",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/precauciones-solicitud-hospitalizacion"
+      },
+      "name" : "Precauciones Solicitud Hospitalización",
+      "description" : "Extensión para motivo de solicitud de hospitalización",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Prevision"
+      },
+      "name" : "Prevision",
+      "description" : "Perfil para la determinación de previsiones en Chile",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSPrevision"
+      },
+      "name" : "Prevision del Paciente",
+      "description" : "Tipos de previsión declaradas en Chile",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSPrevision"
+      },
+      "name" : "Prevision del Paciente",
+      "description" : "Tipos de previsión declaradas en Chile",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -847,7 +792,7 @@
       },
       "name" : "Pueblo Indígena u Originarioi",
       "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -859,7 +804,19 @@
       },
       "name" : "Pueblo Indígena u Originarioi",
       "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/registro-atencion"
+      },
+      "name" : "Registro Atencion",
+      "description" : "Perfil del recurso Encounter para el registro de atenciones de salud",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -871,7 +828,7 @@
       },
       "name" : "Religiones o Cultos",
       "description" : "Códigos de Religiones o Cultos declarados",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -883,7 +840,19 @@
       },
       "name" : "Religiones o Cultos",
       "description" : "Códigos de Religiones o Cultos declarados",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SegundoApellido"
+      },
+      "name" : "Segundo Apellido",
+      "description" : "Segundo Apellido",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -895,7 +864,7 @@
       },
       "name" : "Sexo biológico al nacer",
       "description" : "Extensión de Sexdo biológico al nacer para Chile",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -907,7 +876,31 @@
       },
       "name" : "Sexo Registral",
       "description" : "Extensión para dato es de del sexo registrado oficialmente por el/la paciente",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/solicitud-hospitalizacion"
+      },
+      "name" : "Solicitud Hospitalización",
+      "description" : "Perfil del recurso ServiceRequest para realizar una solicitud de hospitalización en HLF",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSTiposDocumentos"
+      },
+      "name" : "Tipos de Documentos",
+      "description" : "Tipos de Documentos para identificación según tabla HL7 V3 y CodeSystem local.",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -919,7 +912,7 @@
       },
       "name" : "Ultimo Curso Aprobado",
       "description" : "Categoría del último curso aprobado",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -931,7 +924,7 @@
       },
       "name" : "Ultimo Curso Aprobado",
       "description" : "Categoría del último curso aprobado",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -943,7 +936,7 @@
       },
       "name" : "Ultimo nivel aprobado",
       "description" : "Código del último nivel aprobado",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -955,7 +948,7 @@
       },
       "name" : "Ultimo nivel aprobado",
       "description" : "Código del último nivel aprobado",
-      "exampleBoolean" : false
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -967,85 +960,341 @@
       },
       "name" : "Ultimo nivel aprobado",
       "description" : "Código del último nivel aprobado",
-      "exampleBoolean" : false
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/unidad-clinica-hlf"
+      },
+      "name" : "Unidad Clinica HLF",
+      "description" : "Perfil del recurso HealthcareService que representa a la Unidad Clinica HLF",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/unidad-clinica-origen"
+      },
+      "name" : "Unidad Clínica Origen",
+      "description" : "Extensión para indicar la referencia a la unidad clínica origen de la hospitalización",
+      "isExample" : false
     }],
     "page" : {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-        "valueUrl" : "toc.html"
-      }],
-      "nameUrl" : "toc.html",
+      "sourceUrl" : "toc.html",
+      "name" : "toc.html",
       "title" : "Table of Contents",
       "generation" : "html",
       "page" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "index.html"
-        }],
-        "nameUrl" : "index.html",
+        "sourceUrl" : "index.html",
+        "name" : "index.html",
         "title" : "Home",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "proceso-hospitalizacion.html",
+        "name" : "proceso-hospitalizacion.html",
+        "title" : "Proceso de Hospitalización",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "registro-atencion.html",
+        "name" : "registro-atencion.html",
+        "title" : "Registro de Atención",
+        "generation" : "markdown"
+      },
+      {
+        "sourceUrl" : "solicitud-hospitalizacion.html",
+        "name" : "solicitud-hospitalizacion.html",
+        "title" : "Solicitud de Hospitalización",
         "generation" : "markdown"
       }]
     },
     "parameter" : [{
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/capabilities"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/examples"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/extensions"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/models"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/operations"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/profiles"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/resources"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/vocabulary"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/maps"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/testing"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "input/history"
     },
     {
-      "code" : "path-resource",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-resource"
+      },
       "value" : "fsh-generated/resources"
     },
     {
-      "code" : "path-pages",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
       "value" : "template/config"
     },
     {
-      "code" : "path-pages",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-pages"
+      },
       "value" : "input/images"
     },
     {
-      "code" : "path-tx-cache",
+      "code" : {
+        "system" : "http://hl7.org/fhir/guide-parameter-code",
+        "code" : "path-tx-cache"
+      },
       "value" : "input-cache/txcache"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "copyrightyear"
+      },
+      "value" : "2023+"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "releaselabel"
+      },
+      "value" : "ci-build"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "display-warnings"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "autoload-resources"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "template/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-liquid"
+      },
+      "value" : "input/liquid"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-qa"
+      },
+      "value" : "temp/qa"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-temp"
+      },
+      "value" : "temp/pages"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-output"
+      },
+      "value" : "output"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-suppressed-warnings"
+      },
+      "value" : "input/ignoreWarnings.txt"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "path-history"
+      },
+      "value" : "https://hospitallaflorida.cl/fhir/hlfhosp/history.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-html"
+      },
+      "value" : "template-page.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "template-md"
+      },
+      "value" : "template-page-md.html"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-contact"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-context"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-copyright"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-jurisdiction"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-license"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-publisher"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "apply-version"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "active-tables"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "fmm-definition"
+      },
+      "value" : "http://hl7.org/fhir/versions.html#maturity"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "propagate-status"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "excludelogbinaryformat"
+      },
+      "value" : "true"
+    },
+    {
+      "code" : {
+        "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+        "code" : "tabbed-snapshots"
+      },
+      "value" : "true"
     }]
   }
 }

@@ -1,205 +1,394 @@
 [
   {
+    "id" : "CSCodigoDNI",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI",
+    "version" : "0.3.0",
+    "name" : "CSCodigoDNI"
+  },
+  {
+    "id" : "CSComplejidadCama",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama",
+    "version" : "0.3.0",
+    "name" : "CSComplejidadCama"
+  },
+  {
+    "id" : "CSEspecialidadMedica",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica",
+    "version" : "0.3.0",
+    "name" : "CSEspecialidadMedica"
+  },
+  {
     "id" : "CSEstadoCivil",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSEstadoCivil"
   },
   {
     "id" : "CSIdentidadGenero",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSIdentidadGenero"
+  },
+  {
+    "id" : "CSMotivoSolicitudHosp",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp",
+    "version" : "0.3.0",
+    "name" : "CSMotivoSolicitudHosp"
   },
   {
     "id" : "CSOcupaciones",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSOcupaciones"
   },
   {
     "id" : "CSOcupacionesDet",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSOcupacionesDet"
+  },
+  {
+    "id" : "CSPrecaucionesHospitalizacion",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion",
+    "version" : "0.3.0",
+    "name" : "CSPrecaucionesHospitalizacion"
+  },
+  {
+    "id" : "CSPrevision",
+    "type" : "CodeSystem",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision",
+    "version" : "0.3.0",
+    "name" : "CSPrevision"
   },
   {
     "id" : "CSPuebloIndigena",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSPuebloIndigena"
   },
   {
     "id" : "CSReligion",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSReligion"
   },
   {
     "id" : "CSSexoBiologico",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSSexoBiologico"
   },
   {
     "id" : "CSUCursoAprobado",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSUCursoAprobado"
   },
   {
     "id" : "CSUNivelAprob",
     "type" : "CodeSystem",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "CSUNivelAprob"
   },
   {
     "id" : "fhir.hlf.hosp",
     "type" : "ImplementationGuide",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "HlfHosp"
+  },
+  {
+    "id" : "complejidad",
+    "type" : "SearchParameter",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad",
+    "version" : "0.3.0",
+    "name" : "complejidad"
+  },
+  {
+    "id" : "is-pediatrica",
+    "type" : "SearchParameter",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/is-pediatrica",
+    "version" : "0.3.0",
+    "name" : "is-pediatrica"
+  },
+  {
+    "id" : "DiagnosticoCondHLf",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf",
+    "version" : "0.3.0",
+    "name" : "DiagnosticoCondHLf"
   },
   {
     "id" : "Educacion",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "Educacion"
   },
   {
     "id" : "IdentidadGenero",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "IdentidadGenero"
   },
   {
     "id" : "NivelInstrucion",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "NivelIntruccion"
   },
   {
     "id" : "NombreSocial",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "NombreSocial"
   },
   {
     "id" : "ObsPesoPediatrico",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "ObsPesoPediatrico"
   },
   {
     "id" : "Ocupaciones",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "Ocupaciones"
   },
   {
     "id" : "PacienteHLF",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "PacienteHLF"
+  },
+  {
+    "id" : "Prevision",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision",
+    "version" : "0.3.0",
+    "name" : "Prevision"
   },
   {
     "id" : "PueblosIndigenas",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "PueblosIndigenas"
   },
   {
     "id" : "ReligionesCultos",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "ReligionesCultos"
+  },
+  {
+    "id" : "SegundoApellido",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SegundoApellido",
+    "version" : "0.3.0",
+    "name" : "SegundoApellido"
   },
   {
     "id" : "SexoNacimiento820",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "SexoNacimiento820"
   },
   {
     "id" : "SexoReg",
     "type" : "StructureDefinition",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "SexoReg"
+  },
+  {
+    "id" : "complejidad-cama",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama",
+    "version" : "0.3.0",
+    "name" : "ComplejidadCama"
+  },
+  {
+    "id" : "complejidad-unidad",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad",
+    "version" : "0.3.0",
+    "name" : "ComplejidadUnidad"
+  },
+  {
+    "id" : "motivo-solicitud-hospitalizacion",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion",
+    "version" : "0.3.0",
+    "name" : "MotivoSolicitudHospitalizacion"
+  },
+  {
+    "id" : "precauciones-solicitud-hospitalizacion",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion",
+    "version" : "0.3.0",
+    "name" : "PrecaucionesSolicitudHospitalizacion"
+  },
+  {
+    "id" : "registro-atencion",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion",
+    "version" : "0.3.0",
+    "name" : "RegistroAtencion"
+  },
+  {
+    "id" : "solicitud-hospitalizacion",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion",
+    "version" : "0.3.0",
+    "name" : "SolicitudHospitalizacion"
+  },
+  {
+    "id" : "unidad-clinica-hlf",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf",
+    "version" : "0.3.0",
+    "name" : "UnidadClinicaHLF"
+  },
+  {
+    "id" : "unidad-clinica-origen",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen",
+    "version" : "0.3.0",
+    "name" : "UnidadClinicaOrigen"
+  },
+  {
+    "id" : "unidad-pediatrica",
+    "type" : "StructureDefinition",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica",
+    "version" : "0.3.0",
+    "name" : "UnidadPediatrica"
+  },
+  {
+    "id" : "VSComplejidadCama",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSComplejidadCama",
+    "version" : "0.3.0",
+    "name" : "VSComplejidadCama"
+  },
+  {
+    "id" : "VSDiagnosticoCie10",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDiagnosticoCie10",
+    "version" : "0.3.0",
+    "name" : "VSDiagnosticoCie10"
+  },
+  {
+    "id" : "VSEspecialidadMedica",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica",
+    "version" : "0.3.0",
+    "name" : "VSEspecialidadMedica"
   },
   {
     "id" : "VSIdentidadGenero",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSIdentidadGenero"
+  },
+  {
+    "id" : "VSMotivoSolicitudHosp",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSMotivoSolicitudHosp",
+    "version" : "0.3.0",
+    "name" : "VSMotivoSolicitudHosp"
   },
   {
     "id" : "VSOcupaciones",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSOcupaciones"
   },
   {
     "id" : "VSOcupacionesDet",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSOcupacionesDet"
+  },
+  {
+    "id" : "VSPrecaucionesHospitalizacion",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPrecaucionesHospitalizacion",
+    "version" : "0.3.0",
+    "name" : "VSPrecaucionesHospitalizacion"
+  },
+  {
+    "id" : "VSPrevision",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPrevision",
+    "version" : "0.3.0",
+    "name" : "VSPrevision"
   },
   {
     "id" : "VSPuebloIndigena",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSPuebloIndigena"
   },
   {
     "id" : "VSReligion",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSReligion"
   },
   {
     "id" : "VSSexoBiologico",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSSexoBiologico"
+  },
+  {
+    "id" : "VSTiposDocumentos",
+    "type" : "ValueSet",
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSTiposDocumentos",
+    "version" : "0.3.0",
+    "name" : "VSTiposDocumentos"
   },
   {
     "id" : "VSUCursoAprobado",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSUCursoAprobado"
   },
   {
     "id" : "VSUNivelAprob",
     "type" : "ValueSet",
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob",
-    "version" : "0.1.0",
+    "version" : "0.3.0",
     "name" : "VSUNivelAprob"
   }
 ]

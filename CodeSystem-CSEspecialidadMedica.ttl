@@ -1,0 +1,259 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSEspecialidadMedica"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>abstract</td><td>boolean</td><td>Indica si el concepto es abstracto o no</td></tr></table><p><b>Concepts</b></p><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>abstract</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">adulto<a name=\"CSEspecialidadMedica-adulto\"> </a></td><td>Adulto</td><td>Especialidad médica para mayores de 18 años</td><td>true</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  101<a name=\"CSEspecialidadMedica-101\"> </a></td><td>Anestesiología Adulto</td><td>Especialidad médica de anestesiología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  102<a name=\"CSEspecialidadMedica-102\"> </a></td><td>Broncopulmonar Adulto</td><td>Especialidad médica de broncopulmonar para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  103<a name=\"CSEspecialidadMedica-103\"> </a></td><td>Cardiología Adulto</td><td>Especialidad médica de cardiología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  104<a name=\"CSEspecialidadMedica-104\"> </a></td><td>Cirugía Abdominal Adulto</td><td>Especialidad médica de cirugía abdominal para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  105<a name=\"CSEspecialidadMedica-105\"> </a></td><td>Cirugía Adulto</td><td>Especialidad médica de cirugía para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  106<a name=\"CSEspecialidadMedica-106\"> </a></td><td>Cirugía Plástica Adulto</td><td>Especialidad médica de cirugía plástica para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  107<a name=\"CSEspecialidadMedica-107\"> </a></td><td>Cirugía Proctológica</td><td>Especialidad médica de cirugía proctológica</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  108<a name=\"CSEspecialidadMedica-108\"> </a></td><td>Cirugía Tórax Adulto</td><td>Especialidad médica de cirugía de tórax para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  109<a name=\"CSEspecialidadMedica-109\"> </a></td><td>Cirugía Vascular Periférica</td><td>Especialidad médica de cirugía vascular periférica para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  110<a name=\"CSEspecialidadMedica-110\"> </a></td><td>Dermatología Adulto</td><td>Especialidad médica de dermatología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  111<a name=\"CSEspecialidadMedica-111\"> </a></td><td>Diabetes</td><td>Especialidad médica de diabetes</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  112<a name=\"CSEspecialidadMedica-112\"> </a></td><td>Endocrinología Adulto</td><td>Especialidad médica de endocrinología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  113<a name=\"CSEspecialidadMedica-113\"> </a></td><td>Gastroenterología Adulto</td><td>Especialidad médica de gastroenterología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  114<a name=\"CSEspecialidadMedica-114\"> </a></td><td>Geriatría</td><td>Especialidad médica de geriatría</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  115<a name=\"CSEspecialidadMedica-115\"> </a></td><td>Ginecología Adulto</td><td>Especialidad médica de ginecología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  116<a name=\"CSEspecialidadMedica-116\"> </a></td><td>Hematología Adulto</td><td>Especialidad médica de hematología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  117<a name=\"CSEspecialidadMedica-117\"> </a></td><td>Infectología Adulto</td><td>Especialidad médica de infectología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  118<a name=\"CSEspecialidadMedica-118\"> </a></td><td>Inmunología Adulto</td><td>Especialidad médica de inmunología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  119<a name=\"CSEspecialidadMedica-119\"> </a></td><td>Medicina Física y Rehabilitación Adulto</td><td>Especialidad médica de medicina física y rehabilitación para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  120<a name=\"CSEspecialidadMedica-120\"> </a></td><td>Medicina Familiar</td><td>Especialidad médica de medicina familiar</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  121<a name=\"CSEspecialidadMedica-121\"> </a></td><td>Medicina Interna</td><td>Especialidad médica de medicina interna</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  122<a name=\"CSEspecialidadMedica-122\"> </a></td><td>Nefrología Adulto</td><td>Especialidad médica de nefrología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  123<a name=\"CSEspecialidadMedica-123\"> </a></td><td>Neurología Adulto</td><td>Especialidad médica de neurología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  124<a name=\"CSEspecialidadMedica-124\"> </a></td><td>Nutriólogo</td><td>Especialidad médica de nutriólogo</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  125<a name=\"CSEspecialidadMedica-125\"> </a></td><td>Oftalmología</td><td>Especialidad médica de oftalmología</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  126<a name=\"CSEspecialidadMedica-126\"> </a></td><td>Otorrinolaringología</td><td>Especialidad médica de otorrinolaringología</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  127<a name=\"CSEspecialidadMedica-127\"> </a></td><td>Psiquiatría Adulto</td><td>Especialidad médica de psiquiatría para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  128<a name=\"CSEspecialidadMedica-128\"> </a></td><td>Reumatología</td><td>Especialidad médica de reumatología</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  129<a name=\"CSEspecialidadMedica-129\"> </a></td><td>Traumatología Adulto</td><td>Especialidad médica de traumatología para adultos</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  130<a name=\"CSEspecialidadMedica-130\"> </a></td><td>Urología Adulto</td><td>Especialidad médica de urología para adultos</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">infantil<a name=\"CSEspecialidadMedica-infantil\"> </a></td><td>Infantil</td><td>Especialidad médica para menores de 18 años</td><td>true</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  201<a name=\"CSEspecialidadMedica-201\"> </a></td><td>Broncopulmonar Infantil</td><td>Especialidad médica de broncopulmonar para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  202<a name=\"CSEspecialidadMedica-202\"> </a></td><td>Cardiología Infantil</td><td>Especialidad médica de cardiología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  203<a name=\"CSEspecialidadMedica-203\"> </a></td><td>Cirugía Infantil</td><td>Especialidad médica de cirugía para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  204<a name=\"CSEspecialidadMedica-204\"> </a></td><td>Cirugía Plástica Infantil</td><td>Especialidad médica de cirugía plástica para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  205<a name=\"CSEspecialidadMedica-205\"> </a></td><td>Endocrinología Infantil</td><td>Especialidad médica de endocrinología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  206<a name=\"CSEspecialidadMedica-206\"> </a></td><td>Gastroenterología Infantil</td><td>Especialidad médica de gastroenterología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  207<a name=\"CSEspecialidadMedica-207\"> </a></td><td>Ginecología Infantil</td><td>Especialidad médica de ginecología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  208<a name=\"CSEspecialidadMedica-208\"> </a></td><td>Hematología Infantil</td><td>Especialidad médica de hematología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  209<a name=\"CSEspecialidadMedica-209\"> </a></td><td>Infectología Infantil</td><td>Especialidad médica de infectología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  210<a name=\"CSEspecialidadMedica-210\"> </a></td><td>Nefrología Infantil</td><td>Especialidad médica de nefrología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  211<a name=\"CSEspecialidadMedica-211\"> </a></td><td>Neonatología</td><td>Especialidad médica de neonatología</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  212<a name=\"CSEspecialidadMedica-212\"> </a></td><td>Neurología Infantil</td><td>Especialidad médica de neurología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  213<a name=\"CSEspecialidadMedica-213\"> </a></td><td>Nutriólogo pediátrico</td><td>Especialidad médica de nutriólogo para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  214<a name=\"CSEspecialidadMedica-214\"> </a></td><td>Pediatría</td><td>Especialidad médica de pediatría</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  215<a name=\"CSEspecialidadMedica-215\"> </a></td><td>Psiquiatría Infantil</td><td>Especialidad médica de psiquiatría para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  216<a name=\"CSEspecialidadMedica-216\"> </a></td><td>Traumatología Infantil</td><td>Especialidad médica de traumatología para menores de 18 años</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  217<a name=\"CSEspecialidadMedica-217\"> </a></td><td>Urología Infantil</td><td>Especialidad médica de urología para menores de 18 años</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:name [ fhir:v "CSEspecialidadMedica"] ; # 
+  fhir:title [ fhir:v "Códigos de Especialidad Médica"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Códigos de Especialidad Médica utilizados por HLF"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CL" ] ;
+       fhir:display [ fhir:v "Chile" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:hierarchyMeaning [ fhir:v "classified-with"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "49"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "abstract" ] ;
+     fhir:description [ fhir:v "Indica si el concepto es abstracto o no" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "adulto" ] ;
+     fhir:display [ fhir:v "Adulto" ] ;
+     fhir:definition [ fhir:v "Especialidad médica para mayores de 18 años" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "abstract" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "101" ] ;
+       fhir:display [ fhir:v "Anestesiología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de anestesiología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "102" ] ;
+       fhir:display [ fhir:v "Broncopulmonar Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de broncopulmonar para adultos" ]
+     ] [
+       fhir:code [ fhir:v "103" ] ;
+       fhir:display [ fhir:v "Cardiología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cardiología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "104" ] ;
+       fhir:display [ fhir:v "Cirugía Abdominal Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía abdominal para adultos" ]
+     ] [
+       fhir:code [ fhir:v "105" ] ;
+       fhir:display [ fhir:v "Cirugía Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía para adultos" ]
+     ] [
+       fhir:code [ fhir:v "106" ] ;
+       fhir:display [ fhir:v "Cirugía Plástica Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía plástica para adultos" ]
+     ] [
+       fhir:code [ fhir:v "107" ] ;
+       fhir:display [ fhir:v "Cirugía Proctológica" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía proctológica" ]
+     ] [
+       fhir:code [ fhir:v "108" ] ;
+       fhir:display [ fhir:v "Cirugía Tórax Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía de tórax para adultos" ]
+     ] [
+       fhir:code [ fhir:v "109" ] ;
+       fhir:display [ fhir:v "Cirugía Vascular Periférica" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía vascular periférica para adultos" ]
+     ] [
+       fhir:code [ fhir:v "110" ] ;
+       fhir:display [ fhir:v "Dermatología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de dermatología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "111" ] ;
+       fhir:display [ fhir:v "Diabetes" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de diabetes" ]
+     ] [
+       fhir:code [ fhir:v "112" ] ;
+       fhir:display [ fhir:v "Endocrinología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de endocrinología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "113" ] ;
+       fhir:display [ fhir:v "Gastroenterología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de gastroenterología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "114" ] ;
+       fhir:display [ fhir:v "Geriatría" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de geriatría" ]
+     ] [
+       fhir:code [ fhir:v "115" ] ;
+       fhir:display [ fhir:v "Ginecología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de ginecología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "116" ] ;
+       fhir:display [ fhir:v "Hematología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de hematología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "117" ] ;
+       fhir:display [ fhir:v "Infectología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de infectología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "118" ] ;
+       fhir:display [ fhir:v "Inmunología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de inmunología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "119" ] ;
+       fhir:display [ fhir:v "Medicina Física y Rehabilitación Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de medicina física y rehabilitación para adultos" ]
+     ] [
+       fhir:code [ fhir:v "120" ] ;
+       fhir:display [ fhir:v "Medicina Familiar" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de medicina familiar" ]
+     ] [
+       fhir:code [ fhir:v "121" ] ;
+       fhir:display [ fhir:v "Medicina Interna" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de medicina interna" ]
+     ] [
+       fhir:code [ fhir:v "122" ] ;
+       fhir:display [ fhir:v "Nefrología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de nefrología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "123" ] ;
+       fhir:display [ fhir:v "Neurología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de neurología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "124" ] ;
+       fhir:display [ fhir:v "Nutriólogo" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de nutriólogo" ]
+     ] [
+       fhir:code [ fhir:v "125" ] ;
+       fhir:display [ fhir:v "Oftalmología" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de oftalmología" ]
+     ] [
+       fhir:code [ fhir:v "126" ] ;
+       fhir:display [ fhir:v "Otorrinolaringología" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de otorrinolaringología" ]
+     ] [
+       fhir:code [ fhir:v "127" ] ;
+       fhir:display [ fhir:v "Psiquiatría Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de psiquiatría para adultos" ]
+     ] [
+       fhir:code [ fhir:v "128" ] ;
+       fhir:display [ fhir:v "Reumatología" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de reumatología" ]
+     ] [
+       fhir:code [ fhir:v "129" ] ;
+       fhir:display [ fhir:v "Traumatología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de traumatología para adultos" ]
+     ] [
+       fhir:code [ fhir:v "130" ] ;
+       fhir:display [ fhir:v "Urología Adulto" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de urología para adultos" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "infantil" ] ;
+     fhir:display [ fhir:v "Infantil" ] ;
+     fhir:definition [ fhir:v "Especialidad médica para menores de 18 años" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "abstract" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "201" ] ;
+       fhir:display [ fhir:v "Broncopulmonar Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de broncopulmonar para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "202" ] ;
+       fhir:display [ fhir:v "Cardiología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cardiología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "203" ] ;
+       fhir:display [ fhir:v "Cirugía Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "204" ] ;
+       fhir:display [ fhir:v "Cirugía Plástica Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de cirugía plástica para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "205" ] ;
+       fhir:display [ fhir:v "Endocrinología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de endocrinología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "206" ] ;
+       fhir:display [ fhir:v "Gastroenterología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de gastroenterología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "207" ] ;
+       fhir:display [ fhir:v "Ginecología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de ginecología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "208" ] ;
+       fhir:display [ fhir:v "Hematología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de hematología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "209" ] ;
+       fhir:display [ fhir:v "Infectología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de infectología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "210" ] ;
+       fhir:display [ fhir:v "Nefrología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de nefrología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "211" ] ;
+       fhir:display [ fhir:v "Neonatología" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de neonatología" ]
+     ] [
+       fhir:code [ fhir:v "212" ] ;
+       fhir:display [ fhir:v "Neurología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de neurología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "213" ] ;
+       fhir:display [ fhir:v "Nutriólogo pediátrico" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de nutriólogo para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "214" ] ;
+       fhir:display [ fhir:v "Pediatría" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de pediatría" ]
+     ] [
+       fhir:code [ fhir:v "215" ] ;
+       fhir:display [ fhir:v "Psiquiatría Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de psiquiatría para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "216" ] ;
+       fhir:display [ fhir:v "Traumatología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de traumatología para menores de 18 años" ]
+     ] [
+       fhir:code [ fhir:v "217" ] ;
+       fhir:display [ fhir:v "Urología Infantil" ] ;
+       fhir:definition [ fhir:v "Especialidad médica de urología para menores de 18 años" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

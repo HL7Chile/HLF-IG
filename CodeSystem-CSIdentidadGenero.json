@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSIdentidadGenero-1\"> </a></td><td>Masculino</td><td>La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género masculino. También se le conoce como cisgénero masculino</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSIdentidadGenero-2\"> </a></td><td>Femenina</td><td>La persona de sexo “ujer asignado al nacer, que se identifica a sí misma como de género femenina. También se le conoce como cisgénero femenina</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSIdentidadGenero-4\"> </a></td><td>Transgénero Masculino</td><td>La persona de sexo Mujer asignado al nacer, que se identifica a sí misma como de género masculino.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSIdentidadGenero-5\"> </a></td><td>Transgénero Femenina</td><td>La persona de sexo Hombre asignado al nacer, que se identifica a sí misma como de género femenina.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSIdentidadGenero-6\"> </a></td><td>No binarie</td><td>La persona que no se identifica con ninguno de los géneros convencionales (femenina o masculino).</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSIdentidadGenero-7\"> </a></td><td>Otra</td><td>Otra identidad de género no descrita previamente.</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSIdentidadGenero-8\"> </a></td><td>No Revelado</td><td>La persona no desea revelar su identidad de género</td></tr></table></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero",
-  "version" : "0.1.0",
+  "version" : "0.3.0",
   "name" : "CSIdentidadGenero",
   "title" : "Códigos para Identidad de Género",
   "status" : "active",
@@ -17,7 +17,7 @@
     "name" : "Hospital Eloisa Diaz de la Florida",
     "telecom" : [{
       "system" : "url",
-      "value" : "www.hospitallaflorida.cl"
+      "value" : "https://www.hospitallaflorida.cl/"
     },
     {
       "system" : "email",
