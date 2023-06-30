@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSSexoBiologico.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico</code></a></li></ul></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="VSSexoBiologico"/>
   <title value="Códigos para sexo biológico en Chile"/>
   <status value="active"/>

@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDiagnosticoCie10",
-  "version" : "0.3.0",
+  "version" : "0.4.0",
   "name" : "VSDiagnosticoCie10",
   "title" : "Diagnostico o Condición Mórbida de paciente",
   "status" : "active",

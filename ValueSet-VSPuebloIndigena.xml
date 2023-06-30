@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSPuebloIndigena.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena</code></a></li></ul></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="VSPuebloIndigena"/>
   <title value="Pueblo Indígena u Originarioi"/>
   <status value="active"/>

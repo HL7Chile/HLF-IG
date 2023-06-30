@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">baja<a name="CSComplejidadCama-baja"> </a></td><td>Baja</td><td>Camas de baja complejidad</td></tr><tr><td style="white-space:nowrap">media<a name="CSComplejidadCama-media"> </a></td><td>Media</td><td>Camas de media complejidad</td></tr><tr><td style="white-space:nowrap">intermedia<a name="CSComplejidadCama-intermedia"> </a></td><td>Intermedia</td><td>Camas de intermedia complejidad</td></tr><tr><td style="white-space:nowrap">alta<a name="CSComplejidadCama-alta"> </a></td><td>Alta</td><td>Camas de alta complejidad</td></tr></table></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="CSComplejidadCama"/>
   <title value="Complejidad cama"/>
   <status value="active"/>

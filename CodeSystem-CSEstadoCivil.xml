@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSEstadoCivil-1"> </a></td><td>Soltero (a)</td></tr><tr><td style="white-space:nowrap">2<a name="CSEstadoCivil-2"> </a></td><td>Casado (a)</td></tr><tr><td style="white-space:nowrap">3<a name="CSEstadoCivil-3"> </a></td><td>Viudo (a)</td></tr><tr><td style="white-space:nowrap">4<a name="CSEstadoCivil-4"> </a></td><td>Divorciado (a)</td></tr><tr><td style="white-space:nowrap">5<a name="CSEstadoCivil-5"> </a></td><td>Separado (a) Judicionalmente</td></tr><tr><td style="white-space:nowrap">6<a name="CSEstadoCivil-6"> </a></td><td>Conviviente Civil</td></tr><tr><td style="white-space:nowrap">99<a name="CSEstadoCivil-99"> </a></td><td>Desconocido</td></tr></table></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="CSEstadoCivil"/>
   <title value="Estado Civil"/>
   <status value="active"/>

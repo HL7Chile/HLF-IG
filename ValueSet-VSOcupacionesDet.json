@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupacionesDet.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet</code></a></li></ul></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
-  "version" : "0.3.0",
+  "version" : "0.4.0",
   "name" : "VSOcupacionesDet",
   "title" : "Ocupaciones Detalladas",
   "status" : "active",

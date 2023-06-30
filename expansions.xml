@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="be6c32e1-f9b3-4ee5-9dbf-bd123af2f180"/>
+  <id value="8497f859-103d-4384-a9f0-0c800aae0d5a"/>
   <meta>
-    <lastUpdated value="2023-06-30T15:47:06.016-04:00"/>
+    <lastUpdated value="2023-06-30T18:27:12.784-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSComplejidadCama.html">Complejidad cama v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSComplejidadCama.html">Complejidad cama v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -92,7 +92,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSComplejidadCama"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSComplejidadCama"/>
         <title value="Complejidad Cama"/>
         <status value="active"/>
@@ -106,8 +106,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:06426e80-054d-43a3-94b2-3a7c438bfe01"/>
-          <timestamp value="2023-06-30T15:48:35-04:00"/>
+          <identifier value="urn:uuid:8e7ff6fe-55e0-4b46-8426-f21a9d62a846"/>
+          <timestamp value="2023-06-30T18:28:41-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -115,7 +115,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidadCama"/>
@@ -7166,7 +7166,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDiagnosticoCie10"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSDiagnosticoCie10"/>
         <title value="Diagnostico o Condición Mórbida de paciente"/>
         <status value="active"/>
@@ -7183,8 +7183,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:744e4bdb-6f44-44d2-97fc-a915a4cad72d"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:ec814801-bd7a-452f-b80b-efb2d8b58f13"/>
+          <timestamp value="2023-06-30T18:28:41-04:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -12211,7 +12211,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 49 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSEspecialidadMedica.html">Códigos de Especialidad Médica v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSEspecialidadMedica.html">Códigos de Especialidad Médica v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -13019,7 +13019,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSEspecialidadMedica"/>
         <title value="Codigos de especialidades médicas"/>
         <status value="active"/>
@@ -13033,8 +13033,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5d87c914-b723-46b6-85e9-0e6ac6f00e9d"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:1cb36952-438e-4bbf-ab89-58b8c3c3b8e3"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="49"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13042,7 +13042,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica"/>
@@ -13302,7 +13302,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSIdentidadGenero.html">Códigos para Identidad de Género v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSIdentidadGenero.html">Códigos para Identidad de Género v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -13421,7 +13421,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSIdentidadGenero"/>
         <title value="Identidad de Género"/>
         <status value="active"/>
@@ -13435,8 +13435,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a50b45de-6c07-4fb7-b202-a5ec8e0beb18"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:4ec5d941-892e-40e4-8921-8a75b18be269"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13444,7 +13444,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero"/>
@@ -13494,7 +13494,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSMotivoSolicitudHosp.html">Motivo Solicitud Hospitalización v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSMotivoSolicitudHosp.html">Motivo Solicitud Hospitalización v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -13585,7 +13585,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSMotivoSolicitudHosp"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSMotivoSolicitudHosp"/>
         <title value="Motivo Solicitud Hospitalización"/>
         <status value="active"/>
@@ -13599,8 +13599,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d46aaa61-4a96-4367-9b5c-d14b584c1ad4"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:6bcf8d65-8e43-40a4-aba3-87e4ad610310"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13608,7 +13608,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp"/>
@@ -13648,7 +13648,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 11 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSOcupaciones.html">Ocupaciones Paciente v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSOcupaciones.html">Ocupaciones Paciente v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -13754,7 +13754,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupaciones"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSOcupaciones"/>
         <title value="Ultimo nivel aprobado"/>
         <status value="active"/>
@@ -13768,8 +13768,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a7b30cf9-9866-49cf-84d9-b2954375bf3a"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:6acb90bb-2fbb-4dc5-83ba-ffbbf615b519"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13777,7 +13777,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupaciones"/>
@@ -13847,7 +13847,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 444 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSOcupacionesDet.html">Ocupaciones Detalladas v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSOcupacionesDet.html">Ocupaciones Detalladas v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -17417,7 +17417,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSOcupacionesDet"/>
         <title value="Ocupaciones Detalladas"/>
         <status value="active"/>
@@ -17431,8 +17431,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:66dd7e7e-a966-4f65-9950-b79127d64860"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:4d850c54-dcf8-4413-a1bd-af033d6848b0"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="444"/>
           <parameter>
             <name value="excludeNested"/>
@@ -17440,7 +17440,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet"/>
@@ -19675,7 +19675,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 5 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSPrecaucionesHospitalizacion.html">Precauciones Hospitalización v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSPrecaucionesHospitalizacion.html">Precauciones Hospitalización v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -19733,7 +19733,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPrecaucionesHospitalizacion"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSPrecaucionesHospitalizacion"/>
         <title value="Precauciones Hospitalización"/>
         <status value="active"/>
@@ -19747,8 +19747,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4b1f845-9ffe-4a4e-9cba-0a199a752bba"/>
-          <timestamp value="2023-06-30T15:48:36-04:00"/>
+          <identifier value="urn:uuid:10c55269-5040-4881-801d-ecda4fbbc86e"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19756,7 +19756,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"/>
@@ -19796,7 +19796,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSPrevision.html">Prevision del Paciente v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSPrevision.html">Prevision del Paciente v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -19870,7 +19870,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPrevision"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSPrevision"/>
         <title value="Prevision del Paciente"/>
         <status value="active"/>
@@ -19884,8 +19884,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9446abbd-8ae3-4751-ba96-2637e795396d"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:4cb5d364-9cd9-477b-853b-1f6841e1d670"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19893,7 +19893,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision"/>
@@ -19943,7 +19943,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 11 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSPuebloIndigena.html">Pueblo Indígena u Originarioi v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSPuebloIndigena.html">Pueblo Indígena u Originarioi v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -20049,7 +20049,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSPuebloIndigena"/>
         <title value="Pueblo Indígena u Originarioi"/>
         <status value="active"/>
@@ -20063,8 +20063,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:89875117-67fa-473b-9343-0bb1ef2df81c"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:4c82bbe3-6cc8-4dd7-a127-5d39c515fddf"/>
+          <timestamp value="2023-06-30T18:28:42-04:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20072,7 +20072,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena"/>
@@ -20142,7 +20142,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 10 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSReligion.html">Religiones o Cultos v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSReligion.html">Religiones o Cultos v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -20240,7 +20240,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSReligion"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSReligion"/>
         <title value="Religiones o Cultos"/>
         <status value="active"/>
@@ -20254,8 +20254,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:612000f6-96d7-4e9e-8e21-a50dbbb05097"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:f5882cab-f2f0-49ed-86e6-4c2c59e937f0"/>
+          <timestamp value="2023-06-30T18:28:43-04:00"/>
           <total value="10"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20263,7 +20263,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion"/>
@@ -20328,7 +20328,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSSexoBiologico.html">Códigos para Sexo de Nacimiento de Paciente v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSSexoBiologico.html">Códigos para Sexo de Nacimiento de Paciente v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -20405,7 +20405,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSSexoBiologico"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSSexoBiologico"/>
         <title value="Códigos para sexo biológico en Chile"/>
         <status value="active"/>
@@ -20419,8 +20419,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0ae445dc-cc94-4abb-a98f-329fd742509b"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:32559a80-89bf-421c-9d9a-6d58adaf6429"/>
+          <timestamp value="2023-06-30T18:28:43-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20428,7 +20428,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSSexoBiologico"/>
@@ -20466,7 +20466,7 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="CodeSystem-CSCodigoDNI.html">Códigos de Documentos DNI para LATAM y el Caribe v0.3.0 (CodeSystem)</a>
+                  <a href="CodeSystem-CSCodigoDNI.html">Códigos de Documentos DNI para LATAM y el Caribe v0.4.0 (CodeSystem)</a>
                 </li>
                 <li>
                   <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html">identifierType v2.9.0 (CodeSystem)</a>
@@ -22773,7 +22773,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSTiposDocumentos"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSTiposDocumentos"/>
         <title value="Tipos de Documentos"/>
         <status value="active"/>
@@ -22787,8 +22787,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:398bda1a-948a-4504-8b44-640503c7709d"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:93d10750-9a42-4f98-a013-596291a53b2e"/>
+          <timestamp value="2023-06-30T18:28:43-04:00"/>
           <total value="170"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22796,7 +22796,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI|0.4.0"/>
           </parameter>
           <parameter>
             <name value="version"/>
@@ -23665,7 +23665,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 9 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSUCursoAprobado.html">Ultimo Curso Aprobado v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSUCursoAprobado.html">Ultimo Curso Aprobado v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -23755,7 +23755,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSUCursoAprobado"/>
         <title value="Ultimo Curso Aprobado"/>
         <status value="active"/>
@@ -23769,8 +23769,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:49b8dcd2-d1bc-4339-aad9-22c15c715b64"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:687bcf60-7e76-47f3-8ce5-592693cedb9d"/>
+          <timestamp value="2023-06-30T18:28:43-04:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23778,7 +23778,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"/>
@@ -23838,7 +23838,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 8 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-CSUNivelAprob.html">Ultimo nivel aprobado v0.3.0 (CodeSystem)</a>
+              <a href="CodeSystem-CSUNivelAprob.html">Ultimo nivel aprobado v0.4.0 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -23920,7 +23920,7 @@
           </div>
         </text>
         <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUNivelAprob"/>
-        <version value="0.3.0"/>
+        <version value="0.4.0"/>
         <name value="VSUNivelAprob"/>
         <title value="Ultimo nivel aprobado"/>
         <status value="active"/>
@@ -23934,8 +23934,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:83990c27-34c4-4f49-97ba-a8abf22b2264"/>
-          <timestamp value="2023-06-30T15:48:37-04:00"/>
+          <identifier value="urn:uuid:4dc95475-828a-4bf9-8597-e20dc63a0217"/>
+          <timestamp value="2023-06-30T18:28:43-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -23943,7 +23943,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob|0.3.0"/>
+            <valueUri value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob|0.4.0"/>
           </parameter>
           <contains>
             <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"/>

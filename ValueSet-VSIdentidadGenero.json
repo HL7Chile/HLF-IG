@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSIdentidadGenero.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSIdentidadGenero</code></a></li></ul></div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSIdentidadGenero",
-  "version" : "0.3.0",
+  "version" : "0.4.0",
   "name" : "VSIdentidadGenero",
   "title" : "Identidad de Género",
   "status" : "active",

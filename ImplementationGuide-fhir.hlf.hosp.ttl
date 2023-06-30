@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:version [ fhir:v "0.4.0"] ; # 
   fhir:name [ fhir:v "HlfHosp"] ; # 
   fhir:title [ fhir:v "Guía de Implementación Procesos de Hospitalizado"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-30T15:47:06-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-06-30T18:27:12-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
@@ -455,6 +455,96 @@
        fhir:name [ fhir:v "DiagnosticoCondHLf" ] ;
        fhir:description [ fhir:v "Perfil para Diagnósticos y Condiciones Mórbidas del Paciente" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Observation/EjNivEduca> ;
+         fhir:reference [ fhir:v "Observation/EjNivEduca" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de nivel educacional de paciente" ] ;
+       fhir:description [ fhir:v "Ejemplo para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF" ] ;
+       fhir:profile ( [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion>
+       ] [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Observation/EjOcupacion> ;
+         fhir:reference [ fhir:v "Observation/EjOcupacion" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de Ocupación del Paciente" ] ;
+       fhir:description [ fhir:v "Ejemplo para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF" ] ;
+       fhir:profile ( [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones>
+       ] [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Observation/EjPesoRecienNacido> ;
+         fhir:reference [ fhir:v "Observation/EjPesoRecienNacido" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de Peso Pediátrico" ] ;
+       fhir:description [ fhir:v "Ejemplo para el uso de un recurso de Observación asociado al peso medido al momento de nacer" ] ;
+       fhir:profile ( [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico>
+       ] [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/007> ;
+         fhir:reference [ fhir:v "Patient/007" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo de Recurso de Paciente HLF" ] ;
+       fhir:description [ fhir:v "Paciente ficticio según datos requeridos por Hospital que contiene: \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente\n     * La dirección se declara con códigos por extensión.\n     * Se agrega identidad de género y sexo registral\n     * Se declara sexo de nacimiento" ] ;
+       fhir:profile ( [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+       ] [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/EjPacienteHLF2> ;
+         fhir:reference [ fhir:v "Patient/EjPacienteHLF2" ]
+       ] ;
+       fhir:name [ fhir:v "Ejemplo Paciente HLF 2" ] ;
+       fhir:description [ fhir:v "Ejemplo de paciente HLF con el conjunto mínimo de datos requeridos para el uso de la API de HLF" ] ;
+       fhir:profile ( [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+       ] [
+         fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

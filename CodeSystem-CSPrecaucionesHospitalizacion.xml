@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">estandar<a name="CSPrecaucionesHospitalizacion-estandar"> </a></td><td>Estándar</td></tr><tr><td style="white-space:nowrap">aerea<a name="CSPrecaucionesHospitalizacion-aerea"> </a></td><td>Aérea</td></tr><tr><td style="white-space:nowrap">gotitas<a name="CSPrecaucionesHospitalizacion-gotitas"> </a></td><td>Gotitas</td></tr><tr><td style="white-space:nowrap">contacto<a name="CSPrecaucionesHospitalizacion-contacto"> </a></td><td>Contacto</td></tr><tr><td style="white-space:nowrap">protector<a name="CSPrecaucionesHospitalizacion-protector"> </a></td><td>Protector</td></tr></table></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="CSPrecaucionesHospitalizacion"/>
   <title value="Precauciones Hospitalización"/>
   <status value="active"/>

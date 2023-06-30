@@ -17,11 +17,11 @@
      fhir:value [ fhir:v "can-bind" ]
   ] ) ; # 
   fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.3.0"] ; # 
+  fhir:version [ fhir:v "0.4.0"] ; # 
   fhir:name [ fhir:v "UnidadPediatrica"] ; # 
   fhir:title [ fhir:v "Extensión para indicar si la Unidad Clinica HLF es pediatrica"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-30T15:47:06-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-06-30T18:27:12-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;

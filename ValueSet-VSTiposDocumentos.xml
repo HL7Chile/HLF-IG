@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-CSCodigoDNI.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI</code></a></li><li>Include all codes defined in <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a></li></ul></div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSTiposDocumentos"/>
-  <version value="0.3.0"/>
+  <version value="0.4.0"/>
   <name value="VSTiposDocumentos"/>
   <title value="Tipos de Documentos"/>
   <status value="active"/>
