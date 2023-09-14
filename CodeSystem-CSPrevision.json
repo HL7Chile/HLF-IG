@@ -3,10 +3,10 @@
   "id" : "CSPrevision",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSPrevision-1\"> </a></td><td>FONASA</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSPrevision-2\"> </a></td><td>ISAPRE</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSPrevision-3\"> </a></td><td>CAPREDENA</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSPrevision-4\"> </a></td><td>DIPRECA</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSPrevision-5\"> </a></td><td>SISA</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"CSPrevision-96\"> </a></td><td>NINGUNA</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"CSPrevision-99\"> </a></td><td>DESCONOCIDO</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "CSPrevision",
   "title" : "Prevision del Paciente",
   "status" : "active",
@@ -25,13 +25,6 @@
     }]
   }],
   "description" : "Tipos de previsión declaradas en Chile",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 7,

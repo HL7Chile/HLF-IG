@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Pueblo Indígena u Originarioi - TTL Representation - FHIR v5.0.0</title>
+    <title>Pueblo Indígena u Originarioi - TTL Representation - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.35"}
-    h3,h4,h5,h6{--heading-prefix:"5.35"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.41"}
+    h3,h4,h5,h6{--heading-prefix:"6.41"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -51,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -100,6 +100,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -125,7 +128,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -172,6 +175,7 @@
 
 
 <h2 id="root">: Pueblo Indígena u Originarioi - TTL Representation</h2>
+
   <table class="colsi">
     <tr>
 
@@ -208,10 +212,10 @@
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;VSPuebloIndigena&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-CSPuebloIndigena.html\&quot;&gt;&lt;code&gt;https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Placeholder&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena&quot;^^xsd:anyURI] ; # 
-  <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;0.4.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;0.7.0&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;VSPuebloIndigena&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Pueblo Indígena u Originarioi&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
@@ -227,12 +231,6 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;u
 <a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;leonardo.arancibia@hospitallaflorida.cl&quot; ]     ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">fhir:v</a> &quot;Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos&quot;] ; # 
-  <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.jurisdiction">fhir:jurisdiction</a> ( [
-    ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;CL&quot; ] ;
-<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Chile&quot; ]     ] )
-  ] ) ; # 
   <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">fhir:compose</a> [
     ( <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">fhir:include</a> [
 <a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena&quot;^^xsd:anyURI ]     ] )
@@ -269,7 +267,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;u
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

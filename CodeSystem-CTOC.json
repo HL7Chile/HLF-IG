@@ -1,0 +1,110 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CTOC",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CTOC",
+  "version" : "0.7.0",
+  "name" : "CTOC",
+  "title" : "Categoría ocupacional",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Categoría ocupacional",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "property" : [{
+    "code" : "vigencia",
+    "description" : "si el codigo es vigente",
+    "type" : "boolean"
+  },
+  {
+    "code" : "orden",
+    "description" : "el orden de presentación de los códigos",
+    "type" : "integer"
+  },
+  {
+    "code" : "codigoMinsal",
+    "description" : "el equivalente en el código del MINSAL norma 820",
+    "type" : "string"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "INACTIVOS",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "1"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "ACTIVOS",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "2"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "CESANTE O DESOCUPADOS",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 3
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "3"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "IGNORADO",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 4
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "99"
+    }]
+  }]
+}

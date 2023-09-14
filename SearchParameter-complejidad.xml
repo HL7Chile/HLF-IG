@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <SearchParameter xmlns="http://hl7.org/fhir">
-  <id value="complejidad"/>
+  <id value="Complejidad"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>complejidad</h2><p>Parameter <code>complejidad</code>:<code>token</code></p><div><p>Retorna las Unidades Clinicas HLF que tienen la complejidad indicada</p>
-</div><table class="grid"><tr><td>Resource</td><td><a href="http://hl7.org/fhir/R5/healthcareservice.html">HealthcareService</a></td></tr><tr><td>Expression</td><td><code>HealthcareService.extension('complejidad-unidad').valueCodeableConcept</code></td></tr><tr><td>Processing Mode</td><td>Normal</td></tr><tr><td>Multiples</td><td>The parameter cannot repeat or have multiple values</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
-  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad"/>
-  <version value="0.4.0"/>
-  <name value="complejidad"/>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/Complejidad"/>
+  <version value="0.7.0"/>
+  <name value="Complejidad"/>
   <status value="draft"/>
-  <date value="2023-06-30T18:27:12-04:00"/>
+  <date value="2023-09-13T17:11:14-03:00"/>
   <publisher value="Hospital Eloisa Diaz de la Florida"/>
   <contact>
     <name value="Hospital Eloisa Diaz de la Florida"/>
@@ -27,6 +26,6 @@
   <code value="complejidad"/>
   <base value="HealthcareService"/>
   <type value="token"/>
-  <expression value="HealthcareService.extension('complejidad-unidad').valueCodeableConcept"/>
+  <expression value="HealthcareService.extension('complejidad-unidad').value.as(CodeableConcept)"/>
   <processingMode value="normal"/>
 </SearchParameter>

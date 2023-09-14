@@ -1,0 +1,121 @@
+{
+  "resourceType" : "Patient",
+  "id" : "009",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2023-10-08T00:00:00.166Z",
+    "profile" : ["https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Rodrigo Gonzales (OFFICIAL)</b> male, DoB: 1999-09-19 ( Chile: 55555555-5\u00a0(use:\u00a0OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus S}\">Never Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:toton@lala.com\">toton@lala.com</a></li><li>Pilmaiquen 38, casa 4 Talca Del Maule Chile (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de del sexo registrado oficialmente por el/la paciente\"><a href=\"StructureDefinition-SexoReg.html\">Sexo Registral:</a></td><td colspan=\"3\"><ul><li>99</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para el código de identificación de país\"><a href=\"StructureDefinition-CodigoPais.html\">Código de identificación de país:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {urn:iso:std:iso:3166 TKL}\">Tokelau</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local\"><a href=\"StructureDefinition-IdentidadGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li>8</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexdo biológico al nacer para Chile\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>99</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.\">Nivel Instruccion:</td><td colspan=\"3\"><ul><li>Ucurso: <span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado 7}\">7mo Básico</span></li><li>Univel: <span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob 3}\">Básica o Primaria</span></li></ul></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
+    "valueCode" : "99"
+  },
+  {
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg",
+    "valueCode" : "99"
+  },
+  {
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
+    "valueCode" : "8"
+  },
+  {
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "urn:iso:std:iso:3166",
+        "code" : "TKL",
+        "display" : "Tokelau"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "Ucurso",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado",
+          "code" : "7",
+          "display" : "7mo Básico"
+        }]
+      }
+    },
+    {
+      "url" : "Univel",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob",
+          "code" : "3",
+          "display" : "Básica o Primaria"
+        }]
+      }
+    }],
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion"
+  }],
+  "identifier" : [{
+    "extension" : [{
+      "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "152",
+          "display" : "Chile"
+        }]
+      }
+    }],
+    "use" : "official",
+    "type" : {
+      "coding" : [{
+        "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI",
+        "code" : "NNCHL",
+        "display" : "Chile"
+      }]
+    },
+    "value" : "55555555-5"
+  }],
+  "name" : [{
+    "use" : "official",
+    "family" : "Gonzales",
+    "_family" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+        "valueString" : "Moya"
+      }]
+    },
+    "given" : ["Rodrigo"]
+  }],
+  "telecom" : [{
+    "system" : "email",
+    "value" : "toton@lala.com"
+  }],
+  "gender" : "male",
+  "birthDate" : "1999-09-19",
+  "address" : [{
+    "extension" : [{
+      "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia",
+          "code" : "3",
+          "display" : "Pasaje"
+        }]
+      }
+    }],
+    "use" : "home",
+    "line" : ["Pilmaiquen 38, casa 4"],
+    "city" : "Talca",
+    "district" : "Talca",
+    "state" : "Del Maule",
+    "country" : "Chile"
+  }],
+  "maritalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+      "code" : "S",
+      "display" : "Never Married"
+    }]
+  }
+}

@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/Parameters/PatchSolicitudHospitalizacionEj> a fhir:Parameters ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "PatchSolicitudHospitalizacionEj"] ; # 
+  fhir:parameter ( [
+     fhir:name [ fhir:v "operation" ] ;
+     fhir:part ( [
+       fhir:name [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "replace" ]
+     ] [
+       fhir:name [ fhir:v "path" ] ;
+       fhir:value [ fhir:v "ServiceRequest.status" ]
+     ] [
+       fhir:name [ fhir:v "value" ] ;
+       fhir:value [ fhir:v "completed" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "operation" ] ;
+     fhir:part ( [
+       fhir:name [ fhir:v "type" ] ;
+       fhir:value [ fhir:v "add" ]
+     ] [
+       fhir:name [ fhir:v "path" ] ;
+       fhir:value [ fhir:v "ServiceRequest" ]
+     ] [
+       fhir:name [ fhir:v "name" ] ;
+       fhir:value [ fhir:v "note" ]
+     ] [
+       fhir:name [ fhir:v "value" ] ;
+       fhir:value [
+         a fhir:Annotation ;
+         fhir:text [ fhir:v "Se ha realizado la hospitalización del paciente." ]
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

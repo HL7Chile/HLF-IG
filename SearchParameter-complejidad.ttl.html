@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\complejidad - TTL Representation - FHIR v5.0.0</title>
+    <title>Complejidad - TTL Representation - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.1"}
-    h3,h4,h5,h6{--heading-prefix:"5.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.1"}
+    h3,h4,h5,h6{--heading-prefix:"6.1"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -51,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -100,6 +100,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -112,7 +115,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>complejidad</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Complejidad</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -125,7 +128,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -138,21 +141,21 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="SearchParameter-complejidad.html">Narrative Content</a>
+    <a href="SearchParameter-Complejidad.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="SearchParameter-complejidad.xml.html">XML</a>
+      <a href="SearchParameter-Complejidad.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="SearchParameter-complejidad.json.html">JSON</a>
+      <a href="SearchParameter-Complejidad.json.html">JSON</a>
     </li>
   
 
@@ -171,7 +174,8 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: complejidad - TTL Representation</h2>
+<h2 id="root">: Complejidad - TTL Representation</h2>
+
   <table class="colsd">
     <tr>
 
@@ -179,7 +183,7 @@
         
           Draft
           
-            as of 2023-06-30
+            as of 2023-09-13
           
         
       </td>
@@ -188,7 +192,7 @@
   </table>
 
 
-<p><a href="SearchParameter-complejidad.ttl" no-download="true">Raw ttl</a> | <a href="SearchParameter-complejidad.ttl" download>Download</a></p>
+<p><a href="SearchParameter-Complejidad.ttl" no-download="true">Raw ttl</a> | <a href="SearchParameter-Complejidad.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
@@ -205,16 +209,16 @@
 
  a fhir:SearchParameter ;
   <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;complejidad&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#id">fhir:v</a> &quot;Complejidad&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;complejidad&lt;/h2&gt;&lt;p&gt;Parameter &lt;code&gt;complejidad&lt;/code&gt;:&lt;code&gt;token&lt;/code&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;Retorna las Unidades Clinicas HLF que tienen la complejidad indicada&lt;/p&gt;\n&lt;/div&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;Resource&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;http://hl7.org/fhir/R5/healthcareservice.html\&quot;&gt;HealthcareService&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Expression&lt;/td&gt;&lt;td&gt;&lt;code&gt;HealthcareService.extension('complejidad-unidad').valueCodeableConcept&lt;/code&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Processing Mode&lt;/td&gt;&lt;td&gt;Normal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Multiples&lt;/td&gt;&lt;td&gt;The parameter cannot repeat or have multiple values&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Placeholder&lt;/div&gt;&quot;
   ] ; # 
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad&quot;^^xsd:anyURI] ; # 
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;0.4.0&quot;] ; # 
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;complejidad&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/Complejidad&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;0.7.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Complejidad&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;draft&quot;] ; # 
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2023-06-30T18:27:12-04:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2023-09-13T17:11:14-03:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hospital Eloisa Diaz de la Florida&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.contact">fhir:contact</a> ( [
 <a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Hospital Eloisa Diaz de la Florida&quot; ] ;
@@ -228,7 +232,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;complejidad&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.base">fhir:base</a> ( [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;HealthcareService&quot;] ) ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;token&quot;] ; # 
-  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.expression">fhir:expression</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;HealthcareService.extension('complejidad-unidad').valueCodeableConcept&quot;] ; # 
+  <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.expression">fhir:expression</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;HealthcareService.extension('complejidad-unidad').value.as(CodeableConcept)&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/searchparameter.html#SearchParameter.processingMode">fhir:processingMode</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;normal&quot;] . # 
 
 </code></pre>
@@ -262,7 +266,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

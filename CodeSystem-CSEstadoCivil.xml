@@ -3,10 +3,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CSEstadoCivil"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="CSEstadoCivil-1"> </a></td><td>Soltero (a)</td></tr><tr><td style="white-space:nowrap">2<a name="CSEstadoCivil-2"> </a></td><td>Casado (a)</td></tr><tr><td style="white-space:nowrap">3<a name="CSEstadoCivil-3"> </a></td><td>Viudo (a)</td></tr><tr><td style="white-space:nowrap">4<a name="CSEstadoCivil-4"> </a></td><td>Divorciado (a)</td></tr><tr><td style="white-space:nowrap">5<a name="CSEstadoCivil-5"> </a></td><td>Separado (a) Judicionalmente</td></tr><tr><td style="white-space:nowrap">6<a name="CSEstadoCivil-6"> </a></td><td>Conviviente Civil</td></tr><tr><td style="white-space:nowrap">99<a name="CSEstadoCivil-99"> </a></td><td>Desconocido</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEstadoCivil"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="CSEstadoCivil"/>
   <title value="Estado Civil"/>
   <status value="active"/>
@@ -25,13 +25,6 @@
     </telecom>
   </contact>
   <description value="El estado civil es la situación de un individuo en la sociedad, que deriva principalmente de sus relaciones de familia, y que lo habilita para ejercer derechos y contraer obligaciones civiles."/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-      <display value="Chile"/>
-    </coding>
-  </jurisdiction>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="7"/>

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Ejemplo de Ocupación del Paciente - TTL Representation - FHIR v5.0.0</title>
+    <title>Ejemplo de Ocupación del Paciente - TTL Representation - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.57"}
-    h3,h4,h5,h6{--heading-prefix:"5.57"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.77"}
+    h3,h4,h5,h6{--heading-prefix:"6.77"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -51,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -100,6 +100,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -125,7 +128,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -172,18 +175,6 @@
 
 
 <h2 id="root">: Ejemplo de Ocupación del Paciente - TTL Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="Observation-EjOcupacion.ttl" no-download="true">Raw ttl</a> | <a href="Observation-EjOcupacion.ttl" download>Download</a></p>
@@ -212,7 +203,7 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R5/observation.html#Observation.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Observation&lt;/b&gt;&lt;a name=\&quot;EjOcupacion\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Observation &amp;quot;EjOcupacion&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-Ocupaciones.html\&quot;&gt;Aspectos Laborales&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: registered&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Antecedentes Laborales &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#11341-5)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-007.html\&quot;&gt;Patient/007&lt;/a&gt; &amp;quot; ORGANA&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Ingeniería Civil Biomédica en Universidad del Estado &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-CSOcupacionesDet.html\&quot;&gt;Ocupaciones Detalladas&lt;/a&gt;#2147 &amp;quot;Ingenieros biomédicos&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Observation&lt;/b&gt;&lt;a name=\&quot;EjOcupacion\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Observation &amp;quot;EjOcupacion&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-Ocupaciones.html\&quot;&gt;Aspectos Laborales&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: registered&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: History of Occupation &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;https://loinc.org/\&quot;&gt;LOINC&lt;/a&gt;#11341-5)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-007.html\&quot;&gt;Patient/007&lt;/a&gt; &amp;quot; CON ROMBOS&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2023-09-11&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;span&gt;: na&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: Ingeniería Civil Biomédica en Universidad del Estado &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-CSOcupacionesDet.html\&quot;&gt;Ocupaciones Detalladas&lt;/a&gt;#2147 &amp;quot;Ingenieros biomédicos&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R5/observation.html#Observation.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;registered&quot;] ; # 
   <a href="http://hl7.org/fhir/R5/observation.html#Observation.code">fhir:code</a> [
@@ -220,11 +211,15 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 a loinc:11341-5 ;
 <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#code">fhir:v</a> &quot;11341-5&quot; ] ;
-<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Antecedentes Laborales&quot; ]     ] )
+<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;History of Occupation&quot; ]     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R5/observation.html#Observation.subject">fhir:subject</a> [
 <a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;Patient/007&quot; ]
   ] ; # 
+  <a href="http://hl7.org/fhir/R5/observation.html#Observation.effective[x]">fhir:effective</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">fhir:v</a> &quot;2023-09-11&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R5/observation.html#Observation.performer">fhir:performer</a> ( [
+<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R5/datatypes.html#string">fhir:v</a> &quot;na&quot; ]
+  ] ) ; # 
   <a href="http://hl7.org/fhir/R5/observation.html#Observation.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
     ( <a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
@@ -265,7 +260,7 @@ a loinc:11341-5 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,129 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/TPUR> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TPUR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/TPUR"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:name [ fhir:v "TPUR"] ; # 
+  fhir:title [ fhir:v "Tipo de urgencia"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Tipo de urgencia"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "vigencia" ] ;
+     fhir:description [ fhir:v "si el codigo es vigente" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "orden" ] ;
+     fhir:description [ fhir:v "el orden de presentación de los códigos" ] ;
+     fhir:type [ fhir:v "integer" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Urgencia Ambulatoria (SAR)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Urgencia Ambulatoria (SAPU)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Ambulatoria Dental" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Urgencia Hospitalaria (UEH)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Urgencia Ambulatoria" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Urgencia Ambulatoria (SUR)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Ambulatoria CEAR" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "No Aplica" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

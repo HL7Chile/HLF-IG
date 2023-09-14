@@ -1,6 +1,6 @@
 {
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "fhirVersion" : ["5.0.0"],
-  "date" : "20230630182615",
+  "date" : "20230913171043",
   "name" : "fhir.hlf.hosp"
 }

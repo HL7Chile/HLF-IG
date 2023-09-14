@@ -3,10 +3,10 @@
   "id" : "VSPrecaucionesHospitalizacion",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSPrecaucionesHospitalizacion.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPrecaucionesHospitalizacion",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "VSPrecaucionesHospitalizacion",
   "title" : "Precauciones Hospitalización",
   "status" : "active",
@@ -25,13 +25,6 @@
     }]
   }],
   "description" : "ValueSet para el tipo de precauciones de hospitalización que se deben tomar para un paciente",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"

@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSCodigoPaises",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSCodigoPaises",
+  "version" : "0.7.0",
+  "name" : "VSCodigoPaises",
+  "title" : "Codigo Paises",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-13T17:11:14-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "ValueSet de Códigos de Paises según ISO 3166-1",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166"
+    }]
+  }
+}

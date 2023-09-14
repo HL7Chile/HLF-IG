@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSDireccionTipoVia"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia"/>
+  <version value="0.7.0"/>
+  <name value="CSDireccionTipoVia"/>
+  <title value="Dirección Tipo Vía"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-01-18T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Código de tipo de vía según norma técnica 820 'Estándares de Información de Salud' del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="10"/>
+  <concept>
+    <code value="1"/>
+    <display value="Calle"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Avenida"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Pasaje"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Camino"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Carretera"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Callejón"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Paseo"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="Escalera"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Otro"/>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <display value="Rotonda"/>
+  </concept>
+</CodeSystem>

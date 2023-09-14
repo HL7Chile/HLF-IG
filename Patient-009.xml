@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="009"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2023-10-08T00:00:00.166Z"/>
+    <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>Rodrigo Gonzales (OFFICIAL)</b> male, DoB: 1999-09-19 ( Chile: 55555555-5 (use: OFFICIAL))</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus S}">Never Married</span></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Details:</td><td colspan="3"><ul><li><a href="mailto:toton@lala.com">toton@lala.com</a></li><li>Pilmaiquen 38, casa 4 Talca Del Maule Chile (HOME)</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Extensión para dato es de del sexo registrado oficialmente por el/la paciente"><a href="StructureDefinition-SexoReg.html">Sexo Registral:</a></td><td colspan="3"><ul><li>99</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Extensión para el código de identificación de país"><a href="StructureDefinition-CodigoPais.html">Código de identificación de país:</a></td><td colspan="3"><ul><li><span title="Codes: {urn:iso:std:iso:3166 TKL}">Tokelau</span></li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local"><a href="StructureDefinition-IdentidadGenero.html">Identidad de Género:</a></td><td colspan="3"><ul><li>8</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Extensión de Sexdo biológico al nacer para Chile"><a href="StructureDefinition-SexoNacimiento820.html">Sexo biológico al nacer:</a></td><td colspan="3"><ul><li>99</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.">Nivel Instruccion:</td><td colspan="3"><ul><li>Ucurso: <span title="Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado 7}">7mo Básico</span></li><li>Univel: <span title="Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob 3}">Básica o Primaria</span></li></ul></td></tr></table></div>
+  </text>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820">
+    <valueCode value="99"/>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg">
+    <valueCode value="99"/>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero">
+    <valueCode value="8"/>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais">
+    <valueCodeableConcept>
+      <coding>
+        <system value="urn:iso:std:iso:3166"/>
+        <code value="TKL"/>
+        <display value="Tokelau"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion">
+    <extension url="Ucurso">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"/>
+          <code value="7"/>
+          <display value="7mo Básico"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="Univel">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob"/>
+          <code value="3"/>
+          <display value="Básica o Primaria"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <identifier>
+    <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais">
+      <valueCodeableConcept>
+        <coding>
+          <system value="urn:iso:std:iso:3166"/>
+          <code value="152"/>
+          <display value="Chile"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <use value="official"/>
+    <type>
+      <coding>
+        <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI"/>
+        <code value="NNCHL"/>
+        <display value="Chile"/>
+      </coding>
+    </type>
+    <value value="55555555-5"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <family value="Gonzales">
+      <extension url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+        <valueString value="Moya"/>
+      </extension>
+    </family>
+    <given value="Rodrigo"/>
+  </name>
+  <telecom>
+    <system value="email"/>
+    <value value="toton@lala.com"/>
+  </telecom>
+  <gender value="male"/>
+  <birthDate value="1999-09-19"/>
+  <address>
+    <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion">
+      <valueCodeableConcept>
+        <coding>
+          <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia"/>
+          <code value="3"/>
+          <display value="Pasaje"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <use value="home"/>
+    <line value="Pilmaiquen 38, casa 4"/>
+    <city value="Talca"/>
+    <district value="Talca"/>
+    <state value="Del Maule"/>
+    <country value="Chile"/>
+  </address>
+  <maritalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+      <code value="S"/>
+      <display value="Never Married"/>
+    </coding>
+  </maritalStatus>
+</Patient>

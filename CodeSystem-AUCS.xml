@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="AUCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/AUCS"/>
+  <version value="0.7.0"/>
+  <name value="AUCS"/>
+  <title value="Área urbano censal"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Área urbano censal"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <property>
+    <code value="vigencia"/>
+    <description value="si el codigo es vigente"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="orden"/>
+    <description value="el orden de presentación de los códigos"/>
+    <type value="integer"/>
+  </property>
+  <property>
+    <code value="codigoMinsal"/>
+    <description value="el equivalente en el código del MINSAL norma 820"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="URBANO"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="RURAL"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="2"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="IsPediatrica"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/IsPediatrica"/>
+  <version value="0.7.0"/>
+  <name value="IsPediatrica"/>
+  <status value="draft"/>
+  <date value="2023-09-13T17:11:14-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Retorna las Unidades Clinicas HLF que son pediatricas"/>
+  <code value="is-pediatrica"/>
+  <base value="HealthcareService"/>
+  <type value="token"/>
+  <expression value="HealthcareService.extension('unidad-pediatrica').value.as(Boolean)"/>
+  <processingMode value="normal"/>
+</SearchParameter>

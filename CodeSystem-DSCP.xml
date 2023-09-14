@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DSCP"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/DSCP"/>
+  <version value="0.7.0"/>
+  <name value="DSCP"/>
+  <title value="Discapacidad"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Discapacidad"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <property>
+    <code value="vigencia"/>
+    <description value="si el codigo es vigente"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="orden"/>
+    <description value="el orden de presentación de los códigos"/>
+    <type value="integer"/>
+  </property>
+  <property>
+    <code value="codigoMinsal"/>
+    <description value="el equivalente en el código del MINSAL norma 820"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="ORIGEN FISICO"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="ORIGEN SENSORIAL VISUAL"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="2"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="2"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="ORIGEN SENSORIAL AUDITIVO"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="3"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="3"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="ORIGEN MENTAL PSIQUICO"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="4"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="4"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="ORIGEN MENTAL INTELECTUAL"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="5"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="5"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="NO REGISTRA"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="0"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="ORIGEN MULTIPLE"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="6"/>
+    </property>
+    <property>
+      <code value="codigoMinsal"/>
+      <valueString value="6"/>
+    </property>
+  </concept>
+</CodeSystem>

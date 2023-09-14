@@ -1,0 +1,31 @@
+{
+  "resourceType" : "SearchParameter",
+  "id" : "IsPediatrica",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/IsPediatrica",
+  "version" : "0.7.0",
+  "name" : "IsPediatrica",
+  "status" : "draft",
+  "date" : "2023-09-13T17:11:14-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Retorna las Unidades Clinicas HLF que son pediatricas",
+  "code" : "is-pediatrica",
+  "base" : ["HealthcareService"],
+  "type" : "token",
+  "expression" : "HealthcareService.extension('unidad-pediatrica').value.as(Boolean)",
+  "processingMode" : "normal"
+}

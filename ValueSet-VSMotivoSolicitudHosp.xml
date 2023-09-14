@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSMotivoSolicitudHosp"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSMotivoSolicitudHosp.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSMotivoSolicitudHosp"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="VSMotivoSolicitudHosp"/>
   <title value="Motivo Solicitud Hospitalización"/>
   <status value="active"/>
@@ -25,13 +25,6 @@
     </telecom>
   </contact>
   <description value="ValueSet para el motivo de solicitud de hospitalización"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-      <display value="Chile"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp"/>

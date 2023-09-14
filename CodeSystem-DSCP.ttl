@@ -1,0 +1,144 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/DSCP> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DSCP"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/DSCP"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:name [ fhir:v "DSCP"] ; # 
+  fhir:title [ fhir:v "Discapacidad"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Discapacidad"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "vigencia" ] ;
+     fhir:description [ fhir:v "si el codigo es vigente" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "orden" ] ;
+     fhir:description [ fhir:v "el orden de presentación de los códigos" ] ;
+     fhir:type [ fhir:v "integer" ]
+  ] [
+     fhir:code [ fhir:v "codigoMinsal" ] ;
+     fhir:description [ fhir:v "el equivalente en el código del MINSAL norma 820" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "ORIGEN FISICO" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "1" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "ORIGEN SENSORIAL VISUAL" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "2"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "2" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "ORIGEN SENSORIAL AUDITIVO" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "3"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "3" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "ORIGEN MENTAL PSIQUICO" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "4"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "4" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "ORIGEN MENTAL INTELECTUAL" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "5"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "5" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "NO REGISTRA" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "0" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "ORIGEN MULTIPLE" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "6"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "6" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

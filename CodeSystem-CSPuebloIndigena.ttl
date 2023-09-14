@@ -10,10 +10,10 @@
   fhir:id [ fhir:v "CSPuebloIndigena"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSPuebloIndigena-1\"> </a></td><td>Mapuche</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSPuebloIndigena-2\"> </a></td><td>Aymara</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSPuebloIndigena-3\"> </a></td><td>Rapa Nui o Pascuense</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSPuebloIndigena-4\"> </a></td><td>Lickanantay</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"CSPuebloIndigena-5\"> </a></td><td>Quechua</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"CSPuebloIndigena-6\"> </a></td><td>Colla</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"CSPuebloIndigena-7\"> </a></td><td>Diaguita</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"CSPuebloIndigena-8\"> </a></td><td>Kawésqar</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CSPuebloIndigena-9\"> </a></td><td>Yagán</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"CSPuebloIndigena-11\"> </a></td><td>Chango</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"CSPuebloIndigena-10\"> </a></td><td>Desconocido</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
   fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.4.0"] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
   fhir:name [ fhir:v "CSPuebloIndigena"] ; # 
   fhir:title [ fhir:v "Pueblo Indígena u Originarioi"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -31,13 +31,6 @@
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "CL" ] ;
-       fhir:display [ fhir:v "Chile" ]
-     ] )
-  ] ) ; # 
   fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "11"^^xsd:nonNegativeInteger] ; # 

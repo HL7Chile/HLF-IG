@@ -1,0 +1,78 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "AUCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/AUCS",
+  "version" : "0.7.0",
+  "name" : "AUCS",
+  "title" : "Área urbano censal",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Área urbano censal",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "property" : [{
+    "code" : "vigencia",
+    "description" : "si el codigo es vigente",
+    "type" : "boolean"
+  },
+  {
+    "code" : "orden",
+    "description" : "el orden de presentación de los códigos",
+    "type" : "integer"
+  },
+  {
+    "code" : "codigoMinsal",
+    "description" : "el equivalente en el código del MINSAL norma 820",
+    "type" : "string"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "URBANO",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "1"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "RURAL",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    },
+    {
+      "code" : "codigoMinsal",
+      "valueString" : "2"
+    }]
+  }]
+}

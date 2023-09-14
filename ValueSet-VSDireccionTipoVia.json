@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VSDireccionTipoVia",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDireccionTipoVia",
+  "version" : "0.7.0",
+  "name" : "VSDireccionTipoVia",
+  "title" : "Dirección Tipo Vía",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-09-13T17:11:14-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "ValueSet de Código de tipo de vía según norma técnica 820 'Estándares de Información de Salud' del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile",
+  "compose" : {
+    "include" : [{
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia"
+    }]
+  }
+}

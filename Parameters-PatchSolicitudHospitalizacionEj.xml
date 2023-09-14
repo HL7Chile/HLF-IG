@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Parameters xmlns="http://hl7.org/fhir">
+  <id value="PatchSolicitudHospitalizacionEj"/>
+  <parameter>
+    <name value="operation"/>
+    <part>
+      <name value="type"/>
+      <valueCode value="replace"/>
+    </part>
+    <part>
+      <name value="path"/>
+      <valueString value="ServiceRequest.status"/>
+    </part>
+    <part>
+      <name value="value"/>
+      <valueCode value="completed"/>
+    </part>
+  </parameter>
+  <parameter>
+    <name value="operation"/>
+    <part>
+      <name value="type"/>
+      <valueCode value="add"/>
+    </part>
+    <part>
+      <name value="path"/>
+      <valueString value="ServiceRequest"/>
+    </part>
+    <part>
+      <name value="name"/>
+      <valueString value="note"/>
+    </part>
+    <part>
+      <name value="value"/>
+      <valueAnnotation>
+        <text value="Se ha realizado la hospitalización del paciente."/>
+      </valueAnnotation>
+    </part>
+  </parameter>
+</Parameters>

@@ -1,15 +1,15 @@
 {
   "resourceType" : "SearchParameter",
-  "id" : "complejidad",
+  "id" : "Complejidad",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>complejidad</h2><p>Parameter <code>complejidad</code>:<code>token</code></p><div><p>Retorna las Unidades Clinicas HLF que tienen la complejidad indicada</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R5/healthcareservice.html\">HealthcareService</a></td></tr><tr><td>Expression</td><td><code>HealthcareService.extension('complejidad-unidad').valueCodeableConcept</code></td></tr><tr><td>Processing Mode</td><td>Normal</td></tr><tr><td>Multiples</td><td>The parameter cannot repeat or have multiple values</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
-  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad",
-  "version" : "0.4.0",
-  "name" : "complejidad",
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/Complejidad",
+  "version" : "0.7.0",
+  "name" : "Complejidad",
   "status" : "draft",
-  "date" : "2023-06-30T18:27:12-04:00",
+  "date" : "2023-09-13T17:11:14-03:00",
   "publisher" : "Hospital Eloisa Diaz de la Florida",
   "contact" : [{
     "name" : "Hospital Eloisa Diaz de la Florida",
@@ -26,6 +26,6 @@
   "code" : "complejidad",
   "base" : ["HealthcareService"],
   "type" : "token",
-  "expression" : "HealthcareService.extension('complejidad-unidad').valueCodeableConcept",
+  "expression" : "HealthcareService.extension('complejidad-unidad').value.as(CodeableConcept)",
   "processingMode" : "normal"
 }

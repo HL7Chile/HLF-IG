@@ -1,0 +1,106 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/Patient/008> a fhir:Patient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "008"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2023-08-08T00:00:00.166Z"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"^^xsd:anyURI ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Wilmara Wilma Perez (OFFICIAL)</b> female, DoB: 1960-01-20 ( Chile: 99999999-9 (use: OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:wilma@perez.perez\">wilma@perez.perez</a></li><li>Lautaro 900 Linares Del Maule Chile (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: C\">C:</td><td colspan=\"3\"><ul><li>Tulio Triviño </li><li>ph: -unknown-</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <span>: Hospital San Juan de Dios</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexdo biológico al nacer para Chile\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>2</li></ul></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2" ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "152" ] ;
+           fhir:display [ fhir:v "Chile" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:use [ fhir:v "official" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "NNCHL" ] ;
+         fhir:display [ fhir:v "Chile" ]
+       ] )
+     ] ;
+     fhir:value [ fhir:v "99999999-9" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:family [ fhir:v "Perez" ] ;
+     fhir:given ( [ fhir:v "Wilmara" ] [ fhir:v "Wilma" ] )
+  ] ) ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "wilma@perez.perez" ]
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1960-01-20"^^xsd:date] ; # 
+  fhir:address ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "1" ] ;
+           fhir:display [ fhir:v "Calle" ]
+         ] )
+       ]
+     ] ) ;
+     fhir:use [ fhir:v "home" ] ;
+     fhir:line ( [ fhir:v "Lautaro 900" ] ) ;
+     fhir:city [ fhir:v "Linares" ] ;
+     fhir:district [ fhir:v "Linares" ] ;
+     fhir:state [ fhir:v "Del Maule" ] ;
+     fhir:country [ fhir:v "Chile" ]
+  ] ) ; # 
+  fhir:maritalStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "M" ] ;
+       fhir:display [ fhir:v "Married" ]
+     ] )
+  ] ; # 
+  fhir:contact ( [
+     fhir:relationship ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/5.1.0/CodeSystem-v2-0131.html"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "C" ]
+       ] )
+     ] ) ;
+     fhir:name [
+       fhir:family [ fhir:v "Triviño" ] ;
+       fhir:given ( [ fhir:v "Tulio" ] )
+     ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "phone" ]
+     ] )
+  ] ) ; # 
+  fhir:generalPractitioner ( [
+     fhir:display [ fhir:v "Hospital San Juan de Dios" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

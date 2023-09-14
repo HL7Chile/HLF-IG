@@ -3,10 +3,10 @@
   "id" : "VSUCursoAprobado",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSUCursoAprobado.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSUCursoAprobado",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "VSUCursoAprobado",
   "title" : "Ultimo Curso Aprobado",
   "status" : "active",
@@ -25,13 +25,6 @@
     }]
   }],
   "description" : "Categoría del último curso aprobado",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado"

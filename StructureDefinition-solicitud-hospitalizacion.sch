@@ -20,6 +20,21 @@
       <sch:assert test="count(f:extension[@url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama']) &lt;= 1">extension with URL = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion']) &gt;= 1">extension with URL = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion']) &lt;= 1">extension with URL = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:encounter) &gt;= 1">encounter: minimum cardinality of 'encounter' is 1</sch:assert>
+      <sch:assert test="count(f:authoredOn) &gt;= 1">authoredOn: minimum cardinality of 'authoredOn' is 1</sch:assert>
+      <sch:assert test="count(f:reason) &gt;= 1">reason: minimum cardinality of 'reason' is 1</sch:assert>
+      <sch:assert test="count(f:reason) &lt;= 1">reason: maximum cardinality of 'reason' is 1</sch:assert>
+      <sch:assert test="count(f:note) &lt;= 1">note: maximum cardinality of 'note' is 1</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>f:ServiceRequest/f:note</sch:title>
+    <sch:rule context="f:ServiceRequest/f:note">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:author[x]) &lt;= 1">author[x]: maximum cardinality of 'author[x]' is 1</sch:assert>
+      <sch:assert test="count(f:time) &lt;= 1">time: maximum cardinality of 'time' is 1</sch:assert>
+      <sch:assert test="count(f:text) &gt;= 1">text: minimum cardinality of 'text' is 1</sch:assert>
+      <sch:assert test="count(f:text) &lt;= 1">text: maximum cardinality of 'text' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

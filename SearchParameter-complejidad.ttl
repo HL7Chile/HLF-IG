@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad> a fhir:SearchParameter ;
+<https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/Complejidad> a fhir:SearchParameter ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "complejidad"] ; # 
+  fhir:id [ fhir:v "Complejidad"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>complejidad</h2><p>Parameter <code>complejidad</code>:<code>token</code></p><div><p>Retorna las Unidades Clinicas HLF que tienen la complejidad indicada</p>\n</div><table class=\"grid\"><tr><td>Resource</td><td><a href=\"http://hl7.org/fhir/R5/healthcareservice.html\">HealthcareService</a></td></tr><tr><td>Expression</td><td><code>HealthcareService.extension('complejidad-unidad').valueCodeableConcept</code></td></tr><tr><td>Processing Mode</td><td>Normal</td></tr><tr><td>Multiples</td><td>The parameter cannot repeat or have multiple values</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   ] ; # 
-  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/complejidad"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.4.0"] ; # 
-  fhir:name [ fhir:v "complejidad"] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/SearchParameter/Complejidad"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:name [ fhir:v "Complejidad"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-30T18:27:12-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-09-13T17:11:14-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
@@ -32,7 +32,7 @@
   fhir:code [ fhir:v "complejidad"] ; # 
   fhir:base ( [ fhir:v "HealthcareService"] ) ; # 
   fhir:type [ fhir:v "token"] ; # 
-  fhir:expression [ fhir:v "HealthcareService.extension('complejidad-unidad').valueCodeableConcept"] ; # 
+  fhir:expression [ fhir:v "HealthcareService.extension('complejidad-unidad').value.as(CodeableConcept)"] ; # 
   fhir:processingMode [ fhir:v "normal"] . # 
 
 # -------------------------------------------------------------------------------------

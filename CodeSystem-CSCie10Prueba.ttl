@@ -1,0 +1,2772 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCie10Prueba> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CSCie10Prueba"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCie10Prueba"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:name [ fhir:v "CSCie10Prueba"] ; # 
+  fhir:title [ fhir:v "Códigos de ejemplo CIE-10"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Algunos códigos en CIE-10 para la validación de la guía. La implementación debe considerar contar con un CS a nivel terminológico con la clasificación completa"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "911"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A00-A09" ] ;
+     fhir:display [ fhir:v "Intestinal infectious diseases" ]
+  ] [
+     fhir:code [ fhir:v "A00" ] ;
+     fhir:display [ fhir:v "Cholera" ]
+  ] [
+     fhir:code [ fhir:v "A00.0" ] ;
+     fhir:display [ fhir:v "Cholera due to Vibrio cholerae 01, biovar cholerae" ]
+  ] [
+     fhir:code [ fhir:v "A00.1" ] ;
+     fhir:display [ fhir:v "Cholera due to Vibrio cholerae 01, biovar eltor" ]
+  ] [
+     fhir:code [ fhir:v "A00.9" ] ;
+     fhir:display [ fhir:v "Cholera, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A01" ] ;
+     fhir:display [ fhir:v "Typhoid and paratyphoid fevers" ]
+  ] [
+     fhir:code [ fhir:v "A01.0" ] ;
+     fhir:display [ fhir:v "Typhoid fever" ]
+  ] [
+     fhir:code [ fhir:v "A01.1" ] ;
+     fhir:display [ fhir:v "Paratyphoid fever A" ]
+  ] [
+     fhir:code [ fhir:v "A01.2" ] ;
+     fhir:display [ fhir:v "Paratyphoid fever B" ]
+  ] [
+     fhir:code [ fhir:v "A01.3" ] ;
+     fhir:display [ fhir:v "Paratyphoid fever C" ]
+  ] [
+     fhir:code [ fhir:v "A01.4" ] ;
+     fhir:display [ fhir:v "Paratyphoid fever, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A02" ] ;
+     fhir:display [ fhir:v "Other salmonella infections" ]
+  ] [
+     fhir:code [ fhir:v "A02.0" ] ;
+     fhir:display [ fhir:v "Salmonella enteritis" ]
+  ] [
+     fhir:code [ fhir:v "A02.1" ] ;
+     fhir:display [ fhir:v "Salmonella sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A02.2" ] ;
+     fhir:display [ fhir:v "Localized salmonella infections" ]
+  ] [
+     fhir:code [ fhir:v "A02.8" ] ;
+     fhir:display [ fhir:v "Other specified salmonella infections" ]
+  ] [
+     fhir:code [ fhir:v "A02.9" ] ;
+     fhir:display [ fhir:v "Salmonella infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A03" ] ;
+     fhir:display [ fhir:v "Shigellosis" ]
+  ] [
+     fhir:code [ fhir:v "A03.0" ] ;
+     fhir:display [ fhir:v "Shigellosis due to Shigella dysenteriae" ]
+  ] [
+     fhir:code [ fhir:v "A03.1" ] ;
+     fhir:display [ fhir:v "Shigellosis due to Shigella flexneri" ]
+  ] [
+     fhir:code [ fhir:v "A03.2" ] ;
+     fhir:display [ fhir:v "Shigellosis due to Shigella boydii" ]
+  ] [
+     fhir:code [ fhir:v "A03.3" ] ;
+     fhir:display [ fhir:v "Shigellosis due to Shigella sonnei" ]
+  ] [
+     fhir:code [ fhir:v "A03.8" ] ;
+     fhir:display [ fhir:v "Other shigellosis" ]
+  ] [
+     fhir:code [ fhir:v "A03.9" ] ;
+     fhir:display [ fhir:v "Shigellosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A04" ] ;
+     fhir:display [ fhir:v "Other bacterial intestinal infections" ]
+  ] [
+     fhir:code [ fhir:v "A04.0" ] ;
+     fhir:display [ fhir:v "Enteropathogenic Escherichia coli infection" ]
+  ] [
+     fhir:code [ fhir:v "A04.1" ] ;
+     fhir:display [ fhir:v "Enterotoxigenic Escherichia coli infection" ]
+  ] [
+     fhir:code [ fhir:v "A04.2" ] ;
+     fhir:display [ fhir:v "Enteroinvasive Escherichia coli infection" ]
+  ] [
+     fhir:code [ fhir:v "A04.3" ] ;
+     fhir:display [ fhir:v "Enterohaemorrhagic Escherichia coli infection" ]
+  ] [
+     fhir:code [ fhir:v "A04.4" ] ;
+     fhir:display [ fhir:v "Other intestinal Escherichia coli infections" ]
+  ] [
+     fhir:code [ fhir:v "A04.5" ] ;
+     fhir:display [ fhir:v "Campylobacter enteritis" ]
+  ] [
+     fhir:code [ fhir:v "A04.6" ] ;
+     fhir:display [ fhir:v "Enteritis due to Yersinia enterocolitica" ]
+  ] [
+     fhir:code [ fhir:v "A04.7" ] ;
+     fhir:display [ fhir:v "Enterocolitis due to Clostridium difficile" ]
+  ] [
+     fhir:code [ fhir:v "A04.8" ] ;
+     fhir:display [ fhir:v "Other specified bacterial intestinal infections" ]
+  ] [
+     fhir:code [ fhir:v "A04.9" ] ;
+     fhir:display [ fhir:v "Bacterial intestinal infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A05" ] ;
+     fhir:display [ fhir:v "Other bacterial foodborne intoxications, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A05.0" ] ;
+     fhir:display [ fhir:v "Foodborne staphylococcal intoxication" ]
+  ] [
+     fhir:code [ fhir:v "A05.1" ] ;
+     fhir:display [ fhir:v "Botulism" ]
+  ] [
+     fhir:code [ fhir:v "A05.2" ] ;
+     fhir:display [ fhir:v "Foodborne Clostridium perfringens [Clostridium welchii] intoxication" ]
+  ] [
+     fhir:code [ fhir:v "A05.3" ] ;
+     fhir:display [ fhir:v "Foodborne Vibrio parahaemolyticus intoxication" ]
+  ] [
+     fhir:code [ fhir:v "A05.4" ] ;
+     fhir:display [ fhir:v "Foodborne Bacillus cereus intoxication" ]
+  ] [
+     fhir:code [ fhir:v "A05.8" ] ;
+     fhir:display [ fhir:v "Other specified bacterial foodborne intoxications" ]
+  ] [
+     fhir:code [ fhir:v "A05.9" ] ;
+     fhir:display [ fhir:v "Bacterial foodborne intoxication, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A06" ] ;
+     fhir:display [ fhir:v "Amoebiasis" ]
+  ] [
+     fhir:code [ fhir:v "A06.0" ] ;
+     fhir:display [ fhir:v "Acute amoebic dysentery" ]
+  ] [
+     fhir:code [ fhir:v "A06.1" ] ;
+     fhir:display [ fhir:v "Chronic intestinal amoebiasis" ]
+  ] [
+     fhir:code [ fhir:v "A06.2" ] ;
+     fhir:display [ fhir:v "Amoebic nondysenteric colitis" ]
+  ] [
+     fhir:code [ fhir:v "A06.3" ] ;
+     fhir:display [ fhir:v "Amoeboma of intestine" ]
+  ] [
+     fhir:code [ fhir:v "A06.4" ] ;
+     fhir:display [ fhir:v "Amoebic liver abscess[K77.0]" ]
+  ] [
+     fhir:code [ fhir:v "A06.5" ] ;
+     fhir:display [ fhir:v "Amoebic lung abscess" ]
+  ] [
+     fhir:code [ fhir:v "A06.6" ] ;
+     fhir:display [ fhir:v "Amoebic brain abscess[G07]" ]
+  ] [
+     fhir:code [ fhir:v "A06.7" ] ;
+     fhir:display [ fhir:v "Cutaneous amoebiasis" ]
+  ] [
+     fhir:code [ fhir:v "A06.8" ] ;
+     fhir:display [ fhir:v "Amoebic infection of other sites" ]
+  ] [
+     fhir:code [ fhir:v "A06.9" ] ;
+     fhir:display [ fhir:v "Amoebiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A07" ] ;
+     fhir:display [ fhir:v "Other protozoal intestinal diseases" ]
+  ] [
+     fhir:code [ fhir:v "A07.0" ] ;
+     fhir:display [ fhir:v "Balantidiasis" ]
+  ] [
+     fhir:code [ fhir:v "A07.1" ] ;
+     fhir:display [ fhir:v "Giardiasis [lambliasis]" ]
+  ] [
+     fhir:code [ fhir:v "A07.2" ] ;
+     fhir:display [ fhir:v "Cryptosporidiosis" ]
+  ] [
+     fhir:code [ fhir:v "A07.3" ] ;
+     fhir:display [ fhir:v "Isosporiasis" ]
+  ] [
+     fhir:code [ fhir:v "A07.8" ] ;
+     fhir:display [ fhir:v "Other specified protozoal intestinal diseases" ]
+  ] [
+     fhir:code [ fhir:v "A07.9" ] ;
+     fhir:display [ fhir:v "Protozoal intestinal disease, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A08" ] ;
+     fhir:display [ fhir:v "Viral and other specified intestinal infections" ]
+  ] [
+     fhir:code [ fhir:v "A08.0" ] ;
+     fhir:display [ fhir:v "Rotaviral enteritis" ]
+  ] [
+     fhir:code [ fhir:v "A08.1" ] ;
+     fhir:display [ fhir:v "Acute gastroenteropathy due to Norovirus" ]
+  ] [
+     fhir:code [ fhir:v "A08.2" ] ;
+     fhir:display [ fhir:v "Adenoviral enteritis" ]
+  ] [
+     fhir:code [ fhir:v "A08.3" ] ;
+     fhir:display [ fhir:v "Other viral enteritis" ]
+  ] [
+     fhir:code [ fhir:v "A08.4" ] ;
+     fhir:display [ fhir:v "Viral intestinal infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A08.5" ] ;
+     fhir:display [ fhir:v "Other specified intestinal infections" ]
+  ] [
+     fhir:code [ fhir:v "A09" ] ;
+     fhir:display [ fhir:v "Other gastroenteritis and colitis of infectious and unspecified origin" ]
+  ] [
+     fhir:code [ fhir:v "A09.0" ] ;
+     fhir:display [ fhir:v "Other and unspecified gastroenteritis and colitis of infectious origin" ]
+  ] [
+     fhir:code [ fhir:v "A09.9" ] ;
+     fhir:display [ fhir:v "Gastroenteritis and colitis of unspecified origin" ]
+  ] [
+     fhir:code [ fhir:v "A15-A19\"Tuberculosis\"" ]
+  ] [
+     fhir:code [ fhir:v "A15" ] ;
+     fhir:display [ fhir:v "Respiratory tuberculosis, bacteriologically and histologically confirmed" ]
+  ] [
+     fhir:code [ fhir:v "A15.0" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, confirmed by sputum microscopy with or without culture" ]
+  ] [
+     fhir:code [ fhir:v "A15.1" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, confirmed by culture only" ]
+  ] [
+     fhir:code [ fhir:v "A15.2" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, confirmed histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.3" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, confirmed by unspecified means" ]
+  ] [
+     fhir:code [ fhir:v "A15.4" ] ;
+     fhir:display [ fhir:v "Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.5" ] ;
+     fhir:display [ fhir:v "Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.6" ] ;
+     fhir:display [ fhir:v "Tuberculous pleurisy, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.7" ] ;
+     fhir:display [ fhir:v "Primary respiratory tuberculosis, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.8" ] ;
+     fhir:display [ fhir:v "Other respiratory tuberculosis, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A15.9" ] ;
+     fhir:display [ fhir:v "Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically" ]
+  ] [
+     fhir:code [ fhir:v "A16" ] ;
+     fhir:display [ fhir:v "Respiratory tuberculosis, not confirmed bacteriologically or histologically" ]
+  ] [
+     fhir:code [ fhir:v "A16.0" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, bacteriologically and histologically negative" ]
+  ] [
+     fhir:code [ fhir:v "A16.1" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, bacteriological and histological examination not done" ]
+  ] [
+     fhir:code [ fhir:v "A16.2" ] ;
+     fhir:display [ fhir:v "Tuberculosis of lung, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.3" ] ;
+     fhir:display [ fhir:v "Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.4" ] ;
+     fhir:display [ fhir:v "Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.5" ] ;
+     fhir:display [ fhir:v "Tuberculous pleurisy, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.7" ] ;
+     fhir:display [ fhir:v "Primary respiratory tuberculosis without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.8" ] ;
+     fhir:display [ fhir:v "Other respiratory tuberculosis, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A16.9" ] ;
+     fhir:display [ fhir:v "Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation" ]
+  ] [
+     fhir:code [ fhir:v "A17" ] ;
+     fhir:display [ fhir:v "Tuberculosis of nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A17.0" ] ;
+     fhir:display [ fhir:v "Tuberculous meningitis[G01]" ]
+  ] [
+     fhir:code [ fhir:v "A17.1" ] ;
+     fhir:display [ fhir:v "Meningeal tuberculoma[G07]" ]
+  ] [
+     fhir:code [ fhir:v "A17.8" ] ;
+     fhir:display [ fhir:v "Other tuberculosis of nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A17.9" ] ;
+     fhir:display [ fhir:v "Tuberculosis of nervous system, unspecified[G99.8]" ]
+  ] [
+     fhir:code [ fhir:v "A18" ] ;
+     fhir:display [ fhir:v "Tuberculosis of other organs" ]
+  ] [
+     fhir:code [ fhir:v "A18.0" ] ;
+     fhir:display [ fhir:v "Tuberculosis of bones and joints" ]
+  ] [
+     fhir:code [ fhir:v "A18.1" ] ;
+     fhir:display [ fhir:v "Tuberculosis of genitourinary system" ]
+  ] [
+     fhir:code [ fhir:v "A18.2" ] ;
+     fhir:display [ fhir:v "Tuberculous peripheral lymphadenopathy" ]
+  ] [
+     fhir:code [ fhir:v "A18.3" ] ;
+     fhir:display [ fhir:v "Tuberculosis of intestines, peritoneum and mesenteric glands" ]
+  ] [
+     fhir:code [ fhir:v "A18.4" ] ;
+     fhir:display [ fhir:v "Tuberculosis of skin and subcutaneous tissue" ]
+  ] [
+     fhir:code [ fhir:v "A18.5" ] ;
+     fhir:display [ fhir:v "Tuberculosis of eye" ]
+  ] [
+     fhir:code [ fhir:v "A18.6" ] ;
+     fhir:display [ fhir:v "Tuberculosis of ear" ]
+  ] [
+     fhir:code [ fhir:v "A18.7" ] ;
+     fhir:display [ fhir:v "Tuberculosis of adrenal glands[E35.1]" ]
+  ] [
+     fhir:code [ fhir:v "A18.8" ] ;
+     fhir:display [ fhir:v "Tuberculosis of other specified organs" ]
+  ] [
+     fhir:code [ fhir:v "A19" ] ;
+     fhir:display [ fhir:v "Miliary tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "A19.0" ] ;
+     fhir:display [ fhir:v "Acute miliary tuberculosis of a single specified site" ]
+  ] [
+     fhir:code [ fhir:v "A19.1" ] ;
+     fhir:display [ fhir:v "Acute miliary tuberculosis of multiple sites" ]
+  ] [
+     fhir:code [ fhir:v "A19.2" ] ;
+     fhir:display [ fhir:v "Acute miliary tuberculosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A19.8" ] ;
+     fhir:display [ fhir:v "Other miliary tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "A19.9" ] ;
+     fhir:display [ fhir:v "Miliary tuberculosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A20-A28" ] ;
+     fhir:display [ fhir:v "Certain zoonotic bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "A20" ] ;
+     fhir:display [ fhir:v "Plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.0" ] ;
+     fhir:display [ fhir:v "Bubonic plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.1" ] ;
+     fhir:display [ fhir:v "Cellulocutaneous plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.2" ] ;
+     fhir:display [ fhir:v "Pneumonic plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.3" ] ;
+     fhir:display [ fhir:v "Plague meningitis" ]
+  ] [
+     fhir:code [ fhir:v "A20.7" ] ;
+     fhir:display [ fhir:v "Septicaemic plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.8" ] ;
+     fhir:display [ fhir:v "Other forms of plague" ]
+  ] [
+     fhir:code [ fhir:v "A20.9" ] ;
+     fhir:display [ fhir:v "Plague, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A21" ] ;
+     fhir:display [ fhir:v "Tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.0" ] ;
+     fhir:display [ fhir:v "Ulceroglandular tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.1" ] ;
+     fhir:display [ fhir:v "Oculoglandular tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.2" ] ;
+     fhir:display [ fhir:v "Pulmonary tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.3" ] ;
+     fhir:display [ fhir:v "Gastrointestinal tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.7" ] ;
+     fhir:display [ fhir:v "Generalized tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.8" ] ;
+     fhir:display [ fhir:v "Other forms of tularaemia" ]
+  ] [
+     fhir:code [ fhir:v "A21.9" ] ;
+     fhir:display [ fhir:v "Tularaemia, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A22" ] ;
+     fhir:display [ fhir:v "Anthrax" ]
+  ] [
+     fhir:code [ fhir:v "A22.0" ] ;
+     fhir:display [ fhir:v "Cutaneous anthrax" ]
+  ] [
+     fhir:code [ fhir:v "A22.1" ] ;
+     fhir:display [ fhir:v "Pulmonary anthrax" ]
+  ] [
+     fhir:code [ fhir:v "A22.2" ] ;
+     fhir:display [ fhir:v "Gastrointestinal anthrax" ]
+  ] [
+     fhir:code [ fhir:v "A22.7" ] ;
+     fhir:display [ fhir:v "Anthrax sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A22.8" ] ;
+     fhir:display [ fhir:v "Other forms of anthrax" ]
+  ] [
+     fhir:code [ fhir:v "A22.9" ] ;
+     fhir:display [ fhir:v "Anthrax, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A23" ] ;
+     fhir:display [ fhir:v "Brucellosis" ]
+  ] [
+     fhir:code [ fhir:v "A23.0" ] ;
+     fhir:display [ fhir:v "Brucellosis due to Brucella melitensis" ]
+  ] [
+     fhir:code [ fhir:v "A23.1" ] ;
+     fhir:display [ fhir:v "Brucellosis due to Brucella abortus" ]
+  ] [
+     fhir:code [ fhir:v "A23.2" ] ;
+     fhir:display [ fhir:v "Brucellosis due to Brucella suis" ]
+  ] [
+     fhir:code [ fhir:v "A23.3" ] ;
+     fhir:display [ fhir:v "Brucellosis due to Brucella canis" ]
+  ] [
+     fhir:code [ fhir:v "A23.8" ] ;
+     fhir:display [ fhir:v "Other brucellosis" ]
+  ] [
+     fhir:code [ fhir:v "A23.9" ] ;
+     fhir:display [ fhir:v "Brucellosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A24" ] ;
+     fhir:display [ fhir:v "Glanders and melioidosis" ]
+  ] [
+     fhir:code [ fhir:v "A24.0" ] ;
+     fhir:display [ fhir:v "Glanders" ]
+  ] [
+     fhir:code [ fhir:v "A24.1" ] ;
+     fhir:display [ fhir:v "Acute and fulminating melioidosis" ]
+  ] [
+     fhir:code [ fhir:v "A24.2" ] ;
+     fhir:display [ fhir:v "Subacute and chronic melioidosis" ]
+  ] [
+     fhir:code [ fhir:v "A24.3" ] ;
+     fhir:display [ fhir:v "Other melioidosis" ]
+  ] [
+     fhir:code [ fhir:v "A24.4" ] ;
+     fhir:display [ fhir:v "Melioidosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A25" ] ;
+     fhir:display [ fhir:v "Rat-bite fevers" ]
+  ] [
+     fhir:code [ fhir:v "A25.0" ] ;
+     fhir:display [ fhir:v "Spirillosis" ]
+  ] [
+     fhir:code [ fhir:v "A25.1" ] ;
+     fhir:display [ fhir:v "Streptobacillosis" ]
+  ] [
+     fhir:code [ fhir:v "A25.9" ] ;
+     fhir:display [ fhir:v "Rat-bite fever, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A26" ] ;
+     fhir:display [ fhir:v "Erysipeloid" ]
+  ] [
+     fhir:code [ fhir:v "A26.0" ] ;
+     fhir:display [ fhir:v "Cutaneous erysipeloid" ]
+  ] [
+     fhir:code [ fhir:v "A26.7" ] ;
+     fhir:display [ fhir:v "Erysipelothrix sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A26.8" ] ;
+     fhir:display [ fhir:v "Other forms of erysipeloid" ]
+  ] [
+     fhir:code [ fhir:v "A26.9" ] ;
+     fhir:display [ fhir:v "Erysipeloid, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A27" ] ;
+     fhir:display [ fhir:v "Leptospirosis" ]
+  ] [
+     fhir:code [ fhir:v "A27.0" ] ;
+     fhir:display [ fhir:v "Leptospirosis icterohaemorrhagica" ]
+  ] [
+     fhir:code [ fhir:v "A27.8" ] ;
+     fhir:display [ fhir:v "Other forms of leptospirosis" ]
+  ] [
+     fhir:code [ fhir:v "A27.9" ] ;
+     fhir:display [ fhir:v "Leptospirosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A28" ] ;
+     fhir:display [ fhir:v "Other zoonotic bacterial diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A28.0" ] ;
+     fhir:display [ fhir:v "Pasteurellosis" ]
+  ] [
+     fhir:code [ fhir:v "A28.1" ] ;
+     fhir:display [ fhir:v "Cat-scratch disease" ]
+  ] [
+     fhir:code [ fhir:v "A28.2" ] ;
+     fhir:display [ fhir:v "Extraintestinal yersiniosis" ]
+  ] [
+     fhir:code [ fhir:v "A28.8" ] ;
+     fhir:display [ fhir:v "Other specified zoonotic bacterial diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A28.9" ] ;
+     fhir:display [ fhir:v "Zoonotic bacterial disease, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A30-A49" ] ;
+     fhir:display [ fhir:v "Other bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "A30" ] ;
+     fhir:display [ fhir:v "Leprosy [Hansen disease]" ]
+  ] [
+     fhir:code [ fhir:v "A30.0" ] ;
+     fhir:display [ fhir:v "Indeterminate leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.1" ] ;
+     fhir:display [ fhir:v "Tuberculoid leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.2" ] ;
+     fhir:display [ fhir:v "Borderline tuberculoid leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.3" ] ;
+     fhir:display [ fhir:v "Borderline leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.4" ] ;
+     fhir:display [ fhir:v "Borderline lepromatous leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.5" ] ;
+     fhir:display [ fhir:v "Lepromatous leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.8" ] ;
+     fhir:display [ fhir:v "Other forms of leprosy" ]
+  ] [
+     fhir:code [ fhir:v "A30.9" ] ;
+     fhir:display [ fhir:v "Leprosy, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A31" ] ;
+     fhir:display [ fhir:v "Infection due to other mycobacteria" ]
+  ] [
+     fhir:code [ fhir:v "A31.0" ] ;
+     fhir:display [ fhir:v "Pulmonary mycobacterial infection" ]
+  ] [
+     fhir:code [ fhir:v "A31.1" ] ;
+     fhir:display [ fhir:v "Cutaneous mycobacterial infection" ]
+  ] [
+     fhir:code [ fhir:v "A31.8" ] ;
+     fhir:display [ fhir:v "Other mycobacterial infections" ]
+  ] [
+     fhir:code [ fhir:v "A31.9" ] ;
+     fhir:display [ fhir:v "Mycobacterial infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A32" ] ;
+     fhir:display [ fhir:v "Listeriosis" ]
+  ] [
+     fhir:code [ fhir:v "A32.0" ] ;
+     fhir:display [ fhir:v "Cutaneous listeriosis" ]
+  ] [
+     fhir:code [ fhir:v "A32.1" ] ;
+     fhir:display [ fhir:v "Listerial meningitis and meningoencephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A32.7" ] ;
+     fhir:display [ fhir:v "Listerial sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A32.8" ] ;
+     fhir:display [ fhir:v "Other forms of listeriosis" ]
+  ] [
+     fhir:code [ fhir:v "A32.9" ] ;
+     fhir:display [ fhir:v "Listeriosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A33" ] ;
+     fhir:display [ fhir:v "Tetanus neonatorum" ]
+  ] [
+     fhir:code [ fhir:v "A34" ] ;
+     fhir:display [ fhir:v "Obstetrical tetanus" ]
+  ] [
+     fhir:code [ fhir:v "A35" ] ;
+     fhir:display [ fhir:v "Other tetanus" ]
+  ] [
+     fhir:code [ fhir:v "A36" ] ;
+     fhir:display [ fhir:v "Diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.0" ] ;
+     fhir:display [ fhir:v "Pharyngeal diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.1" ] ;
+     fhir:display [ fhir:v "Nasopharyngeal diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.2" ] ;
+     fhir:display [ fhir:v "Laryngeal diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.3" ] ;
+     fhir:display [ fhir:v "Cutaneous diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.8" ] ;
+     fhir:display [ fhir:v "Other diphtheria" ]
+  ] [
+     fhir:code [ fhir:v "A36.9" ] ;
+     fhir:display [ fhir:v "Diphtheria, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A37" ] ;
+     fhir:display [ fhir:v "Whooping cough" ]
+  ] [
+     fhir:code [ fhir:v "A37.0" ] ;
+     fhir:display [ fhir:v "Whooping cough due to Bordetella pertussis" ]
+  ] [
+     fhir:code [ fhir:v "A37.1" ] ;
+     fhir:display [ fhir:v "Whooping cough due to Bordetella parapertussis" ]
+  ] [
+     fhir:code [ fhir:v "A37.8" ] ;
+     fhir:display [ fhir:v "Whooping cough due to other Bordetella species" ]
+  ] [
+     fhir:code [ fhir:v "A37.9" ] ;
+     fhir:display [ fhir:v "Whooping cough, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A38" ] ;
+     fhir:display [ fhir:v "Scarlet fever" ]
+  ] [
+     fhir:code [ fhir:v "A39" ] ;
+     fhir:display [ fhir:v "Meningococcal infection" ]
+  ] [
+     fhir:code [ fhir:v "A39.0" ] ;
+     fhir:display [ fhir:v "Meningococcal meningitis[G01]" ]
+  ] [
+     fhir:code [ fhir:v "A39.1" ] ;
+     fhir:display [ fhir:v "Waterhouse-Friderichsen syndrome[E35.1]" ]
+  ] [
+     fhir:code [ fhir:v "A39.2" ] ;
+     fhir:display [ fhir:v "Acute meningococcaemia" ]
+  ] [
+     fhir:code [ fhir:v "A39.3" ] ;
+     fhir:display [ fhir:v "Chronic meningococcaemia" ]
+  ] [
+     fhir:code [ fhir:v "A39.4" ] ;
+     fhir:display [ fhir:v "Meningococcaemia, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A39.5" ] ;
+     fhir:display [ fhir:v "Meningococcal heart disease" ]
+  ] [
+     fhir:code [ fhir:v "A39.8" ] ;
+     fhir:display [ fhir:v "Other meningococcal infections" ]
+  ] [
+     fhir:code [ fhir:v "A39.9" ] ;
+     fhir:display [ fhir:v "Meningococcal infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A40" ] ;
+     fhir:display [ fhir:v "Streptococcal sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A40.0" ] ;
+     fhir:display [ fhir:v "Sepsis due to streptococcus, group A" ]
+  ] [
+     fhir:code [ fhir:v "A40.1" ] ;
+     fhir:display [ fhir:v "Sepsis due to streptococcus, group B" ]
+  ] [
+     fhir:code [ fhir:v "A40.2" ] ;
+     fhir:display [ fhir:v "Sepsis due to streptococcus, group D and enterococcus" ]
+  ] [
+     fhir:code [ fhir:v "A40.3" ] ;
+     fhir:display [ fhir:v "Sepsis due to Streptococcus pneumoniae" ]
+  ] [
+     fhir:code [ fhir:v "A40.8" ] ;
+     fhir:display [ fhir:v "Other streptococcal sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A40.9" ] ;
+     fhir:display [ fhir:v "Streptococcal sepsis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A41" ] ;
+     fhir:display [ fhir:v "Other sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A41.0" ] ;
+     fhir:display [ fhir:v "Sepsis due to Staphylococcus aureus" ]
+  ] [
+     fhir:code [ fhir:v "A41.1" ] ;
+     fhir:display [ fhir:v "Sepsis due to other specified staphylococcus" ]
+  ] [
+     fhir:code [ fhir:v "A41.2" ] ;
+     fhir:display [ fhir:v "Sepsis due to unspecified staphylococcus" ]
+  ] [
+     fhir:code [ fhir:v "A41.3" ] ;
+     fhir:display [ fhir:v "Sepsis due to Haemophilus influenzae" ]
+  ] [
+     fhir:code [ fhir:v "A41.4" ] ;
+     fhir:display [ fhir:v "Sepsis due to anaerobes" ]
+  ] [
+     fhir:code [ fhir:v "A41.5" ] ;
+     fhir:display [ fhir:v "Sepsis due to other Gram-negative organisms" ]
+  ] [
+     fhir:code [ fhir:v "A41.8" ] ;
+     fhir:display [ fhir:v "Other specified sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A41.9" ] ;
+     fhir:display [ fhir:v "Sepsis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A42" ] ;
+     fhir:display [ fhir:v "Actinomycosis" ]
+  ] [
+     fhir:code [ fhir:v "A42.0" ] ;
+     fhir:display [ fhir:v "Pulmonary actinomycosis" ]
+  ] [
+     fhir:code [ fhir:v "A42.1" ] ;
+     fhir:display [ fhir:v "Abdominal actinomycosis" ]
+  ] [
+     fhir:code [ fhir:v "A42.2" ] ;
+     fhir:display [ fhir:v "Cervicofacial actinomycosis" ]
+  ] [
+     fhir:code [ fhir:v "A42.7" ] ;
+     fhir:display [ fhir:v "Actinomycotic sepsis" ]
+  ] [
+     fhir:code [ fhir:v "A42.8" ] ;
+     fhir:display [ fhir:v "Other forms of actinomycosis" ]
+  ] [
+     fhir:code [ fhir:v "A42.9" ] ;
+     fhir:display [ fhir:v "Actinomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A43" ] ;
+     fhir:display [ fhir:v "Nocardiosis" ]
+  ] [
+     fhir:code [ fhir:v "A43.0" ] ;
+     fhir:display [ fhir:v "Pulmonary nocardiosis" ]
+  ] [
+     fhir:code [ fhir:v "A43.1" ] ;
+     fhir:display [ fhir:v "Cutaneous nocardiosis" ]
+  ] [
+     fhir:code [ fhir:v "A43.8" ] ;
+     fhir:display [ fhir:v "Other forms of nocardiosis" ]
+  ] [
+     fhir:code [ fhir:v "A43.9" ] ;
+     fhir:display [ fhir:v "Nocardiosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A44" ] ;
+     fhir:display [ fhir:v "Bartonellosis" ]
+  ] [
+     fhir:code [ fhir:v "A44.0" ] ;
+     fhir:display [ fhir:v "Systemic bartonellosis" ]
+  ] [
+     fhir:code [ fhir:v "A44.1" ] ;
+     fhir:display [ fhir:v "Cutaneous and mucocutaneous bartonellosis" ]
+  ] [
+     fhir:code [ fhir:v "A44.8" ] ;
+     fhir:display [ fhir:v "Other forms of bartonellosis" ]
+  ] [
+     fhir:code [ fhir:v "A44.9" ] ;
+     fhir:display [ fhir:v "Bartonellosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A46" ] ;
+     fhir:display [ fhir:v "Erysipelas" ]
+  ] [
+     fhir:code [ fhir:v "A48" ] ;
+     fhir:display [ fhir:v "Other bacterial diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A48.0" ] ;
+     fhir:display [ fhir:v "Gas gangrene" ]
+  ] [
+     fhir:code [ fhir:v "A48.1" ] ;
+     fhir:display [ fhir:v "Legionnaires disease" ]
+  ] [
+     fhir:code [ fhir:v "A48.2" ] ;
+     fhir:display [ fhir:v "Nonpneumonic Legionnaires disease [Pontiac fever]" ]
+  ] [
+     fhir:code [ fhir:v "A48.3" ] ;
+     fhir:display [ fhir:v "Toxic shock syndrome" ]
+  ] [
+     fhir:code [ fhir:v "A48.4" ] ;
+     fhir:display [ fhir:v "Brazilian purpuric fever" ]
+  ] [
+     fhir:code [ fhir:v "A48.8" ] ;
+     fhir:display [ fhir:v "Other specified bacterial diseases" ]
+  ] [
+     fhir:code [ fhir:v "A49" ] ;
+     fhir:display [ fhir:v "Bacterial infection of unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.0" ] ;
+     fhir:display [ fhir:v "Staphylococcal infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.1" ] ;
+     fhir:display [ fhir:v "Streptococcal and enterococcal infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.2" ] ;
+     fhir:display [ fhir:v "Haemophilus influenzae infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.3" ] ;
+     fhir:display [ fhir:v "Mycoplasma infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.8" ] ;
+     fhir:display [ fhir:v "Other bacterial infections of unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "A49.9" ] ;
+     fhir:display [ fhir:v "Bacterial infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A50-A64" ] ;
+     fhir:display [ fhir:v "Infections with a predominantly sexual mode of transmission" ]
+  ] [
+     fhir:code [ fhir:v "A50" ] ;
+     fhir:display [ fhir:v "Congenital syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A50.0" ] ;
+     fhir:display [ fhir:v "Early congenital syphilis, symptomatic" ]
+  ] [
+     fhir:code [ fhir:v "A50.1" ] ;
+     fhir:display [ fhir:v "Early congenital syphilis, latent" ]
+  ] [
+     fhir:code [ fhir:v "A50.2" ] ;
+     fhir:display [ fhir:v "Early congenital syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A50.3" ] ;
+     fhir:display [ fhir:v "Late congenital syphilitic oculopathy" ]
+  ] [
+     fhir:code [ fhir:v "A50.4" ] ;
+     fhir:display [ fhir:v "Late congenital neurosyphilis [juvenile neurosyphilis]" ]
+  ] [
+     fhir:code [ fhir:v "A50.5" ] ;
+     fhir:display [ fhir:v "Other late congenital syphilis, symptomatic" ]
+  ] [
+     fhir:code [ fhir:v "A50.6" ] ;
+     fhir:display [ fhir:v "Late congenital syphilis, latent" ]
+  ] [
+     fhir:code [ fhir:v "A50.7" ] ;
+     fhir:display [ fhir:v "Late congenital syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A50.9" ] ;
+     fhir:display [ fhir:v "Congenital syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A51" ] ;
+     fhir:display [ fhir:v "Early syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A51.0" ] ;
+     fhir:display [ fhir:v "Primary genital syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A51.1" ] ;
+     fhir:display [ fhir:v "Primary anal syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A51.2" ] ;
+     fhir:display [ fhir:v "Primary syphilis of other sites" ]
+  ] [
+     fhir:code [ fhir:v "A51.3" ] ;
+     fhir:display [ fhir:v "Secondary syphilis of skin and mucous membranes" ]
+  ] [
+     fhir:code [ fhir:v "A51.4" ] ;
+     fhir:display [ fhir:v "Other secondary syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A51.5" ] ;
+     fhir:display [ fhir:v "Early syphilis, latent" ]
+  ] [
+     fhir:code [ fhir:v "A51.9" ] ;
+     fhir:display [ fhir:v "Early syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A52" ] ;
+     fhir:display [ fhir:v "Late syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A52.0" ] ;
+     fhir:display [ fhir:v "Cardiovascular syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A52.1" ] ;
+     fhir:display [ fhir:v "Symptomatic neurosyphilis" ]
+  ] [
+     fhir:code [ fhir:v "A52.2" ] ;
+     fhir:display [ fhir:v "Asymptomatic neurosyphilis" ]
+  ] [
+     fhir:code [ fhir:v "A52.3" ] ;
+     fhir:display [ fhir:v "Neurosyphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A52.7" ] ;
+     fhir:display [ fhir:v "Other symptomatic late syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A52.8" ] ;
+     fhir:display [ fhir:v "Late syphilis, latent" ]
+  ] [
+     fhir:code [ fhir:v "A52.9" ] ;
+     fhir:display [ fhir:v "Late syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A53" ] ;
+     fhir:display [ fhir:v "Other and unspecified syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A53.0" ] ;
+     fhir:display [ fhir:v "Latent syphilis, unspecified as early or late" ]
+  ] [
+     fhir:code [ fhir:v "A53.9" ] ;
+     fhir:display [ fhir:v "Syphilis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A54" ] ;
+     fhir:display [ fhir:v "Gonococcal infection" ]
+  ] [
+     fhir:code [ fhir:v "A54.0" ] ;
+     fhir:display [ fhir:v "Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess" ]
+  ] [
+     fhir:code [ fhir:v "A54.1" ] ;
+     fhir:display [ fhir:v "Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess" ]
+  ] [
+     fhir:code [ fhir:v "A54.2" ] ;
+     fhir:display [ fhir:v "Gonococcal pelviperitonitis and other gonococcal genitourinary infections" ]
+  ] [
+     fhir:code [ fhir:v "A54.3" ] ;
+     fhir:display [ fhir:v "Gonococcal infection of eye" ]
+  ] [
+     fhir:code [ fhir:v "A54.4" ] ;
+     fhir:display [ fhir:v "Gonococcal infection of musculoskeletal system" ]
+  ] [
+     fhir:code [ fhir:v "A54.5" ] ;
+     fhir:display [ fhir:v "Gonococcal pharyngitis" ]
+  ] [
+     fhir:code [ fhir:v "A54.6" ] ;
+     fhir:display [ fhir:v "Gonococcal infection of anus and rectum" ]
+  ] [
+     fhir:code [ fhir:v "A54.8" ] ;
+     fhir:display [ fhir:v "Other gonococcal infections" ]
+  ] [
+     fhir:code [ fhir:v "A54.9" ] ;
+     fhir:display [ fhir:v "Gonococcal infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A55" ] ;
+     fhir:display [ fhir:v "Chlamydial lymphogranuloma (venereum)" ]
+  ] [
+     fhir:code [ fhir:v "A56" ] ;
+     fhir:display [ fhir:v "Other sexually transmitted chlamydial diseases" ]
+  ] [
+     fhir:code [ fhir:v "A56.0" ] ;
+     fhir:display [ fhir:v "Chlamydial infection of lower genitourinary tract" ]
+  ] [
+     fhir:code [ fhir:v "A56.1" ] ;
+     fhir:display [ fhir:v "Chlamydial infection of pelviperitoneum and other genitourinary organs" ]
+  ] [
+     fhir:code [ fhir:v "A56.2" ] ;
+     fhir:display [ fhir:v "Chlamydial infection of genitourinary tract, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A56.3" ] ;
+     fhir:display [ fhir:v "Chlamydial infection of anus and rectum" ]
+  ] [
+     fhir:code [ fhir:v "A56.4" ] ;
+     fhir:display [ fhir:v "Chlamydial infection of pharynx" ]
+  ] [
+     fhir:code [ fhir:v "A56.8" ] ;
+     fhir:display [ fhir:v "Sexually transmitted chlamydial infection of other sites" ]
+  ] [
+     fhir:code [ fhir:v "A57" ] ;
+     fhir:display [ fhir:v "Chancroid" ]
+  ] [
+     fhir:code [ fhir:v "A58" ] ;
+     fhir:display [ fhir:v "Granuloma inguinale" ]
+  ] [
+     fhir:code [ fhir:v "A59" ] ;
+     fhir:display [ fhir:v "Trichomoniasis" ]
+  ] [
+     fhir:code [ fhir:v "A59.0" ] ;
+     fhir:display [ fhir:v "Urogenital trichomoniasis" ]
+  ] [
+     fhir:code [ fhir:v "A59.8" ] ;
+     fhir:display [ fhir:v "Trichomoniasis of other sites" ]
+  ] [
+     fhir:code [ fhir:v "A59.9" ] ;
+     fhir:display [ fhir:v "Trichomoniasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A60" ] ;
+     fhir:display [ fhir:v "Anogenital herpesviral [herpes simplex] infection" ]
+  ] [
+     fhir:code [ fhir:v "A60.0" ] ;
+     fhir:display [ fhir:v "Herpesviral infection of genitalia and urogenital tract" ]
+  ] [
+     fhir:code [ fhir:v "A60.1" ] ;
+     fhir:display [ fhir:v "Herpesviral infection of perianal skin and rectum" ]
+  ] [
+     fhir:code [ fhir:v "A60.9" ] ;
+     fhir:display [ fhir:v "Anogenital herpesviral infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A63" ] ;
+     fhir:display [ fhir:v "Other predominantly sexually transmitted diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A63.0" ] ;
+     fhir:display [ fhir:v "Anogenital (venereal) warts" ]
+  ] [
+     fhir:code [ fhir:v "A63.8" ] ;
+     fhir:display [ fhir:v "Other specified predominantly sexually transmitted diseases" ]
+  ] [
+     fhir:code [ fhir:v "A64" ] ;
+     fhir:display [ fhir:v "Unspecified sexually transmitted disease" ]
+  ] [
+     fhir:code [ fhir:v "A65-A69" ] ;
+     fhir:display [ fhir:v "Other spirochaetal diseases" ]
+  ] [
+     fhir:code [ fhir:v "A65" ] ;
+     fhir:display [ fhir:v "Nonvenereal syphilis" ]
+  ] [
+     fhir:code [ fhir:v "A66" ] ;
+     fhir:display [ fhir:v "Yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.0" ] ;
+     fhir:display [ fhir:v "Initial lesions of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.1" ] ;
+     fhir:display [ fhir:v "Multiple papillomata and wet crab yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.2" ] ;
+     fhir:display [ fhir:v "Other early skin lesions of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.3" ] ;
+     fhir:display [ fhir:v "Hyperkeratosis of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.4" ] ;
+     fhir:display [ fhir:v "Gummata and ulcers of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.5" ] ;
+     fhir:display [ fhir:v "Gangosa" ]
+  ] [
+     fhir:code [ fhir:v "A66.6" ] ;
+     fhir:display [ fhir:v "Bone and joint lesions of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.7" ] ;
+     fhir:display [ fhir:v "Other manifestations of yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.8" ] ;
+     fhir:display [ fhir:v "Latent yaws" ]
+  ] [
+     fhir:code [ fhir:v "A66.9" ] ;
+     fhir:display [ fhir:v "Yaws, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A67" ] ;
+     fhir:display [ fhir:v "Pinta [carate]" ]
+  ] [
+     fhir:code [ fhir:v "A67.0" ] ;
+     fhir:display [ fhir:v "Primary lesions of pinta" ]
+  ] [
+     fhir:code [ fhir:v "A67.1" ] ;
+     fhir:display [ fhir:v "Intermediate lesions of pinta" ]
+  ] [
+     fhir:code [ fhir:v "A67.2" ] ;
+     fhir:display [ fhir:v "Late lesions of pinta" ]
+  ] [
+     fhir:code [ fhir:v "A67.3" ] ;
+     fhir:display [ fhir:v "Mixed lesions of pinta" ]
+  ] [
+     fhir:code [ fhir:v "A67.9" ] ;
+     fhir:display [ fhir:v "Pinta, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A68" ] ;
+     fhir:display [ fhir:v "Relapsing fevers" ]
+  ] [
+     fhir:code [ fhir:v "A68.0" ] ;
+     fhir:display [ fhir:v "Louse-borne relapsing fever" ]
+  ] [
+     fhir:code [ fhir:v "A68.1" ] ;
+     fhir:display [ fhir:v "Tick-borne relapsing fever" ]
+  ] [
+     fhir:code [ fhir:v "A68.9" ] ;
+     fhir:display [ fhir:v "Relapsing fever, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A69" ] ;
+     fhir:display [ fhir:v "Other spirochaetal infections" ]
+  ] [
+     fhir:code [ fhir:v "A69.0" ] ;
+     fhir:display [ fhir:v "Necrotizing ulcerative stomatitis" ]
+  ] [
+     fhir:code [ fhir:v "A69.1" ] ;
+     fhir:display [ fhir:v "Other Vincent infections" ]
+  ] [
+     fhir:code [ fhir:v "A69.2" ] ;
+     fhir:display [ fhir:v "Lyme disease" ]
+  ] [
+     fhir:code [ fhir:v "A69.8" ] ;
+     fhir:display [ fhir:v "Other specified spirochaetal infections" ]
+  ] [
+     fhir:code [ fhir:v "A69.9" ] ;
+     fhir:display [ fhir:v "Spirochaetal infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A70-A74" ] ;
+     fhir:display [ fhir:v "Other diseases caused by chlamydiae" ]
+  ] [
+     fhir:code [ fhir:v "A70" ] ;
+     fhir:display [ fhir:v "Chlamydia psittaci infection" ]
+  ] [
+     fhir:code [ fhir:v "A71" ] ;
+     fhir:display [ fhir:v "Trachoma" ]
+  ] [
+     fhir:code [ fhir:v "A71.0" ] ;
+     fhir:display [ fhir:v "Initial stage of trachoma" ]
+  ] [
+     fhir:code [ fhir:v "A71.1" ] ;
+     fhir:display [ fhir:v "Active stage of trachoma" ]
+  ] [
+     fhir:code [ fhir:v "A71.9" ] ;
+     fhir:display [ fhir:v "Trachoma, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A74" ] ;
+     fhir:display [ fhir:v "Other diseases caused by chlamydiae" ]
+  ] [
+     fhir:code [ fhir:v "A74.0" ] ;
+     fhir:display [ fhir:v "Chlamydial conjunctivitis[H13.1]" ]
+  ] [
+     fhir:code [ fhir:v "A74.8" ] ;
+     fhir:display [ fhir:v "Other chlamydial diseases" ]
+  ] [
+     fhir:code [ fhir:v "A74.9" ] ;
+     fhir:display [ fhir:v "Chlamydial infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A75-A79" ] ;
+     fhir:display [ fhir:v "Rickettsioses" ]
+  ] [
+     fhir:code [ fhir:v "A75" ] ;
+     fhir:display [ fhir:v "Typhus fever" ]
+  ] [
+     fhir:code [ fhir:v "A75.0" ] ;
+     fhir:display [ fhir:v "Epidemic louse-borne typhus fever due to Rickettsia prowazekii" ]
+  ] [
+     fhir:code [ fhir:v "A75.1" ] ;
+     fhir:display [ fhir:v "Recrudescent typhus [Brill disease]" ]
+  ] [
+     fhir:code [ fhir:v "A75.2" ] ;
+     fhir:display [ fhir:v "Typhus fever due to Rickettsia typhi" ]
+  ] [
+     fhir:code [ fhir:v "A75.3" ] ;
+     fhir:display [ fhir:v "Typhus fever due to Rickettsia tsutsugamushi" ]
+  ] [
+     fhir:code [ fhir:v "A75.9" ] ;
+     fhir:display [ fhir:v "Typhus fever, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A77" ] ;
+     fhir:display [ fhir:v "Spotted fever [tick-borne rickettsioses]" ]
+  ] [
+     fhir:code [ fhir:v "A77.0" ] ;
+     fhir:display [ fhir:v "Spotted fever due to Rickettsia rickettsii" ]
+  ] [
+     fhir:code [ fhir:v "A77.1" ] ;
+     fhir:display [ fhir:v "Spotted fever due to Rickettsia conorii" ]
+  ] [
+     fhir:code [ fhir:v "A77.2" ] ;
+     fhir:display [ fhir:v "Spotted fever due to Rickettsia sibirica" ]
+  ] [
+     fhir:code [ fhir:v "A77.3" ] ;
+     fhir:display [ fhir:v "Spotted fever due to Rickettsia australis" ]
+  ] [
+     fhir:code [ fhir:v "A77.8" ] ;
+     fhir:display [ fhir:v "Other spotted fevers" ]
+  ] [
+     fhir:code [ fhir:v "A77.9" ] ;
+     fhir:display [ fhir:v "Spotted fever, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A78" ] ;
+     fhir:display [ fhir:v "Q fever" ]
+  ] [
+     fhir:code [ fhir:v "A79" ] ;
+     fhir:display [ fhir:v "Other rickettsioses" ]
+  ] [
+     fhir:code [ fhir:v "A79.0" ] ;
+     fhir:display [ fhir:v "Trench fever" ]
+  ] [
+     fhir:code [ fhir:v "A79.1" ] ;
+     fhir:display [ fhir:v "Rickettsialpox due to Rickettsia akari" ]
+  ] [
+     fhir:code [ fhir:v "A79.8" ] ;
+     fhir:display [ fhir:v "Other specified rickettsioses" ]
+  ] [
+     fhir:code [ fhir:v "A79.9" ] ;
+     fhir:display [ fhir:v "Rickettsiosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A80-A89" ] ;
+     fhir:display [ fhir:v "Viral infections of the central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A80" ] ;
+     fhir:display [ fhir:v "Acute poliomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "A80.0" ] ;
+     fhir:display [ fhir:v "Acute paralytic poliomyelitis, vaccine-associated" ]
+  ] [
+     fhir:code [ fhir:v "A80.1" ] ;
+     fhir:display [ fhir:v "Acute paralytic poliomyelitis, wild virus, imported" ]
+  ] [
+     fhir:code [ fhir:v "A80.2" ] ;
+     fhir:display [ fhir:v "Acute paralytic poliomyelitis, wild virus, indigenous" ]
+  ] [
+     fhir:code [ fhir:v "A80.3" ] ;
+     fhir:display [ fhir:v "Acute paralytic poliomyelitis, other and unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A80.4" ] ;
+     fhir:display [ fhir:v "Acute nonparalytic poliomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "A80.9" ] ;
+     fhir:display [ fhir:v "Acute poliomyelitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A81" ] ;
+     fhir:display [ fhir:v "Atypical virus infections of central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A81.0" ] ;
+     fhir:display [ fhir:v "Creutzfeldt-Jakob disease" ]
+  ] [
+     fhir:code [ fhir:v "A81.1" ] ;
+     fhir:display [ fhir:v "Subacute sclerosing panencephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A81.2" ] ;
+     fhir:display [ fhir:v "Progressive multifocal leukoencephalopathy" ]
+  ] [
+     fhir:code [ fhir:v "A81.8" ] ;
+     fhir:display [ fhir:v "Other atypical virus infections of central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A81.9" ] ;
+     fhir:display [ fhir:v "Atypical virus infection of central nervous system, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A82" ] ;
+     fhir:display [ fhir:v "Rabies" ]
+  ] [
+     fhir:code [ fhir:v "A82.0" ] ;
+     fhir:display [ fhir:v "Sylvatic rabies" ]
+  ] [
+     fhir:code [ fhir:v "A82.1" ] ;
+     fhir:display [ fhir:v "Urban rabies" ]
+  ] [
+     fhir:code [ fhir:v "A82.9" ] ;
+     fhir:display [ fhir:v "Rabies, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A83" ] ;
+     fhir:display [ fhir:v "Mosquito-borne viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.0" ] ;
+     fhir:display [ fhir:v "Japanese encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.1" ] ;
+     fhir:display [ fhir:v "Western equine encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.2" ] ;
+     fhir:display [ fhir:v "Eastern equine encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.3" ] ;
+     fhir:display [ fhir:v "St Louis encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.4" ] ;
+     fhir:display [ fhir:v "Australian encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.5" ] ;
+     fhir:display [ fhir:v "California encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.6" ] ;
+     fhir:display [ fhir:v "Rocio virus disease" ]
+  ] [
+     fhir:code [ fhir:v "A83.8" ] ;
+     fhir:display [ fhir:v "Other mosquito-borne viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A83.9" ] ;
+     fhir:display [ fhir:v "Mosquito-borne viral encephalitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A84" ] ;
+     fhir:display [ fhir:v "Tick-borne viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A84.0" ] ;
+     fhir:display [ fhir:v "Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]" ]
+  ] [
+     fhir:code [ fhir:v "A84.1" ] ;
+     fhir:display [ fhir:v "Central European tick-borne encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A84.8" ] ;
+     fhir:display [ fhir:v "Other tick-borne viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A84.9" ] ;
+     fhir:display [ fhir:v "Tick-borne viral encephalitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A85" ] ;
+     fhir:display [ fhir:v "Other viral encephalitis, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A85.0" ] ;
+     fhir:display [ fhir:v "Enteroviral encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "A85.1" ] ;
+     fhir:display [ fhir:v "Adenoviral encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "A85.2" ] ;
+     fhir:display [ fhir:v "Arthropod-borne viral encephalitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A85.8" ] ;
+     fhir:display [ fhir:v "Other specified viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A86" ] ;
+     fhir:display [ fhir:v "Unspecified viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "A87" ] ;
+     fhir:display [ fhir:v "Viral meningitis" ]
+  ] [
+     fhir:code [ fhir:v "A87.0" ] ;
+     fhir:display [ fhir:v "Enteroviral meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "A87.1" ] ;
+     fhir:display [ fhir:v "Adenoviral meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "A87.2" ] ;
+     fhir:display [ fhir:v "Lymphocytic choriomeningitis" ]
+  ] [
+     fhir:code [ fhir:v "A87.8" ] ;
+     fhir:display [ fhir:v "Other viral meningitis" ]
+  ] [
+     fhir:code [ fhir:v "A87.9" ] ;
+     fhir:display [ fhir:v "Viral meningitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "A88" ] ;
+     fhir:display [ fhir:v "Other viral infections of central nervous system, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "A88.0" ] ;
+     fhir:display [ fhir:v "Enteroviral exanthematous fever [Boston exanthem]" ]
+  ] [
+     fhir:code [ fhir:v "A88.1" ] ;
+     fhir:display [ fhir:v "Epidemic vertigo" ]
+  ] [
+     fhir:code [ fhir:v "A88.8" ] ;
+     fhir:display [ fhir:v "Other specified viral infections of central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A89" ] ;
+     fhir:display [ fhir:v "Unspecified viral infection of central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "A92-A99" ] ;
+     fhir:display [ fhir:v "Arthropod-borne viral fevers and viral haemorrhagic fevers" ]
+  ] [
+     fhir:code [ fhir:v "A92" ] ;
+     fhir:display [ fhir:v "Other mosquito-borne viral fevers" ]
+  ] [
+     fhir:code [ fhir:v "A92.0" ] ;
+     fhir:display [ fhir:v "Chikungunya virus disease" ]
+  ] [
+     fhir:code [ fhir:v "A92.1" ] ;
+     fhir:display [ fhir:v "O'nyong-nyong fever" ]
+  ] [
+     fhir:code [ fhir:v "A92.2" ] ;
+     fhir:display [ fhir:v "Venezuelan equine fever" ]
+  ] [
+     fhir:code [ fhir:v "A92.3" ] ;
+     fhir:display [ fhir:v "West Nile virus infection" ]
+  ] [
+     fhir:code [ fhir:v "A92.4" ] ;
+     fhir:display [ fhir:v "Rift Valley fever" ]
+  ] [
+     fhir:code [ fhir:v "A92.5" ] ;
+     fhir:display [ fhir:v "Zika virus disease" ]
+  ] [
+     fhir:code [ fhir:v "A92.8" ] ;
+     fhir:display [ fhir:v "Other specified mosquito-borne viral fevers" ]
+  ] [
+     fhir:code [ fhir:v "A92.9" ] ;
+     fhir:display [ fhir:v "Mosquito" ]
+  ] [
+     fhir:code [ fhir:v "B00-B09" ] ;
+     fhir:display [ fhir:v "Viral infections characterized by skin and mucous membrane lesions" ]
+  ] [
+     fhir:code [ fhir:v "B00" ] ;
+     fhir:display [ fhir:v "Herpesviral [herpes simplex] infections" ]
+  ] [
+     fhir:code [ fhir:v "B00.0" ] ;
+     fhir:display [ fhir:v "Eczema herpeticum" ]
+  ] [
+     fhir:code [ fhir:v "B00.1" ] ;
+     fhir:display [ fhir:v "Herpesviral vesicular dermatitis" ]
+  ] [
+     fhir:code [ fhir:v "B00.2" ] ;
+     fhir:display [ fhir:v "Herpesviral gingivostomatitis and pharyngotonsillitis" ]
+  ] [
+     fhir:code [ fhir:v "B00.3" ] ;
+     fhir:display [ fhir:v "Herpesviral meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "B00.4" ] ;
+     fhir:display [ fhir:v "Herpesviral encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "B00.5" ] ;
+     fhir:display [ fhir:v "Herpesviral ocular disease" ]
+  ] [
+     fhir:code [ fhir:v "B00.7" ] ;
+     fhir:display [ fhir:v "Disseminated herpesviral disease" ]
+  ] [
+     fhir:code [ fhir:v "B00.8" ] ;
+     fhir:display [ fhir:v "Other forms of herpesviral infection" ]
+  ] [
+     fhir:code [ fhir:v "B00.9" ] ;
+     fhir:display [ fhir:v "Herpesviral infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B01" ] ;
+     fhir:display [ fhir:v "Varicella [chickenpox]" ]
+  ] [
+     fhir:code [ fhir:v "B01.0" ] ;
+     fhir:display [ fhir:v "Varicella meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "B01.1" ] ;
+     fhir:display [ fhir:v "Varicella encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "B01.2" ] ;
+     fhir:display [ fhir:v "Varicella pneumonia[J17.1]" ]
+  ] [
+     fhir:code [ fhir:v "B01.8" ] ;
+     fhir:display [ fhir:v "Varicella with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B01.9" ] ;
+     fhir:display [ fhir:v "Varicella without complication" ]
+  ] [
+     fhir:code [ fhir:v "B02" ] ;
+     fhir:display [ fhir:v "Zoster [herpes zoster]" ]
+  ] [
+     fhir:code [ fhir:v "B02.0" ] ;
+     fhir:display [ fhir:v "Zoster encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "B02.1" ] ;
+     fhir:display [ fhir:v "Zoster meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "B02.2" ] ;
+     fhir:display [ fhir:v "Zoster with other nervous system involvement" ]
+  ] [
+     fhir:code [ fhir:v "B02.3" ] ;
+     fhir:display [ fhir:v "Zoster ocular disease" ]
+  ] [
+     fhir:code [ fhir:v "B02.7" ] ;
+     fhir:display [ fhir:v "Disseminated zoster" ]
+  ] [
+     fhir:code [ fhir:v "B02.8" ] ;
+     fhir:display [ fhir:v "Zoster with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B02.9" ] ;
+     fhir:display [ fhir:v "Zoster without complication" ]
+  ] [
+     fhir:code [ fhir:v "B03" ] ;
+     fhir:display [ fhir:v "SmallpoxINCLUDE" ]
+  ] [
+     fhir:code [ fhir:v "B04" ] ;
+     fhir:display [ fhir:v "Monkeypox" ]
+  ] [
+     fhir:code [ fhir:v "B05" ] ;
+     fhir:display [ fhir:v "Measles" ]
+  ] [
+     fhir:code [ fhir:v "B05.0" ] ;
+     fhir:display [ fhir:v "Measles complicated by encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "B05.1" ] ;
+     fhir:display [ fhir:v "Measles complicated by meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "B05.2" ] ;
+     fhir:display [ fhir:v "Measles complicated by pneumonia[J17.1]" ]
+  ] [
+     fhir:code [ fhir:v "B05.3" ] ;
+     fhir:display [ fhir:v "Measles complicated by otitis media[H67.1]" ]
+  ] [
+     fhir:code [ fhir:v "B05.4" ] ;
+     fhir:display [ fhir:v "Measles with intestinal complications" ]
+  ] [
+     fhir:code [ fhir:v "B05.8" ] ;
+     fhir:display [ fhir:v "Measles with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B05.9" ] ;
+     fhir:display [ fhir:v "Measles without complication" ]
+  ] [
+     fhir:code [ fhir:v "B06" ] ;
+     fhir:display [ fhir:v "Rubella [German measles]" ]
+  ] [
+     fhir:code [ fhir:v "B06.0" ] ;
+     fhir:display [ fhir:v "Rubella with neurological complications" ]
+  ] [
+     fhir:code [ fhir:v "B06.8" ] ;
+     fhir:display [ fhir:v "Rubella with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B06.9" ] ;
+     fhir:display [ fhir:v "Rubella without complication" ]
+  ] [
+     fhir:code [ fhir:v "B07" ] ;
+     fhir:display [ fhir:v "Viral warts" ]
+  ] [
+     fhir:code [ fhir:v "B08" ] ;
+     fhir:display [ fhir:v "Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B08.0" ] ;
+     fhir:display [ fhir:v "Other orthopoxvirus infections" ]
+  ] [
+     fhir:code [ fhir:v "B08.1" ] ;
+     fhir:display [ fhir:v "Molluscum contagiosum" ]
+  ] [
+     fhir:code [ fhir:v "B08.2" ] ;
+     fhir:display [ fhir:v "Exanthema subitum [sixth disease]" ]
+  ] [
+     fhir:code [ fhir:v "B08.3" ] ;
+     fhir:display [ fhir:v "Erythema infectiosum [fifth disease]" ]
+  ] [
+     fhir:code [ fhir:v "B08.4" ] ;
+     fhir:display [ fhir:v "Enteroviral vesicular stomatitis with exanthem" ]
+  ] [
+     fhir:code [ fhir:v "B08.5" ] ;
+     fhir:display [ fhir:v "Enteroviral vesicular pharyngitis" ]
+  ] [
+     fhir:code [ fhir:v "B08.8" ] ;
+     fhir:display [ fhir:v "Other specified viral infections characterized by skin and mucous membrane lesions" ]
+  ] [
+     fhir:code [ fhir:v "B09" ] ;
+     fhir:display [ fhir:v "Unspecified viral infection characterized by skin and mucous membrane lesions" ]
+  ] [
+     fhir:code [ fhir:v "B15-B19" ] ;
+     fhir:display [ fhir:v "Viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B15" ] ;
+     fhir:display [ fhir:v "Acute hepatitis A" ]
+  ] [
+     fhir:code [ fhir:v "B15.0" ] ;
+     fhir:display [ fhir:v "Hepatitis A with hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B15.9" ] ;
+     fhir:display [ fhir:v "Hepatitis A without hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B16" ] ;
+     fhir:display [ fhir:v "Acute hepatitis B" ]
+  ] [
+     fhir:code [ fhir:v "B16.0" ] ;
+     fhir:display [ fhir:v "Acute hepatitis B with delta-agent (coinfection) with hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B16.1" ] ;
+     fhir:display [ fhir:v "Acute hepatitis B with delta-agent (coinfection) without hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B16.2" ] ;
+     fhir:display [ fhir:v "Acute hepatitis B without delta-agent with hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B16.9" ] ;
+     fhir:display [ fhir:v "Acute hepatitis B without delta-agent and without hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B17" ] ;
+     fhir:display [ fhir:v "Other acute viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B17.0" ] ;
+     fhir:display [ fhir:v "Acute delta-(super)infection in chronic hepatitis B" ]
+  ] [
+     fhir:code [ fhir:v "B17.1" ] ;
+     fhir:display [ fhir:v "Acute hepatitis C" ]
+  ] [
+     fhir:code [ fhir:v "B17.2" ] ;
+     fhir:display [ fhir:v "Acute hepatitis E" ]
+  ] [
+     fhir:code [ fhir:v "B17.8" ] ;
+     fhir:display [ fhir:v "Other specified acute viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B17.9" ] ;
+     fhir:display [ fhir:v "Acute viral hepatitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B18" ] ;
+     fhir:display [ fhir:v "Chronic viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B18.0" ] ;
+     fhir:display [ fhir:v "Chronic viral hepatitis B with delta-agent" ]
+  ] [
+     fhir:code [ fhir:v "B18.1" ] ;
+     fhir:display [ fhir:v "Chronic viral hepatitis B without delta-agent" ]
+  ] [
+     fhir:code [ fhir:v "B18.2" ] ;
+     fhir:display [ fhir:v "Chronic viral hepatitis C" ]
+  ] [
+     fhir:code [ fhir:v "B18.8" ] ;
+     fhir:display [ fhir:v "Other chronic viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B18.9" ] ;
+     fhir:display [ fhir:v "Chronic viral hepatitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B19" ] ;
+     fhir:display [ fhir:v "Unspecified viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B19.0" ] ;
+     fhir:display [ fhir:v "Unspecified viral hepatitis with hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B19.9" ] ;
+     fhir:display [ fhir:v "Unspecified viral hepatitis without hepatic coma" ]
+  ] [
+     fhir:code [ fhir:v "B20-B24" ] ;
+     fhir:display [ fhir:v "Human immunodeficiency virus [HIV] disease" ]
+  ] [
+     fhir:code [ fhir:v "B20" ] ;
+     fhir:display [ fhir:v "Human immunodeficiency virus [HIV] disease resulting in infectious and parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "B20.0" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in mycobacterial infection" ]
+  ] [
+     fhir:code [ fhir:v "B20.1" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other bacterial infections" ]
+  ] [
+     fhir:code [ fhir:v "B20.2" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in cytomegaloviral disease" ]
+  ] [
+     fhir:code [ fhir:v "B20.3" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other viral infections" ]
+  ] [
+     fhir:code [ fhir:v "B20.4" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in candidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B20.5" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B20.6" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in Pneumocystis jirovecii pneumonia" ]
+  ] [
+     fhir:code [ fhir:v "B20.7" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in multiple infections" ]
+  ] [
+     fhir:code [ fhir:v "B20.8" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other infectious and parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "B20.9" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in unspecified infectious or parasitic disease" ]
+  ] [
+     fhir:code [ fhir:v "B21" ] ;
+     fhir:display [ fhir:v "Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms" ]
+  ] [
+     fhir:code [ fhir:v "B21.0" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in Kaposi sarcoma" ]
+  ] [
+     fhir:code [ fhir:v "B21.1" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in Burkitt lymphoma" ]
+  ] [
+     fhir:code [ fhir:v "B21.2" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other types of non-Hodgkin lymphoma" ]
+  ] [
+     fhir:code [ fhir:v "B21.3" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other malignant neoplasms of lymphoid, haematopoietic and related tissue" ]
+  ] [
+     fhir:code [ fhir:v "B21.7" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in multiple malignant neoplasms" ]
+  ] [
+     fhir:code [ fhir:v "B21.8" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other malignant neoplasms" ]
+  ] [
+     fhir:code [ fhir:v "B21.9" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in unspecified malignant neoplasm" ]
+  ] [
+     fhir:code [ fhir:v "B22" ] ;
+     fhir:display [ fhir:v "Human immunodeficiency virus [HIV] disease resulting in other specified diseases" ]
+  ] [
+     fhir:code [ fhir:v "B22.0" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in encephalopathy" ]
+  ] [
+     fhir:code [ fhir:v "B22.1" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in lymphoid interstitial pneumonitis" ]
+  ] [
+     fhir:code [ fhir:v "B22.2" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in wasting syndrome" ]
+  ] [
+     fhir:code [ fhir:v "B22.7" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in multiple diseases classified elsewhere" ]
+  ] [
+     fhir:code [ fhir:v "B23" ] ;
+     fhir:display [ fhir:v "Human immunodeficiency virus [HIV] disease resulting in other conditions" ]
+  ] [
+     fhir:code [ fhir:v "B23.0" ] ;
+     fhir:display [ fhir:v "Acute HIV infection syndrome" ]
+  ] [
+     fhir:code [ fhir:v "B23.1" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in (persistent) generalized lymphadenopathy" ]
+  ] [
+     fhir:code [ fhir:v "B23.2" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in haematological and immunological abnormalities, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B23.8" ] ;
+     fhir:display [ fhir:v "HIV disease resulting in other specified conditions" ]
+  ] [
+     fhir:code [ fhir:v "B24" ] ;
+     fhir:display [ fhir:v "Unspecified human immunodeficiency virus [HIV] disease" ]
+  ] [
+     fhir:code [ fhir:v "B25-B34" ] ;
+     fhir:display [ fhir:v "Other viral diseases" ]
+  ] [
+     fhir:code [ fhir:v "B25" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral disease" ]
+  ] [
+     fhir:code [ fhir:v "B25.0" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral pneumonitis[J17.1]" ]
+  ] [
+     fhir:code [ fhir:v "B25.1" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral hepatitis[K77.0]" ]
+  ] [
+     fhir:code [ fhir:v "B25.2" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral pancreatitis[K87.1]" ]
+  ] [
+     fhir:code [ fhir:v "B25.8" ] ;
+     fhir:display [ fhir:v "Other cytomegaloviral diseases" ]
+  ] [
+     fhir:code [ fhir:v "B25.9" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral disease, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B26" ] ;
+     fhir:display [ fhir:v "Mumps" ]
+  ] [
+     fhir:code [ fhir:v "B26.0" ] ;
+     fhir:display [ fhir:v "Mumps orchitis[N51.1]" ]
+  ] [
+     fhir:code [ fhir:v "B26.1" ] ;
+     fhir:display [ fhir:v "Mumps meningitis[G02.0]" ]
+  ] [
+     fhir:code [ fhir:v "B26.2" ] ;
+     fhir:display [ fhir:v "Mumps encephalitis[G05.1]" ]
+  ] [
+     fhir:code [ fhir:v "B26.3" ] ;
+     fhir:display [ fhir:v "Mumps pancreatitis[K87.1]" ]
+  ] [
+     fhir:code [ fhir:v "B26.8" ] ;
+     fhir:display [ fhir:v "Mumps with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B26.9" ] ;
+     fhir:display [ fhir:v "Mumps without complication" ]
+  ] [
+     fhir:code [ fhir:v "B27" ] ;
+     fhir:display [ fhir:v "Infectious mononucleosis" ]
+  ] [
+     fhir:code [ fhir:v "B27.0" ] ;
+     fhir:display [ fhir:v "Gammaherpesviral mononucleosis" ]
+  ] [
+     fhir:code [ fhir:v "B27.1" ] ;
+     fhir:display [ fhir:v "Cytomegaloviral mononucleosis" ]
+  ] [
+     fhir:code [ fhir:v "B27.8" ] ;
+     fhir:display [ fhir:v "Other infectious mononucleosis" ]
+  ] [
+     fhir:code [ fhir:v "B27.9" ] ;
+     fhir:display [ fhir:v "Infectious mononucleosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B30" ] ;
+     fhir:display [ fhir:v "Viral conjunctivitis" ]
+  ] [
+     fhir:code [ fhir:v "B30.0" ] ;
+     fhir:display [ fhir:v "Keratoconjunctivitis due to adenovirus[H19.2]" ]
+  ] [
+     fhir:code [ fhir:v "B30.1" ] ;
+     fhir:display [ fhir:v "Conjunctivitis due to adenovirus[H13.1]" ]
+  ] [
+     fhir:code [ fhir:v "B30.2" ] ;
+     fhir:display [ fhir:v "Viral pharyngoconjunctivitis" ]
+  ] [
+     fhir:code [ fhir:v "B30.3" ] ;
+     fhir:display [ fhir:v "Acute epidemic haemorrhagic conjunctivitis (enteroviral)[H13.1]" ]
+  ] [
+     fhir:code [ fhir:v "B30.8" ] ;
+     fhir:display [ fhir:v "Other viral conjunctivitis[H13.1]" ]
+  ] [
+     fhir:code [ fhir:v "B30.9" ] ;
+     fhir:display [ fhir:v "Viral conjunctivitis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B33" ] ;
+     fhir:display [ fhir:v "Other viral diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B33.0" ] ;
+     fhir:display [ fhir:v "Epidemic myalgia" ]
+  ] [
+     fhir:code [ fhir:v "B33.1" ] ;
+     fhir:display [ fhir:v "Ross River disease" ]
+  ] [
+     fhir:code [ fhir:v "B33.2" ] ;
+     fhir:display [ fhir:v "Viral carditis" ]
+  ] [
+     fhir:code [ fhir:v "B33.3" ] ;
+     fhir:display [ fhir:v "Retrovirus infections, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B33.4" ] ;
+     fhir:display [ fhir:v "Hantavirus (cardio-)pulmonary syndrome [HPS] [HCPS][J17.1]" ]
+  ] [
+     fhir:code [ fhir:v "B33.8" ] ;
+     fhir:display [ fhir:v "Other specified viral diseases" ]
+  ] [
+     fhir:code [ fhir:v "B34" ] ;
+     fhir:display [ fhir:v "Viral infection of unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.0" ] ;
+     fhir:display [ fhir:v "Adenovirus infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.1" ] ;
+     fhir:display [ fhir:v "Enterovirus infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.2" ] ;
+     fhir:display [ fhir:v "Coronavirus infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.3" ] ;
+     fhir:display [ fhir:v "Parvovirus infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.4" ] ;
+     fhir:display [ fhir:v "Papovavirus infection, unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.8" ] ;
+     fhir:display [ fhir:v "Other viral infections of unspecified site" ]
+  ] [
+     fhir:code [ fhir:v "B34.9" ] ;
+     fhir:display [ fhir:v "Viral infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B35-B49" ] ;
+     fhir:display [ fhir:v "Mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B35" ] ;
+     fhir:display [ fhir:v "Dermatophytosis" ]
+  ] [
+     fhir:code [ fhir:v "B35.0" ] ;
+     fhir:display [ fhir:v "Tinea barbae and tinea capitis" ]
+  ] [
+     fhir:code [ fhir:v "B35.1" ] ;
+     fhir:display [ fhir:v "Tinea unguium" ]
+  ] [
+     fhir:code [ fhir:v "B35.2" ] ;
+     fhir:display [ fhir:v "Tinea manuum" ]
+  ] [
+     fhir:code [ fhir:v "B35.3" ] ;
+     fhir:display [ fhir:v "Tinea pedis" ]
+  ] [
+     fhir:code [ fhir:v "B35.4" ] ;
+     fhir:display [ fhir:v "Tinea corporis" ]
+  ] [
+     fhir:code [ fhir:v "B35.5" ] ;
+     fhir:display [ fhir:v "Tinea imbricata" ]
+  ] [
+     fhir:code [ fhir:v "B35.6" ] ;
+     fhir:display [ fhir:v "Tinea inguinalis [Tinea cruris]" ]
+  ] [
+     fhir:code [ fhir:v "B35.8" ] ;
+     fhir:display [ fhir:v "Other dermatophytoses" ]
+  ] [
+     fhir:code [ fhir:v "B35.9" ] ;
+     fhir:display [ fhir:v "Dermatophytosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B36" ] ;
+     fhir:display [ fhir:v "Other superficial mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B36.0" ] ;
+     fhir:display [ fhir:v "Pityriasis versicolor" ]
+  ] [
+     fhir:code [ fhir:v "B36.1" ] ;
+     fhir:display [ fhir:v "Tinea nigra" ]
+  ] [
+     fhir:code [ fhir:v "B36.2" ] ;
+     fhir:display [ fhir:v "White piedra" ]
+  ] [
+     fhir:code [ fhir:v "B36.3" ] ;
+     fhir:display [ fhir:v "Black piedra" ]
+  ] [
+     fhir:code [ fhir:v "B36.8" ] ;
+     fhir:display [ fhir:v "Other specified superficial mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B36.9" ] ;
+     fhir:display [ fhir:v "Superficial mycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B37" ] ;
+     fhir:display [ fhir:v "Candidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B37.0" ] ;
+     fhir:display [ fhir:v "Candidal stomatitis" ]
+  ] [
+     fhir:code [ fhir:v "B37.1" ] ;
+     fhir:display [ fhir:v "Pulmonary candidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B37.2" ] ;
+     fhir:display [ fhir:v "Candidiasis of skin and nail" ]
+  ] [
+     fhir:code [ fhir:v "B37.3" ] ;
+     fhir:display [ fhir:v "Candidiasis of vulva and vagina[N77.1]" ]
+  ] [
+     fhir:code [ fhir:v "B37.4" ] ;
+     fhir:display [ fhir:v "Candidiasis of other urogenital sites" ]
+  ] [
+     fhir:code [ fhir:v "B37.5" ] ;
+     fhir:display [ fhir:v "Candidal meningitis[G02.1]" ]
+  ] [
+     fhir:code [ fhir:v "B37.6" ] ;
+     fhir:display [ fhir:v "Candidal endocarditis[I39.8]" ]
+  ] [
+     fhir:code [ fhir:v "B37.7" ] ;
+     fhir:display [ fhir:v "Candidal sepsis" ]
+  ] [
+     fhir:code [ fhir:v "B37.8" ] ;
+     fhir:display [ fhir:v "Candidiasis of other sites" ]
+  ] [
+     fhir:code [ fhir:v "B37.9" ] ;
+     fhir:display [ fhir:v "Candidiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B38" ] ;
+     fhir:display [ fhir:v "Coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.0" ] ;
+     fhir:display [ fhir:v "Acute pulmonary coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.1" ] ;
+     fhir:display [ fhir:v "Chronic pulmonary coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.2" ] ;
+     fhir:display [ fhir:v "Pulmonary coccidioidomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B38.3" ] ;
+     fhir:display [ fhir:v "Cutaneous coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.4" ] ;
+     fhir:display [ fhir:v "Coccidioidomycosis meningitis[G02.1]" ]
+  ] [
+     fhir:code [ fhir:v "B38.7" ] ;
+     fhir:display [ fhir:v "Disseminated coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.8" ] ;
+     fhir:display [ fhir:v "Other forms of coccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B38.9" ] ;
+     fhir:display [ fhir:v "Coccidioidomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B39" ] ;
+     fhir:display [ fhir:v "Histoplasmosis" ]
+  ] [
+     fhir:code [ fhir:v "B39.0" ] ;
+     fhir:display [ fhir:v "Acute pulmonary histoplasmosis capsulati" ]
+  ] [
+     fhir:code [ fhir:v "B39.1" ] ;
+     fhir:display [ fhir:v "Chronic pulmonary histoplasmosis capsulati" ]
+  ] [
+     fhir:code [ fhir:v "B39.2" ] ;
+     fhir:display [ fhir:v "Pulmonary histoplasmosis capsulati, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B39.3" ] ;
+     fhir:display [ fhir:v "Disseminated histoplasmosis capsulati" ]
+  ] [
+     fhir:code [ fhir:v "B39.4" ] ;
+     fhir:display [ fhir:v "Histoplasmosis capsulati, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B39.5" ] ;
+     fhir:display [ fhir:v "Histoplasmosis duboisii" ]
+  ] [
+     fhir:code [ fhir:v "B39.9" ] ;
+     fhir:display [ fhir:v "Histoplasmosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B40" ] ;
+     fhir:display [ fhir:v "Blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.0" ] ;
+     fhir:display [ fhir:v "Acute pulmonary blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.1" ] ;
+     fhir:display [ fhir:v "Chronic pulmonary blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.2" ] ;
+     fhir:display [ fhir:v "Pulmonary blastomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B40.3" ] ;
+     fhir:display [ fhir:v "Cutaneous blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.7" ] ;
+     fhir:display [ fhir:v "Disseminated blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.8" ] ;
+     fhir:display [ fhir:v "Other forms of blastomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B40.9" ] ;
+     fhir:display [ fhir:v "Blastomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B41" ] ;
+     fhir:display [ fhir:v "Paracoccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B41.0" ] ;
+     fhir:display [ fhir:v "Pulmonary paracoccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B41.7" ] ;
+     fhir:display [ fhir:v "Disseminated paracoccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B41.8" ] ;
+     fhir:display [ fhir:v "Other forms of paracoccidioidomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B41.9" ] ;
+     fhir:display [ fhir:v "Paracoccidioidomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B42" ] ;
+     fhir:display [ fhir:v "Sporotrichosis" ]
+  ] [
+     fhir:code [ fhir:v "B42.0" ] ;
+     fhir:display [ fhir:v "Pulmonary sporotrichosis[J99.8]" ]
+  ] [
+     fhir:code [ fhir:v "B42.1" ] ;
+     fhir:display [ fhir:v "Lymphocutaneous sporotrichosis" ]
+  ] [
+     fhir:code [ fhir:v "B42.7" ] ;
+     fhir:display [ fhir:v "Disseminated sporotrichosis" ]
+  ] [
+     fhir:code [ fhir:v "B42.8" ] ;
+     fhir:display [ fhir:v "Other forms of sporotrichosis" ]
+  ] [
+     fhir:code [ fhir:v "B42.9" ] ;
+     fhir:display [ fhir:v "Sporotrichosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B43" ] ;
+     fhir:display [ fhir:v "Chromomycosis and phaeomycotic abscess" ]
+  ] [
+     fhir:code [ fhir:v "B43.0" ] ;
+     fhir:display [ fhir:v "Cutaneous chromomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B43.1" ] ;
+     fhir:display [ fhir:v "Phaeomycotic brain abscess" ]
+  ] [
+     fhir:code [ fhir:v "B43.2" ] ;
+     fhir:display [ fhir:v "Subcutaneous phaeomycotic abscess and cyst" ]
+  ] [
+     fhir:code [ fhir:v "B43.8" ] ;
+     fhir:display [ fhir:v "Other forms of chromomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B43.9" ] ;
+     fhir:display [ fhir:v "Chromomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B44" ] ;
+     fhir:display [ fhir:v "Aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.0" ] ;
+     fhir:display [ fhir:v "Invasive pulmonary aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.1" ] ;
+     fhir:display [ fhir:v "Other pulmonary aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.2" ] ;
+     fhir:display [ fhir:v "Tonsillar aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.7" ] ;
+     fhir:display [ fhir:v "Disseminated aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.8" ] ;
+     fhir:display [ fhir:v "Other forms of aspergillosis" ]
+  ] [
+     fhir:code [ fhir:v "B44.9" ] ;
+     fhir:display [ fhir:v "Aspergillosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B45" ] ;
+     fhir:display [ fhir:v "Cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.0" ] ;
+     fhir:display [ fhir:v "Pulmonary cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.1" ] ;
+     fhir:display [ fhir:v "Cerebral cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.2" ] ;
+     fhir:display [ fhir:v "Cutaneous cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.3" ] ;
+     fhir:display [ fhir:v "Osseous cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.7" ] ;
+     fhir:display [ fhir:v "Disseminated cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.8" ] ;
+     fhir:display [ fhir:v "Other forms of cryptococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B45.9" ] ;
+     fhir:display [ fhir:v "Cryptococcosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B46" ] ;
+     fhir:display [ fhir:v "Zygomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.0" ] ;
+     fhir:display [ fhir:v "Pulmonary mucormycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.1" ] ;
+     fhir:display [ fhir:v "Rhinocerebral mucormycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.2" ] ;
+     fhir:display [ fhir:v "Gastrointestinal mucormycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.3" ] ;
+     fhir:display [ fhir:v "Cutaneous mucormycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.4" ] ;
+     fhir:display [ fhir:v "Disseminated mucormycosis" ]
+  ] [
+     fhir:code [ fhir:v "B46.5" ] ;
+     fhir:display [ fhir:v "Mucormycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B46.8" ] ;
+     fhir:display [ fhir:v "Other zygomycoses" ]
+  ] [
+     fhir:code [ fhir:v "B46.9" ] ;
+     fhir:display [ fhir:v "Zygomycosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B47" ] ;
+     fhir:display [ fhir:v "Mycetoma" ]
+  ] [
+     fhir:code [ fhir:v "B47.0" ] ;
+     fhir:display [ fhir:v "Eumycetoma" ]
+  ] [
+     fhir:code [ fhir:v "B47.1" ] ;
+     fhir:display [ fhir:v "Actinomycetoma" ]
+  ] [
+     fhir:code [ fhir:v "B47.9" ] ;
+     fhir:display [ fhir:v "Mycetoma, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B48" ] ;
+     fhir:display [ fhir:v "Other mycoses, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B48.0" ] ;
+     fhir:display [ fhir:v "Lobomycosis" ]
+  ] [
+     fhir:code [ fhir:v "B48.1" ] ;
+     fhir:display [ fhir:v "Rhinosporidiosis" ]
+  ] [
+     fhir:code [ fhir:v "B48.2" ] ;
+     fhir:display [ fhir:v "Allescheriasis" ]
+  ] [
+     fhir:code [ fhir:v "B48.3" ] ;
+     fhir:display [ fhir:v "Geotrichosis" ]
+  ] [
+     fhir:code [ fhir:v "B48.4" ] ;
+     fhir:display [ fhir:v "Penicillosis" ]
+  ] [
+     fhir:code [ fhir:v "B48.5" ] ;
+     fhir:display [ fhir:v "Pneumocystosis[J17.2]" ]
+  ] [
+     fhir:code [ fhir:v "B48.7" ] ;
+     fhir:display [ fhir:v "Opportunistic mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B48.8" ] ;
+     fhir:display [ fhir:v "Other specified mycoses" ]
+  ] [
+     fhir:code [ fhir:v "B49" ] ;
+     fhir:display [ fhir:v "Unspecified mycosis" ]
+  ] [
+     fhir:code [ fhir:v "B50-B64" ] ;
+     fhir:display [ fhir:v "Protozoal diseases" ]
+  ] [
+     fhir:code [ fhir:v "B50" ] ;
+     fhir:display [ fhir:v "Plasmodium falciparum malaria" ]
+  ] [
+     fhir:code [ fhir:v "B50.0" ] ;
+     fhir:display [ fhir:v "Plasmodium falciparum malaria with cerebral complications" ]
+  ] [
+     fhir:code [ fhir:v "B50.8" ] ;
+     fhir:display [ fhir:v "Other severe and complicated Plasmodium falciparum malaria" ]
+  ] [
+     fhir:code [ fhir:v "B50.9" ] ;
+     fhir:display [ fhir:v "Plasmodium falciparum malaria, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B51" ] ;
+     fhir:display [ fhir:v "Plasmodium vivax malaria" ]
+  ] [
+     fhir:code [ fhir:v "B51.0" ] ;
+     fhir:display [ fhir:v "Plasmodium vivax malaria with rupture of spleen" ]
+  ] [
+     fhir:code [ fhir:v "B51.8" ] ;
+     fhir:display [ fhir:v "Plasmodium vivax malaria with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B51.9" ] ;
+     fhir:display [ fhir:v "Plasmodium vivax malaria without complication" ]
+  ] [
+     fhir:code [ fhir:v "B52" ] ;
+     fhir:display [ fhir:v "Plasmodium malariae malaria" ]
+  ] [
+     fhir:code [ fhir:v "B52.0" ] ;
+     fhir:display [ fhir:v "Plasmodium malariae malaria with nephropathy" ]
+  ] [
+     fhir:code [ fhir:v "B52.8" ] ;
+     fhir:display [ fhir:v "Plasmodium malariae malaria with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B52.9" ] ;
+     fhir:display [ fhir:v "Plasmodium malariae malaria without complication" ]
+  ] [
+     fhir:code [ fhir:v "B53" ] ;
+     fhir:display [ fhir:v "Other parasitologically confirmed malaria" ]
+  ] [
+     fhir:code [ fhir:v "B53.0" ] ;
+     fhir:display [ fhir:v "Plasmodium ovale malaria" ]
+  ] [
+     fhir:code [ fhir:v "B53.1" ] ;
+     fhir:display [ fhir:v "Malaria due to simian plasmodia" ]
+  ] [
+     fhir:code [ fhir:v "B53.8" ] ;
+     fhir:display [ fhir:v "Other parasitologically confirmed malaria, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B54" ] ;
+     fhir:display [ fhir:v "Unspecified malaria" ]
+  ] [
+     fhir:code [ fhir:v "B55" ] ;
+     fhir:display [ fhir:v "Leishmaniasis" ]
+  ] [
+     fhir:code [ fhir:v "B55.0" ] ;
+     fhir:display [ fhir:v "Visceral leishmaniasis" ]
+  ] [
+     fhir:code [ fhir:v "B55.1" ] ;
+     fhir:display [ fhir:v "Cutaneous leishmaniasis" ]
+  ] [
+     fhir:code [ fhir:v "B55.2" ] ;
+     fhir:display [ fhir:v "Mucocutaneous leishmaniasis" ]
+  ] [
+     fhir:code [ fhir:v "B55.9" ] ;
+     fhir:display [ fhir:v "Leishmaniasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B56" ] ;
+     fhir:display [ fhir:v "African trypanosomiasis" ]
+  ] [
+     fhir:code [ fhir:v "B56.0" ] ;
+     fhir:display [ fhir:v "Gambiense trypanosomiasis" ]
+  ] [
+     fhir:code [ fhir:v "B56.1" ] ;
+     fhir:display [ fhir:v "Rhodesiense trypanosomiasis" ]
+  ] [
+     fhir:code [ fhir:v "B56.9" ] ;
+     fhir:display [ fhir:v "African trypanosomiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B57" ] ;
+     fhir:display [ fhir:v "Chagas disease" ]
+  ] [
+     fhir:code [ fhir:v "B57.0" ] ;
+     fhir:display [ fhir:v "Acute Chagas disease with heart involvement[I41.2][I98.1]" ]
+  ] [
+     fhir:code [ fhir:v "B57.1" ] ;
+     fhir:display [ fhir:v "Acute Chagas disease without heart involvement" ]
+  ] [
+     fhir:code [ fhir:v "B57.2" ] ;
+     fhir:display [ fhir:v "Chagas disease (chronic) with heart involvement" ]
+  ] [
+     fhir:code [ fhir:v "B57.3" ] ;
+     fhir:display [ fhir:v "Chagas disease (chronic) with digestive system involvement" ]
+  ] [
+     fhir:code [ fhir:v "B57.4" ] ;
+     fhir:display [ fhir:v "Chagas disease (chronic) with nervous system involvement" ]
+  ] [
+     fhir:code [ fhir:v "B57.5" ] ;
+     fhir:display [ fhir:v "Chagas disease (chronic) with other organ involvement" ]
+  ] [
+     fhir:code [ fhir:v "B58" ] ;
+     fhir:display [ fhir:v "Toxoplasmosis" ]
+  ] [
+     fhir:code [ fhir:v "B58.0" ] ;
+     fhir:display [ fhir:v "Toxoplasma oculopathy" ]
+  ] [
+     fhir:code [ fhir:v "B58.1" ] ;
+     fhir:display [ fhir:v "Toxoplasma hepatitis[K77.0]" ]
+  ] [
+     fhir:code [ fhir:v "B58.2" ] ;
+     fhir:display [ fhir:v "Toxoplasma meningoencephalitis[G05.2]" ]
+  ] [
+     fhir:code [ fhir:v "B58.3" ] ;
+     fhir:display [ fhir:v "Pulmonary toxoplasmosis[J17.3]" ]
+  ] [
+     fhir:code [ fhir:v "B58.8" ] ;
+     fhir:display [ fhir:v "Toxoplasmosis with other organ involvement" ]
+  ] [
+     fhir:code [ fhir:v "B58.9" ] ;
+     fhir:display [ fhir:v "Toxoplasmosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B60" ] ;
+     fhir:display [ fhir:v "Other protozoal diseases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B60.0" ] ;
+     fhir:display [ fhir:v "Babesiosis" ]
+  ] [
+     fhir:code [ fhir:v "B60.1" ] ;
+     fhir:display [ fhir:v "Acanthamoebiasis" ]
+  ] [
+     fhir:code [ fhir:v "B60.2" ] ;
+     fhir:display [ fhir:v "Naegleriasis" ]
+  ] [
+     fhir:code [ fhir:v "B60.8" ] ;
+     fhir:display [ fhir:v "Other specified protozoal diseases" ]
+  ] [
+     fhir:code [ fhir:v "B64" ] ;
+     fhir:display [ fhir:v "Unspecified protozoal disease" ]
+  ] [
+     fhir:code [ fhir:v "B65-B83" ] ;
+     fhir:display [ fhir:v "Helminthiases" ]
+  ] [
+     fhir:code [ fhir:v "B65" ] ;
+     fhir:display [ fhir:v "Schistosomiasis [bilharziasis]" ]
+  ] [
+     fhir:code [ fhir:v "B65.0" ] ;
+     fhir:display [ fhir:v "Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis]" ]
+  ] [
+     fhir:code [ fhir:v "B65.1" ] ;
+     fhir:display [ fhir:v "Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis]" ]
+  ] [
+     fhir:code [ fhir:v "B65.2" ] ;
+     fhir:display [ fhir:v "Schistosomiasis due to Schistosoma japonicum" ]
+  ] [
+     fhir:code [ fhir:v "B65.3" ] ;
+     fhir:display [ fhir:v "Cercarial dermatitis" ]
+  ] [
+     fhir:code [ fhir:v "B65.8" ] ;
+     fhir:display [ fhir:v "Other schistosomiases" ]
+  ] [
+     fhir:code [ fhir:v "B65.9" ] ;
+     fhir:display [ fhir:v "Schistosomiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B66" ] ;
+     fhir:display [ fhir:v "Other fluke infections" ]
+  ] [
+     fhir:code [ fhir:v "B66.0" ] ;
+     fhir:display [ fhir:v "Opisthorchiasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.1" ] ;
+     fhir:display [ fhir:v "Clonorchiasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.2" ] ;
+     fhir:display [ fhir:v "Dicrocoeliasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.3" ] ;
+     fhir:display [ fhir:v "Fascioliasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.4" ] ;
+     fhir:display [ fhir:v "Paragonimiasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.5" ] ;
+     fhir:display [ fhir:v "Fasciolopsiasis" ]
+  ] [
+     fhir:code [ fhir:v "B66.8" ] ;
+     fhir:display [ fhir:v "Other specified fluke infections" ]
+  ] [
+     fhir:code [ fhir:v "B66.9" ] ;
+     fhir:display [ fhir:v "Fluke infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B67" ] ;
+     fhir:display [ fhir:v "Echinococcosis" ]
+  ] [
+     fhir:code [ fhir:v "B67.0" ] ;
+     fhir:display [ fhir:v "Echinococcus granulosus infection of liver" ]
+  ] [
+     fhir:code [ fhir:v "B67.1" ] ;
+     fhir:display [ fhir:v "Echinococcus granulosus infection of lung" ]
+  ] [
+     fhir:code [ fhir:v "B67.2" ] ;
+     fhir:display [ fhir:v "Echinococcus granulosus infection of bone" ]
+  ] [
+     fhir:code [ fhir:v "B67.3" ] ;
+     fhir:display [ fhir:v "Echinococcus granulosus infection, other and multiple sites" ]
+  ] [
+     fhir:code [ fhir:v "B67.4" ] ;
+     fhir:display [ fhir:v "Echinococcus granulosus infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B67.5" ] ;
+     fhir:display [ fhir:v "Echinococcus multilocularis infection of liver" ]
+  ] [
+     fhir:code [ fhir:v "B67.6" ] ;
+     fhir:display [ fhir:v "Echinococcus multilocularis infection, other and multiple sites" ]
+  ] [
+     fhir:code [ fhir:v "B67.7" ] ;
+     fhir:display [ fhir:v "Echinococcus multilocularis infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B67.8" ] ;
+     fhir:display [ fhir:v "Echinococcosis, unspecified, of liver" ]
+  ] [
+     fhir:code [ fhir:v "B67.9" ] ;
+     fhir:display [ fhir:v "Echinococcosis, other and unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B68" ] ;
+     fhir:display [ fhir:v "Taeniasis" ]
+  ] [
+     fhir:code [ fhir:v "B68.0" ] ;
+     fhir:display [ fhir:v "Taenia solium taeniasis" ]
+  ] [
+     fhir:code [ fhir:v "B68.1" ] ;
+     fhir:display [ fhir:v "Taenia saginata taeniasis" ]
+  ] [
+     fhir:code [ fhir:v "B68.9" ] ;
+     fhir:display [ fhir:v "Taeniasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B69" ] ;
+     fhir:display [ fhir:v "Cysticercosis" ]
+  ] [
+     fhir:code [ fhir:v "B69.0" ] ;
+     fhir:display [ fhir:v "Cysticercosis of central nervous system" ]
+  ] [
+     fhir:code [ fhir:v "B69.1" ] ;
+     fhir:display [ fhir:v "Cysticercosis of eye" ]
+  ] [
+     fhir:code [ fhir:v "B69.8" ] ;
+     fhir:display [ fhir:v "Cysticercosis of other sites" ]
+  ] [
+     fhir:code [ fhir:v "B69.9" ] ;
+     fhir:display [ fhir:v "Cysticercosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B70" ] ;
+     fhir:display [ fhir:v "Diphyllobothriasis and sparganosis" ]
+  ] [
+     fhir:code [ fhir:v "B70.0" ] ;
+     fhir:display [ fhir:v "Diphyllobothriasis" ]
+  ] [
+     fhir:code [ fhir:v "B70.1" ] ;
+     fhir:display [ fhir:v "Sparganosis" ]
+  ] [
+     fhir:code [ fhir:v "B71" ] ;
+     fhir:display [ fhir:v "Other cestode infections" ]
+  ] [
+     fhir:code [ fhir:v "B71.0" ] ;
+     fhir:display [ fhir:v "Hymenolepiasis" ]
+  ] [
+     fhir:code [ fhir:v "B71.1" ] ;
+     fhir:display [ fhir:v "Dipylidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B71.8" ] ;
+     fhir:display [ fhir:v "Other specified cestode infections" ]
+  ] [
+     fhir:code [ fhir:v "B71.9" ] ;
+     fhir:display [ fhir:v "Cestode infection, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B72" ] ;
+     fhir:display [ fhir:v "Dracunculiasis" ]
+  ] [
+     fhir:code [ fhir:v "B73" ] ;
+     fhir:display [ fhir:v "Onchocerciasis" ]
+  ] [
+     fhir:code [ fhir:v "B74" ] ;
+     fhir:display [ fhir:v "Filariasis" ]
+  ] [
+     fhir:code [ fhir:v "B74.0" ] ;
+     fhir:display [ fhir:v "Filariasis due to Wuchereria bancrofti" ]
+  ] [
+     fhir:code [ fhir:v "B74.1" ] ;
+     fhir:display [ fhir:v "Filariasis due to Brugia malayi" ]
+  ] [
+     fhir:code [ fhir:v "B74.2" ] ;
+     fhir:display [ fhir:v "Filariasis due to Brugia timori" ]
+  ] [
+     fhir:code [ fhir:v "B74.3" ] ;
+     fhir:display [ fhir:v "Loiasis" ]
+  ] [
+     fhir:code [ fhir:v "B74.4" ] ;
+     fhir:display [ fhir:v "Mansonelliasis" ]
+  ] [
+     fhir:code [ fhir:v "B74.8" ] ;
+     fhir:display [ fhir:v "Other filariases" ]
+  ] [
+     fhir:code [ fhir:v "B74.9" ] ;
+     fhir:display [ fhir:v "Filariasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B75" ] ;
+     fhir:display [ fhir:v "Trichinellosis" ]
+  ] [
+     fhir:code [ fhir:v "B76" ] ;
+     fhir:display [ fhir:v "Hookworm diseases" ]
+  ] [
+     fhir:code [ fhir:v "B76.0" ] ;
+     fhir:display [ fhir:v "Ancylostomiasis" ]
+  ] [
+     fhir:code [ fhir:v "B76.1" ] ;
+     fhir:display [ fhir:v "Necatoriasis" ]
+  ] [
+     fhir:code [ fhir:v "B76.8" ] ;
+     fhir:display [ fhir:v "Other hookworm diseases" ]
+  ] [
+     fhir:code [ fhir:v "B76.9" ] ;
+     fhir:display [ fhir:v "Hookworm disease, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B77" ] ;
+     fhir:display [ fhir:v "Ascariasis" ]
+  ] [
+     fhir:code [ fhir:v "B77.0" ] ;
+     fhir:display [ fhir:v "Ascariasis with intestinal complications" ]
+  ] [
+     fhir:code [ fhir:v "B77.8" ] ;
+     fhir:display [ fhir:v "Ascariasis with other complications" ]
+  ] [
+     fhir:code [ fhir:v "B77.9" ] ;
+     fhir:display [ fhir:v "Ascariasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B78" ] ;
+     fhir:display [ fhir:v "Strongyloidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B78.0" ] ;
+     fhir:display [ fhir:v "Intestinal strongyloidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B78.1" ] ;
+     fhir:display [ fhir:v "Cutaneous strongyloidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B78.7" ] ;
+     fhir:display [ fhir:v "Disseminated strongyloidiasis" ]
+  ] [
+     fhir:code [ fhir:v "B78.9" ] ;
+     fhir:display [ fhir:v "Strongyloidiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B79" ] ;
+     fhir:display [ fhir:v "Trichuriasis" ]
+  ] [
+     fhir:code [ fhir:v "B80" ] ;
+     fhir:display [ fhir:v "Enterobiasis" ]
+  ] [
+     fhir:code [ fhir:v "B81" ] ;
+     fhir:display [ fhir:v "Other intestinal helminthiases, not elsewhere classified" ]
+  ] [
+     fhir:code [ fhir:v "B81.0" ] ;
+     fhir:display [ fhir:v "Anisakiasis" ]
+  ] [
+     fhir:code [ fhir:v "B81.1" ] ;
+     fhir:display [ fhir:v "Intestinal capillariasis" ]
+  ] [
+     fhir:code [ fhir:v "B81.2" ] ;
+     fhir:display [ fhir:v "Trichostrongyliasis" ]
+  ] [
+     fhir:code [ fhir:v "B81.3" ] ;
+     fhir:display [ fhir:v "Intestinal angiostrongyliasis" ]
+  ] [
+     fhir:code [ fhir:v "B81.4" ] ;
+     fhir:display [ fhir:v "Mixed intestinal helminthiases" ]
+  ] [
+     fhir:code [ fhir:v "B81.8" ] ;
+     fhir:display [ fhir:v "Other specified intestinal helminthiases" ]
+  ] [
+     fhir:code [ fhir:v "B82" ] ;
+     fhir:display [ fhir:v "Unspecified intestinal parasitism" ]
+  ] [
+     fhir:code [ fhir:v "B82.0" ] ;
+     fhir:display [ fhir:v "Intestinal helminthiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B82.9" ] ;
+     fhir:display [ fhir:v "Intestinal parasitism, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B83" ] ;
+     fhir:display [ fhir:v "Other helminthiases" ]
+  ] [
+     fhir:code [ fhir:v "B83.0" ] ;
+     fhir:display [ fhir:v "Visceral larva migrans" ]
+  ] [
+     fhir:code [ fhir:v "B83.1" ] ;
+     fhir:display [ fhir:v "Gnathostomiasis" ]
+  ] [
+     fhir:code [ fhir:v "B83.2" ] ;
+     fhir:display [ fhir:v "Angiostrongyliasis due to Parastrongylus cantonensis" ]
+  ] [
+     fhir:code [ fhir:v "B83.3" ] ;
+     fhir:display [ fhir:v "Syngamiasis" ]
+  ] [
+     fhir:code [ fhir:v "B83.4" ] ;
+     fhir:display [ fhir:v "Internal hirudiniasis" ]
+  ] [
+     fhir:code [ fhir:v "B83.8" ] ;
+     fhir:display [ fhir:v "Other specified helminthiases" ]
+  ] [
+     fhir:code [ fhir:v "B83.9" ] ;
+     fhir:display [ fhir:v "Helminthiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B85-B89" ] ;
+     fhir:display [ fhir:v "Pediculosis, acariasis and other infestations" ]
+  ] [
+     fhir:code [ fhir:v "B85" ] ;
+     fhir:display [ fhir:v "Pediculosis and phthiriasis" ]
+  ] [
+     fhir:code [ fhir:v "B85.0" ] ;
+     fhir:display [ fhir:v "Pediculosis due to Pediculus humanus capitis" ]
+  ] [
+     fhir:code [ fhir:v "B85.1" ] ;
+     fhir:display [ fhir:v "Pediculosis due to Pediculus humanus corporis" ]
+  ] [
+     fhir:code [ fhir:v "B85.2" ] ;
+     fhir:display [ fhir:v "Pediculosis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B85.3" ] ;
+     fhir:display [ fhir:v "Phthiriasis" ]
+  ] [
+     fhir:code [ fhir:v "B85.4" ] ;
+     fhir:display [ fhir:v "Mixed pediculosis and phthiriasis" ]
+  ] [
+     fhir:code [ fhir:v "B86" ] ;
+     fhir:display [ fhir:v "Scabies" ]
+  ] [
+     fhir:code [ fhir:v "B87" ] ;
+     fhir:display [ fhir:v "Myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.0" ] ;
+     fhir:display [ fhir:v "Cutaneous myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.1" ] ;
+     fhir:display [ fhir:v "Wound myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.2" ] ;
+     fhir:display [ fhir:v "Ocular myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.3" ] ;
+     fhir:display [ fhir:v "Nasopharyngeal myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.4" ] ;
+     fhir:display [ fhir:v "Aural myiasis" ]
+  ] [
+     fhir:code [ fhir:v "B87.8" ] ;
+     fhir:display [ fhir:v "Myiasis of other sites" ]
+  ] [
+     fhir:code [ fhir:v "B87.9" ] ;
+     fhir:display [ fhir:v "Myiasis, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B88" ] ;
+     fhir:display [ fhir:v "Other infestations" ]
+  ] [
+     fhir:code [ fhir:v "B88.0" ] ;
+     fhir:display [ fhir:v "Other acariasis" ]
+  ] [
+     fhir:code [ fhir:v "B88.1" ] ;
+     fhir:display [ fhir:v "Tungiasis [sandflea infestation]" ]
+  ] [
+     fhir:code [ fhir:v "B88.2" ] ;
+     fhir:display [ fhir:v "Other arthropod infestations" ]
+  ] [
+     fhir:code [ fhir:v "B88.3" ] ;
+     fhir:display [ fhir:v "External hirudiniasis" ]
+  ] [
+     fhir:code [ fhir:v "B88.8" ] ;
+     fhir:display [ fhir:v "Other specified infestations" ]
+  ] [
+     fhir:code [ fhir:v "B88.9" ] ;
+     fhir:display [ fhir:v "Infestation, unspecified" ]
+  ] [
+     fhir:code [ fhir:v "B89" ] ;
+     fhir:display [ fhir:v "Unspecified parasitic disease" ]
+  ] [
+     fhir:code [ fhir:v "B90-B94" ] ;
+     fhir:display [ fhir:v "Sequelae of infectious and parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "B90" ] ;
+     fhir:display [ fhir:v "Sequelae of tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "B90.0" ] ;
+     fhir:display [ fhir:v "Sequelae of central nervous system tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "B90.1" ] ;
+     fhir:display [ fhir:v "Sequelae of genitourinary tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "B90.2" ] ;
+     fhir:display [ fhir:v "Sequelae of tuberculosis of bones and joints" ]
+  ] [
+     fhir:code [ fhir:v "B90.8" ] ;
+     fhir:display [ fhir:v "Sequelae of tuberculosis of other organs" ]
+  ] [
+     fhir:code [ fhir:v "B90.9" ] ;
+     fhir:display [ fhir:v "Sequelae of respiratory and unspecified tuberculosis" ]
+  ] [
+     fhir:code [ fhir:v "B91" ] ;
+     fhir:display [ fhir:v "Sequelae of poliomyelitis" ]
+  ] [
+     fhir:code [ fhir:v "B92" ] ;
+     fhir:display [ fhir:v "Sequelae of leprosy" ]
+  ] [
+     fhir:code [ fhir:v "B94" ] ;
+     fhir:display [ fhir:v "Sequelae of other and unspecified infectious and parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "B94.0" ] ;
+     fhir:display [ fhir:v "Sequelae of trachoma" ]
+  ] [
+     fhir:code [ fhir:v "B94.1" ] ;
+     fhir:display [ fhir:v "Sequelae of viral encephalitis" ]
+  ] [
+     fhir:code [ fhir:v "B94.2" ] ;
+     fhir:display [ fhir:v "Sequelae of viral hepatitis" ]
+  ] [
+     fhir:code [ fhir:v "B94.8" ] ;
+     fhir:display [ fhir:v "Sequelae of other specified infectious and parasitic diseases" ]
+  ] [
+     fhir:code [ fhir:v "B94.9" ] ;
+     fhir:display [ fhir:v "Sequelae of unspecified infectious or parasitic disease" ]
+  ] [
+     fhir:code [ fhir:v "B95-B98" ] ;
+     fhir:display [ fhir:v "Bacterial, viral and other infectious agents" ]
+  ] [
+     fhir:code [ fhir:v "B95" ] ;
+     fhir:display [ fhir:v "Streptococcus and staphylococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.0" ] ;
+     fhir:display [ fhir:v "Streptococcus, group A, as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.1" ] ;
+     fhir:display [ fhir:v "Streptococcus, group B, as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.2" ] ;
+     fhir:display [ fhir:v "Streptococcus group D and enterococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.3" ] ;
+     fhir:display [ fhir:v "Streptococcus pneumoniae as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.4" ] ;
+     fhir:display [ fhir:v "Other streptococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.5" ] ;
+     fhir:display [ fhir:v "Unspecified streptococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.6" ] ;
+     fhir:display [ fhir:v "Staphylococcus aureus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.7" ] ;
+     fhir:display [ fhir:v "Other staphylococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B95.8" ] ;
+     fhir:display [ fhir:v "Unspecified staphylococcus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96" ] ;
+     fhir:display [ fhir:v "Other specified bacterial agents as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.0" ] ;
+     fhir:display [ fhir:v "Mycoplasma pneumoniae [M. pneumoniae] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.1" ] ;
+     fhir:display [ fhir:v "Klebsiella pneumoniae [K. pneumoniae] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.2" ] ;
+     fhir:display [ fhir:v "Escherichia coli [E. coli] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.3" ] ;
+     fhir:display [ fhir:v "Haemophilus influenzae [H. influenzae] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.4" ] ;
+     fhir:display [ fhir:v "Proteus (mirabilis)(morganii) as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.5" ] ;
+     fhir:display [ fhir:v "Pseudomonas (aeruginosa) as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.6" ] ;
+     fhir:display [ fhir:v "Bacillus fragilis [B. fragilis] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.7" ] ;
+     fhir:display [ fhir:v "Clostridium perfringens [C. perfringens] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B96.8" ] ;
+     fhir:display [ fhir:v "Other specified bacterial agents as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97" ] ;
+     fhir:display [ fhir:v "Viral agents as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.0" ] ;
+     fhir:display [ fhir:v "Adenovirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.1" ] ;
+     fhir:display [ fhir:v "Enterovirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.2" ] ;
+     fhir:display [ fhir:v "Coronavirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.3" ] ;
+     fhir:display [ fhir:v "Retrovirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.4" ] ;
+     fhir:display [ fhir:v "Respiratory syncytial virus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.5" ] ;
+     fhir:display [ fhir:v "Reovirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.6" ] ;
+     fhir:display [ fhir:v "Parvovirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.7" ] ;
+     fhir:display [ fhir:v "Papillomavirus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B97.8" ] ;
+     fhir:display [ fhir:v "Other viral agents as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B98" ] ;
+     fhir:display [ fhir:v "Other specified infectious agents as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B98.0" ] ;
+     fhir:display [ fhir:v "Helicobacter pylori [H.pylori] as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B98.1" ] ;
+     fhir:display [ fhir:v "Vibrio vulnificus as the cause of diseases classified to other chapters" ]
+  ] [
+     fhir:code [ fhir:v "B99-B99" ] ;
+     fhir:display [ fhir:v "Other infectious diseases" ]
+  ] [
+     fhir:code [ fhir:v "B99" ] ;
+     fhir:display [ fhir:v "Other and unspecified infectious diseases" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

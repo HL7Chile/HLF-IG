@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSDiagnosticoCie10"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDiagnosticoCie10"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="VSDiagnosticoCie10"/>
   <title value="Diagnostico o Condición Mórbida de paciente"/>
   <status value="active"/>
@@ -25,16 +25,9 @@
     </telecom>
   </contact>
   <description value="Definición de diagnóstico o condición mórbida del paciente, definido en CIE-10"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-      <display value="Chile"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
-      <system value="http://hl7.org/fhir/sid/icd-10"/>
+      <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCie10Prueba"/>
     </include>
   </compose>
 </ValueSet>

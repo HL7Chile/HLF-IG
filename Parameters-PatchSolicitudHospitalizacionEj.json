@@ -1,0 +1,40 @@
+{
+  "resourceType" : "Parameters",
+  "id" : "PatchSolicitudHospitalizacionEj",
+  "parameter" : [{
+    "name" : "operation",
+    "part" : [{
+      "name" : "type",
+      "valueCode" : "replace"
+    },
+    {
+      "name" : "path",
+      "valueString" : "ServiceRequest.status"
+    },
+    {
+      "name" : "value",
+      "valueCode" : "completed"
+    }]
+  },
+  {
+    "name" : "operation",
+    "part" : [{
+      "name" : "type",
+      "valueCode" : "add"
+    },
+    {
+      "name" : "path",
+      "valueString" : "ServiceRequest"
+    },
+    {
+      "name" : "name",
+      "valueString" : "note"
+    },
+    {
+      "name" : "value",
+      "valueAnnotation" : {
+        "text" : "Se ha realizado la hospitalización del paciente."
+      }
+    }]
+  }]
+}

@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/ServiceRequest/EjSolicitudHospitalizacion> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjSolicitudHospitalizacion"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion"^^xsd:anyURI ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"EjSolicitudHospitalizacion\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;EjSolicitudHospitalizacion&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-solicitud-hospitalizacion.html\">Solicitud Hospitalización</a></p></div><p><b>Unidad Clínica Origen</b>: <a href=\"HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html\">HealthcareService/EjUnidadClinicaHLFIMAGINARIO</a> &quot;Nombre Unidad Clinica&quot;</p><blockquote><p><b>Motivo Solicitud Hospitalización</b></p><blockquote><p><b>url</b></p><code>motivo</code></blockquote><p><b>value</b>: Otro (Details: https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp code 99 = 'Otro', stated as 'Otro')</p><blockquote><p><b>url</b></p><code>motivoDet</code></blockquote><p><b>value</b>: otro motivo de la hospitalizacion</p></blockquote><p><b>Complejidad Cama</b>: baja (Details: https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad code baja = 'Baja', stated as 'baja')</p><p><b>Precauciones Solicitud Hospitalización</b>: Estándar <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSPrecaucionesHospitalizacion.html\">Precauciones Hospitalización</a>#estandar)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>subject</b>: <a href=\"Patient-007.html\">Patient/007</a> &quot; CON ROMBOS&quot;</p><p><b>encounter</b>: <a href=\"Encounter-EjRegistroAtencionIMAGINARIO.html\">Encounter/EjRegistroAtencionIMAGINARIO</a></p><p><b>occurrence</b>: 2020-03-02</p><p><b>authoredOn</b>: 2023-07-07</p><p><b>performer</b>: <a href=\"HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html\">HealthcareService/EjUnidadClinicaHLFIMAGINARIO</a> &quot;Nombre Unidad Clinica&quot;</p><h3>Reasons</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Condition-EjDiagnosticoCondHLfIMAGINARIO1.html\">Condition/EjDiagnosticoCondHLfIMAGINARIO1</a></td></tr></table><p><b>note</b>: texto libre</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Reference ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/HealthcareService/EjUnidadClinicaHLFIMAGINARIO> ;
+       fhir:reference [ fhir:v "HealthcareService/EjUnidadClinicaHLFIMAGINARIO" ]
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "motivo"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "99" ] ;
+         fhir:display [ fhir:v "Otro" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "motivoDet"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "otro motivo de la hospitalizacion" ]
+     ] ) ;
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding ;
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "baja" ] ;
+       fhir:display [ fhir:v "baja" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "estandar" ] ;
+         fhir:display [ fhir:v "Estándar" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:subject [
+     fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/007> ;
+     fhir:reference [ fhir:v "Patient/007" ]
+  ] ; # 
+  fhir:encounter [
+     fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Encounter/EjRegistroAtencionIMAGINARIO> ;
+     fhir:reference [ fhir:v "Encounter/EjRegistroAtencionIMAGINARIO" ]
+  ] ; # 
+  fhir:occurrence [ fhir:v "2020-03-02"^^xsd:date] ; # 
+  fhir:authoredOn [ fhir:v "2023-07-07"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/HealthcareService/EjUnidadClinicaHLFIMAGINARIO> ;
+     fhir:reference [ fhir:v "HealthcareService/EjUnidadClinicaHLFIMAGINARIO" ]
+  ] ) ; # 
+  fhir:reason ( [
+     fhir:reference [
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Condition/EjDiagnosticoCondHLfIMAGINARIO1> ;
+       fhir:reference [ fhir:v "Condition/EjDiagnosticoCondHLfIMAGINARIO1" ]
+     ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "texto libre" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

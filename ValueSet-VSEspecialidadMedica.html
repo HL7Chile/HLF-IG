@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Codigos de especialidades médicas - FHIR v5.0.0</title>
+    <title>Codigos de especialidades médicas - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.26"}
-    h3,h4,h5,h6{--heading-prefix:"5.26"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.30"}
+    h3,h4,h5,h6{--heading-prefix:"6.30"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -98,6 +98,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -123,7 +126,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -175,7 +178,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.4.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica|0.4.0"/></span>
+      <span class="copy-text">0.7.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSEspecialidadMedica|0.7.0"/></span>
       </td>
     </tr>
 
@@ -187,7 +190,7 @@
 
 
 
-      <td colspan="3">
+      <td colspan="4">
         
           Active
           
@@ -197,10 +200,6 @@
       </td>
 
 
-
-      <td>
-        <i>Realm:</i> <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
-      </td>
 
       <td><i>Computable Name</i>: <span style="font-family: monospace;">VSEspecialidadMedica</span></td>
     </tr>
@@ -220,7 +219,9 @@
     <b>References</b>
   </p>
   
-<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+<ul>
+ <li><a href="StructureDefinition-unidad-clinica-hlf.html">Unidad Clinica HLF</a></li>
+</ul>
 
 
   <!-- insert intro if present -->
@@ -238,7 +239,7 @@
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 49 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSEspecialidadMedica.html">Códigos de Especialidad Médica v0.4.0 (CodeSystem)</a></p><table class="codes"><tr><td><b>Level</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="https---hospitallaflorida.cl-fhir-hlfhosp-CodeSystem-CSEspecialidadMedica-adulto"> </a>1</td><td style="white-space:nowrap">  <a href="CodeSystem-CSEspecialidadMedica.html#CSEspecialidadMedica-adulto">adulto</a></td><td>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</td><td>Adulto</td><td><div><p>Especialidad médica para mayores de 18 años</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 49 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSEspecialidadMedica.html">codesystem Códigos de Especialidad Médica v0.7.0 (CodeSystem)</a></p><table class="codes"><tr><td><b>Level</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="https---hospitallaflorida.cl-fhir-hlfhosp-CodeSystem-CSEspecialidadMedica-adulto"> </a>1</td><td style="white-space:nowrap">  <a href="CodeSystem-CSEspecialidadMedica.html#CSEspecialidadMedica-adulto">adulto</a></td><td>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</td><td>Adulto</td><td><div><p>Especialidad médica para mayores de 18 años</p>
 </div></td></tr><tr><td><a name="https---hospitallaflorida.cl-fhir-hlfhosp-CodeSystem-CSEspecialidadMedica-101"> </a>2</td><td style="white-space:nowrap">    <a href="CodeSystem-CSEspecialidadMedica.html#CSEspecialidadMedica-101">101</a></td><td>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</td><td>Anestesiología Adulto</td><td><div><p>Especialidad médica de anestesiología para adultos</p>
 </div></td></tr><tr><td><a name="https---hospitallaflorida.cl-fhir-hlfhosp-CodeSystem-CSEspecialidadMedica-102"> </a>2</td><td style="white-space:nowrap">    <a href="CodeSystem-CSEspecialidadMedica.html#CSEspecialidadMedica-102">102</a></td><td>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</td><td>Broncopulmonar Adulto</td><td><div><p>Especialidad médica de broncopulmonar para adultos</p>
 </div></td></tr><tr><td><a name="https---hospitallaflorida.cl-fhir-hlfhosp-CodeSystem-CSEspecialidadMedica-103"> </a>2</td><td style="white-space:nowrap">    <a href="CodeSystem-CSEspecialidadMedica.html#CSEspecialidadMedica-103">103</a></td><td>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica</td><td>Cardiología Adulto</td><td><div><p>Especialidad médica de cardiología para adultos</p>
@@ -352,7 +353,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/HealthcareService/EjUnidadClinicaHLFIMAGINARIO> a fhir:HealthcareService ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjUnidadClinicaHLFIMAGINARIO"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf"^^xsd:anyURI ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: HealthcareService</b><a name=\"EjUnidadClinicaHLFIMAGINARIO\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource HealthcareService &quot;EjUnidadClinicaHLFIMAGINARIO&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-unidad-clinica-hlf.html\">Unidad Clinica HLF</a></p></div><p><b>Extensión para indicar si la Unidad Clinica HLF es pediatrica</b>: true</p><p><b>Complejidad Unidad Clinica HLF</b>: Baja <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSComplejidad.html\">Complejidad</a>#baja)</span></p><p><b>identifier</b>: id: U-CL-AdultoM (use: OFFICIAL)</p><p><b>type</b>: Acupuncture <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-service-type.html\">Service type</a>#13)</span></p><p><b>specialty</b>: Adulto <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSEspecialidadMedica.html\">Códigos de Especialidad Médica</a>#adulto)</span></p><p><b>name</b>: Nombre Unidad Clinica</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "true"^^xsd:boolean ]
+  ] [
+     fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "baja" ] ;
+         fhir:display [ fhir:v "Baja" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:value [ fhir:v "U-CL-AdultoM" ]
+  ] ) ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/service-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "Acupuncture" ]
+     ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSEspecialidadMedica"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "adulto" ] ;
+       fhir:display [ fhir:v "Adulto" ]
+     ] )
+  ] ) ; # 
+  fhir:name [ fhir:v "Nombre Unidad Clinica"] . # 
+
+# -------------------------------------------------------------------------------------
+

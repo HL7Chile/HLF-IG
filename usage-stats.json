@@ -1,8 +1,22 @@
 {
   "package": "fhir.hlf.hosp",
-  "version": "0.4.0",
+  "version": "0.7.0",
   "fhirVersion": "5.0.0",
   "extensions": [
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+      "title": "Código de identificación de país",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Discapacidad",
+      "title": "Tipo de discapacidad",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
     {
       "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
       "title": "Identidad de Género",
@@ -11,8 +25,8 @@
       ]
     },
     {
-      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion",
-      "title": "Nivel Instrucción",
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion",
+      "title": "Nivel Instruccion",
       "types": [
         "CodeableConcept",
         "id",
@@ -92,13 +106,6 @@
         "ExtendedContactDetail",
         "Dosage",
         "Meta"
-      ]
-    },
-    {
-      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
-      "title": "Nombre Social de Paciente",
-      "types": [
-        "string"
       ]
     },
     {
@@ -200,6 +207,24 @@
       "title": "Sexo Registral",
       "types": [
         "code"
+      ]
+    },
+    {
+      "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion",
+      "title": "Tipo Vía Dirección",
+      "types": [
+        "CodeableConcept",
+        "id",
+        "Extension",
+        "Coding",
+        "id",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
       ]
     },
     {
@@ -325,7 +350,60 @@
       "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen",
       "title": "Unidad Clínica Origen",
       "types": [
-        "Reference"
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "integer64",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "CodeableReference",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "RatioRange",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Availability",
+        "ExtendedContactDetail",
+        "Dosage",
+        "Meta"
       ]
     },
     {
@@ -337,6 +415,12 @@
     }
   ],
   "profiles": {
+    "Bundle": [
+      {
+        "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/BundleSolicitudHLF",
+        "title": "BundleSolicitudHLF"
+      }
+    ],
     "Condition": [
       {
         "url": "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf",
@@ -434,9 +518,6 @@
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
-      "ImplementationGuide.definition"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
       "ImplementationGuide.dependsOn"
     ],
@@ -446,10 +527,18 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais": [
+      "Patient",
+      "Patient.identifier",
+      "Patient.identifier.type"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Discapacidad": [
+      "Patient"
+    ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero": [
       "Patient"
     ],
-    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial": [
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion": [
       "Patient"
     ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas": [
@@ -466,6 +555,9 @@
     ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoReg": [
       "Patient"
+    ],
+    "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion": [
+      "Patient.address"
     ],
     "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama": [
       "ServiceRequest"

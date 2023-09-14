@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/Coverage/EjPrevision3> a fhir:Coverage ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjPrevision3"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"^^xsd:anyURI ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Coverage</b><a name=\"EjPrevision3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Coverage &quot;EjPrevision3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Prevision.html\">Prevision</a></p></div><p><b>status</b>: active</p><p><b>kind</b>: insurance</p><p><b>type</b>: FONASA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSPrevision.html\">Prevision del Paciente</a>#1)</span></p><p><b>beneficiary</b>: <a href=\"Patient-009.html\">Patient/009</a> &quot; GONZALES&quot;</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:kind [ fhir:v "insurance"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "FONASA" ]
+     ] ) ;
+     fhir:text [ fhir:v "FONASA" ]
+  ] ; # 
+  fhir:beneficiary [
+     fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/009> ;
+     fhir:reference [ fhir:v "Patient/009" ]
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

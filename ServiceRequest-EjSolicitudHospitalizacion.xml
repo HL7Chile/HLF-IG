@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ServiceRequest xmlns="http://hl7.org/fhir">
+  <id value="EjSolicitudHospitalizacion"/>
+  <meta>
+    <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ServiceRequest</b><a name="EjSolicitudHospitalizacion"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ServiceRequest &quot;EjSolicitudHospitalizacion&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-solicitud-hospitalizacion.html">Solicitud Hospitalización</a></p></div><p><b>Unidad Clínica Origen</b>: <a href="HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html">HealthcareService/EjUnidadClinicaHLFIMAGINARIO</a> &quot;Nombre Unidad Clinica&quot;</p><blockquote><p><b>Motivo Solicitud Hospitalización</b></p><blockquote><p><b>url</b></p><code>motivo</code></blockquote><p><b>value</b>: Otro (Details: https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp code 99 = 'Otro', stated as 'Otro')</p><blockquote><p><b>url</b></p><code>motivoDet</code></blockquote><p><b>value</b>: otro motivo de la hospitalizacion</p></blockquote><p><b>Complejidad Cama</b>: baja (Details: https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad code baja = 'Baja', stated as 'baja')</p><p><b>Precauciones Solicitud Hospitalización</b>: Estándar <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-CSPrecaucionesHospitalizacion.html">Precauciones Hospitalización</a>#estandar)</span></p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>subject</b>: <a href="Patient-007.html">Patient/007</a> &quot; CON ROMBOS&quot;</p><p><b>encounter</b>: <a href="Encounter-EjRegistroAtencionIMAGINARIO.html">Encounter/EjRegistroAtencionIMAGINARIO</a></p><p><b>occurrence</b>: 2020-03-02</p><p><b>authoredOn</b>: 2023-07-07</p><p><b>performer</b>: <a href="HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html">HealthcareService/EjUnidadClinicaHLFIMAGINARIO</a> &quot;Nombre Unidad Clinica&quot;</p><h3>Reasons</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Reference</b></td></tr><tr><td style="display: none">*</td><td><a href="Condition-EjDiagnosticoCondHLfIMAGINARIO1.html">Condition/EjDiagnosticoCondHLfIMAGINARIO1</a></td></tr></table><p><b>note</b>: texto libre</p></div>
+  </text>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen">
+    <valueReference>
+      <reference value="HealthcareService/EjUnidadClinicaHLFIMAGINARIO"/>
+    </valueReference>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion">
+    <extension url="motivo">
+      <valueCoding>
+        <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp"/>
+        <code value="99"/>
+        <display value="Otro"/>
+      </valueCoding>
+    </extension>
+    <extension url="motivoDet">
+      <valueString value="otro motivo de la hospitalizacion"/>
+    </extension>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama">
+    <valueCoding>
+      <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad"/>
+      <code value="baja"/>
+      <display value="baja"/>
+    </valueCoding>
+  </extension>
+  <extension url="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion">
+    <valueCodeableConcept>
+      <coding>
+        <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"/>
+        <code value="estandar"/>
+        <display value="Estándar"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <status value="active"/>
+  <intent value="order"/>
+  <subject>
+    <reference value="Patient/007"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/EjRegistroAtencionIMAGINARIO"/>
+  </encounter>
+  <occurrenceDateTime value="2020-03-02"/>
+  <authoredOn value="2023-07-07"/>
+  <performer>
+    <reference value="HealthcareService/EjUnidadClinicaHLFIMAGINARIO"/>
+  </performer>
+  <reason>
+    <reference>
+      <reference value="Condition/EjDiagnosticoCondHLfIMAGINARIO1"/>
+    </reference>
+  </reason>
+  <note>
+    <text value="texto libre"/>
+  </note>
+</ServiceRequest>

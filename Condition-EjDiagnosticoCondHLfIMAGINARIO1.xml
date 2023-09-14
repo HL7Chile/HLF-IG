@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="EjDiagnosticoCondHLfIMAGINARIO1"/>
+  <meta>
+    <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Condition</b><a name="EjDiagnosticoCondHLfIMAGINARIO1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Condition &quot;EjDiagnosticoCondHLfIMAGINARIO1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-DiagnosticoCondHLf.html">DiagnosticoCondHLf</a></p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html">Condition Clinical Status Codes</a>#active)</span></p><p><b>code</b>: Cutaneous blastomycosis <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-icd10.html">ICD-10</a>#B40.3)</span></p><p><b>subject</b>: <a href="Patient-007.html">Patient/007</a> &quot; CON ROMBOS&quot;</p><p><b>encounter</b>: <a href="Encounter-EjRegistroAtencionIMAGINARIO.html">Encounter/EjRegistroAtencionIMAGINARIO</a></p></div>
+  </text>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/sid/icd-10"/>
+      <code value="B40.3"/>
+    </coding>
+    <text value="Cutaneous blastomycosis"/>
+  </code>
+  <subject>
+    <reference value="Patient/007"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/EjRegistroAtencionIMAGINARIO"/>
+  </encounter>
+</Condition>

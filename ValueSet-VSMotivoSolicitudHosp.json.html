@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Motivo Solicitud Hospitalización - JSON Representation - FHIR v5.0.0</title>
+    <title>Motivo Solicitud Hospitalización - JSON Representation - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.31"}
-    h3,h4,h5,h6{--heading-prefix:"5.31"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.37"}
+    h3,h4,h5,h6{--heading-prefix:"6.37"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -51,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -100,6 +100,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -125,7 +128,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -172,6 +175,7 @@
 
 
 <h2 id="root">: Motivo Solicitud Hospitalización - JSON Representation</h2>
+
   <table class="colsi">
     <tr>
 
@@ -201,10 +205,10 @@
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">id</a>" : "VSMotivoSolicitudHosp",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-CSMotivoSolicitudHosp.html\&quot;&gt;&lt;code&gt;https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSMotivoSolicitudHosp&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Placeholder&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSMotivoSolicitudHosp",
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "0.4.0",
+  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a>" : "0.7.0",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.name">name</a>" : "VSMotivoSolicitudHosp",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a>" : "Motivo Solicitud Hospitalización",
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a>" : "active",
@@ -227,17 +231,6 @@
     }
   ],
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">description</a>" : "ValueSet para el motivo de solicitud de hospitalización",
-  "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "CL",
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Chile"
-        }
-      ]
-    }
-  ],
   "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">compose</a>" : {
     "<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>" : [
       {
@@ -275,7 +268,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

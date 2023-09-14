@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Registro de Atención - FHIR v5.0.0</title>
+    <title>Registro de Atención - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -98,6 +98,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -130,7 +133,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Registro de Atención</h2>
   
 
@@ -157,7 +160,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <p><br /></p>
 
-<p>El evento clínico de atención de urgencia se representa mediante un recurso FHIR <code class="language-plaintext highlighter-rouge">Encounter</code>. Se realiza la referencia al paciente mediante el recurso <code class="language-plaintext highlighter-rouge">Patient</code>. La unidad clínica de urgencia se representa mediante una referencia al recurso <code class="language-plaintext highlighter-rouge">Organization</code>. Los diagnósticos se representan mediante el recurso <code class="language-plaintext highlighter-rouge">Condition</code> y los antecedentes mórbidos del paciente se representan mediante el recurso <code class="language-plaintext highlighter-rouge">Observation</code>.</p>
+<p>El evento clínico de atención de urgencia se representa mediante un recurso FHIR <code class="language-plaintext highlighter-rouge">Encounter</code>. Se realiza la referencia al paciente mediante el recurso <code class="language-plaintext highlighter-rouge">Patient</code>. La unidad clínica de urgencia se representa a través del recurso <code class="language-plaintext highlighter-rouge">HealthcareService</code> y se indica en el elemento <code class="language-plaintext highlighter-rouge">serviceType</code> del encuentro. Los diagnósticos y antecedentes mórbidos se representan mediante el recurso <code class="language-plaintext highlighter-rouge">Condition</code>.</p>
 
 
 
@@ -183,7 +186,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

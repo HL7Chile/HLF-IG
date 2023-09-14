@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"EjOcupacion\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;EjOcupacion&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ocupaciones.html\">Aspectos Laborales</a></p></div><p><b>status</b>: registered</p><p><b>code</b>: Antecedentes Laborales <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11341-5)</span></p><p><b>subject</b>: <a href=\"Patient-007.html\">Patient/007</a> &quot; ORGANA&quot;</p><p><b>value</b>: Ingeniería Civil Biomédica en Universidad del Estado <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSOcupacionesDet.html\">Ocupaciones Detalladas</a>#2147 &quot;Ingenieros biomédicos&quot;)</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"EjOcupacion\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;EjOcupacion&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ocupaciones.html\">Aspectos Laborales</a></p></div><p><b>status</b>: registered</p><p><b>code</b>: History of Occupation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#11341-5)</span></p><p><b>subject</b>: <a href=\"Patient-007.html\">Patient/007</a> &quot; CON ROMBOS&quot;</p><p><b>effective</b>: 2023-09-11</p><p><b>performer</b>: <span>: na</span></p><p><b>value</b>: Ingeniería Civil Biomédica en Universidad del Estado <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSOcupacionesDet.html\">Ocupaciones Detalladas</a>#2147 &quot;Ingenieros biomédicos&quot;)</span></p></div>"
   ] ; # 
   fhir:status [ fhir:v "registered"] ; # 
   fhir:code [
@@ -25,13 +25,17 @@
        a loinc:11341-5 ;
        fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "11341-5" ] ;
-       fhir:display [ fhir:v "Antecedentes Laborales" ]
+       fhir:display [ fhir:v "History of Occupation" ]
      ] )
   ] ; # 
   fhir:subject [
      fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/007> ;
      fhir:reference [ fhir:v "Patient/007" ]
   ] ; # 
+  fhir:effective [ fhir:v "2023-09-11"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:display [ fhir:v "na" ]
+  ] ) ; # 
   fhir:value [
      a fhir:CodeableConcept ;
      fhir:coding ( [

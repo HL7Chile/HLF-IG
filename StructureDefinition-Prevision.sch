@@ -13,7 +13,6 @@
     <sch:title>f:Coverage</sch:title>
     <sch:rule context="f:Coverage">
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
-      <sch:assert test="count(f:subscriber) &gt;= 1">subscriber: minimum cardinality of 'subscriber' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

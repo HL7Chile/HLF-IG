@@ -3,14 +3,14 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.hlf.hosp"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>HlfHosp</h2><p>The official URL for this implementation guide is: </p><pre>https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ImplementationGuide/fhir.hlf.hosp"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="HlfHosp"/>
   <title value="Guía de Implementación Procesos de Hospitalizado"/>
   <status value="draft"/>
-  <date value="2023-06-30T18:27:12-04:00"/>
+  <date value="2023-09-13T17:11:14-03:00"/>
   <publisher value="Hospital Eloisa Diaz de la Florida"/>
   <contact>
     <name value="Hospital Eloisa Diaz de la Florida"/>
@@ -32,7 +32,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r5"/>
-    <version value="5.0.0"/>
+    <version value="5.3.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -43,206 +43,6 @@
     <version value="1.0.0"/>
   </dependsOn>
   <definition>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="copyrightyear"/>
-      </extension>
-      <extension url="value">
-        <valueString value="2023+"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="releaselabel"/>
-      </extension>
-      <extension url="value">
-        <valueString value="ci-build"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="display-warnings"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="autoload-resources"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-liquid"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template/liquid"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-liquid"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/liquid"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-qa"/>
-      </extension>
-      <extension url="value">
-        <valueString value="temp/qa"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-temp"/>
-      </extension>
-      <extension url="value">
-        <valueString value="temp/pages"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-output"/>
-      </extension>
-      <extension url="value">
-        <valueString value="output"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-suppressed-warnings"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/ignoreWarnings.txt"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://hospitallaflorida.cl/fhir/hlfhosp/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="template-html"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template-page.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="template-md"/>
-      </extension>
-      <extension url="value">
-        <valueString value="template-page-md.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-context"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-copyright"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-license"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="active-tables"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="fmm-definition"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="propagate-status"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="excludelogbinaryformat"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="tabbed-snapshots"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
       <valueCode value="hl7.fhir.uv.tools#current"/>
     </extension>
@@ -259,6 +59,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BundleSolicitudHLF"/>
+      </reference>
+      <name value="BundleSolicitudHLF"/>
+      <description value="Perfil para un empaquetador de recursos FHIR en solicitud de hospitalización"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CTOC"/>
+      </reference>
+      <name value="Categoría ocupacional"/>
+      <description value="Categoría ocupacional"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VSCodigoPaises"/>
+      </reference>
+      <name value="Codigo Paises"/>
+      <description value="ValueSet de Códigos de Paises según ISO 3166-1"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -270,12 +103,34 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VSComplejidad"/>
+      </reference>
+      <name value="Complejidad"/>
+      <description value="Códigos para identificar la complejidad HLF"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CSComplejidad"/>
+      </reference>
+      <name value="Complejidad"/>
+      <description value="Códigos para identificar la complejidad HLF"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="SearchParameter"/>
       </extension>
       <reference>
-        <reference value="SearchParameter/complejidad"/>
+        <reference value="SearchParameter/Complejidad"/>
       </reference>
-      <name value="complejidad"/>
+      <name value="Complejidad"/>
       <description value="Retorna las Unidades Clinicas HLF que tienen la complejidad indicada"/>
       <isExample value="false"/>
     </resource>
@@ -288,28 +143,6 @@
       </reference>
       <name value="Complejidad Cama"/>
       <description value="Extensión para complejidad de la cama"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/VSComplejidadCama"/>
-      </reference>
-      <name value="Complejidad Cama"/>
-      <description value="Códigos para identificar la complejidad de una cama HLF"/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/CSComplejidadCama"/>
-      </reference>
-      <name value="Complejidad cama"/>
-      <description value="Códigos para identificar la complejidad de una cama HLF"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -328,10 +161,87 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/CMDR"/>
+      </reference>
+      <name value="Complemento de dirección"/>
+      <description value="Complemento de dirección"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CMES"/>
+      </reference>
+      <name value="Consulta médica especialidad"/>
+      <description value="Consulta médica especialidad"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CMGR"/>
+      </reference>
+      <name value="Consulta médica general"/>
+      <description value="Consulta médica general"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/COES"/>
+      </reference>
+      <name value="Consulta odontológica especialidad"/>
+      <description value="Consulta odontológica especialidad"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CBFN"/>
+      </reference>
+      <name value="Código beneficiarios FONASA"/>
+      <description value="Código beneficiarios FONASA"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/CodigoPais"/>
+      </reference>
+      <name value="Código de identificación de país"/>
+      <description value="Extensión para el código de identificación de país"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/CSCodigoDNI"/>
       </reference>
       <name value="Códigos de Documentos DNI para LATAM y el Caribe"/>
       <description value="Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CSCie10Prueba"/>
+      </reference>
+      <name value="Códigos de ejemplo CIE-10"/>
+      <description value="Algunos códigos en CIE-10 para la validación de la guía. La implementación debe considerar contar con un CS a nivel terminológico con la clasificación completa"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -402,6 +312,50 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VSDireccionTipoVia"/>
+      </reference>
+      <name value="Dirección Tipo Vía"/>
+      <description value="ValueSet de Código de tipo de vía según norma técnica 820 'Estándares de Información de Salud' del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CSDireccionTipoVia"/>
+      </reference>
+      <name value="Dirección Tipo Vía"/>
+      <description value="Código de tipo de vía según norma técnica 820 'Estándares de Información de Salud' del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/VSDiscapacidad"/>
+      </reference>
+      <name value="Discapacidad"/>
+      <description value="Valueset de Discapacidad"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/DSCP"/>
+      </reference>
+      <name value="Discapacidad"/>
+      <description value="Discapacidad"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
@@ -417,6 +371,30 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
+        <reference value="Observation/EjOcupacion2"/>
+      </reference>
+      <name value="Ejemplo de Ocupación 2 del Paciente"/>
+      <description value="Ejemplo 2 para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjOcupacion3"/>
+      </reference>
+      <name value="Ejemplo de Ocupación 3 del Paciente"/>
+      <description value="Ejemplo 2 para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Ocupaciones"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
         <reference value="Observation/EjOcupacion"/>
       </reference>
       <name value="Ejemplo de Ocupación del Paciente"/>
@@ -426,15 +404,39 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
+        <valueString value="Condition"/>
       </extension>
       <reference>
-        <reference value="Observation/EjPesoRecienNacido"/>
+        <reference value="Condition/EjDiagnosticoCondHLfIMAGINARIO1"/>
       </reference>
-      <name value="Ejemplo de Peso Pediátrico"/>
-      <description value="Ejemplo para el uso de un recurso de Observación asociado al peso medido al momento de nacer"/>
-      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
-      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+      <name value="Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente"/>
+      <description value="Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/EjDiagnosticoCondHLfIMAGINARIO2"/>
+      </reference>
+      <name value="Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente"/>
+      <description value="Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/EjDiagnosticoCondHLfIMAGINARIO3"/>
+      </reference>
+      <name value="Ejemplo Diagnósticos3 y Condiciones Mórbidas del Paciente"/>
+      <description value="Ejemplo Diagnósticos3 y Condiciones Mórbidas del Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -443,7 +445,7 @@
       <reference>
         <reference value="Patient/007"/>
       </reference>
-      <name value="Ejemplo de Recurso de Paciente HLF"/>
+      <name value="Ejemplo Paciente HLF 1"/>
       <description value="Paciente ficticio según datos requeridos por Hospital que contiene: &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión.&#xA;     * Se agrega identidad de género y sexo registral&#xA;     * Se declara sexo de nacimiento"/>
       <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
       <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
@@ -453,12 +455,180 @@
         <valueString value="Patient"/>
       </extension>
       <reference>
-        <reference value="Patient/EjPacienteHLF2"/>
+        <reference value="Patient/008"/>
       </reference>
       <name value="Ejemplo Paciente HLF 2"/>
-      <description value="Ejemplo de paciente HLF con el conjunto mínimo de datos requeridos para el uso de la API de HLF"/>
+      <description value="Paciente ficticio según datos requeridos por Hospital que contiene: &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión.&#xA;     * Se agrega identidad de género y sexo registral&#xA;     * Se declara sexo de nacimiento"/>
       <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
       <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/009"/>
+      </reference>
+      <name value="Ejemplo Paciente HLF 3"/>
+      <description value="Paciente ficticio según datos requeridos por Hospital que contiene: &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión.&#xA;     * Se agrega identidad de género y sexo registral&#xA;     * Se declara sexo de nacimiento"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/EjSolicitudHospitalizacion"/>
+      </reference>
+      <name value="Ejemplo Solicitud Hospitalizacion"/>
+      <description value="Ejemplo Solicitud Hospitalizacion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/EjUnidadClinicaHLFIMAGINARIO"/>
+      </reference>
+      <name value="Ejemplo Unidad ClinicaHLF"/>
+      <description value="Ejemplo Unidad ClinicaHLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjPesoRecienNacido1"/>
+      </reference>
+      <name value="Ejemplo1 de Peso Pediátrico"/>
+      <description value="Ejemplo1 para el uso de un recurso de Observación asociado al peso medido al momento de nacer"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Coverage"/>
+      </extension>
+      <reference>
+        <reference value="Coverage/EjPrevision1"/>
+      </reference>
+      <name value="Ejemplo1 previsión del paciente"/>
+      <description value="Ejemplo1 para la previsión del paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/EjRegistroAtencionIMAGINARIO"/>
+      </reference>
+      <name value="Ejemplo1 Registro atencion Paciente"/>
+      <description value="Ejemplo1 Registro atencion Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjNivEduca2"/>
+      </reference>
+      <name value="Ejemplo2 de nivel educacional de paciente"/>
+      <description value="Ejemplo2 para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjPesoRecienNacido2"/>
+      </reference>
+      <name value="Ejemplo2 de Peso Pediátrico"/>
+      <description value="Ejemplo2 para el uso de un recurso de Observación asociado al peso medido al momento de nacer"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Coverage"/>
+      </extension>
+      <reference>
+        <reference value="Coverage/EjPrevision2"/>
+      </reference>
+      <name value="Ejemplo2 previsión del paciente"/>
+      <description value="Ejemplo2 para la previsión del paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/EjRegistroAtencion2"/>
+      </reference>
+      <name value="Ejemplo2 Registro atencion Paciente"/>
+      <description value="Ejemplo2 Registro atencion Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjNivEduca3"/>
+      </reference>
+      <name value="Ejemplo3 de nivel educacional de paciente"/>
+      <description value="Ejemplo3 para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Educacion"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/EjPesoRecienNacido3"/>
+      </reference>
+      <name value="Ejemplo3 de Peso Pediátrico"/>
+      <description value="Ejemplo3 para el uso de un recurso de Observación asociado al peso medido al momento de nacer"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ObsPesoPediatrico"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Coverage"/>
+      </extension>
+      <reference>
+        <reference value="Coverage/EjPrevision3"/>
+      </reference>
+      <name value="Ejemplo3 previsión del paciente"/>
+      <description value="Ejemplo3 para la previsión del paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/EjRegistroAtencion3"/>
+      </reference>
+      <name value="Ejemplo3 Registro atencion Paciente"/>
+      <description value="Ejemplo3 Registro atencion Paciente"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+      <profile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -531,9 +701,9 @@
         <valueString value="SearchParameter"/>
       </extension>
       <reference>
-        <reference value="SearchParameter/is-pediatrica"/>
+        <reference value="SearchParameter/IsPediatrica"/>
       </reference>
-      <name value="is-pediatrica"/>
+      <name value="IsPediatrica"/>
       <description value="Retorna las Unidades Clinicas HLF que son pediatricas"/>
       <isExample value="false"/>
     </resource>
@@ -586,21 +756,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/NivelInstrucion"/>
+        <reference value="StructureDefinition/NivelInstruccion"/>
       </reference>
-      <name value="Nivel Instrucción"/>
+      <name value="Nivel Instruccion"/>
       <description value="El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo."/>
-      <isExample value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NombreSocial"/>
-      </reference>
-      <name value="Nombre Social de Paciente"/>
-      <description value="Esta extensión permite agregar un nombre social al paciente"/>
       <isExample value="false"/>
     </resource>
     <resource>
@@ -646,6 +805,17 @@
       <name value="PacienteHLF"/>
       <description value="Perfil de Paciente definido por HLF"/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Parameters"/>
+      </extension>
+      <reference>
+        <reference value="Parameters/PatchSolicitudHospitalizacionEj"/>
+      </reference>
+      <name value="PATCH Solicitud Hospitalizacion"/>
+      <description value="Recurso Parameters para realizar la operación PATCH del recurso ServiceRequest que representa una solicitud de hospitalización."/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -825,6 +995,50 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Discapacidad"/>
+      </reference>
+      <name value="Tipo de discapacidad"/>
+      <description value="Extensión para el tipo de discapacidad"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/TPUR"/>
+      </reference>
+      <name value="Tipo de urgencia"/>
+      <description value="ValueSet Tipo de urgencia"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TPUR"/>
+      </reference>
+      <name value="Tipo de urgencia"/>
+      <description value="Tipo de urgencia"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TipoViaDireccion"/>
+      </reference>
+      <name value="Tipo Vía Dirección"/>
+      <description value="Extensión para definir el tipo de vía en la dirección del paciente"/>
+      <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -911,6 +1125,17 @@
       <description value="Extensión para indicar la referencia a la unidad clínica origen de la hospitalización"/>
       <isExample value="false"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/AUCS"/>
+      </reference>
+      <name value="Área urbano censal"/>
+      <description value="Área urbano censal"/>
+      <isExample value="false"/>
+    </resource>
     <page>
       <sourceUrl value="toc.html"/>
       <name value="toc.html"/>
@@ -940,7 +1165,41 @@
         <title value="Solicitud de Hospitalización"/>
         <generation value="markdown"/>
       </page>
+      <page>
+        <sourceUrl value="transacciones.html"/>
+        <name value="transacciones.html"/>
+        <title value="Transacciones del Proceso"/>
+        <generation value="markdown"/>
+      </page>
     </page>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="copyrightyear"/>
+      </code>
+      <value value="2023+"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="releaselabel"/>
+      </code>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="display-warnings"/>
+      </code>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
+        <code value="autoload-resources"/>
+      </code>
+      <value value="true"/>
+    </parameter>
     <parameter>
       <code>
         <system value="http://hl7.org/fhir/guide-parameter-code"/>
@@ -1041,41 +1300,6 @@
     </parameter>
     <parameter>
       <code>
-        <system value="http://hl7.org/fhir/guide-parameter-code"/>
-        <code value="path-tx-cache"/>
-      </code>
-      <value value="input-cache/txcache"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="copyrightyear"/>
-      </code>
-      <value value="2023+"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="releaselabel"/>
-      </code>
-      <value value="ci-build"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="display-warnings"/>
-      </code>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code>
-        <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
-        <code value="autoload-resources"/>
-      </code>
-      <value value="true"/>
-    </parameter>
-    <parameter>
-      <code>
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-liquid"/>
       </code>
@@ -1108,6 +1332,13 @@
         <code value="path-output"/>
       </code>
       <value value="output"/>
+    </parameter>
+    <parameter>
+      <code>
+        <system value="http://hl7.org/fhir/guide-parameter-code"/>
+        <code value="path-tx-cache"/>
+      </code>
+      <value value="input-cache/txcache"/>
     </parameter>
     <parameter>
       <code>

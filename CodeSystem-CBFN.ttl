@@ -1,0 +1,105 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CBFN> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "CBFN"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CBFN"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.7.0"] ; # 
+  fhir:name [ fhir:v "CBFN"] ; # 
+  fhir:title [ fhir:v "Código beneficiarios FONASA"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-06-22T00:00:00-03:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Hospital Eloisa Diaz de la Florida"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Hospital Eloisa Diaz de la Florida" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://www.hospitallaflorida.cl/" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "leonardo.arancibia@hospitallaflorida.cl" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Código beneficiarios FONASA"] ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "vigencia" ] ;
+     fhir:description [ fhir:v "si el codigo es vigente" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "orden" ] ;
+     fhir:description [ fhir:v "el orden de presentación de los códigos" ] ;
+     fhir:type [ fhir:v "integer" ]
+  ] [
+     fhir:code [ fhir:v "codigoMinsal" ] ;
+     fhir:description [ fhir:v "el equivalente en el código del MINSAL norma 820" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Tramo A" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "1"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Tramo B" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "2"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "B" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Tramo C" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "3"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "C" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Tramo D" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "vigencia" ] ;
+       fhir:value [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:code [ fhir:v "orden" ] ;
+       fhir:value [ fhir:v "4"^^xsd:integer ]
+     ] [
+       fhir:code [ fhir:v "codigoMinsal" ] ;
+       fhir:value [ fhir:v "D" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Ejemplo de Recurso de Paciente HLF - JSON Representation - FHIR v5.0.0</title>
+    <title>Ejemplo Paciente HLF 1 - JSON Representation - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5.59"}
-    h3,h4,h5,h6{--heading-prefix:"5.59"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.81"}
+    h3,h4,h5,h6{--heading-prefix:"6.81"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -51,7 +51,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -100,6 +100,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -112,7 +115,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de Paciente HLF</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Paciente HLF 1</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -125,7 +128,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -171,19 +174,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: Ejemplo de Recurso de Paciente HLF - JSON Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
+<h2 id="root">: Ejemplo Paciente HLF 1 - JSON Representation</h2>
 
 
 <p><a href="Patient-007.json" no-download="true">Raw json</a> | <a href="Patient-007.json" download>Download</a></p>
@@ -206,13 +197,9 @@
   },
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;Luke Solo Organa (OFFICIAL)&lt;/b&gt; male, DoB: 1980-08-04 ( Chile: 78223444-1\u00a0(use:\u00a0OFFICIAL))&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Record is active\&quot;&gt;Active:&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Known Marital status of Patient\&quot;&gt;Marital Status:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\&quot;&gt;Divorced&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Details:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;mailto:LukeSky@organa.cl\&quot;&gt;LukeSky@organa.cl&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Calle 4 Norte, 52, pieza 802 Arica Arica y Parinacota Chile (HOME)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión para dato es de del sexo registrado oficialmente por el/la paciente\&quot;&gt;&lt;a href=\&quot;StructureDefinition-SexoReg.html\&quot;&gt;Sexo Registral:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;3&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Esta extensión permite agregar un nombre social al paciente\&quot;&gt;&lt;a href=\&quot;StructureDefinition-NombreSocial.html\&quot;&gt;Nombre Social de Paciente:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Leia&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local \&quot;&gt;&lt;a href=\&quot;StructureDefinition-IdentidadGenero.html\&quot;&gt;Identidad de Género:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;5&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión de Sexdo biológico al nacer para Chile\&quot;&gt;&lt;a href=\&quot;StructureDefinition-SexoNacimiento820.html\&quot;&gt;Sexo biológico al nacer:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;1&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;Titin &lt;/b&gt; male, DoB: 1999-09-19 ( Chile: 78223444-1\u00a0(use:\u00a0OFFICIAL))&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Known Marital status of Patient\&quot;&gt;Marital Status:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\&quot;&gt;Divorced&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Alternate names (see the one above)\&quot;&gt;Alt. Name:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Calcetin Izquierdo Con Rombos (OFFICIAL)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Details:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;mailto:calcetin@conrombos.man\&quot;&gt;calcetin@conrombos.man&lt;/a&gt;&lt;/li&gt;&lt;li&gt;ph: 5555555555&lt;/li&gt;&lt;li&gt;Calle 4 Norte, 52, pieza 802 Arica Arica y Parinacota Chile (HOME)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Nominated Contact: C\&quot;&gt;C:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Tulio Triviño &lt;/li&gt;&lt;li&gt;ph: 666666666&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Patient Links\&quot;&gt;Links:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;General Practitioner: &lt;span&gt;: Hospital San Juan de Dios&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión para dato es de del sexo registrado oficialmente por el/la paciente\&quot;&gt;&lt;a href=\&quot;StructureDefinition-SexoReg.html\&quot;&gt;Sexo Registral:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;3&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión para el código de identificación de país\&quot;&gt;&lt;a href=\&quot;StructureDefinition-CodigoPais.html\&quot;&gt;Código de identificación de país:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span title=\&quot;Codes: {urn:iso:std:iso:3166 152}\&quot;&gt;Chile&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local\&quot;&gt;&lt;a href=\&quot;StructureDefinition-IdentidadGenero.html\&quot;&gt;Identidad de Género:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;5&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Extensión de Sexdo biológico al nacer para Chile\&quot;&gt;&lt;a href=\&quot;StructureDefinition-SexoNacimiento820.html\&quot;&gt;Sexo biológico al nacer:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;1&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Se reconoce como pueblos indígenas u originarios en Chile a: mapuche, aymara, Rapanui, lickanantay, quechuas, colla, diaguitas, kawésqar, yagán y chango.\&quot;&gt;Extensión de Pueblos Indígenas u Origenarios:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Pueblos: &lt;span title=\&quot;Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena 2}\&quot;&gt;Aymara&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Otros: Aymara-Nui&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.\&quot;&gt;Nivel Instruccion:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Ucurso: &lt;span title=\&quot;Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado 8}\&quot;&gt;8vo Básico&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Univel: &lt;span title=\&quot;Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob 3}\&quot;&gt;Básica o Primaria&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Información sobre la Religión o Credo declarada por el paciente\&quot;&gt;&lt;a href=\&quot;StructureDefinition-ReligionesCultos.html\&quot;&gt;Extensión que define Religion o Culto:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span title=\&quot;Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion 2}\&quot;&gt;Evangélica&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.extension">extension</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
-      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Leia"
-    },
     {
       "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
       "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "1"
@@ -224,10 +211,98 @@
     {
       "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
       "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCode</a>" : "5"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "2",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Evangélica"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "Pueblos",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "2",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Aymara"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "Otros",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Aymara-Nui"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "152",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Chile"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "Ucurso",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "8",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "8vo Básico"
+              }
+            ]
+          }
+        },
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "Univel",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "3",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Básica o Primaria"
+              }
+            ]
+          }
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion"
     }
   ],
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.identifier">identifier</a>" : [
     {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "152",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Chile"
+              }
+            ]
+          }
+        }
+      ],
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.type">type</a>" : {
         "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
@@ -238,40 +313,61 @@
           }
         ]
       },
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://regcivil.cl/Validacion/Passport",
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "78223444-1"
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/patient.html#Patient.active">active</a>" : true,
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.name">name</a>" : [
     {
       "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.use">use</a>" : "official",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a>" : "Organa",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a>" : "Con Rombos",
       "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">_family</a>" : {
         "<a href="http://hl7.org/fhir/R5/datatypes.html#string#string.extension">extension</a>" : [
           {
             "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
-            "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Skywalker"
+            "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "Man"
           }
         ]
       },
       "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a>" : [
-        "Luke",
-        "Solo"
+        "Calcetin",
+        "Izquierdo"
+      ]
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.use">use</a>" : "usual",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Titin"
       ]
     }
   ],
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.telecom">telecom</a>" : [
     {
       "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "LukeSky@organa.cl",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a>" : "home"
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "calcetin@conrombos.man"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "5555555555"
     }
   ],
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.gender">gender</a>" : "male",
-  "<a href="http://hl7.org/fhir/R5/patient.html#Patient.birthDate">birthDate</a>" : "1980-08-04",
+  "<a href="http://hl7.org/fhir/R5/patient.html#Patient.birthDate">birthDate</a>" : "1999-09-19",
   "<a href="http://hl7.org/fhir/R5/patient.html#Patient.address">address</a>" : [
     {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>" : {
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "1",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Calle"
+              }
+            ]
+          }
+        }
+      ],
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a>" : "home",
       "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a>" : [
         "Calle 4 Norte, 52, pieza 802"
@@ -290,7 +386,38 @@
         "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Divorced"
       }
     ]
-  }
+  },
+  "<a href="http://hl7.org/fhir/R5/patient.html#Patient.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/patient.html#Patient.contact.relationship">relationship</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/5.1.0/CodeSystem-v2-0131.html",
+              "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "C"
+            }
+          ]
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R5/patient.html#Patient.contact.name">name</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a>" : "Triviño",
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a>" : [
+          "Tulio"
+        ]
+      },
+      "<a href="http://hl7.org/fhir/R5/patient.html#Patient.contact.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "phone",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "666666666"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R5/patient.html#Patient.generalPractitioner">generalPractitioner</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.display">display</a>" : "Hospital San Juan de Dios"
+    }
+  ]
 }</code></pre>
 
 
@@ -321,7 +448,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

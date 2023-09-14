@@ -1,0 +1,137 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TPUR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/TPUR",
+  "version" : "0.7.0",
+  "name" : "TPUR",
+  "title" : "Tipo de urgencia",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Tipo de urgencia",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 8,
+  "property" : [{
+    "code" : "vigencia",
+    "description" : "si el codigo es vigente",
+    "type" : "boolean"
+  },
+  {
+    "code" : "orden",
+    "description" : "el orden de presentación de los códigos",
+    "type" : "integer"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Urgencia Ambulatoria (SAR)",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Urgencia Ambulatoria (SAPU)",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Ambulatoria Dental",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Urgencia Hospitalaria (UEH)",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Urgencia Ambulatoria",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Urgencia Ambulatoria (SUR)",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Ambulatoria CEAR",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  },
+  {
+    "code" : "8",
+    "display" : "No Aplica",
+    "property" : [{
+      "code" : "vigencia",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "orden",
+      "valueInteger" : 1
+    }]
+  }]
+}

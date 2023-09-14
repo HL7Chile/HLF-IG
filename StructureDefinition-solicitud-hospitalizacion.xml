@@ -3,21 +3,14 @@
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="solicitud-hospitalizacion"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element">Name</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element">Flags</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a></th><th style="width: 100px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element">Description &amp; Constraints</a><span style="float: right"><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest">ServiceRequest</a><a name="ServiceRequest"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/servicerequest.html">ServiceRequest</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">A request for a service to be performed</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_extension_simple.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Simple Extension" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.extension">Slices for extension</a><a name="ServiceRequest.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4..<span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5" href="http://hl7.org/fhir/R5/extensibility.html#Extension">Extension</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Extension</span><br/><span style="font-weight:bold">Slice: </span>Unordered, Open by value:url</td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.extension:unidad-clinica-origen" title="Extension URL = https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen">unidad-clinica-origen</a><a name="ServiceRequest.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="StructureDefinition-unidad-clinica-hlf.html">Unidad Clinica HLF</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Unidad Clínica Origen<br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R5/StructureDefinition-unidad-clinica-origen.html">https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen</a></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.extension:motivo-solicitud-hospitalizacion" title="Extension URL = https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion">motivo-solicitud-hospitalizacion</a><a name="ServiceRequest.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">(Complex)</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Motivo Solicitud Hospitalización<br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R5/StructureDefinition-motivo-solicitud-hospitalizacion.html">https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion</a></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.extension:complejidad-cama" title="Extension URL = https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama">complejidad-cama</a><a name="ServiceRequest.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#Coding">Coding</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Complejidad Cama<br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R5/StructureDefinition-complejidad-cama.html">https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama</a></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.extension:precauciones-solicitud-hospitalizacion" title="Extension URL = https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion">precauciones-solicitud-hospitalizacion</a><a name="ServiceRequest.extension"> </a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Precauciones Solicitud Hospitalización<br/><span style="font-weight:bold">URL: </span><a href="http://hl7.org/fhir/R5/StructureDefinition-precauciones-solicitud-hospitalizacion.html">https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion</a></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-solicitud-hospitalizacion-definitions.html#ServiceRequest.subject" title="Paciente al que se le solicita la hospitalización">subject</a><a name="ServiceRequest.subject"> </a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R5/references.html">Reference</a>(<a href="http://hl7.org/fhir/R5/patient.html">Patient</a>)</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Paciente al que se le solicita la hospitalización</td></tr>
-<tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="SolicitudHospitalizacion"/>
   <title value="Solicitud Hospitalización"/>
   <status value="draft"/>
-  <date value="2023-06-30T18:27:12-04:00"/>
+  <date value="2023-09-13T17:11:14-03:00"/>
   <publisher value="Hospital Eloisa Diaz de la Florida"/>
   <contact>
     <name value="Hospital Eloisa Diaz de la Florida"/>
@@ -810,7 +803,7 @@
     <element id="ServiceRequest.status">
       <path value="ServiceRequest.status"/>
       <short value="draft | active | on-hold | revoked | completed | entered-in-error | unknown"/>
-      <definition value="The status of the order."/>
+      <definition value="Estado de la solicitud"/>
       <comment value="The status is generally fully in the control of the requester - they determine whether the order is draft or active and, after it has been activated, competed, revoked or placed on-hold. States relating to the activities of the performer are reflected on either the corresponding event (see [Event Pattern](http://hl7.org/fhir/R5/event.html) for general discussion) or using the [Task](http://hl7.org/fhir/R5/task.html) resource."/>
       <min value="1"/>
       <max value="1"/>
@@ -829,17 +822,14 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="false"/>
+      <mustSupport value="true"/>
       <isModifier value="true"/>
       <isModifierReason value="This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
       <isSummary value="true"/>
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="ServiceRequestStatus"/>
-        </extension>
         <strength value="required"/>
-        <description value="The status of a service order."/>
-        <valueSet value="http://hl7.org/fhir/ValueSet/request-status|5.0.0"/>
+        <description value="Códigos Propios del estándar"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/request-status"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -864,8 +854,8 @@
     </element>
     <element id="ServiceRequest.intent">
       <path value="ServiceRequest.intent"/>
-      <short value="proposal | plan | directive | order +"/>
-      <definition value="Whether the request is a proposal, plan, an original order or a reflex order."/>
+      <short value="Intención de la solicitud"/>
+      <definition value="Intención de la solicitud"/>
       <comment value="This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/>
       <min value="1"/>
       <max value="1"/>
@@ -877,6 +867,7 @@
       <type>
         <code value="code"/>
       </type>
+      <patternCode value="order"/>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1535,7 +1526,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1604,10 +1595,10 @@
     </element>
     <element id="ServiceRequest.encounter">
       <path value="ServiceRequest.encounter"/>
-      <short value="Encounter in which the request was created"/>
-      <definition value="An encounter that provides additional information about the healthcare context in which this request is made."/>
+      <short value="Referencia al encuentro desde el cual se generó la solicitud"/>
+      <definition value="Referencia al recurso Registro de Atención generado durante la atención de urgencia"/>
       <alias value="context"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="ServiceRequest.encounter"/>
@@ -1616,7 +1607,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1625,7 +1616,7 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="false"/>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
@@ -1651,10 +1642,18 @@
     </element>
     <element id="ServiceRequest.occurrence[x]">
       <path value="ServiceRequest.occurrence[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="closed"/>
+      </slicing>
       <short value="When service should occur"/>
       <definition value="The date/time at which the requested service should occur."/>
       <alias value="schedule"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="ServiceRequest.occurrence[x]"/>
@@ -1664,12 +1663,6 @@
       <type>
         <code value="dateTime"/>
       </type>
-      <type>
-        <code value="Period"/>
-      </type>
-      <type>
-        <code value="Timing"/>
-      </type>
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
@@ -1678,6 +1671,53 @@
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <mustSupport value="false"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="workflow"/>
+        <map value="Request.occurrence[x]"/>
+      </mapping>
+      <mapping>
+        <identity value="w5"/>
+        <map value="FiveWs.planned"/>
+      </mapping>
+      <mapping>
+        <identity value="v2"/>
+        <map value="TQ1/TQ2, OBR-7/OBR-8"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value=".effectiveTime"/>
+      </mapping>
+      <mapping>
+        <identity value="quick"/>
+        <map value="Procedure.procedureSchedule"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.occurrence[x]:occurrenceDateTime">
+      <path value="ServiceRequest.occurrence[x]"/>
+      <sliceName value="occurrenceDateTime"/>
+      <short value="Fecha deseable de hospitalización dd-mm-aaaa"/>
+      <definition value="Fecha deseable de hospitalización en formato dd-mm-aaaa"/>
+      <alias value="schedule"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="ServiceRequest.occurrence[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
@@ -1747,10 +1787,10 @@
     </element>
     <element id="ServiceRequest.authoredOn">
       <path value="ServiceRequest.authoredOn"/>
-      <short value="Date request signed"/>
-      <definition value="When the request transitioned to being actionable."/>
+      <short value="Fecha y hora en la cual se realizó la solicitud"/>
+      <definition value="Formato FHIR"/>
       <alias value="orderedOn"/>
-      <min value="0"/>
+      <min value="1"/>
       <max value="1"/>
       <base>
         <path value="ServiceRequest.authoredOn"/>
@@ -1767,7 +1807,7 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="false"/>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>
@@ -1898,8 +1938,8 @@
     </element>
     <element id="ServiceRequest.performer">
       <path value="ServiceRequest.performer"/>
-      <short value="Requested performer"/>
-      <definition value="The desired performer for doing the requested service.  For example, the surgeon, dermatopathologist, endoscopist, etc."/>
+      <short value="Unidad Clínica destino de la solicitud de hospitalización"/>
+      <definition value="Unidad Clínica destino de la solicitud de hospitalización"/>
       <comment value="If multiple performers are present, it is interpreted as a list of *alternative* performers without any preference regardless of order.  If order of preference is needed use the [http://hl7.org/fhir/StructureDefinition/request-performerOrder](http://hl7.org/fhir/extensions/StructureDefinition-request-performerOrder.html).  Use CareTeam to represent a group of performers (for example, Practitioner A *and* Practitioner B)."/>
       <alias value="request recipient"/>
       <min value="0"/>
@@ -1911,14 +1951,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/CareTeam"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/HealthcareService"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Device"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1991,11 +2024,11 @@
     </element>
     <element id="ServiceRequest.reason">
       <path value="ServiceRequest.reason"/>
-      <short value="Explanation/Justification for procedure or service"/>
-      <definition value="An explanation or justification for why this service is being requested in coded or textual form.   This is often for billing purposes.  May relate to the resources referred to in `supportingInfo`."/>
+      <short value="Diagnóstico por el cual se hace la solicitud de Hospitalización"/>
+      <definition value="Referencia al diagnóstico mediante el cual el paciente debe ser derivado a hospitalización"/>
       <comment value="This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](http://hl7.org/fhir/R5/servicerequest-example-di.html)."/>
-      <min value="0"/>
-      <max value="*"/>
+      <min value="1"/>
+      <max value="1"/>
       <base>
         <path value="ServiceRequest.reason"/>
         <min value="0"/>
@@ -2003,11 +2036,7 @@
       </base>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Condition"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Observation"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DiagnosticReport"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/DetectedIssue"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2016,7 +2045,7 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="false"/>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -2257,10 +2286,10 @@
     </element>
     <element id="ServiceRequest.note">
       <path value="ServiceRequest.note"/>
-      <short value="Comments"/>
-      <definition value="Any other notes and comments made about the service request. For example, internal billing notes."/>
+      <short value="Observaciones en texto libre"/>
+      <definition value="Observaciones o comentarios, en especial para cuando la solicitud de servicio requiere mas información"/>
       <min value="0"/>
-      <max value="*"/>
+      <max value="1"/>
       <base>
         <path value="ServiceRequest.note"/>
         <min value="0"/>
@@ -2276,7 +2305,7 @@
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
-      <mustSupport value="false"/>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="false"/>
       <mapping>
@@ -2294,6 +2323,184 @@
       <mapping>
         <identity value="quick"/>
         <map value="ClinicalStatement.additionalText"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.note.id">
+      <path value="ServiceRequest.note.id"/>
+      <representation value="xmlAttr"/>
+      <short value="Unique id for inter-element referencing"/>
+      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Element.id"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type">
+          <valueUrl value="id"/>
+        </extension>
+        <code value="http://hl7.org/fhirpath/System.String"/>
+      </type>
+      <condition value="ele-1"/>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.note.extension">
+      <path value="ServiceRequest.note.extension"/>
+      <slicing>
+        <discriminator>
+          <type value="value"/>
+          <path value="url"/>
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url"/>
+        <rules value="open"/>
+      </slicing>
+      <short value="Additional content defined by implementations"/>
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and managable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <alias value="extensions"/>
+      <alias value="user content"/>
+      <min value="0"/>
+      <max value="*"/>
+      <base>
+        <path value="Element.extension"/>
+        <min value="0"/>
+        <max value="*"/>
+      </base>
+      <type>
+        <code value="Extension"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <constraint>
+        <key value="ext-1"/>
+        <severity value="error"/>
+        <human value="Must have either extensions or value[x], not both"/>
+        <expression value="extension.exists() != value.exists()"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.note.author[x]">
+      <path value="ServiceRequest.note.author[x]"/>
+      <short value="Individual responsible for the annotation"/>
+      <definition value="The individual responsible for making the annotation."/>
+      <comment value="Organization is used when there's no need for specific attribution as to who made the comment."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Annotation.author[x]"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/PractitionerRole"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+      </type>
+      <type>
+        <code value="string"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="Act.participant[typeCode=AUT].role"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.note.time">
+      <path value="ServiceRequest.note.time"/>
+      <short value="When the annotation was made"/>
+      <definition value="Indicates when this particular annotation was made."/>
+      <min value="0"/>
+      <max value="1"/>
+      <base>
+        <path value="Annotation.time"/>
+        <min value="0"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="Act.effectiveTime"/>
+      </mapping>
+    </element>
+    <element id="ServiceRequest.note.text">
+      <path value="ServiceRequest.note.text"/>
+      <short value="Campo de texto con observaciones"/>
+      <definition value="Campo de texto con observaciones"/>
+      <min value="1"/>
+      <max value="1"/>
+      <base>
+        <path value="Annotation.text"/>
+        <min value="1"/>
+        <max value="1"/>
+      </base>
+      <type>
+        <code value="markdown"/>
+      </type>
+      <constraint>
+        <key value="ele-1"/>
+        <severity value="error"/>
+        <human value="All FHIR elements must have a @value or children"/>
+        <expression value="hasValue() or (children().count() &gt; id.count())"/>
+        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
+      </constraint>
+      <mustSupport value="true"/>
+      <isModifier value="false"/>
+      <isSummary value="true"/>
+      <mapping>
+        <identity value="v2"/>
+        <map value="N/A"/>
+      </mapping>
+      <mapping>
+        <identity value="rim"/>
+        <map value="Act.text"/>
       </mapping>
     </element>
     <element id="ServiceRequest.patientInstruction">
@@ -2579,14 +2786,106 @@
       </type>
       <mustSupport value="true"/>
     </element>
+    <element id="ServiceRequest.status">
+      <path value="ServiceRequest.status"/>
+      <definition value="Estado de la solicitud"/>
+      <mustSupport value="true"/>
+      <binding>
+        <strength value="required"/>
+        <description value="Códigos Propios del estándar"/>
+        <valueSet value="http://hl7.org/fhir/ValueSet/request-status"/>
+      </binding>
+    </element>
+    <element id="ServiceRequest.intent">
+      <path value="ServiceRequest.intent"/>
+      <short value="Intención de la solicitud"/>
+      <definition value="Intención de la solicitud"/>
+      <patternCode value="order"/>
+    </element>
     <element id="ServiceRequest.subject">
       <path value="ServiceRequest.subject"/>
       <short value="Paciente al que se le solicita la hospitalización"/>
       <definition value="Paciente al que se le solicita la hospitalización"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF"/>
       </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.encounter">
+      <path value="ServiceRequest.encounter"/>
+      <short value="Referencia al encuentro desde el cual se generó la solicitud"/>
+      <definition value="Referencia al recurso Registro de Atención generado durante la atención de urgencia"/>
+      <min value="1"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.occurrence[x]">
+      <path value="ServiceRequest.occurrence[x]"/>
+      <slicing>
+        <discriminator>
+          <type value="type"/>
+          <path value="$this"/>
+        </discriminator>
+        <ordered value="false"/>
+        <rules value="open"/>
+      </slicing>
+      <min value="1"/>
+    </element>
+    <element id="ServiceRequest.occurrence[x]:occurrenceDateTime">
+      <path value="ServiceRequest.occurrence[x]"/>
+      <sliceName value="occurrenceDateTime"/>
+      <short value="Fecha deseable de hospitalización dd-mm-aaaa"/>
+      <definition value="Fecha deseable de hospitalización en formato dd-mm-aaaa"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="dateTime"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.authoredOn">
+      <path value="ServiceRequest.authoredOn"/>
+      <short value="Fecha y hora en la cual se realizó la solicitud"/>
+      <definition value="Formato FHIR"/>
+      <min value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.performer">
+      <path value="ServiceRequest.performer"/>
+      <short value="Unidad Clínica destino de la solicitud de hospitalización"/>
+      <definition value="Unidad Clínica destino de la solicitud de hospitalización"/>
+      <type>
+        <code value="Reference"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf"/>
+      </type>
+    </element>
+    <element id="ServiceRequest.reason">
+      <path value="ServiceRequest.reason"/>
+      <short value="Diagnóstico por el cual se hace la solicitud de Hospitalización"/>
+      <definition value="Referencia al diagnóstico mediante el cual el paciente debe ser derivado a hospitalización"/>
+      <min value="1"/>
+      <max value="1"/>
+      <type>
+        <code value="CodeableReference"/>
+        <targetProfile value="https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf"/>
+      </type>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.note">
+      <path value="ServiceRequest.note"/>
+      <short value="Observaciones en texto libre"/>
+      <definition value="Observaciones o comentarios, en especial para cuando la solicitud de servicio requiere mas información"/>
+      <max value="1"/>
+      <mustSupport value="true"/>
+    </element>
+    <element id="ServiceRequest.note.text">
+      <path value="ServiceRequest.note.text"/>
+      <short value="Campo de texto con observaciones"/>
+      <definition value="Campo de texto con observaciones"/>
       <mustSupport value="true"/>
     </element>
   </differential>

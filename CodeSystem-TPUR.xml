@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TPUR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/TPUR"/>
+  <version value="0.7.0"/>
+  <name value="TPUR"/>
+  <title value="Tipo de urgencia"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Tipo de urgencia"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="8"/>
+  <property>
+    <code value="vigencia"/>
+    <description value="si el codigo es vigente"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="orden"/>
+    <description value="el orden de presentación de los códigos"/>
+    <type value="integer"/>
+  </property>
+  <concept>
+    <code value="1"/>
+    <display value="Urgencia Ambulatoria (SAR)"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Urgencia Ambulatoria (SAPU)"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Ambulatoria Dental"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Urgencia Hospitalaria (UEH)"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Urgencia Ambulatoria"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Urgencia Ambulatoria (SUR)"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Ambulatoria CEAR"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="No Aplica"/>
+    <property>
+      <code value="vigencia"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="orden"/>
+      <valueInteger value="1"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://hospitallaflorida.cl/fhir/hlfhosp/Encounter/EjRegistroAtencionIMAGINARIO> a fhir:Encounter ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "EjRegistroAtencionIMAGINARIO"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion"^^xsd:anyURI ;
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Encounter</b><a name=\"EjRegistroAtencionIMAGINARIO\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Encounter &quot;EjRegistroAtencionIMAGINARIO&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-registro-atencion.html\">Registro Atencion</a></p></div><p><b>status</b>: completed</p><p><b>class</b>: emergency <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-ActCode.html\">ActCode</a>#EMER)</span></p><h3>ServiceTypes</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html\">HealthcareService/EjUnidadClinicaHLFIMAGINARIO</a> &quot;Nombre Unidad Clinica&quot;</td></tr></table><p><b>subject</b>: <a href=\"Patient-007.html\">Patient/007</a> &quot; CON ROMBOS&quot;</p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span>: Dr. Luke Organa</span></td></tr></table><p><b>plannedStartDate</b>: 2015-02-07 13:28:17-0500</p><p><b>plannedEndDate</b>: 2015-03-06 13:28:17-0500</p><blockquote><p><b>diagnosis</b></p><h3>Conditions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Condition-EjDiagnosticoCondHLfIMAGINARIO1.html\">Condition/EjDiagnosticoCondHLfIMAGINARIO1</a></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:status [ fhir:v "completed"] ; # 
+  fhir:class ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "EMER" ]
+     ] )
+  ] ) ; # 
+  fhir:serviceType ( [
+     fhir:reference [
+       fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/HealthcareService/EjUnidadClinicaHLFIMAGINARIO> ;
+       fhir:reference [ fhir:v "HealthcareService/EjUnidadClinicaHLFIMAGINARIO" ]
+     ]
+  ] ) ; # 
+  fhir:subject [
+     fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Patient/007> ;
+     fhir:reference [ fhir:v "Patient/007" ]
+  ] ; # 
+  fhir:participant ( [
+     fhir:actor [
+       fhir:display [ fhir:v "Dr. Luke Organa" ]
+     ]
+  ] ) ; # 
+  fhir:plannedStartDate [ fhir:v "2015-02-07T13:28:17-05:00"^^xsd:dateTime] ; # 
+  fhir:plannedEndDate [ fhir:v "2015-03-06T13:28:17-05:00"^^xsd:dateTime] ; # 
+  fhir:diagnosis ( [
+     fhir:condition ( [
+       fhir:reference [
+         fhir:link <https://hospitallaflorida.cl/fhir/hlfhosp/Condition/EjDiagnosticoCondHLfIMAGINARIO1> ;
+         fhir:reference [ fhir:v "Condition/EjDiagnosticoCondHLfIMAGINARIO1" ]
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -3,10 +3,10 @@
   "id" : "VSOcupacionesDet",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSOcupacionesDet.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSOcupacionesDet",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "VSOcupacionesDet",
   "title" : "Ocupaciones Detalladas",
   "status" : "active",
@@ -25,13 +25,6 @@
     }]
   }],
   "description" : "Código asociados a el detalle de las ocupaciones de un paciente",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSOcupacionesDet"

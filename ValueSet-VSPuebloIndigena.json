@@ -3,10 +3,10 @@
   "id" : "VSPuebloIndigena",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSPuebloIndigena.html\"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSPuebloIndigena",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "VSPuebloIndigena",
   "title" : "Pueblo Indígena u Originarioi",
   "status" : "active",
@@ -25,13 +25,6 @@
     }]
   }],
   "description" : "Los Pueblos Indígenas u Originarios en Chile, son los descendientes de las agrupaciones humanas que existen en el territorio nacional desde tiempos precolombinos",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "compose" : {
     "include" : [{
       "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena"

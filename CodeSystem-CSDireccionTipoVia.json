@@ -1,0 +1,71 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSDireccionTipoVia",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia",
+  "version" : "0.7.0",
+  "name" : "CSDireccionTipoVia",
+  "title" : "Dirección Tipo Vía",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-01-18T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Código de tipo de vía según norma técnica 820 'Estándares de Información de Salud' del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Calle"
+  },
+  {
+    "code" : "2",
+    "display" : "Avenida"
+  },
+  {
+    "code" : "3",
+    "display" : "Pasaje"
+  },
+  {
+    "code" : "4",
+    "display" : "Camino"
+  },
+  {
+    "code" : "5",
+    "display" : "Carretera"
+  },
+  {
+    "code" : "6",
+    "display" : "Callejón"
+  },
+  {
+    "code" : "7",
+    "display" : "Paseo"
+  },
+  {
+    "code" : "8",
+    "display" : "Escalera"
+  },
+  {
+    "code" : "9",
+    "display" : "Otro"
+  },
+  {
+    "code" : "10",
+    "display" : "Rotonda"
+  }]
+}

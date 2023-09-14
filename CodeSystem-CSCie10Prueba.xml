@@ -1,0 +1,3674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="CSCie10Prueba"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
+  </text>
+  <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCie10Prueba"/>
+  <version value="0.7.0"/>
+  <name value="CSCie10Prueba"/>
+  <title value="Códigos de ejemplo CIE-10"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-06-22T00:00:00-03:00"/>
+  <publisher value="Hospital Eloisa Diaz de la Florida"/>
+  <contact>
+    <name value="Hospital Eloisa Diaz de la Florida"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hospitallaflorida.cl/"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="leonardo.arancibia@hospitallaflorida.cl"/>
+    </telecom>
+  </contact>
+  <description value="Algunos códigos en CIE-10 para la validación de la guía. La implementación debe considerar contar con un CS a nivel terminológico con la clasificación completa"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="911"/>
+  <concept>
+    <code value="A00-A09"/>
+    <display value="Intestinal infectious diseases"/>
+  </concept>
+  <concept>
+    <code value="A00"/>
+    <display value="Cholera"/>
+  </concept>
+  <concept>
+    <code value="A00.0"/>
+    <display value="Cholera due to Vibrio cholerae 01, biovar cholerae"/>
+  </concept>
+  <concept>
+    <code value="A00.1"/>
+    <display value="Cholera due to Vibrio cholerae 01, biovar eltor"/>
+  </concept>
+  <concept>
+    <code value="A00.9"/>
+    <display value="Cholera, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A01"/>
+    <display value="Typhoid and paratyphoid fevers"/>
+  </concept>
+  <concept>
+    <code value="A01.0"/>
+    <display value="Typhoid fever"/>
+  </concept>
+  <concept>
+    <code value="A01.1"/>
+    <display value="Paratyphoid fever A"/>
+  </concept>
+  <concept>
+    <code value="A01.2"/>
+    <display value="Paratyphoid fever B"/>
+  </concept>
+  <concept>
+    <code value="A01.3"/>
+    <display value="Paratyphoid fever C"/>
+  </concept>
+  <concept>
+    <code value="A01.4"/>
+    <display value="Paratyphoid fever, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A02"/>
+    <display value="Other salmonella infections"/>
+  </concept>
+  <concept>
+    <code value="A02.0"/>
+    <display value="Salmonella enteritis"/>
+  </concept>
+  <concept>
+    <code value="A02.1"/>
+    <display value="Salmonella sepsis"/>
+  </concept>
+  <concept>
+    <code value="A02.2"/>
+    <display value="Localized salmonella infections"/>
+  </concept>
+  <concept>
+    <code value="A02.8"/>
+    <display value="Other specified salmonella infections"/>
+  </concept>
+  <concept>
+    <code value="A02.9"/>
+    <display value="Salmonella infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A03"/>
+    <display value="Shigellosis"/>
+  </concept>
+  <concept>
+    <code value="A03.0"/>
+    <display value="Shigellosis due to Shigella dysenteriae"/>
+  </concept>
+  <concept>
+    <code value="A03.1"/>
+    <display value="Shigellosis due to Shigella flexneri"/>
+  </concept>
+  <concept>
+    <code value="A03.2"/>
+    <display value="Shigellosis due to Shigella boydii"/>
+  </concept>
+  <concept>
+    <code value="A03.3"/>
+    <display value="Shigellosis due to Shigella sonnei"/>
+  </concept>
+  <concept>
+    <code value="A03.8"/>
+    <display value="Other shigellosis"/>
+  </concept>
+  <concept>
+    <code value="A03.9"/>
+    <display value="Shigellosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A04"/>
+    <display value="Other bacterial intestinal infections"/>
+  </concept>
+  <concept>
+    <code value="A04.0"/>
+    <display value="Enteropathogenic Escherichia coli infection"/>
+  </concept>
+  <concept>
+    <code value="A04.1"/>
+    <display value="Enterotoxigenic Escherichia coli infection"/>
+  </concept>
+  <concept>
+    <code value="A04.2"/>
+    <display value="Enteroinvasive Escherichia coli infection"/>
+  </concept>
+  <concept>
+    <code value="A04.3"/>
+    <display value="Enterohaemorrhagic Escherichia coli infection"/>
+  </concept>
+  <concept>
+    <code value="A04.4"/>
+    <display value="Other intestinal Escherichia coli infections"/>
+  </concept>
+  <concept>
+    <code value="A04.5"/>
+    <display value="Campylobacter enteritis"/>
+  </concept>
+  <concept>
+    <code value="A04.6"/>
+    <display value="Enteritis due to Yersinia enterocolitica"/>
+  </concept>
+  <concept>
+    <code value="A04.7"/>
+    <display value="Enterocolitis due to Clostridium difficile"/>
+  </concept>
+  <concept>
+    <code value="A04.8"/>
+    <display value="Other specified bacterial intestinal infections"/>
+  </concept>
+  <concept>
+    <code value="A04.9"/>
+    <display value="Bacterial intestinal infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A05"/>
+    <display value="Other bacterial foodborne intoxications, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A05.0"/>
+    <display value="Foodborne staphylococcal intoxication"/>
+  </concept>
+  <concept>
+    <code value="A05.1"/>
+    <display value="Botulism"/>
+  </concept>
+  <concept>
+    <code value="A05.2"/>
+    <display value="Foodborne Clostridium perfringens [Clostridium welchii] intoxication"/>
+  </concept>
+  <concept>
+    <code value="A05.3"/>
+    <display value="Foodborne Vibrio parahaemolyticus intoxication"/>
+  </concept>
+  <concept>
+    <code value="A05.4"/>
+    <display value="Foodborne Bacillus cereus intoxication"/>
+  </concept>
+  <concept>
+    <code value="A05.8"/>
+    <display value="Other specified bacterial foodborne intoxications"/>
+  </concept>
+  <concept>
+    <code value="A05.9"/>
+    <display value="Bacterial foodborne intoxication, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A06"/>
+    <display value="Amoebiasis"/>
+  </concept>
+  <concept>
+    <code value="A06.0"/>
+    <display value="Acute amoebic dysentery"/>
+  </concept>
+  <concept>
+    <code value="A06.1"/>
+    <display value="Chronic intestinal amoebiasis"/>
+  </concept>
+  <concept>
+    <code value="A06.2"/>
+    <display value="Amoebic nondysenteric colitis"/>
+  </concept>
+  <concept>
+    <code value="A06.3"/>
+    <display value="Amoeboma of intestine"/>
+  </concept>
+  <concept>
+    <code value="A06.4"/>
+    <display value="Amoebic liver abscess[K77.0]"/>
+  </concept>
+  <concept>
+    <code value="A06.5"/>
+    <display value="Amoebic lung abscess"/>
+  </concept>
+  <concept>
+    <code value="A06.6"/>
+    <display value="Amoebic brain abscess[G07]"/>
+  </concept>
+  <concept>
+    <code value="A06.7"/>
+    <display value="Cutaneous amoebiasis"/>
+  </concept>
+  <concept>
+    <code value="A06.8"/>
+    <display value="Amoebic infection of other sites"/>
+  </concept>
+  <concept>
+    <code value="A06.9"/>
+    <display value="Amoebiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A07"/>
+    <display value="Other protozoal intestinal diseases"/>
+  </concept>
+  <concept>
+    <code value="A07.0"/>
+    <display value="Balantidiasis"/>
+  </concept>
+  <concept>
+    <code value="A07.1"/>
+    <display value="Giardiasis [lambliasis]"/>
+  </concept>
+  <concept>
+    <code value="A07.2"/>
+    <display value="Cryptosporidiosis"/>
+  </concept>
+  <concept>
+    <code value="A07.3"/>
+    <display value="Isosporiasis"/>
+  </concept>
+  <concept>
+    <code value="A07.8"/>
+    <display value="Other specified protozoal intestinal diseases"/>
+  </concept>
+  <concept>
+    <code value="A07.9"/>
+    <display value="Protozoal intestinal disease, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A08"/>
+    <display value="Viral and other specified intestinal infections"/>
+  </concept>
+  <concept>
+    <code value="A08.0"/>
+    <display value="Rotaviral enteritis"/>
+  </concept>
+  <concept>
+    <code value="A08.1"/>
+    <display value="Acute gastroenteropathy due to Norovirus"/>
+  </concept>
+  <concept>
+    <code value="A08.2"/>
+    <display value="Adenoviral enteritis"/>
+  </concept>
+  <concept>
+    <code value="A08.3"/>
+    <display value="Other viral enteritis"/>
+  </concept>
+  <concept>
+    <code value="A08.4"/>
+    <display value="Viral intestinal infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A08.5"/>
+    <display value="Other specified intestinal infections"/>
+  </concept>
+  <concept>
+    <code value="A09"/>
+    <display value="Other gastroenteritis and colitis of infectious and unspecified origin"/>
+  </concept>
+  <concept>
+    <code value="A09.0"/>
+    <display value="Other and unspecified gastroenteritis and colitis of infectious origin"/>
+  </concept>
+  <concept>
+    <code value="A09.9"/>
+    <display value="Gastroenteritis and colitis of unspecified origin"/>
+  </concept>
+  <concept>
+    <code value="A15-A19&quot;Tuberculosis&quot;"/>
+  </concept>
+  <concept>
+    <code value="A15"/>
+    <display value="Respiratory tuberculosis, bacteriologically and histologically confirmed"/>
+  </concept>
+  <concept>
+    <code value="A15.0"/>
+    <display value="Tuberculosis of lung, confirmed by sputum microscopy with or without culture"/>
+  </concept>
+  <concept>
+    <code value="A15.1"/>
+    <display value="Tuberculosis of lung, confirmed by culture only"/>
+  </concept>
+  <concept>
+    <code value="A15.2"/>
+    <display value="Tuberculosis of lung, confirmed histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.3"/>
+    <display value="Tuberculosis of lung, confirmed by unspecified means"/>
+  </concept>
+  <concept>
+    <code value="A15.4"/>
+    <display value="Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.5"/>
+    <display value="Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.6"/>
+    <display value="Tuberculous pleurisy, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.7"/>
+    <display value="Primary respiratory tuberculosis, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.8"/>
+    <display value="Other respiratory tuberculosis, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A15.9"/>
+    <display value="Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically"/>
+  </concept>
+  <concept>
+    <code value="A16"/>
+    <display value="Respiratory tuberculosis, not confirmed bacteriologically or histologically"/>
+  </concept>
+  <concept>
+    <code value="A16.0"/>
+    <display value="Tuberculosis of lung, bacteriologically and histologically negative"/>
+  </concept>
+  <concept>
+    <code value="A16.1"/>
+    <display value="Tuberculosis of lung, bacteriological and histological examination not done"/>
+  </concept>
+  <concept>
+    <code value="A16.2"/>
+    <display value="Tuberculosis of lung, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.3"/>
+    <display value="Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.4"/>
+    <display value="Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.5"/>
+    <display value="Tuberculous pleurisy, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.7"/>
+    <display value="Primary respiratory tuberculosis without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.8"/>
+    <display value="Other respiratory tuberculosis, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A16.9"/>
+    <display value="Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation"/>
+  </concept>
+  <concept>
+    <code value="A17"/>
+    <display value="Tuberculosis of nervous system"/>
+  </concept>
+  <concept>
+    <code value="A17.0"/>
+    <display value="Tuberculous meningitis[G01]"/>
+  </concept>
+  <concept>
+    <code value="A17.1"/>
+    <display value="Meningeal tuberculoma[G07]"/>
+  </concept>
+  <concept>
+    <code value="A17.8"/>
+    <display value="Other tuberculosis of nervous system"/>
+  </concept>
+  <concept>
+    <code value="A17.9"/>
+    <display value="Tuberculosis of nervous system, unspecified[G99.8]"/>
+  </concept>
+  <concept>
+    <code value="A18"/>
+    <display value="Tuberculosis of other organs"/>
+  </concept>
+  <concept>
+    <code value="A18.0"/>
+    <display value="Tuberculosis of bones and joints"/>
+  </concept>
+  <concept>
+    <code value="A18.1"/>
+    <display value="Tuberculosis of genitourinary system"/>
+  </concept>
+  <concept>
+    <code value="A18.2"/>
+    <display value="Tuberculous peripheral lymphadenopathy"/>
+  </concept>
+  <concept>
+    <code value="A18.3"/>
+    <display value="Tuberculosis of intestines, peritoneum and mesenteric glands"/>
+  </concept>
+  <concept>
+    <code value="A18.4"/>
+    <display value="Tuberculosis of skin and subcutaneous tissue"/>
+  </concept>
+  <concept>
+    <code value="A18.5"/>
+    <display value="Tuberculosis of eye"/>
+  </concept>
+  <concept>
+    <code value="A18.6"/>
+    <display value="Tuberculosis of ear"/>
+  </concept>
+  <concept>
+    <code value="A18.7"/>
+    <display value="Tuberculosis of adrenal glands[E35.1]"/>
+  </concept>
+  <concept>
+    <code value="A18.8"/>
+    <display value="Tuberculosis of other specified organs"/>
+  </concept>
+  <concept>
+    <code value="A19"/>
+    <display value="Miliary tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="A19.0"/>
+    <display value="Acute miliary tuberculosis of a single specified site"/>
+  </concept>
+  <concept>
+    <code value="A19.1"/>
+    <display value="Acute miliary tuberculosis of multiple sites"/>
+  </concept>
+  <concept>
+    <code value="A19.2"/>
+    <display value="Acute miliary tuberculosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A19.8"/>
+    <display value="Other miliary tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="A19.9"/>
+    <display value="Miliary tuberculosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A20-A28"/>
+    <display value="Certain zoonotic bacterial diseases"/>
+  </concept>
+  <concept>
+    <code value="A20"/>
+    <display value="Plague"/>
+  </concept>
+  <concept>
+    <code value="A20.0"/>
+    <display value="Bubonic plague"/>
+  </concept>
+  <concept>
+    <code value="A20.1"/>
+    <display value="Cellulocutaneous plague"/>
+  </concept>
+  <concept>
+    <code value="A20.2"/>
+    <display value="Pneumonic plague"/>
+  </concept>
+  <concept>
+    <code value="A20.3"/>
+    <display value="Plague meningitis"/>
+  </concept>
+  <concept>
+    <code value="A20.7"/>
+    <display value="Septicaemic plague"/>
+  </concept>
+  <concept>
+    <code value="A20.8"/>
+    <display value="Other forms of plague"/>
+  </concept>
+  <concept>
+    <code value="A20.9"/>
+    <display value="Plague, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A21"/>
+    <display value="Tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.0"/>
+    <display value="Ulceroglandular tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.1"/>
+    <display value="Oculoglandular tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.2"/>
+    <display value="Pulmonary tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.3"/>
+    <display value="Gastrointestinal tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.7"/>
+    <display value="Generalized tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.8"/>
+    <display value="Other forms of tularaemia"/>
+  </concept>
+  <concept>
+    <code value="A21.9"/>
+    <display value="Tularaemia, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A22"/>
+    <display value="Anthrax"/>
+  </concept>
+  <concept>
+    <code value="A22.0"/>
+    <display value="Cutaneous anthrax"/>
+  </concept>
+  <concept>
+    <code value="A22.1"/>
+    <display value="Pulmonary anthrax"/>
+  </concept>
+  <concept>
+    <code value="A22.2"/>
+    <display value="Gastrointestinal anthrax"/>
+  </concept>
+  <concept>
+    <code value="A22.7"/>
+    <display value="Anthrax sepsis"/>
+  </concept>
+  <concept>
+    <code value="A22.8"/>
+    <display value="Other forms of anthrax"/>
+  </concept>
+  <concept>
+    <code value="A22.9"/>
+    <display value="Anthrax, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A23"/>
+    <display value="Brucellosis"/>
+  </concept>
+  <concept>
+    <code value="A23.0"/>
+    <display value="Brucellosis due to Brucella melitensis"/>
+  </concept>
+  <concept>
+    <code value="A23.1"/>
+    <display value="Brucellosis due to Brucella abortus"/>
+  </concept>
+  <concept>
+    <code value="A23.2"/>
+    <display value="Brucellosis due to Brucella suis"/>
+  </concept>
+  <concept>
+    <code value="A23.3"/>
+    <display value="Brucellosis due to Brucella canis"/>
+  </concept>
+  <concept>
+    <code value="A23.8"/>
+    <display value="Other brucellosis"/>
+  </concept>
+  <concept>
+    <code value="A23.9"/>
+    <display value="Brucellosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A24"/>
+    <display value="Glanders and melioidosis"/>
+  </concept>
+  <concept>
+    <code value="A24.0"/>
+    <display value="Glanders"/>
+  </concept>
+  <concept>
+    <code value="A24.1"/>
+    <display value="Acute and fulminating melioidosis"/>
+  </concept>
+  <concept>
+    <code value="A24.2"/>
+    <display value="Subacute and chronic melioidosis"/>
+  </concept>
+  <concept>
+    <code value="A24.3"/>
+    <display value="Other melioidosis"/>
+  </concept>
+  <concept>
+    <code value="A24.4"/>
+    <display value="Melioidosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A25"/>
+    <display value="Rat-bite fevers"/>
+  </concept>
+  <concept>
+    <code value="A25.0"/>
+    <display value="Spirillosis"/>
+  </concept>
+  <concept>
+    <code value="A25.1"/>
+    <display value="Streptobacillosis"/>
+  </concept>
+  <concept>
+    <code value="A25.9"/>
+    <display value="Rat-bite fever, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A26"/>
+    <display value="Erysipeloid"/>
+  </concept>
+  <concept>
+    <code value="A26.0"/>
+    <display value="Cutaneous erysipeloid"/>
+  </concept>
+  <concept>
+    <code value="A26.7"/>
+    <display value="Erysipelothrix sepsis"/>
+  </concept>
+  <concept>
+    <code value="A26.8"/>
+    <display value="Other forms of erysipeloid"/>
+  </concept>
+  <concept>
+    <code value="A26.9"/>
+    <display value="Erysipeloid, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A27"/>
+    <display value="Leptospirosis"/>
+  </concept>
+  <concept>
+    <code value="A27.0"/>
+    <display value="Leptospirosis icterohaemorrhagica"/>
+  </concept>
+  <concept>
+    <code value="A27.8"/>
+    <display value="Other forms of leptospirosis"/>
+  </concept>
+  <concept>
+    <code value="A27.9"/>
+    <display value="Leptospirosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A28"/>
+    <display value="Other zoonotic bacterial diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A28.0"/>
+    <display value="Pasteurellosis"/>
+  </concept>
+  <concept>
+    <code value="A28.1"/>
+    <display value="Cat-scratch disease"/>
+  </concept>
+  <concept>
+    <code value="A28.2"/>
+    <display value="Extraintestinal yersiniosis"/>
+  </concept>
+  <concept>
+    <code value="A28.8"/>
+    <display value="Other specified zoonotic bacterial diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A28.9"/>
+    <display value="Zoonotic bacterial disease, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A30-A49"/>
+    <display value="Other bacterial diseases"/>
+  </concept>
+  <concept>
+    <code value="A30"/>
+    <display value="Leprosy [Hansen disease]"/>
+  </concept>
+  <concept>
+    <code value="A30.0"/>
+    <display value="Indeterminate leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.1"/>
+    <display value="Tuberculoid leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.2"/>
+    <display value="Borderline tuberculoid leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.3"/>
+    <display value="Borderline leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.4"/>
+    <display value="Borderline lepromatous leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.5"/>
+    <display value="Lepromatous leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.8"/>
+    <display value="Other forms of leprosy"/>
+  </concept>
+  <concept>
+    <code value="A30.9"/>
+    <display value="Leprosy, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A31"/>
+    <display value="Infection due to other mycobacteria"/>
+  </concept>
+  <concept>
+    <code value="A31.0"/>
+    <display value="Pulmonary mycobacterial infection"/>
+  </concept>
+  <concept>
+    <code value="A31.1"/>
+    <display value="Cutaneous mycobacterial infection"/>
+  </concept>
+  <concept>
+    <code value="A31.8"/>
+    <display value="Other mycobacterial infections"/>
+  </concept>
+  <concept>
+    <code value="A31.9"/>
+    <display value="Mycobacterial infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A32"/>
+    <display value="Listeriosis"/>
+  </concept>
+  <concept>
+    <code value="A32.0"/>
+    <display value="Cutaneous listeriosis"/>
+  </concept>
+  <concept>
+    <code value="A32.1"/>
+    <display value="Listerial meningitis and meningoencephalitis"/>
+  </concept>
+  <concept>
+    <code value="A32.7"/>
+    <display value="Listerial sepsis"/>
+  </concept>
+  <concept>
+    <code value="A32.8"/>
+    <display value="Other forms of listeriosis"/>
+  </concept>
+  <concept>
+    <code value="A32.9"/>
+    <display value="Listeriosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A33"/>
+    <display value="Tetanus neonatorum"/>
+  </concept>
+  <concept>
+    <code value="A34"/>
+    <display value="Obstetrical tetanus"/>
+  </concept>
+  <concept>
+    <code value="A35"/>
+    <display value="Other tetanus"/>
+  </concept>
+  <concept>
+    <code value="A36"/>
+    <display value="Diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.0"/>
+    <display value="Pharyngeal diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.1"/>
+    <display value="Nasopharyngeal diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.2"/>
+    <display value="Laryngeal diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.3"/>
+    <display value="Cutaneous diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.8"/>
+    <display value="Other diphtheria"/>
+  </concept>
+  <concept>
+    <code value="A36.9"/>
+    <display value="Diphtheria, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A37"/>
+    <display value="Whooping cough"/>
+  </concept>
+  <concept>
+    <code value="A37.0"/>
+    <display value="Whooping cough due to Bordetella pertussis"/>
+  </concept>
+  <concept>
+    <code value="A37.1"/>
+    <display value="Whooping cough due to Bordetella parapertussis"/>
+  </concept>
+  <concept>
+    <code value="A37.8"/>
+    <display value="Whooping cough due to other Bordetella species"/>
+  </concept>
+  <concept>
+    <code value="A37.9"/>
+    <display value="Whooping cough, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A38"/>
+    <display value="Scarlet fever"/>
+  </concept>
+  <concept>
+    <code value="A39"/>
+    <display value="Meningococcal infection"/>
+  </concept>
+  <concept>
+    <code value="A39.0"/>
+    <display value="Meningococcal meningitis[G01]"/>
+  </concept>
+  <concept>
+    <code value="A39.1"/>
+    <display value="Waterhouse-Friderichsen syndrome[E35.1]"/>
+  </concept>
+  <concept>
+    <code value="A39.2"/>
+    <display value="Acute meningococcaemia"/>
+  </concept>
+  <concept>
+    <code value="A39.3"/>
+    <display value="Chronic meningococcaemia"/>
+  </concept>
+  <concept>
+    <code value="A39.4"/>
+    <display value="Meningococcaemia, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A39.5"/>
+    <display value="Meningococcal heart disease"/>
+  </concept>
+  <concept>
+    <code value="A39.8"/>
+    <display value="Other meningococcal infections"/>
+  </concept>
+  <concept>
+    <code value="A39.9"/>
+    <display value="Meningococcal infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A40"/>
+    <display value="Streptococcal sepsis"/>
+  </concept>
+  <concept>
+    <code value="A40.0"/>
+    <display value="Sepsis due to streptococcus, group A"/>
+  </concept>
+  <concept>
+    <code value="A40.1"/>
+    <display value="Sepsis due to streptococcus, group B"/>
+  </concept>
+  <concept>
+    <code value="A40.2"/>
+    <display value="Sepsis due to streptococcus, group D and enterococcus"/>
+  </concept>
+  <concept>
+    <code value="A40.3"/>
+    <display value="Sepsis due to Streptococcus pneumoniae"/>
+  </concept>
+  <concept>
+    <code value="A40.8"/>
+    <display value="Other streptococcal sepsis"/>
+  </concept>
+  <concept>
+    <code value="A40.9"/>
+    <display value="Streptococcal sepsis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A41"/>
+    <display value="Other sepsis"/>
+  </concept>
+  <concept>
+    <code value="A41.0"/>
+    <display value="Sepsis due to Staphylococcus aureus"/>
+  </concept>
+  <concept>
+    <code value="A41.1"/>
+    <display value="Sepsis due to other specified staphylococcus"/>
+  </concept>
+  <concept>
+    <code value="A41.2"/>
+    <display value="Sepsis due to unspecified staphylococcus"/>
+  </concept>
+  <concept>
+    <code value="A41.3"/>
+    <display value="Sepsis due to Haemophilus influenzae"/>
+  </concept>
+  <concept>
+    <code value="A41.4"/>
+    <display value="Sepsis due to anaerobes"/>
+  </concept>
+  <concept>
+    <code value="A41.5"/>
+    <display value="Sepsis due to other Gram-negative organisms"/>
+  </concept>
+  <concept>
+    <code value="A41.8"/>
+    <display value="Other specified sepsis"/>
+  </concept>
+  <concept>
+    <code value="A41.9"/>
+    <display value="Sepsis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A42"/>
+    <display value="Actinomycosis"/>
+  </concept>
+  <concept>
+    <code value="A42.0"/>
+    <display value="Pulmonary actinomycosis"/>
+  </concept>
+  <concept>
+    <code value="A42.1"/>
+    <display value="Abdominal actinomycosis"/>
+  </concept>
+  <concept>
+    <code value="A42.2"/>
+    <display value="Cervicofacial actinomycosis"/>
+  </concept>
+  <concept>
+    <code value="A42.7"/>
+    <display value="Actinomycotic sepsis"/>
+  </concept>
+  <concept>
+    <code value="A42.8"/>
+    <display value="Other forms of actinomycosis"/>
+  </concept>
+  <concept>
+    <code value="A42.9"/>
+    <display value="Actinomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A43"/>
+    <display value="Nocardiosis"/>
+  </concept>
+  <concept>
+    <code value="A43.0"/>
+    <display value="Pulmonary nocardiosis"/>
+  </concept>
+  <concept>
+    <code value="A43.1"/>
+    <display value="Cutaneous nocardiosis"/>
+  </concept>
+  <concept>
+    <code value="A43.8"/>
+    <display value="Other forms of nocardiosis"/>
+  </concept>
+  <concept>
+    <code value="A43.9"/>
+    <display value="Nocardiosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A44"/>
+    <display value="Bartonellosis"/>
+  </concept>
+  <concept>
+    <code value="A44.0"/>
+    <display value="Systemic bartonellosis"/>
+  </concept>
+  <concept>
+    <code value="A44.1"/>
+    <display value="Cutaneous and mucocutaneous bartonellosis"/>
+  </concept>
+  <concept>
+    <code value="A44.8"/>
+    <display value="Other forms of bartonellosis"/>
+  </concept>
+  <concept>
+    <code value="A44.9"/>
+    <display value="Bartonellosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A46"/>
+    <display value="Erysipelas"/>
+  </concept>
+  <concept>
+    <code value="A48"/>
+    <display value="Other bacterial diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A48.0"/>
+    <display value="Gas gangrene"/>
+  </concept>
+  <concept>
+    <code value="A48.1"/>
+    <display value="Legionnaires disease"/>
+  </concept>
+  <concept>
+    <code value="A48.2"/>
+    <display value="Nonpneumonic Legionnaires disease [Pontiac fever]"/>
+  </concept>
+  <concept>
+    <code value="A48.3"/>
+    <display value="Toxic shock syndrome"/>
+  </concept>
+  <concept>
+    <code value="A48.4"/>
+    <display value="Brazilian purpuric fever"/>
+  </concept>
+  <concept>
+    <code value="A48.8"/>
+    <display value="Other specified bacterial diseases"/>
+  </concept>
+  <concept>
+    <code value="A49"/>
+    <display value="Bacterial infection of unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.0"/>
+    <display value="Staphylococcal infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.1"/>
+    <display value="Streptococcal and enterococcal infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.2"/>
+    <display value="Haemophilus influenzae infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.3"/>
+    <display value="Mycoplasma infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.8"/>
+    <display value="Other bacterial infections of unspecified site"/>
+  </concept>
+  <concept>
+    <code value="A49.9"/>
+    <display value="Bacterial infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A50-A64"/>
+    <display value="Infections with a predominantly sexual mode of transmission"/>
+  </concept>
+  <concept>
+    <code value="A50"/>
+    <display value="Congenital syphilis"/>
+  </concept>
+  <concept>
+    <code value="A50.0"/>
+    <display value="Early congenital syphilis, symptomatic"/>
+  </concept>
+  <concept>
+    <code value="A50.1"/>
+    <display value="Early congenital syphilis, latent"/>
+  </concept>
+  <concept>
+    <code value="A50.2"/>
+    <display value="Early congenital syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A50.3"/>
+    <display value="Late congenital syphilitic oculopathy"/>
+  </concept>
+  <concept>
+    <code value="A50.4"/>
+    <display value="Late congenital neurosyphilis [juvenile neurosyphilis]"/>
+  </concept>
+  <concept>
+    <code value="A50.5"/>
+    <display value="Other late congenital syphilis, symptomatic"/>
+  </concept>
+  <concept>
+    <code value="A50.6"/>
+    <display value="Late congenital syphilis, latent"/>
+  </concept>
+  <concept>
+    <code value="A50.7"/>
+    <display value="Late congenital syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A50.9"/>
+    <display value="Congenital syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A51"/>
+    <display value="Early syphilis"/>
+  </concept>
+  <concept>
+    <code value="A51.0"/>
+    <display value="Primary genital syphilis"/>
+  </concept>
+  <concept>
+    <code value="A51.1"/>
+    <display value="Primary anal syphilis"/>
+  </concept>
+  <concept>
+    <code value="A51.2"/>
+    <display value="Primary syphilis of other sites"/>
+  </concept>
+  <concept>
+    <code value="A51.3"/>
+    <display value="Secondary syphilis of skin and mucous membranes"/>
+  </concept>
+  <concept>
+    <code value="A51.4"/>
+    <display value="Other secondary syphilis"/>
+  </concept>
+  <concept>
+    <code value="A51.5"/>
+    <display value="Early syphilis, latent"/>
+  </concept>
+  <concept>
+    <code value="A51.9"/>
+    <display value="Early syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A52"/>
+    <display value="Late syphilis"/>
+  </concept>
+  <concept>
+    <code value="A52.0"/>
+    <display value="Cardiovascular syphilis"/>
+  </concept>
+  <concept>
+    <code value="A52.1"/>
+    <display value="Symptomatic neurosyphilis"/>
+  </concept>
+  <concept>
+    <code value="A52.2"/>
+    <display value="Asymptomatic neurosyphilis"/>
+  </concept>
+  <concept>
+    <code value="A52.3"/>
+    <display value="Neurosyphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A52.7"/>
+    <display value="Other symptomatic late syphilis"/>
+  </concept>
+  <concept>
+    <code value="A52.8"/>
+    <display value="Late syphilis, latent"/>
+  </concept>
+  <concept>
+    <code value="A52.9"/>
+    <display value="Late syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A53"/>
+    <display value="Other and unspecified syphilis"/>
+  </concept>
+  <concept>
+    <code value="A53.0"/>
+    <display value="Latent syphilis, unspecified as early or late"/>
+  </concept>
+  <concept>
+    <code value="A53.9"/>
+    <display value="Syphilis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A54"/>
+    <display value="Gonococcal infection"/>
+  </concept>
+  <concept>
+    <code value="A54.0"/>
+    <display value="Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess"/>
+  </concept>
+  <concept>
+    <code value="A54.1"/>
+    <display value="Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess"/>
+  </concept>
+  <concept>
+    <code value="A54.2"/>
+    <display value="Gonococcal pelviperitonitis and other gonococcal genitourinary infections"/>
+  </concept>
+  <concept>
+    <code value="A54.3"/>
+    <display value="Gonococcal infection of eye"/>
+  </concept>
+  <concept>
+    <code value="A54.4"/>
+    <display value="Gonococcal infection of musculoskeletal system"/>
+  </concept>
+  <concept>
+    <code value="A54.5"/>
+    <display value="Gonococcal pharyngitis"/>
+  </concept>
+  <concept>
+    <code value="A54.6"/>
+    <display value="Gonococcal infection of anus and rectum"/>
+  </concept>
+  <concept>
+    <code value="A54.8"/>
+    <display value="Other gonococcal infections"/>
+  </concept>
+  <concept>
+    <code value="A54.9"/>
+    <display value="Gonococcal infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A55"/>
+    <display value="Chlamydial lymphogranuloma (venereum)"/>
+  </concept>
+  <concept>
+    <code value="A56"/>
+    <display value="Other sexually transmitted chlamydial diseases"/>
+  </concept>
+  <concept>
+    <code value="A56.0"/>
+    <display value="Chlamydial infection of lower genitourinary tract"/>
+  </concept>
+  <concept>
+    <code value="A56.1"/>
+    <display value="Chlamydial infection of pelviperitoneum and other genitourinary organs"/>
+  </concept>
+  <concept>
+    <code value="A56.2"/>
+    <display value="Chlamydial infection of genitourinary tract, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A56.3"/>
+    <display value="Chlamydial infection of anus and rectum"/>
+  </concept>
+  <concept>
+    <code value="A56.4"/>
+    <display value="Chlamydial infection of pharynx"/>
+  </concept>
+  <concept>
+    <code value="A56.8"/>
+    <display value="Sexually transmitted chlamydial infection of other sites"/>
+  </concept>
+  <concept>
+    <code value="A57"/>
+    <display value="Chancroid"/>
+  </concept>
+  <concept>
+    <code value="A58"/>
+    <display value="Granuloma inguinale"/>
+  </concept>
+  <concept>
+    <code value="A59"/>
+    <display value="Trichomoniasis"/>
+  </concept>
+  <concept>
+    <code value="A59.0"/>
+    <display value="Urogenital trichomoniasis"/>
+  </concept>
+  <concept>
+    <code value="A59.8"/>
+    <display value="Trichomoniasis of other sites"/>
+  </concept>
+  <concept>
+    <code value="A59.9"/>
+    <display value="Trichomoniasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A60"/>
+    <display value="Anogenital herpesviral [herpes simplex] infection"/>
+  </concept>
+  <concept>
+    <code value="A60.0"/>
+    <display value="Herpesviral infection of genitalia and urogenital tract"/>
+  </concept>
+  <concept>
+    <code value="A60.1"/>
+    <display value="Herpesviral infection of perianal skin and rectum"/>
+  </concept>
+  <concept>
+    <code value="A60.9"/>
+    <display value="Anogenital herpesviral infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A63"/>
+    <display value="Other predominantly sexually transmitted diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A63.0"/>
+    <display value="Anogenital (venereal) warts"/>
+  </concept>
+  <concept>
+    <code value="A63.8"/>
+    <display value="Other specified predominantly sexually transmitted diseases"/>
+  </concept>
+  <concept>
+    <code value="A64"/>
+    <display value="Unspecified sexually transmitted disease"/>
+  </concept>
+  <concept>
+    <code value="A65-A69"/>
+    <display value="Other spirochaetal diseases"/>
+  </concept>
+  <concept>
+    <code value="A65"/>
+    <display value="Nonvenereal syphilis"/>
+  </concept>
+  <concept>
+    <code value="A66"/>
+    <display value="Yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.0"/>
+    <display value="Initial lesions of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.1"/>
+    <display value="Multiple papillomata and wet crab yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.2"/>
+    <display value="Other early skin lesions of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.3"/>
+    <display value="Hyperkeratosis of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.4"/>
+    <display value="Gummata and ulcers of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.5"/>
+    <display value="Gangosa"/>
+  </concept>
+  <concept>
+    <code value="A66.6"/>
+    <display value="Bone and joint lesions of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.7"/>
+    <display value="Other manifestations of yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.8"/>
+    <display value="Latent yaws"/>
+  </concept>
+  <concept>
+    <code value="A66.9"/>
+    <display value="Yaws, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A67"/>
+    <display value="Pinta [carate]"/>
+  </concept>
+  <concept>
+    <code value="A67.0"/>
+    <display value="Primary lesions of pinta"/>
+  </concept>
+  <concept>
+    <code value="A67.1"/>
+    <display value="Intermediate lesions of pinta"/>
+  </concept>
+  <concept>
+    <code value="A67.2"/>
+    <display value="Late lesions of pinta"/>
+  </concept>
+  <concept>
+    <code value="A67.3"/>
+    <display value="Mixed lesions of pinta"/>
+  </concept>
+  <concept>
+    <code value="A67.9"/>
+    <display value="Pinta, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A68"/>
+    <display value="Relapsing fevers"/>
+  </concept>
+  <concept>
+    <code value="A68.0"/>
+    <display value="Louse-borne relapsing fever"/>
+  </concept>
+  <concept>
+    <code value="A68.1"/>
+    <display value="Tick-borne relapsing fever"/>
+  </concept>
+  <concept>
+    <code value="A68.9"/>
+    <display value="Relapsing fever, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A69"/>
+    <display value="Other spirochaetal infections"/>
+  </concept>
+  <concept>
+    <code value="A69.0"/>
+    <display value="Necrotizing ulcerative stomatitis"/>
+  </concept>
+  <concept>
+    <code value="A69.1"/>
+    <display value="Other Vincent infections"/>
+  </concept>
+  <concept>
+    <code value="A69.2"/>
+    <display value="Lyme disease"/>
+  </concept>
+  <concept>
+    <code value="A69.8"/>
+    <display value="Other specified spirochaetal infections"/>
+  </concept>
+  <concept>
+    <code value="A69.9"/>
+    <display value="Spirochaetal infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A70-A74"/>
+    <display value="Other diseases caused by chlamydiae"/>
+  </concept>
+  <concept>
+    <code value="A70"/>
+    <display value="Chlamydia psittaci infection"/>
+  </concept>
+  <concept>
+    <code value="A71"/>
+    <display value="Trachoma"/>
+  </concept>
+  <concept>
+    <code value="A71.0"/>
+    <display value="Initial stage of trachoma"/>
+  </concept>
+  <concept>
+    <code value="A71.1"/>
+    <display value="Active stage of trachoma"/>
+  </concept>
+  <concept>
+    <code value="A71.9"/>
+    <display value="Trachoma, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A74"/>
+    <display value="Other diseases caused by chlamydiae"/>
+  </concept>
+  <concept>
+    <code value="A74.0"/>
+    <display value="Chlamydial conjunctivitis[H13.1]"/>
+  </concept>
+  <concept>
+    <code value="A74.8"/>
+    <display value="Other chlamydial diseases"/>
+  </concept>
+  <concept>
+    <code value="A74.9"/>
+    <display value="Chlamydial infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A75-A79"/>
+    <display value="Rickettsioses"/>
+  </concept>
+  <concept>
+    <code value="A75"/>
+    <display value="Typhus fever"/>
+  </concept>
+  <concept>
+    <code value="A75.0"/>
+    <display value="Epidemic louse-borne typhus fever due to Rickettsia prowazekii"/>
+  </concept>
+  <concept>
+    <code value="A75.1"/>
+    <display value="Recrudescent typhus [Brill disease]"/>
+  </concept>
+  <concept>
+    <code value="A75.2"/>
+    <display value="Typhus fever due to Rickettsia typhi"/>
+  </concept>
+  <concept>
+    <code value="A75.3"/>
+    <display value="Typhus fever due to Rickettsia tsutsugamushi"/>
+  </concept>
+  <concept>
+    <code value="A75.9"/>
+    <display value="Typhus fever, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A77"/>
+    <display value="Spotted fever [tick-borne rickettsioses]"/>
+  </concept>
+  <concept>
+    <code value="A77.0"/>
+    <display value="Spotted fever due to Rickettsia rickettsii"/>
+  </concept>
+  <concept>
+    <code value="A77.1"/>
+    <display value="Spotted fever due to Rickettsia conorii"/>
+  </concept>
+  <concept>
+    <code value="A77.2"/>
+    <display value="Spotted fever due to Rickettsia sibirica"/>
+  </concept>
+  <concept>
+    <code value="A77.3"/>
+    <display value="Spotted fever due to Rickettsia australis"/>
+  </concept>
+  <concept>
+    <code value="A77.8"/>
+    <display value="Other spotted fevers"/>
+  </concept>
+  <concept>
+    <code value="A77.9"/>
+    <display value="Spotted fever, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A78"/>
+    <display value="Q fever"/>
+  </concept>
+  <concept>
+    <code value="A79"/>
+    <display value="Other rickettsioses"/>
+  </concept>
+  <concept>
+    <code value="A79.0"/>
+    <display value="Trench fever"/>
+  </concept>
+  <concept>
+    <code value="A79.1"/>
+    <display value="Rickettsialpox due to Rickettsia akari"/>
+  </concept>
+  <concept>
+    <code value="A79.8"/>
+    <display value="Other specified rickettsioses"/>
+  </concept>
+  <concept>
+    <code value="A79.9"/>
+    <display value="Rickettsiosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A80-A89"/>
+    <display value="Viral infections of the central nervous system"/>
+  </concept>
+  <concept>
+    <code value="A80"/>
+    <display value="Acute poliomyelitis"/>
+  </concept>
+  <concept>
+    <code value="A80.0"/>
+    <display value="Acute paralytic poliomyelitis, vaccine-associated"/>
+  </concept>
+  <concept>
+    <code value="A80.1"/>
+    <display value="Acute paralytic poliomyelitis, wild virus, imported"/>
+  </concept>
+  <concept>
+    <code value="A80.2"/>
+    <display value="Acute paralytic poliomyelitis, wild virus, indigenous"/>
+  </concept>
+  <concept>
+    <code value="A80.3"/>
+    <display value="Acute paralytic poliomyelitis, other and unspecified"/>
+  </concept>
+  <concept>
+    <code value="A80.4"/>
+    <display value="Acute nonparalytic poliomyelitis"/>
+  </concept>
+  <concept>
+    <code value="A80.9"/>
+    <display value="Acute poliomyelitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A81"/>
+    <display value="Atypical virus infections of central nervous system"/>
+  </concept>
+  <concept>
+    <code value="A81.0"/>
+    <display value="Creutzfeldt-Jakob disease"/>
+  </concept>
+  <concept>
+    <code value="A81.1"/>
+    <display value="Subacute sclerosing panencephalitis"/>
+  </concept>
+  <concept>
+    <code value="A81.2"/>
+    <display value="Progressive multifocal leukoencephalopathy"/>
+  </concept>
+  <concept>
+    <code value="A81.8"/>
+    <display value="Other atypical virus infections of central nervous system"/>
+  </concept>
+  <concept>
+    <code value="A81.9"/>
+    <display value="Atypical virus infection of central nervous system, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A82"/>
+    <display value="Rabies"/>
+  </concept>
+  <concept>
+    <code value="A82.0"/>
+    <display value="Sylvatic rabies"/>
+  </concept>
+  <concept>
+    <code value="A82.1"/>
+    <display value="Urban rabies"/>
+  </concept>
+  <concept>
+    <code value="A82.9"/>
+    <display value="Rabies, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A83"/>
+    <display value="Mosquito-borne viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.0"/>
+    <display value="Japanese encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.1"/>
+    <display value="Western equine encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.2"/>
+    <display value="Eastern equine encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.3"/>
+    <display value="St Louis encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.4"/>
+    <display value="Australian encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.5"/>
+    <display value="California encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.6"/>
+    <display value="Rocio virus disease"/>
+  </concept>
+  <concept>
+    <code value="A83.8"/>
+    <display value="Other mosquito-borne viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A83.9"/>
+    <display value="Mosquito-borne viral encephalitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A84"/>
+    <display value="Tick-borne viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A84.0"/>
+    <display value="Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]"/>
+  </concept>
+  <concept>
+    <code value="A84.1"/>
+    <display value="Central European tick-borne encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A84.8"/>
+    <display value="Other tick-borne viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A84.9"/>
+    <display value="Tick-borne viral encephalitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A85"/>
+    <display value="Other viral encephalitis, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A85.0"/>
+    <display value="Enteroviral encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="A85.1"/>
+    <display value="Adenoviral encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="A85.2"/>
+    <display value="Arthropod-borne viral encephalitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A85.8"/>
+    <display value="Other specified viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A86"/>
+    <display value="Unspecified viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="A87"/>
+    <display value="Viral meningitis"/>
+  </concept>
+  <concept>
+    <code value="A87.0"/>
+    <display value="Enteroviral meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="A87.1"/>
+    <display value="Adenoviral meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="A87.2"/>
+    <display value="Lymphocytic choriomeningitis"/>
+  </concept>
+  <concept>
+    <code value="A87.8"/>
+    <display value="Other viral meningitis"/>
+  </concept>
+  <concept>
+    <code value="A87.9"/>
+    <display value="Viral meningitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="A88"/>
+    <display value="Other viral infections of central nervous system, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="A88.0"/>
+    <display value="Enteroviral exanthematous fever [Boston exanthem]"/>
+  </concept>
+  <concept>
+    <code value="A88.1"/>
+    <display value="Epidemic vertigo"/>
+  </concept>
+  <concept>
+    <code value="A88.8"/>
+    <display value="Other specified viral infections of central nervous system"/>
+  </concept>
+  <concept>
+    <code value="A89"/>
+    <display value="Unspecified viral infection of central nervous system"/>
+  </concept>
+  <concept>
+    <code value="A92-A99"/>
+    <display value="Arthropod-borne viral fevers and viral haemorrhagic fevers"/>
+  </concept>
+  <concept>
+    <code value="A92"/>
+    <display value="Other mosquito-borne viral fevers"/>
+  </concept>
+  <concept>
+    <code value="A92.0"/>
+    <display value="Chikungunya virus disease"/>
+  </concept>
+  <concept>
+    <code value="A92.1"/>
+    <display value="O'nyong-nyong fever"/>
+  </concept>
+  <concept>
+    <code value="A92.2"/>
+    <display value="Venezuelan equine fever"/>
+  </concept>
+  <concept>
+    <code value="A92.3"/>
+    <display value="West Nile virus infection"/>
+  </concept>
+  <concept>
+    <code value="A92.4"/>
+    <display value="Rift Valley fever"/>
+  </concept>
+  <concept>
+    <code value="A92.5"/>
+    <display value="Zika virus disease"/>
+  </concept>
+  <concept>
+    <code value="A92.8"/>
+    <display value="Other specified mosquito-borne viral fevers"/>
+  </concept>
+  <concept>
+    <code value="A92.9"/>
+    <display value="Mosquito"/>
+  </concept>
+  <concept>
+    <code value="B00-B09"/>
+    <display value="Viral infections characterized by skin and mucous membrane lesions"/>
+  </concept>
+  <concept>
+    <code value="B00"/>
+    <display value="Herpesviral [herpes simplex] infections"/>
+  </concept>
+  <concept>
+    <code value="B00.0"/>
+    <display value="Eczema herpeticum"/>
+  </concept>
+  <concept>
+    <code value="B00.1"/>
+    <display value="Herpesviral vesicular dermatitis"/>
+  </concept>
+  <concept>
+    <code value="B00.2"/>
+    <display value="Herpesviral gingivostomatitis and pharyngotonsillitis"/>
+  </concept>
+  <concept>
+    <code value="B00.3"/>
+    <display value="Herpesviral meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="B00.4"/>
+    <display value="Herpesviral encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="B00.5"/>
+    <display value="Herpesviral ocular disease"/>
+  </concept>
+  <concept>
+    <code value="B00.7"/>
+    <display value="Disseminated herpesviral disease"/>
+  </concept>
+  <concept>
+    <code value="B00.8"/>
+    <display value="Other forms of herpesviral infection"/>
+  </concept>
+  <concept>
+    <code value="B00.9"/>
+    <display value="Herpesviral infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B01"/>
+    <display value="Varicella [chickenpox]"/>
+  </concept>
+  <concept>
+    <code value="B01.0"/>
+    <display value="Varicella meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="B01.1"/>
+    <display value="Varicella encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="B01.2"/>
+    <display value="Varicella pneumonia[J17.1]"/>
+  </concept>
+  <concept>
+    <code value="B01.8"/>
+    <display value="Varicella with other complications"/>
+  </concept>
+  <concept>
+    <code value="B01.9"/>
+    <display value="Varicella without complication"/>
+  </concept>
+  <concept>
+    <code value="B02"/>
+    <display value="Zoster [herpes zoster]"/>
+  </concept>
+  <concept>
+    <code value="B02.0"/>
+    <display value="Zoster encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="B02.1"/>
+    <display value="Zoster meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="B02.2"/>
+    <display value="Zoster with other nervous system involvement"/>
+  </concept>
+  <concept>
+    <code value="B02.3"/>
+    <display value="Zoster ocular disease"/>
+  </concept>
+  <concept>
+    <code value="B02.7"/>
+    <display value="Disseminated zoster"/>
+  </concept>
+  <concept>
+    <code value="B02.8"/>
+    <display value="Zoster with other complications"/>
+  </concept>
+  <concept>
+    <code value="B02.9"/>
+    <display value="Zoster without complication"/>
+  </concept>
+  <concept>
+    <code value="B03"/>
+    <display value="SmallpoxINCLUDE"/>
+  </concept>
+  <concept>
+    <code value="B04"/>
+    <display value="Monkeypox"/>
+  </concept>
+  <concept>
+    <code value="B05"/>
+    <display value="Measles"/>
+  </concept>
+  <concept>
+    <code value="B05.0"/>
+    <display value="Measles complicated by encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="B05.1"/>
+    <display value="Measles complicated by meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="B05.2"/>
+    <display value="Measles complicated by pneumonia[J17.1]"/>
+  </concept>
+  <concept>
+    <code value="B05.3"/>
+    <display value="Measles complicated by otitis media[H67.1]"/>
+  </concept>
+  <concept>
+    <code value="B05.4"/>
+    <display value="Measles with intestinal complications"/>
+  </concept>
+  <concept>
+    <code value="B05.8"/>
+    <display value="Measles with other complications"/>
+  </concept>
+  <concept>
+    <code value="B05.9"/>
+    <display value="Measles without complication"/>
+  </concept>
+  <concept>
+    <code value="B06"/>
+    <display value="Rubella [German measles]"/>
+  </concept>
+  <concept>
+    <code value="B06.0"/>
+    <display value="Rubella with neurological complications"/>
+  </concept>
+  <concept>
+    <code value="B06.8"/>
+    <display value="Rubella with other complications"/>
+  </concept>
+  <concept>
+    <code value="B06.9"/>
+    <display value="Rubella without complication"/>
+  </concept>
+  <concept>
+    <code value="B07"/>
+    <display value="Viral warts"/>
+  </concept>
+  <concept>
+    <code value="B08"/>
+    <display value="Other viral infections characterized by skin and mucous membrane lesions, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B08.0"/>
+    <display value="Other orthopoxvirus infections"/>
+  </concept>
+  <concept>
+    <code value="B08.1"/>
+    <display value="Molluscum contagiosum"/>
+  </concept>
+  <concept>
+    <code value="B08.2"/>
+    <display value="Exanthema subitum [sixth disease]"/>
+  </concept>
+  <concept>
+    <code value="B08.3"/>
+    <display value="Erythema infectiosum [fifth disease]"/>
+  </concept>
+  <concept>
+    <code value="B08.4"/>
+    <display value="Enteroviral vesicular stomatitis with exanthem"/>
+  </concept>
+  <concept>
+    <code value="B08.5"/>
+    <display value="Enteroviral vesicular pharyngitis"/>
+  </concept>
+  <concept>
+    <code value="B08.8"/>
+    <display value="Other specified viral infections characterized by skin and mucous membrane lesions"/>
+  </concept>
+  <concept>
+    <code value="B09"/>
+    <display value="Unspecified viral infection characterized by skin and mucous membrane lesions"/>
+  </concept>
+  <concept>
+    <code value="B15-B19"/>
+    <display value="Viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B15"/>
+    <display value="Acute hepatitis A"/>
+  </concept>
+  <concept>
+    <code value="B15.0"/>
+    <display value="Hepatitis A with hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B15.9"/>
+    <display value="Hepatitis A without hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B16"/>
+    <display value="Acute hepatitis B"/>
+  </concept>
+  <concept>
+    <code value="B16.0"/>
+    <display value="Acute hepatitis B with delta-agent (coinfection) with hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B16.1"/>
+    <display value="Acute hepatitis B with delta-agent (coinfection) without hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B16.2"/>
+    <display value="Acute hepatitis B without delta-agent with hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B16.9"/>
+    <display value="Acute hepatitis B without delta-agent and without hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B17"/>
+    <display value="Other acute viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B17.0"/>
+    <display value="Acute delta-(super)infection in chronic hepatitis B"/>
+  </concept>
+  <concept>
+    <code value="B17.1"/>
+    <display value="Acute hepatitis C"/>
+  </concept>
+  <concept>
+    <code value="B17.2"/>
+    <display value="Acute hepatitis E"/>
+  </concept>
+  <concept>
+    <code value="B17.8"/>
+    <display value="Other specified acute viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B17.9"/>
+    <display value="Acute viral hepatitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B18"/>
+    <display value="Chronic viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B18.0"/>
+    <display value="Chronic viral hepatitis B with delta-agent"/>
+  </concept>
+  <concept>
+    <code value="B18.1"/>
+    <display value="Chronic viral hepatitis B without delta-agent"/>
+  </concept>
+  <concept>
+    <code value="B18.2"/>
+    <display value="Chronic viral hepatitis C"/>
+  </concept>
+  <concept>
+    <code value="B18.8"/>
+    <display value="Other chronic viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B18.9"/>
+    <display value="Chronic viral hepatitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B19"/>
+    <display value="Unspecified viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B19.0"/>
+    <display value="Unspecified viral hepatitis with hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B19.9"/>
+    <display value="Unspecified viral hepatitis without hepatic coma"/>
+  </concept>
+  <concept>
+    <code value="B20-B24"/>
+    <display value="Human immunodeficiency virus [HIV] disease"/>
+  </concept>
+  <concept>
+    <code value="B20"/>
+    <display value="Human immunodeficiency virus [HIV] disease resulting in infectious and parasitic diseases"/>
+  </concept>
+  <concept>
+    <code value="B20.0"/>
+    <display value="HIV disease resulting in mycobacterial infection"/>
+  </concept>
+  <concept>
+    <code value="B20.1"/>
+    <display value="HIV disease resulting in other bacterial infections"/>
+  </concept>
+  <concept>
+    <code value="B20.2"/>
+    <display value="HIV disease resulting in cytomegaloviral disease"/>
+  </concept>
+  <concept>
+    <code value="B20.3"/>
+    <display value="HIV disease resulting in other viral infections"/>
+  </concept>
+  <concept>
+    <code value="B20.4"/>
+    <display value="HIV disease resulting in candidiasis"/>
+  </concept>
+  <concept>
+    <code value="B20.5"/>
+    <display value="HIV disease resulting in other mycoses"/>
+  </concept>
+  <concept>
+    <code value="B20.6"/>
+    <display value="HIV disease resulting in Pneumocystis jirovecii pneumonia"/>
+  </concept>
+  <concept>
+    <code value="B20.7"/>
+    <display value="HIV disease resulting in multiple infections"/>
+  </concept>
+  <concept>
+    <code value="B20.8"/>
+    <display value="HIV disease resulting in other infectious and parasitic diseases"/>
+  </concept>
+  <concept>
+    <code value="B20.9"/>
+    <display value="HIV disease resulting in unspecified infectious or parasitic disease"/>
+  </concept>
+  <concept>
+    <code value="B21"/>
+    <display value="Human immunodeficiency virus [HIV] disease resulting in malignant neoplasms"/>
+  </concept>
+  <concept>
+    <code value="B21.0"/>
+    <display value="HIV disease resulting in Kaposi sarcoma"/>
+  </concept>
+  <concept>
+    <code value="B21.1"/>
+    <display value="HIV disease resulting in Burkitt lymphoma"/>
+  </concept>
+  <concept>
+    <code value="B21.2"/>
+    <display value="HIV disease resulting in other types of non-Hodgkin lymphoma"/>
+  </concept>
+  <concept>
+    <code value="B21.3"/>
+    <display value="HIV disease resulting in other malignant neoplasms of lymphoid, haematopoietic and related tissue"/>
+  </concept>
+  <concept>
+    <code value="B21.7"/>
+    <display value="HIV disease resulting in multiple malignant neoplasms"/>
+  </concept>
+  <concept>
+    <code value="B21.8"/>
+    <display value="HIV disease resulting in other malignant neoplasms"/>
+  </concept>
+  <concept>
+    <code value="B21.9"/>
+    <display value="HIV disease resulting in unspecified malignant neoplasm"/>
+  </concept>
+  <concept>
+    <code value="B22"/>
+    <display value="Human immunodeficiency virus [HIV] disease resulting in other specified diseases"/>
+  </concept>
+  <concept>
+    <code value="B22.0"/>
+    <display value="HIV disease resulting in encephalopathy"/>
+  </concept>
+  <concept>
+    <code value="B22.1"/>
+    <display value="HIV disease resulting in lymphoid interstitial pneumonitis"/>
+  </concept>
+  <concept>
+    <code value="B22.2"/>
+    <display value="HIV disease resulting in wasting syndrome"/>
+  </concept>
+  <concept>
+    <code value="B22.7"/>
+    <display value="HIV disease resulting in multiple diseases classified elsewhere"/>
+  </concept>
+  <concept>
+    <code value="B23"/>
+    <display value="Human immunodeficiency virus [HIV] disease resulting in other conditions"/>
+  </concept>
+  <concept>
+    <code value="B23.0"/>
+    <display value="Acute HIV infection syndrome"/>
+  </concept>
+  <concept>
+    <code value="B23.1"/>
+    <display value="HIV disease resulting in (persistent) generalized lymphadenopathy"/>
+  </concept>
+  <concept>
+    <code value="B23.2"/>
+    <display value="HIV disease resulting in haematological and immunological abnormalities, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B23.8"/>
+    <display value="HIV disease resulting in other specified conditions"/>
+  </concept>
+  <concept>
+    <code value="B24"/>
+    <display value="Unspecified human immunodeficiency virus [HIV] disease"/>
+  </concept>
+  <concept>
+    <code value="B25-B34"/>
+    <display value="Other viral diseases"/>
+  </concept>
+  <concept>
+    <code value="B25"/>
+    <display value="Cytomegaloviral disease"/>
+  </concept>
+  <concept>
+    <code value="B25.0"/>
+    <display value="Cytomegaloviral pneumonitis[J17.1]"/>
+  </concept>
+  <concept>
+    <code value="B25.1"/>
+    <display value="Cytomegaloviral hepatitis[K77.0]"/>
+  </concept>
+  <concept>
+    <code value="B25.2"/>
+    <display value="Cytomegaloviral pancreatitis[K87.1]"/>
+  </concept>
+  <concept>
+    <code value="B25.8"/>
+    <display value="Other cytomegaloviral diseases"/>
+  </concept>
+  <concept>
+    <code value="B25.9"/>
+    <display value="Cytomegaloviral disease, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B26"/>
+    <display value="Mumps"/>
+  </concept>
+  <concept>
+    <code value="B26.0"/>
+    <display value="Mumps orchitis[N51.1]"/>
+  </concept>
+  <concept>
+    <code value="B26.1"/>
+    <display value="Mumps meningitis[G02.0]"/>
+  </concept>
+  <concept>
+    <code value="B26.2"/>
+    <display value="Mumps encephalitis[G05.1]"/>
+  </concept>
+  <concept>
+    <code value="B26.3"/>
+    <display value="Mumps pancreatitis[K87.1]"/>
+  </concept>
+  <concept>
+    <code value="B26.8"/>
+    <display value="Mumps with other complications"/>
+  </concept>
+  <concept>
+    <code value="B26.9"/>
+    <display value="Mumps without complication"/>
+  </concept>
+  <concept>
+    <code value="B27"/>
+    <display value="Infectious mononucleosis"/>
+  </concept>
+  <concept>
+    <code value="B27.0"/>
+    <display value="Gammaherpesviral mononucleosis"/>
+  </concept>
+  <concept>
+    <code value="B27.1"/>
+    <display value="Cytomegaloviral mononucleosis"/>
+  </concept>
+  <concept>
+    <code value="B27.8"/>
+    <display value="Other infectious mononucleosis"/>
+  </concept>
+  <concept>
+    <code value="B27.9"/>
+    <display value="Infectious mononucleosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B30"/>
+    <display value="Viral conjunctivitis"/>
+  </concept>
+  <concept>
+    <code value="B30.0"/>
+    <display value="Keratoconjunctivitis due to adenovirus[H19.2]"/>
+  </concept>
+  <concept>
+    <code value="B30.1"/>
+    <display value="Conjunctivitis due to adenovirus[H13.1]"/>
+  </concept>
+  <concept>
+    <code value="B30.2"/>
+    <display value="Viral pharyngoconjunctivitis"/>
+  </concept>
+  <concept>
+    <code value="B30.3"/>
+    <display value="Acute epidemic haemorrhagic conjunctivitis (enteroviral)[H13.1]"/>
+  </concept>
+  <concept>
+    <code value="B30.8"/>
+    <display value="Other viral conjunctivitis[H13.1]"/>
+  </concept>
+  <concept>
+    <code value="B30.9"/>
+    <display value="Viral conjunctivitis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B33"/>
+    <display value="Other viral diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B33.0"/>
+    <display value="Epidemic myalgia"/>
+  </concept>
+  <concept>
+    <code value="B33.1"/>
+    <display value="Ross River disease"/>
+  </concept>
+  <concept>
+    <code value="B33.2"/>
+    <display value="Viral carditis"/>
+  </concept>
+  <concept>
+    <code value="B33.3"/>
+    <display value="Retrovirus infections, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B33.4"/>
+    <display value="Hantavirus (cardio-)pulmonary syndrome [HPS] [HCPS][J17.1]"/>
+  </concept>
+  <concept>
+    <code value="B33.8"/>
+    <display value="Other specified viral diseases"/>
+  </concept>
+  <concept>
+    <code value="B34"/>
+    <display value="Viral infection of unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.0"/>
+    <display value="Adenovirus infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.1"/>
+    <display value="Enterovirus infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.2"/>
+    <display value="Coronavirus infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.3"/>
+    <display value="Parvovirus infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.4"/>
+    <display value="Papovavirus infection, unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.8"/>
+    <display value="Other viral infections of unspecified site"/>
+  </concept>
+  <concept>
+    <code value="B34.9"/>
+    <display value="Viral infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B35-B49"/>
+    <display value="Mycoses"/>
+  </concept>
+  <concept>
+    <code value="B35"/>
+    <display value="Dermatophytosis"/>
+  </concept>
+  <concept>
+    <code value="B35.0"/>
+    <display value="Tinea barbae and tinea capitis"/>
+  </concept>
+  <concept>
+    <code value="B35.1"/>
+    <display value="Tinea unguium"/>
+  </concept>
+  <concept>
+    <code value="B35.2"/>
+    <display value="Tinea manuum"/>
+  </concept>
+  <concept>
+    <code value="B35.3"/>
+    <display value="Tinea pedis"/>
+  </concept>
+  <concept>
+    <code value="B35.4"/>
+    <display value="Tinea corporis"/>
+  </concept>
+  <concept>
+    <code value="B35.5"/>
+    <display value="Tinea imbricata"/>
+  </concept>
+  <concept>
+    <code value="B35.6"/>
+    <display value="Tinea inguinalis [Tinea cruris]"/>
+  </concept>
+  <concept>
+    <code value="B35.8"/>
+    <display value="Other dermatophytoses"/>
+  </concept>
+  <concept>
+    <code value="B35.9"/>
+    <display value="Dermatophytosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B36"/>
+    <display value="Other superficial mycoses"/>
+  </concept>
+  <concept>
+    <code value="B36.0"/>
+    <display value="Pityriasis versicolor"/>
+  </concept>
+  <concept>
+    <code value="B36.1"/>
+    <display value="Tinea nigra"/>
+  </concept>
+  <concept>
+    <code value="B36.2"/>
+    <display value="White piedra"/>
+  </concept>
+  <concept>
+    <code value="B36.3"/>
+    <display value="Black piedra"/>
+  </concept>
+  <concept>
+    <code value="B36.8"/>
+    <display value="Other specified superficial mycoses"/>
+  </concept>
+  <concept>
+    <code value="B36.9"/>
+    <display value="Superficial mycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B37"/>
+    <display value="Candidiasis"/>
+  </concept>
+  <concept>
+    <code value="B37.0"/>
+    <display value="Candidal stomatitis"/>
+  </concept>
+  <concept>
+    <code value="B37.1"/>
+    <display value="Pulmonary candidiasis"/>
+  </concept>
+  <concept>
+    <code value="B37.2"/>
+    <display value="Candidiasis of skin and nail"/>
+  </concept>
+  <concept>
+    <code value="B37.3"/>
+    <display value="Candidiasis of vulva and vagina[N77.1]"/>
+  </concept>
+  <concept>
+    <code value="B37.4"/>
+    <display value="Candidiasis of other urogenital sites"/>
+  </concept>
+  <concept>
+    <code value="B37.5"/>
+    <display value="Candidal meningitis[G02.1]"/>
+  </concept>
+  <concept>
+    <code value="B37.6"/>
+    <display value="Candidal endocarditis[I39.8]"/>
+  </concept>
+  <concept>
+    <code value="B37.7"/>
+    <display value="Candidal sepsis"/>
+  </concept>
+  <concept>
+    <code value="B37.8"/>
+    <display value="Candidiasis of other sites"/>
+  </concept>
+  <concept>
+    <code value="B37.9"/>
+    <display value="Candidiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B38"/>
+    <display value="Coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.0"/>
+    <display value="Acute pulmonary coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.1"/>
+    <display value="Chronic pulmonary coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.2"/>
+    <display value="Pulmonary coccidioidomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B38.3"/>
+    <display value="Cutaneous coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.4"/>
+    <display value="Coccidioidomycosis meningitis[G02.1]"/>
+  </concept>
+  <concept>
+    <code value="B38.7"/>
+    <display value="Disseminated coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.8"/>
+    <display value="Other forms of coccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B38.9"/>
+    <display value="Coccidioidomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B39"/>
+    <display value="Histoplasmosis"/>
+  </concept>
+  <concept>
+    <code value="B39.0"/>
+    <display value="Acute pulmonary histoplasmosis capsulati"/>
+  </concept>
+  <concept>
+    <code value="B39.1"/>
+    <display value="Chronic pulmonary histoplasmosis capsulati"/>
+  </concept>
+  <concept>
+    <code value="B39.2"/>
+    <display value="Pulmonary histoplasmosis capsulati, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B39.3"/>
+    <display value="Disseminated histoplasmosis capsulati"/>
+  </concept>
+  <concept>
+    <code value="B39.4"/>
+    <display value="Histoplasmosis capsulati, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B39.5"/>
+    <display value="Histoplasmosis duboisii"/>
+  </concept>
+  <concept>
+    <code value="B39.9"/>
+    <display value="Histoplasmosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B40"/>
+    <display value="Blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.0"/>
+    <display value="Acute pulmonary blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.1"/>
+    <display value="Chronic pulmonary blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.2"/>
+    <display value="Pulmonary blastomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B40.3"/>
+    <display value="Cutaneous blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.7"/>
+    <display value="Disseminated blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.8"/>
+    <display value="Other forms of blastomycosis"/>
+  </concept>
+  <concept>
+    <code value="B40.9"/>
+    <display value="Blastomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B41"/>
+    <display value="Paracoccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B41.0"/>
+    <display value="Pulmonary paracoccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B41.7"/>
+    <display value="Disseminated paracoccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B41.8"/>
+    <display value="Other forms of paracoccidioidomycosis"/>
+  </concept>
+  <concept>
+    <code value="B41.9"/>
+    <display value="Paracoccidioidomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B42"/>
+    <display value="Sporotrichosis"/>
+  </concept>
+  <concept>
+    <code value="B42.0"/>
+    <display value="Pulmonary sporotrichosis[J99.8]"/>
+  </concept>
+  <concept>
+    <code value="B42.1"/>
+    <display value="Lymphocutaneous sporotrichosis"/>
+  </concept>
+  <concept>
+    <code value="B42.7"/>
+    <display value="Disseminated sporotrichosis"/>
+  </concept>
+  <concept>
+    <code value="B42.8"/>
+    <display value="Other forms of sporotrichosis"/>
+  </concept>
+  <concept>
+    <code value="B42.9"/>
+    <display value="Sporotrichosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B43"/>
+    <display value="Chromomycosis and phaeomycotic abscess"/>
+  </concept>
+  <concept>
+    <code value="B43.0"/>
+    <display value="Cutaneous chromomycosis"/>
+  </concept>
+  <concept>
+    <code value="B43.1"/>
+    <display value="Phaeomycotic brain abscess"/>
+  </concept>
+  <concept>
+    <code value="B43.2"/>
+    <display value="Subcutaneous phaeomycotic abscess and cyst"/>
+  </concept>
+  <concept>
+    <code value="B43.8"/>
+    <display value="Other forms of chromomycosis"/>
+  </concept>
+  <concept>
+    <code value="B43.9"/>
+    <display value="Chromomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B44"/>
+    <display value="Aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.0"/>
+    <display value="Invasive pulmonary aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.1"/>
+    <display value="Other pulmonary aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.2"/>
+    <display value="Tonsillar aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.7"/>
+    <display value="Disseminated aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.8"/>
+    <display value="Other forms of aspergillosis"/>
+  </concept>
+  <concept>
+    <code value="B44.9"/>
+    <display value="Aspergillosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B45"/>
+    <display value="Cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.0"/>
+    <display value="Pulmonary cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.1"/>
+    <display value="Cerebral cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.2"/>
+    <display value="Cutaneous cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.3"/>
+    <display value="Osseous cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.7"/>
+    <display value="Disseminated cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.8"/>
+    <display value="Other forms of cryptococcosis"/>
+  </concept>
+  <concept>
+    <code value="B45.9"/>
+    <display value="Cryptococcosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B46"/>
+    <display value="Zygomycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.0"/>
+    <display value="Pulmonary mucormycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.1"/>
+    <display value="Rhinocerebral mucormycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.2"/>
+    <display value="Gastrointestinal mucormycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.3"/>
+    <display value="Cutaneous mucormycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.4"/>
+    <display value="Disseminated mucormycosis"/>
+  </concept>
+  <concept>
+    <code value="B46.5"/>
+    <display value="Mucormycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B46.8"/>
+    <display value="Other zygomycoses"/>
+  </concept>
+  <concept>
+    <code value="B46.9"/>
+    <display value="Zygomycosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B47"/>
+    <display value="Mycetoma"/>
+  </concept>
+  <concept>
+    <code value="B47.0"/>
+    <display value="Eumycetoma"/>
+  </concept>
+  <concept>
+    <code value="B47.1"/>
+    <display value="Actinomycetoma"/>
+  </concept>
+  <concept>
+    <code value="B47.9"/>
+    <display value="Mycetoma, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B48"/>
+    <display value="Other mycoses, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B48.0"/>
+    <display value="Lobomycosis"/>
+  </concept>
+  <concept>
+    <code value="B48.1"/>
+    <display value="Rhinosporidiosis"/>
+  </concept>
+  <concept>
+    <code value="B48.2"/>
+    <display value="Allescheriasis"/>
+  </concept>
+  <concept>
+    <code value="B48.3"/>
+    <display value="Geotrichosis"/>
+  </concept>
+  <concept>
+    <code value="B48.4"/>
+    <display value="Penicillosis"/>
+  </concept>
+  <concept>
+    <code value="B48.5"/>
+    <display value="Pneumocystosis[J17.2]"/>
+  </concept>
+  <concept>
+    <code value="B48.7"/>
+    <display value="Opportunistic mycoses"/>
+  </concept>
+  <concept>
+    <code value="B48.8"/>
+    <display value="Other specified mycoses"/>
+  </concept>
+  <concept>
+    <code value="B49"/>
+    <display value="Unspecified mycosis"/>
+  </concept>
+  <concept>
+    <code value="B50-B64"/>
+    <display value="Protozoal diseases"/>
+  </concept>
+  <concept>
+    <code value="B50"/>
+    <display value="Plasmodium falciparum malaria"/>
+  </concept>
+  <concept>
+    <code value="B50.0"/>
+    <display value="Plasmodium falciparum malaria with cerebral complications"/>
+  </concept>
+  <concept>
+    <code value="B50.8"/>
+    <display value="Other severe and complicated Plasmodium falciparum malaria"/>
+  </concept>
+  <concept>
+    <code value="B50.9"/>
+    <display value="Plasmodium falciparum malaria, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B51"/>
+    <display value="Plasmodium vivax malaria"/>
+  </concept>
+  <concept>
+    <code value="B51.0"/>
+    <display value="Plasmodium vivax malaria with rupture of spleen"/>
+  </concept>
+  <concept>
+    <code value="B51.8"/>
+    <display value="Plasmodium vivax malaria with other complications"/>
+  </concept>
+  <concept>
+    <code value="B51.9"/>
+    <display value="Plasmodium vivax malaria without complication"/>
+  </concept>
+  <concept>
+    <code value="B52"/>
+    <display value="Plasmodium malariae malaria"/>
+  </concept>
+  <concept>
+    <code value="B52.0"/>
+    <display value="Plasmodium malariae malaria with nephropathy"/>
+  </concept>
+  <concept>
+    <code value="B52.8"/>
+    <display value="Plasmodium malariae malaria with other complications"/>
+  </concept>
+  <concept>
+    <code value="B52.9"/>
+    <display value="Plasmodium malariae malaria without complication"/>
+  </concept>
+  <concept>
+    <code value="B53"/>
+    <display value="Other parasitologically confirmed malaria"/>
+  </concept>
+  <concept>
+    <code value="B53.0"/>
+    <display value="Plasmodium ovale malaria"/>
+  </concept>
+  <concept>
+    <code value="B53.1"/>
+    <display value="Malaria due to simian plasmodia"/>
+  </concept>
+  <concept>
+    <code value="B53.8"/>
+    <display value="Other parasitologically confirmed malaria, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B54"/>
+    <display value="Unspecified malaria"/>
+  </concept>
+  <concept>
+    <code value="B55"/>
+    <display value="Leishmaniasis"/>
+  </concept>
+  <concept>
+    <code value="B55.0"/>
+    <display value="Visceral leishmaniasis"/>
+  </concept>
+  <concept>
+    <code value="B55.1"/>
+    <display value="Cutaneous leishmaniasis"/>
+  </concept>
+  <concept>
+    <code value="B55.2"/>
+    <display value="Mucocutaneous leishmaniasis"/>
+  </concept>
+  <concept>
+    <code value="B55.9"/>
+    <display value="Leishmaniasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B56"/>
+    <display value="African trypanosomiasis"/>
+  </concept>
+  <concept>
+    <code value="B56.0"/>
+    <display value="Gambiense trypanosomiasis"/>
+  </concept>
+  <concept>
+    <code value="B56.1"/>
+    <display value="Rhodesiense trypanosomiasis"/>
+  </concept>
+  <concept>
+    <code value="B56.9"/>
+    <display value="African trypanosomiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B57"/>
+    <display value="Chagas disease"/>
+  </concept>
+  <concept>
+    <code value="B57.0"/>
+    <display value="Acute Chagas disease with heart involvement[I41.2][I98.1]"/>
+  </concept>
+  <concept>
+    <code value="B57.1"/>
+    <display value="Acute Chagas disease without heart involvement"/>
+  </concept>
+  <concept>
+    <code value="B57.2"/>
+    <display value="Chagas disease (chronic) with heart involvement"/>
+  </concept>
+  <concept>
+    <code value="B57.3"/>
+    <display value="Chagas disease (chronic) with digestive system involvement"/>
+  </concept>
+  <concept>
+    <code value="B57.4"/>
+    <display value="Chagas disease (chronic) with nervous system involvement"/>
+  </concept>
+  <concept>
+    <code value="B57.5"/>
+    <display value="Chagas disease (chronic) with other organ involvement"/>
+  </concept>
+  <concept>
+    <code value="B58"/>
+    <display value="Toxoplasmosis"/>
+  </concept>
+  <concept>
+    <code value="B58.0"/>
+    <display value="Toxoplasma oculopathy"/>
+  </concept>
+  <concept>
+    <code value="B58.1"/>
+    <display value="Toxoplasma hepatitis[K77.0]"/>
+  </concept>
+  <concept>
+    <code value="B58.2"/>
+    <display value="Toxoplasma meningoencephalitis[G05.2]"/>
+  </concept>
+  <concept>
+    <code value="B58.3"/>
+    <display value="Pulmonary toxoplasmosis[J17.3]"/>
+  </concept>
+  <concept>
+    <code value="B58.8"/>
+    <display value="Toxoplasmosis with other organ involvement"/>
+  </concept>
+  <concept>
+    <code value="B58.9"/>
+    <display value="Toxoplasmosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B60"/>
+    <display value="Other protozoal diseases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B60.0"/>
+    <display value="Babesiosis"/>
+  </concept>
+  <concept>
+    <code value="B60.1"/>
+    <display value="Acanthamoebiasis"/>
+  </concept>
+  <concept>
+    <code value="B60.2"/>
+    <display value="Naegleriasis"/>
+  </concept>
+  <concept>
+    <code value="B60.8"/>
+    <display value="Other specified protozoal diseases"/>
+  </concept>
+  <concept>
+    <code value="B64"/>
+    <display value="Unspecified protozoal disease"/>
+  </concept>
+  <concept>
+    <code value="B65-B83"/>
+    <display value="Helminthiases"/>
+  </concept>
+  <concept>
+    <code value="B65"/>
+    <display value="Schistosomiasis [bilharziasis]"/>
+  </concept>
+  <concept>
+    <code value="B65.0"/>
+    <display value="Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis]"/>
+  </concept>
+  <concept>
+    <code value="B65.1"/>
+    <display value="Schistosomiasis due to Schistosoma mansoni [intestinal schistosomiasis]"/>
+  </concept>
+  <concept>
+    <code value="B65.2"/>
+    <display value="Schistosomiasis due to Schistosoma japonicum"/>
+  </concept>
+  <concept>
+    <code value="B65.3"/>
+    <display value="Cercarial dermatitis"/>
+  </concept>
+  <concept>
+    <code value="B65.8"/>
+    <display value="Other schistosomiases"/>
+  </concept>
+  <concept>
+    <code value="B65.9"/>
+    <display value="Schistosomiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B66"/>
+    <display value="Other fluke infections"/>
+  </concept>
+  <concept>
+    <code value="B66.0"/>
+    <display value="Opisthorchiasis"/>
+  </concept>
+  <concept>
+    <code value="B66.1"/>
+    <display value="Clonorchiasis"/>
+  </concept>
+  <concept>
+    <code value="B66.2"/>
+    <display value="Dicrocoeliasis"/>
+  </concept>
+  <concept>
+    <code value="B66.3"/>
+    <display value="Fascioliasis"/>
+  </concept>
+  <concept>
+    <code value="B66.4"/>
+    <display value="Paragonimiasis"/>
+  </concept>
+  <concept>
+    <code value="B66.5"/>
+    <display value="Fasciolopsiasis"/>
+  </concept>
+  <concept>
+    <code value="B66.8"/>
+    <display value="Other specified fluke infections"/>
+  </concept>
+  <concept>
+    <code value="B66.9"/>
+    <display value="Fluke infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B67"/>
+    <display value="Echinococcosis"/>
+  </concept>
+  <concept>
+    <code value="B67.0"/>
+    <display value="Echinococcus granulosus infection of liver"/>
+  </concept>
+  <concept>
+    <code value="B67.1"/>
+    <display value="Echinococcus granulosus infection of lung"/>
+  </concept>
+  <concept>
+    <code value="B67.2"/>
+    <display value="Echinococcus granulosus infection of bone"/>
+  </concept>
+  <concept>
+    <code value="B67.3"/>
+    <display value="Echinococcus granulosus infection, other and multiple sites"/>
+  </concept>
+  <concept>
+    <code value="B67.4"/>
+    <display value="Echinococcus granulosus infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B67.5"/>
+    <display value="Echinococcus multilocularis infection of liver"/>
+  </concept>
+  <concept>
+    <code value="B67.6"/>
+    <display value="Echinococcus multilocularis infection, other and multiple sites"/>
+  </concept>
+  <concept>
+    <code value="B67.7"/>
+    <display value="Echinococcus multilocularis infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B67.8"/>
+    <display value="Echinococcosis, unspecified, of liver"/>
+  </concept>
+  <concept>
+    <code value="B67.9"/>
+    <display value="Echinococcosis, other and unspecified"/>
+  </concept>
+  <concept>
+    <code value="B68"/>
+    <display value="Taeniasis"/>
+  </concept>
+  <concept>
+    <code value="B68.0"/>
+    <display value="Taenia solium taeniasis"/>
+  </concept>
+  <concept>
+    <code value="B68.1"/>
+    <display value="Taenia saginata taeniasis"/>
+  </concept>
+  <concept>
+    <code value="B68.9"/>
+    <display value="Taeniasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B69"/>
+    <display value="Cysticercosis"/>
+  </concept>
+  <concept>
+    <code value="B69.0"/>
+    <display value="Cysticercosis of central nervous system"/>
+  </concept>
+  <concept>
+    <code value="B69.1"/>
+    <display value="Cysticercosis of eye"/>
+  </concept>
+  <concept>
+    <code value="B69.8"/>
+    <display value="Cysticercosis of other sites"/>
+  </concept>
+  <concept>
+    <code value="B69.9"/>
+    <display value="Cysticercosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B70"/>
+    <display value="Diphyllobothriasis and sparganosis"/>
+  </concept>
+  <concept>
+    <code value="B70.0"/>
+    <display value="Diphyllobothriasis"/>
+  </concept>
+  <concept>
+    <code value="B70.1"/>
+    <display value="Sparganosis"/>
+  </concept>
+  <concept>
+    <code value="B71"/>
+    <display value="Other cestode infections"/>
+  </concept>
+  <concept>
+    <code value="B71.0"/>
+    <display value="Hymenolepiasis"/>
+  </concept>
+  <concept>
+    <code value="B71.1"/>
+    <display value="Dipylidiasis"/>
+  </concept>
+  <concept>
+    <code value="B71.8"/>
+    <display value="Other specified cestode infections"/>
+  </concept>
+  <concept>
+    <code value="B71.9"/>
+    <display value="Cestode infection, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B72"/>
+    <display value="Dracunculiasis"/>
+  </concept>
+  <concept>
+    <code value="B73"/>
+    <display value="Onchocerciasis"/>
+  </concept>
+  <concept>
+    <code value="B74"/>
+    <display value="Filariasis"/>
+  </concept>
+  <concept>
+    <code value="B74.0"/>
+    <display value="Filariasis due to Wuchereria bancrofti"/>
+  </concept>
+  <concept>
+    <code value="B74.1"/>
+    <display value="Filariasis due to Brugia malayi"/>
+  </concept>
+  <concept>
+    <code value="B74.2"/>
+    <display value="Filariasis due to Brugia timori"/>
+  </concept>
+  <concept>
+    <code value="B74.3"/>
+    <display value="Loiasis"/>
+  </concept>
+  <concept>
+    <code value="B74.4"/>
+    <display value="Mansonelliasis"/>
+  </concept>
+  <concept>
+    <code value="B74.8"/>
+    <display value="Other filariases"/>
+  </concept>
+  <concept>
+    <code value="B74.9"/>
+    <display value="Filariasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B75"/>
+    <display value="Trichinellosis"/>
+  </concept>
+  <concept>
+    <code value="B76"/>
+    <display value="Hookworm diseases"/>
+  </concept>
+  <concept>
+    <code value="B76.0"/>
+    <display value="Ancylostomiasis"/>
+  </concept>
+  <concept>
+    <code value="B76.1"/>
+    <display value="Necatoriasis"/>
+  </concept>
+  <concept>
+    <code value="B76.8"/>
+    <display value="Other hookworm diseases"/>
+  </concept>
+  <concept>
+    <code value="B76.9"/>
+    <display value="Hookworm disease, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B77"/>
+    <display value="Ascariasis"/>
+  </concept>
+  <concept>
+    <code value="B77.0"/>
+    <display value="Ascariasis with intestinal complications"/>
+  </concept>
+  <concept>
+    <code value="B77.8"/>
+    <display value="Ascariasis with other complications"/>
+  </concept>
+  <concept>
+    <code value="B77.9"/>
+    <display value="Ascariasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B78"/>
+    <display value="Strongyloidiasis"/>
+  </concept>
+  <concept>
+    <code value="B78.0"/>
+    <display value="Intestinal strongyloidiasis"/>
+  </concept>
+  <concept>
+    <code value="B78.1"/>
+    <display value="Cutaneous strongyloidiasis"/>
+  </concept>
+  <concept>
+    <code value="B78.7"/>
+    <display value="Disseminated strongyloidiasis"/>
+  </concept>
+  <concept>
+    <code value="B78.9"/>
+    <display value="Strongyloidiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B79"/>
+    <display value="Trichuriasis"/>
+  </concept>
+  <concept>
+    <code value="B80"/>
+    <display value="Enterobiasis"/>
+  </concept>
+  <concept>
+    <code value="B81"/>
+    <display value="Other intestinal helminthiases, not elsewhere classified"/>
+  </concept>
+  <concept>
+    <code value="B81.0"/>
+    <display value="Anisakiasis"/>
+  </concept>
+  <concept>
+    <code value="B81.1"/>
+    <display value="Intestinal capillariasis"/>
+  </concept>
+  <concept>
+    <code value="B81.2"/>
+    <display value="Trichostrongyliasis"/>
+  </concept>
+  <concept>
+    <code value="B81.3"/>
+    <display value="Intestinal angiostrongyliasis"/>
+  </concept>
+  <concept>
+    <code value="B81.4"/>
+    <display value="Mixed intestinal helminthiases"/>
+  </concept>
+  <concept>
+    <code value="B81.8"/>
+    <display value="Other specified intestinal helminthiases"/>
+  </concept>
+  <concept>
+    <code value="B82"/>
+    <display value="Unspecified intestinal parasitism"/>
+  </concept>
+  <concept>
+    <code value="B82.0"/>
+    <display value="Intestinal helminthiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B82.9"/>
+    <display value="Intestinal parasitism, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B83"/>
+    <display value="Other helminthiases"/>
+  </concept>
+  <concept>
+    <code value="B83.0"/>
+    <display value="Visceral larva migrans"/>
+  </concept>
+  <concept>
+    <code value="B83.1"/>
+    <display value="Gnathostomiasis"/>
+  </concept>
+  <concept>
+    <code value="B83.2"/>
+    <display value="Angiostrongyliasis due to Parastrongylus cantonensis"/>
+  </concept>
+  <concept>
+    <code value="B83.3"/>
+    <display value="Syngamiasis"/>
+  </concept>
+  <concept>
+    <code value="B83.4"/>
+    <display value="Internal hirudiniasis"/>
+  </concept>
+  <concept>
+    <code value="B83.8"/>
+    <display value="Other specified helminthiases"/>
+  </concept>
+  <concept>
+    <code value="B83.9"/>
+    <display value="Helminthiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B85-B89"/>
+    <display value="Pediculosis, acariasis and other infestations"/>
+  </concept>
+  <concept>
+    <code value="B85"/>
+    <display value="Pediculosis and phthiriasis"/>
+  </concept>
+  <concept>
+    <code value="B85.0"/>
+    <display value="Pediculosis due to Pediculus humanus capitis"/>
+  </concept>
+  <concept>
+    <code value="B85.1"/>
+    <display value="Pediculosis due to Pediculus humanus corporis"/>
+  </concept>
+  <concept>
+    <code value="B85.2"/>
+    <display value="Pediculosis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B85.3"/>
+    <display value="Phthiriasis"/>
+  </concept>
+  <concept>
+    <code value="B85.4"/>
+    <display value="Mixed pediculosis and phthiriasis"/>
+  </concept>
+  <concept>
+    <code value="B86"/>
+    <display value="Scabies"/>
+  </concept>
+  <concept>
+    <code value="B87"/>
+    <display value="Myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.0"/>
+    <display value="Cutaneous myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.1"/>
+    <display value="Wound myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.2"/>
+    <display value="Ocular myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.3"/>
+    <display value="Nasopharyngeal myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.4"/>
+    <display value="Aural myiasis"/>
+  </concept>
+  <concept>
+    <code value="B87.8"/>
+    <display value="Myiasis of other sites"/>
+  </concept>
+  <concept>
+    <code value="B87.9"/>
+    <display value="Myiasis, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B88"/>
+    <display value="Other infestations"/>
+  </concept>
+  <concept>
+    <code value="B88.0"/>
+    <display value="Other acariasis"/>
+  </concept>
+  <concept>
+    <code value="B88.1"/>
+    <display value="Tungiasis [sandflea infestation]"/>
+  </concept>
+  <concept>
+    <code value="B88.2"/>
+    <display value="Other arthropod infestations"/>
+  </concept>
+  <concept>
+    <code value="B88.3"/>
+    <display value="External hirudiniasis"/>
+  </concept>
+  <concept>
+    <code value="B88.8"/>
+    <display value="Other specified infestations"/>
+  </concept>
+  <concept>
+    <code value="B88.9"/>
+    <display value="Infestation, unspecified"/>
+  </concept>
+  <concept>
+    <code value="B89"/>
+    <display value="Unspecified parasitic disease"/>
+  </concept>
+  <concept>
+    <code value="B90-B94"/>
+    <display value="Sequelae of infectious and parasitic diseases"/>
+  </concept>
+  <concept>
+    <code value="B90"/>
+    <display value="Sequelae of tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="B90.0"/>
+    <display value="Sequelae of central nervous system tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="B90.1"/>
+    <display value="Sequelae of genitourinary tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="B90.2"/>
+    <display value="Sequelae of tuberculosis of bones and joints"/>
+  </concept>
+  <concept>
+    <code value="B90.8"/>
+    <display value="Sequelae of tuberculosis of other organs"/>
+  </concept>
+  <concept>
+    <code value="B90.9"/>
+    <display value="Sequelae of respiratory and unspecified tuberculosis"/>
+  </concept>
+  <concept>
+    <code value="B91"/>
+    <display value="Sequelae of poliomyelitis"/>
+  </concept>
+  <concept>
+    <code value="B92"/>
+    <display value="Sequelae of leprosy"/>
+  </concept>
+  <concept>
+    <code value="B94"/>
+    <display value="Sequelae of other and unspecified infectious and parasitic diseases"/>
+  </concept>
+  <concept>
+    <code value="B94.0"/>
+    <display value="Sequelae of trachoma"/>
+  </concept>
+  <concept>
+    <code value="B94.1"/>
+    <display value="Sequelae of viral encephalitis"/>
+  </concept>
+  <concept>
+    <code value="B94.2"/>
+    <display value="Sequelae of viral hepatitis"/>
+  </concept>
+  <concept>
+    <code value="B94.8"/>
+    <display value="Sequelae of other specified infectious and parasitic diseases"/>
+  </concept>
+  <concept>
+    <code value="B94.9"/>
+    <display value="Sequelae of unspecified infectious or parasitic disease"/>
+  </concept>
+  <concept>
+    <code value="B95-B98"/>
+    <display value="Bacterial, viral and other infectious agents"/>
+  </concept>
+  <concept>
+    <code value="B95"/>
+    <display value="Streptococcus and staphylococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.0"/>
+    <display value="Streptococcus, group A, as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.1"/>
+    <display value="Streptococcus, group B, as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.2"/>
+    <display value="Streptococcus group D and enterococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.3"/>
+    <display value="Streptococcus pneumoniae as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.4"/>
+    <display value="Other streptococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.5"/>
+    <display value="Unspecified streptococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.6"/>
+    <display value="Staphylococcus aureus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.7"/>
+    <display value="Other staphylococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B95.8"/>
+    <display value="Unspecified staphylococcus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96"/>
+    <display value="Other specified bacterial agents as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.0"/>
+    <display value="Mycoplasma pneumoniae [M. pneumoniae] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.1"/>
+    <display value="Klebsiella pneumoniae [K. pneumoniae] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.2"/>
+    <display value="Escherichia coli [E. coli] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.3"/>
+    <display value="Haemophilus influenzae [H. influenzae] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.4"/>
+    <display value="Proteus (mirabilis)(morganii) as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.5"/>
+    <display value="Pseudomonas (aeruginosa) as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.6"/>
+    <display value="Bacillus fragilis [B. fragilis] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.7"/>
+    <display value="Clostridium perfringens [C. perfringens] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B96.8"/>
+    <display value="Other specified bacterial agents as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97"/>
+    <display value="Viral agents as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.0"/>
+    <display value="Adenovirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.1"/>
+    <display value="Enterovirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.2"/>
+    <display value="Coronavirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.3"/>
+    <display value="Retrovirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.4"/>
+    <display value="Respiratory syncytial virus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.5"/>
+    <display value="Reovirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.6"/>
+    <display value="Parvovirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.7"/>
+    <display value="Papillomavirus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B97.8"/>
+    <display value="Other viral agents as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B98"/>
+    <display value="Other specified infectious agents as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B98.0"/>
+    <display value="Helicobacter pylori [H.pylori] as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B98.1"/>
+    <display value="Vibrio vulnificus as the cause of diseases classified to other chapters"/>
+  </concept>
+  <concept>
+    <code value="B99-B99"/>
+    <display value="Other infectious diseases"/>
+  </concept>
+  <concept>
+    <code value="B99"/>
+    <display value="Other and unspecified infectious diseases"/>
+  </concept>
+</CodeSystem>

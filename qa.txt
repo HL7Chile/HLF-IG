@@ -1,171 +1,214 @@
 ﻿HlfHosp : Validation Results
 =========================================
 
-err = 0, warn = 35, info = 2
-IG Publisher Version: 1.3.18 Out of date - current version is 1.3.21
-Generated Fri Jun 30 18:29:51 CLT 2023. FHIR version 5.0.0 for fhir.hlf.hosp#0.4.0 (canonical = https://hospitallaflorida.cl/fhir/hlfhosp)
+err = 0, warn = 5, info = 1
+IG Publisher Version: 1.4.5
+Generated Wed Sep 13 17:12:47 CLST 2023. FHIR version 5.0.0 for fhir.hlf.hosp#0.7.0 (canonical = https://hospitallaflorida.cl/fhir/hlfhosp)
  Build Errors : 3 / 3 / 0
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSCodigoDNI : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSComplejidadCama : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSEspecialidadMedica : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSEstadoCivil : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSIdentidadGenero : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSMotivoSolicitudHosp : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupaciones : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSOcupacionesDet : 0 / 4 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPrecaucionesHospitalizacion : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPrevision : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSPuebloIndigena : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSReligion : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSSexoBiologico : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUCursoAprobado : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\CodeSystem-CSUNivelAprob : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjNivEduca : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjOcupacion : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Observation-EjPesoRecienNacido : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Patient-007 : 0 / 0 / 3
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\Patient-EjPacienteHLF2 : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\SearchParameter-complejidad : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\SearchParameter-is-pediatrica : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-DiagnosticoCondHLf : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Educacion : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-IdentidadGenero : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NivelInstrucion : 0 / 4 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-NombreSocial : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ObsPesoPediatrico : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Ocupaciones : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PacienteHLF : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-Prevision : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-PueblosIndigenas : 0 / 2 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-ReligionesCultos : 0 / 2 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SegundoApellido : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoNacimiento820 : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-SexoReg : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-complejidad-cama : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-complejidad-unidad : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-motivo-solicitud-hospitalizacion : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-precauciones-solicitud-hospitalizacion : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-registro-atencion : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-solicitud-hospitalizacion : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-clinica-hlf : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-clinica-origen : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\StructureDefinition-unidad-pediatrica : 0 / 1 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSComplejidadCama : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSDiagnosticoCie10 : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSEspecialidadMedica : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSIdentidadGenero : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSMotivoSolicitudHosp : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSOcupaciones : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSOcupacionesDet : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPrecaucionesHospitalizacion : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPrevision : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSPuebloIndigena : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSReligion : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSSexoBiologico : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSTiposDocumentos : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSUCursoAprobado : 0 / 0 / 1
- C:\GI_FHIR\HLF\Hlfhosp\fsh-generated\resources\ValueSet-VSUNivelAprob : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-AUCS : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CBFN : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CMDR : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CMES : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CMGR : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-COES : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSCie10Prueba : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSCodigoDNI : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSComplejidad : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSDireccionTipoVia : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSEspecialidadMedica : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSEstadoCivil : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSIdentidadGenero : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSMotivoSolicitudHosp : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSOcupaciones : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSOcupacionesDet : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSPrecaucionesHospitalizacion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSPrevision : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSPuebloIndigena : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSReligion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSSexoBiologico : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSUCursoAprobado : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CSUNivelAprob : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-CTOC : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-DSCP : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/CodeSystem-TPUR : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO1 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Coverage-EjPrevision1 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Coverage-EjPrevision2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Coverage-EjPrevision3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Encounter-EjRegistroAtencion2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Encounter-EjRegistroAtencion3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Encounter-EjRegistroAtencionIMAGINARIO : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/HealthcareService-EjUnidadClinicaHLFIMAGINARIO : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ImplementationGuide-fhir.hlf.hosp : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjNivEduca : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjNivEduca2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjNivEduca3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjOcupacion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjOcupacion2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjOcupacion3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjPesoRecienNacido1 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjPesoRecienNacido2 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Observation-EjPesoRecienNacido3 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Parameters-PatchSolicitudHospitalizacionEj : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Patient-007 : 0 / 0 / 3
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Patient-008 : 0 / 0 / 2
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/Patient-009 : 0 / 0 / 2
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/SearchParameter-Complejidad : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/SearchParameter-IsPediatrica : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ServiceRequest-EjSolicitudHospitalizacion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-BundleSolicitudHLF : 0 / 1 / 3
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-CodigoPais : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-DiagnosticoCondHLf : 0 / 0 / 3
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-Discapacidad : 0 / 3 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-Educacion : 0 / 0 / 7
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-IdentidadGenero : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-NivelInstruccion : 0 / 6 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-ObsPesoPediatrico : 0 / 4 / 7
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-Ocupaciones : 0 / 0 / 7
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-PacienteHLF : 0 / 0 / 3
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-Prevision : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-PueblosIndigenas : 0 / 6 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-ReligionesCultos : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-SegundoApellido : 0 / 3 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-SexoNacimiento820 : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-SexoReg : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-TipoViaDireccion : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-complejidad-cama : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-complejidad-unidad : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-motivo-solicitud-hospitalizacion : 0 / 6 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-precauciones-solicitud-hospitalizacion : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-registro-atencion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-solicitud-hospitalizacion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-unidad-clinica-hlf : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-unidad-clinica-origen : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/StructureDefinition-unidad-pediatrica : 0 / 2 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-TPUR : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSCodigoPaises : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSComplejidad : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSDiagnosticoCie10 : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSDireccionTipoVia : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSDiscapacidad : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSEspecialidadMedica : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSIdentidadGenero : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSMotivoSolicitudHosp : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSOcupaciones : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSOcupacionesDet : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSPrecaucionesHospitalizacion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSPrevision : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSPuebloIndigena : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSReligion : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSSexoBiologico : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSTiposDocumentos : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSUCursoAprobado : 0 / 0 / 1
+ /Users/jorgemansilla/IGs/hlf2/fsh-generated/resources/ValueSet-VSUNivelAprob : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 703, column 273: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 406, column 2890: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: C:\GI_FHIR\HLF\Hlfhosp\output\StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 762, column 2890: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/jorgemansilla/IGs/hlf2/output/StructureDefinition-solicitud-hospitalizacion-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 429, column 2434: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/jorgemansilla/IGs/hlf2/output/StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 444, column 2891: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: /Users/jorgemansilla/IGs/hlf2/output/StructureDefinition-solicitud-hospitalizacion.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 916, column 2891: The link 'http://hl7.org/fhir/R5/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated\resources\CodeSystem-CSCodigoDNI.json ==
-== fsh-generated\resources\CodeSystem-CSComplejidadCama.json ==
-== fsh-generated\resources\CodeSystem-CSEspecialidadMedica.json ==
-== fsh-generated\resources\CodeSystem-CSEstadoCivil.json ==
-== fsh-generated\resources\CodeSystem-CSIdentidadGenero.json ==
-== fsh-generated\resources\CodeSystem-CSMotivoSolicitudHosp.json ==
-== fsh-generated\resources\CodeSystem-CSOcupaciones.json ==
-== fsh-generated\resources\CodeSystem-CSOcupacionesDet.json ==
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[6].display: el valor no puede empezar o terminar con espacios en blanco 'Dirigentes de organizaciones sociales y/o políticas (sindicatos, organizaciones sociales, partidos políticos, entre otras)\t'
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[159].display: el valor no puede empezar o terminar con espacios en blanco 'Técnicos y auxiliares paramédicos de enfermería '
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[279].display: el valor no puede empezar o terminar con espacios en blanco 'Trabajadores de los cuidados personales en instituciones '
-WARNING: CodeSystem/CSOcupacionesDet: CodeSystem.concept[366].display: el valor no puede empezar o terminar con espacios en blanco 'Buzos '
-== fsh-generated\resources\CodeSystem-CSPrecaucionesHospitalizacion.json ==
-== fsh-generated\resources\CodeSystem-CSPrevision.json ==
-== fsh-generated\resources\CodeSystem-CSPuebloIndigena.json ==
-== fsh-generated\resources\CodeSystem-CSReligion.json ==
-== fsh-generated\resources\CodeSystem-CSSexoBiologico.json ==
-== fsh-generated\resources\CodeSystem-CSUCursoAprobado.json ==
-== fsh-generated\resources\CodeSystem-CSUNivelAprob.json ==
-== fsh-generated\resources\ImplementationGuide-fhir.hlf.hosp.json ==
-== fsh-generated\resources\Observation-EjNivEduca.json ==
-== fsh-generated\resources\Observation-EjOcupacion.json ==
-WARNING: Observation/EjOcupacion: Observation.code.coding[0]: Wrong Display Name 'Antecedentes Laborales' for http://loinc.org#11341-5 - should be one of 33 choices: ''History of Occupation', '"Hx of Occupation"', '"分类型应答" (zh-CN)', '"分类型结果" (zh-CN)', '"名义性" (zh-CN)', '"名称型" (zh-CN)', '"名词型" (zh-CN)', '"名词性" (zh-CN)', '"标称性" (zh-CN)', '"没有自然次序的名义型或分类型应答 医疗服务对象" (zh-CN)', '"客户" (zh-CN)', '"病人" (zh-CN)', '"病患" (zh-CN)', '"病号" (zh-CN)', '"超系统 - 病人 历史" (zh-CN)', '"史" (zh-CN)', '"病史 时刻" (zh-CN)', '"随机" (zh-CN)', '"随意" (zh-CN)', '"瞬间 行业" (zh-CN)', '"工作" (zh-CN)', '"业务" (zh-CN)', '"专业 行政" (zh-CN)', '"管理" (zh-CN)', '"施行" (zh-CN)', '"执行" (zh-CN)', '"经营 行政管理（行政、管理、施行、执行、经营）.患者（病人、病患、病号、伤病员） 行政管理（行政、管理、施行、执行、经营）.患者（病人、病患、病号、伤病员）.人口统计学信息（人口统计学、人口统计、人口统计数据、人口统计学数据、人口统计特征、人口统计学特征、个人基本信息、人员基本信息、个人基本资料、个人基本数据）" (zh-CN)', '"Amministrativo Dati demografici del paziente Paziente Punto nel tempo (episodio) Storia" (it-IT)', '"Anamnesi" (it-IT)', '"История Номинальный" (ru-RU)', '"Именной Точка во времени" (ru-RU)', '"Момент" (ru-RU)' or '"anamnese" (nl-NL)'' for the language(s) '--' (from Tx-Server) para 'http://loinc.org#11341-5'
-== fsh-generated\resources\Observation-EjPesoRecienNacido.json ==
-WARNING: Observation/EjPesoRecienNacido: Observation.code.coding[0]: Wrong Display Name 'Peso corporal al nacimiento' for http://loinc.org#8339-4 - should be one of 37 choices: ''Birth weight Measured', '"Birth weight Measured"', '"医疗服务对象" (zh-CN)', '"客户" (zh-CN)', '"病人" (zh-CN)', '"病患" (zh-CN)', '"病号" (zh-CN)', '"超系统 - 病人 可用数量表示的" (zh-CN)', '"定量性" (zh-CN)', '"数值型" (zh-CN)', '"数量型" (zh-CN)', '"连续数值型标尺 在出生时 时刻" (zh-CN)', '"随机" (zh-CN)', '"随意" (zh-CN)', '"瞬间 标本重量" (zh-CN)', '"重 测定法" (zh-CN)', '"量度法" (zh-CN)', '"量测法 物体 特殊体重" (zh-CN)', '"特殊身体重量" (zh-CN)', '"身体重量.分子型 身体重量 重量" (zh-CN)', '"Wt" (pt-BR)', '"Bdy weight" (pt-BR)', '"@ birth" (pt-BR)', '"Newborn" (pt-BR)', '"New born" (pt-BR)', '"Point in time" (pt-BR)', '"Random" (pt-BR)', '"Quantitative" (pt-BR)', '"QNT" (pt-BR)', '"Quant" (pt-BR)', '"Quan" (pt-BR)', '"bod" (pt-BR)', '"Bodies" (pt-BR)', '"BODY WEIGHT.MOLEC" (pt-BR)', '"paziente Peso del corpo - molecolare Punto nel tempo (episodio)" (it-IT)', '"Количественный Точка во времени" (ru-RU)' or '"Момент" (ru-RU)'' for the language(s) '--' (from Tx-Server) para 'http://loinc.org#8339-4'
-== fsh-generated\resources\Patient-007.json ==
-INFORMATION: Patient/007: Patient.extension[0]: Este elemento no coincide con ninguna partición conocida defined in the profile https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.4.0
-INFORMATION: Patient/007: Patient.name[0].family.extension[0]: Este elemento no coincide con ninguna partición conocida defined in the profile https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.4.0
-== fsh-generated\resources\Patient-EjPacienteHLF2.json ==
-== fsh-generated\resources\SearchParameter-complejidad.json ==
-WARNING: SearchParameter/complejidad: SearchParameter: La regla cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
-== fsh-generated\resources\SearchParameter-is-pediatrica.json ==
-WARNING: SearchParameter/is-pediatrica: SearchParameter: La regla cnl-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló
-== fsh-generated\resources\StructureDefinition-DiagnosticoCondHLf.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/DiagnosticoCondHLf'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-Educacion.json ==
-== fsh-generated\resources\StructureDefinition-IdentidadGenero.json ==
-WARNING: StructureDefinition/IdentidadGenero: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-== fsh-generated\resources\StructureDefinition-NivelInstrucion.json ==
-WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.snapshot.element[29].short: el valor no puede empezar o terminar con espacios en blanco 'CodeSystem de Nivel aprobado '
-WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.differential.element[13].short: el valor no puede empezar o terminar con espacios en blanco 'CodeSystem de Nivel aprobado '
-WARNING: StructureDefinition/NivelInstrucion: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstrucion'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-NombreSocial.json ==
-WARNING: StructureDefinition/NombreSocial: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-== fsh-generated\resources\StructureDefinition-ObsPesoPediatrico.json ==
-== fsh-generated\resources\StructureDefinition-Ocupaciones.json ==
-== fsh-generated\resources\StructureDefinition-PacienteHLF.json ==
-== fsh-generated\resources\StructureDefinition-Prevision.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-PueblosIndigenas.json ==
-WARNING: StructureDefinition/PueblosIndigenas: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-ReligionesCultos.json ==
-WARNING: StructureDefinition/ReligionesCultos: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-SegundoApellido.json ==
-WARNING: StructureDefinition/SegundoApellido: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-== fsh-generated\resources\StructureDefinition-SexoNacimiento820.json ==
-WARNING: StructureDefinition/SexoNacimiento820: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-== fsh-generated\resources\StructureDefinition-SexoReg.json ==
-WARNING: StructureDefinition/SexoReg: StructureDefinition.context[0]: Review the extension type: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-== fsh-generated\resources\StructureDefinition-complejidad-cama.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-cama'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-complejidad-unidad.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/complejidad-unidad'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-motivo-solicitud-hospitalizacion.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/motivo-solicitud-hospitalizacion'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-precauciones-solicitud-hospitalizacion.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/precauciones-solicitud-hospitalizacion'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-registro-atencion.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/registro-atencion'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-solicitud-hospitalizacion.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/solicitud-hospitalizacion'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-unidad-clinica-hlf.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-hlf'): The Implementation Guide contains no examples for this profile
-== fsh-generated\resources\StructureDefinition-unidad-clinica-origen.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-clinica-origen'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-unidad-pediatrica.json ==
-WARNING: StructureDefinition.where(url = 'https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/unidad-pediatrica'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\ValueSet-VSComplejidadCama.json ==
-== fsh-generated\resources\ValueSet-VSDiagnosticoCie10.json ==
-== fsh-generated\resources\ValueSet-VSEspecialidadMedica.json ==
-== fsh-generated\resources\ValueSet-VSIdentidadGenero.json ==
-== fsh-generated\resources\ValueSet-VSMotivoSolicitudHosp.json ==
-== fsh-generated\resources\ValueSet-VSOcupaciones.json ==
-== fsh-generated\resources\ValueSet-VSOcupacionesDet.json ==
-== fsh-generated\resources\ValueSet-VSPrecaucionesHospitalizacion.json ==
-== fsh-generated\resources\ValueSet-VSPrevision.json ==
-== fsh-generated\resources\ValueSet-VSPuebloIndigena.json ==
-== fsh-generated\resources\ValueSet-VSReligion.json ==
-== fsh-generated\resources\ValueSet-VSSexoBiologico.json ==
-== fsh-generated\resources\ValueSet-VSTiposDocumentos.json ==
-== fsh-generated\resources\ValueSet-VSUCursoAprobado.json ==
-== fsh-generated\resources\ValueSet-VSUNivelAprob.json ==
+== fsh-generated/resources/CodeSystem-AUCS.json ==
+== fsh-generated/resources/CodeSystem-CBFN.json ==
+== fsh-generated/resources/CodeSystem-CMDR.json ==
+== fsh-generated/resources/CodeSystem-CMES.json ==
+== fsh-generated/resources/CodeSystem-CMGR.json ==
+== fsh-generated/resources/CodeSystem-COES.json ==
+== fsh-generated/resources/CodeSystem-CSCie10Prueba.json ==
+== fsh-generated/resources/CodeSystem-CSCodigoDNI.json ==
+== fsh-generated/resources/CodeSystem-CSComplejidad.json ==
+== fsh-generated/resources/CodeSystem-CSDireccionTipoVia.json ==
+== fsh-generated/resources/CodeSystem-CSEspecialidadMedica.json ==
+== fsh-generated/resources/CodeSystem-CSEstadoCivil.json ==
+== fsh-generated/resources/CodeSystem-CSIdentidadGenero.json ==
+== fsh-generated/resources/CodeSystem-CSMotivoSolicitudHosp.json ==
+== fsh-generated/resources/CodeSystem-CSOcupaciones.json ==
+== fsh-generated/resources/CodeSystem-CSOcupacionesDet.json ==
+== fsh-generated/resources/CodeSystem-CSPrecaucionesHospitalizacion.json ==
+== fsh-generated/resources/CodeSystem-CSPrevision.json ==
+== fsh-generated/resources/CodeSystem-CSPuebloIndigena.json ==
+== fsh-generated/resources/CodeSystem-CSReligion.json ==
+== fsh-generated/resources/CodeSystem-CSSexoBiologico.json ==
+== fsh-generated/resources/CodeSystem-CSUCursoAprobado.json ==
+== fsh-generated/resources/CodeSystem-CSUNivelAprob.json ==
+== fsh-generated/resources/CodeSystem-CTOC.json ==
+== fsh-generated/resources/CodeSystem-DSCP.json ==
+== fsh-generated/resources/CodeSystem-TPUR.json ==
+== fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO1.json ==
+== fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO2.json ==
+== fsh-generated/resources/Condition-EjDiagnosticoCondHLfIMAGINARIO3.json ==
+== fsh-generated/resources/Coverage-EjPrevision1.json ==
+== fsh-generated/resources/Coverage-EjPrevision2.json ==
+== fsh-generated/resources/Coverage-EjPrevision3.json ==
+== fsh-generated/resources/Encounter-EjRegistroAtencion2.json ==
+== fsh-generated/resources/Encounter-EjRegistroAtencion3.json ==
+== fsh-generated/resources/Encounter-EjRegistroAtencionIMAGINARIO.json ==
+== fsh-generated/resources/HealthcareService-EjUnidadClinicaHLFIMAGINARIO.json ==
+WARNING: HealthcareService/EjUnidadClinicaHLFIMAGINARIO: HealthcareService.type[0]: The system "Acupuncture" http://terminology.hl7.org/CodeSystem/service-type was found but did not contain enough information to properly validate the code (mode = example) (from Tx-Server)
+WARNING: HealthcareService/EjUnidadClinicaHLFIMAGINARIO: HealthcareService.type[0].coding[0]: The system "" http://terminology.hl7.org/CodeSystem/service-type was found but did not contain enough information to properly validate the code (mode = example) (from Tx-Server) for 'http://terminology.hl7.org/CodeSystem/service-type#13'
+== fsh-generated/resources/ImplementationGuide-fhir.hlf.hosp.json ==
+== fsh-generated/resources/Observation-EjNivEduca.json ==
+== fsh-generated/resources/Observation-EjNivEduca2.json ==
+== fsh-generated/resources/Observation-EjNivEduca3.json ==
+== fsh-generated/resources/Observation-EjOcupacion.json ==
+== fsh-generated/resources/Observation-EjOcupacion2.json ==
+== fsh-generated/resources/Observation-EjOcupacion3.json ==
+== fsh-generated/resources/Observation-EjPesoRecienNacido1.json ==
+== fsh-generated/resources/Observation-EjPesoRecienNacido2.json ==
+== fsh-generated/resources/Observation-EjPesoRecienNacido3.json ==
+== fsh-generated/resources/Parameters-PatchSolicitudHospitalizacionEj.json ==
+== fsh-generated/resources/Patient-007.json ==
+== fsh-generated/resources/Patient-008.json ==
+== fsh-generated/resources/Patient-009.json ==
+INFORMATION: Patient/009: Patient.name[0].family.extension[0]: This element does not match any known slice defined in the profile https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PacienteHLF|0.7.0
+== fsh-generated/resources/SearchParameter-Complejidad.json ==
+== fsh-generated/resources/SearchParameter-IsPediatrica.json ==
+== fsh-generated/resources/ServiceRequest-EjSolicitudHospitalizacion.json ==
+== fsh-generated/resources/StructureDefinition-BundleSolicitudHLF.json ==
+== fsh-generated/resources/StructureDefinition-CodigoPais.json ==
+== fsh-generated/resources/StructureDefinition-DiagnosticoCondHLf.json ==
+== fsh-generated/resources/StructureDefinition-Discapacidad.json ==
+== fsh-generated/resources/StructureDefinition-Educacion.json ==
+== fsh-generated/resources/StructureDefinition-IdentidadGenero.json ==
+== fsh-generated/resources/StructureDefinition-NivelInstruccion.json ==
+== fsh-generated/resources/StructureDefinition-ObsPesoPediatrico.json ==
+== fsh-generated/resources/StructureDefinition-Ocupaciones.json ==
+== fsh-generated/resources/StructureDefinition-PacienteHLF.json ==
+== fsh-generated/resources/StructureDefinition-Prevision.json ==
+== fsh-generated/resources/StructureDefinition-PueblosIndigenas.json ==
+== fsh-generated/resources/StructureDefinition-ReligionesCultos.json ==
+== fsh-generated/resources/StructureDefinition-SegundoApellido.json ==
+== fsh-generated/resources/StructureDefinition-SexoNacimiento820.json ==
+== fsh-generated/resources/StructureDefinition-SexoReg.json ==
+== fsh-generated/resources/StructureDefinition-TipoViaDireccion.json ==
+== fsh-generated/resources/StructureDefinition-complejidad-cama.json ==
+== fsh-generated/resources/StructureDefinition-complejidad-unidad.json ==
+== fsh-generated/resources/StructureDefinition-motivo-solicitud-hospitalizacion.json ==
+== fsh-generated/resources/StructureDefinition-precauciones-solicitud-hospitalizacion.json ==
+== fsh-generated/resources/StructureDefinition-registro-atencion.json ==
+== fsh-generated/resources/StructureDefinition-solicitud-hospitalizacion.json ==
+== fsh-generated/resources/StructureDefinition-unidad-clinica-hlf.json ==
+== fsh-generated/resources/StructureDefinition-unidad-clinica-origen.json ==
+== fsh-generated/resources/StructureDefinition-unidad-pediatrica.json ==
+== fsh-generated/resources/ValueSet-TPUR.json ==
+== fsh-generated/resources/ValueSet-VSCodigoPaises.json ==
+== fsh-generated/resources/ValueSet-VSComplejidad.json ==
+== fsh-generated/resources/ValueSet-VSDiagnosticoCie10.json ==
+== fsh-generated/resources/ValueSet-VSDireccionTipoVia.json ==
+== fsh-generated/resources/ValueSet-VSDiscapacidad.json ==
+== fsh-generated/resources/ValueSet-VSEspecialidadMedica.json ==
+== fsh-generated/resources/ValueSet-VSIdentidadGenero.json ==
+== fsh-generated/resources/ValueSet-VSMotivoSolicitudHosp.json ==
+== fsh-generated/resources/ValueSet-VSOcupaciones.json ==
+== fsh-generated/resources/ValueSet-VSOcupacionesDet.json ==
+== fsh-generated/resources/ValueSet-VSPrecaucionesHospitalizacion.json ==
+== fsh-generated/resources/ValueSet-VSPrevision.json ==
+== fsh-generated/resources/ValueSet-VSPuebloIndigena.json ==
+== fsh-generated/resources/ValueSet-VSReligion.json ==
+== fsh-generated/resources/ValueSet-VSSexoBiologico.json ==
+== fsh-generated/resources/ValueSet-VSTiposDocumentos.json ==
+== fsh-generated/resources/ValueSet-VSUCursoAprobado.json ==
+== fsh-generated/resources/ValueSet-VSUNivelAprob.json ==

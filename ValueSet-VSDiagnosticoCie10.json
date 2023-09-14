@@ -3,10 +3,10 @@
   "id" : "VSDiagnosticoCie10",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html\"><code>http://hl7.org/fhir/sid/icd-10</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSDiagnosticoCie10",
-  "version" : "0.4.0",
+  "version" : "0.7.0",
   "name" : "VSDiagnosticoCie10",
   "title" : "Diagnostico o Condición Mórbida de paciente",
   "status" : "active",
@@ -25,16 +25,9 @@
     }]
   }],
   "description" : "Definición de diagnóstico o condición mórbida del paciente, definido en CIE-10",
-  "jurisdiction" : [{
-    "coding" : [{
-      "system" : "urn:iso:std:iso:3166",
-      "code" : "CL",
-      "display" : "Chile"
-    }]
-  }],
   "compose" : {
     "include" : [{
-      "system" : "http://hl7.org/fhir/sid/icd-10"
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCie10Prueba"
     }]
   }
 }

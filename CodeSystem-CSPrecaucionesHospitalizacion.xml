@@ -3,10 +3,10 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CSPrecaucionesHospitalizacion"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">estandar<a name="CSPrecaucionesHospitalizacion-estandar"> </a></td><td>Estándar</td></tr><tr><td style="white-space:nowrap">aerea<a name="CSPrecaucionesHospitalizacion-aerea"> </a></td><td>Aérea</td></tr><tr><td style="white-space:nowrap">gotitas<a name="CSPrecaucionesHospitalizacion-gotitas"> </a></td><td>Gotitas</td></tr><tr><td style="white-space:nowrap">contacto<a name="CSPrecaucionesHospitalizacion-contacto"> </a></td><td>Contacto</td></tr><tr><td style="white-space:nowrap">protector<a name="CSPrecaucionesHospitalizacion-protector"> </a></td><td>Protector</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrecaucionesHospitalizacion"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="CSPrecaucionesHospitalizacion"/>
   <title value="Precauciones Hospitalización"/>
   <status value="active"/>
@@ -25,13 +25,6 @@
     </telecom>
   </contact>
   <description value="Opciones del tipo de precauciones de hospitalización que se deben tomar para un paciente"/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-      <display value="Chile"/>
-    </coding>
-  </jurisdiction>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="5"/>

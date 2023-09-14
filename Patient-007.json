@@ -8,13 +8,9 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Luke Solo Organa (OFFICIAL)</b> male, DoB: 1980-08-04 ( Chile: 78223444-1\u00a0(use:\u00a0OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td>true</td><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Divorced</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:LukeSky@organa.cl\">LukeSky@organa.cl</a></li><li>Calle 4 Norte, 52, pieza 802 Arica Arica y Parinacota Chile (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de del sexo registrado oficialmente por el/la paciente\"><a href=\"StructureDefinition-SexoReg.html\">Sexo Registral:</a></td><td colspan=\"3\"><ul><li>3</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Esta extensión permite agregar un nombre social al paciente\"><a href=\"StructureDefinition-NombreSocial.html\">Nombre Social de Paciente:</a></td><td colspan=\"3\"><ul><li>Leia</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local \"><a href=\"StructureDefinition-IdentidadGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li>5</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexdo biológico al nacer para Chile\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>1</li></ul></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>Titin </b> male, DoB: 1999-09-19 ( Chile: 78223444-1\u00a0(use:\u00a0OFFICIAL))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v3-MaritalStatus D}\">Divorced</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Alternate names (see the one above)\">Alt. Name:</td><td colspan=\"3\">Calcetin Izquierdo Con Rombos (OFFICIAL)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Details:</td><td colspan=\"3\"><ul><li><a href=\"mailto:calcetin@conrombos.man\">calcetin@conrombos.man</a></li><li>ph: 5555555555</li><li>Calle 4 Norte, 52, pieza 802 Arica Arica y Parinacota Chile (HOME)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: C\">C:</td><td colspan=\"3\"><ul><li>Tulio Triviño </li><li>ph: 666666666</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Patient Links\">Links:</td><td colspan=\"3\"><ul><li>General Practitioner: <span>: Hospital San Juan de Dios</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de del sexo registrado oficialmente por el/la paciente\"><a href=\"StructureDefinition-SexoReg.html\">Sexo Registral:</a></td><td colspan=\"3\"><ul><li>3</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para el código de identificación de país\"><a href=\"StructureDefinition-CodigoPais.html\">Código de identificación de país:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {urn:iso:std:iso:3166 152}\">Chile</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión para dato es de autoidentificación, por lo tanto, es una información que la persona entrega y el modelo de atención debe garantizar las condiciones y los mecanismos de privacidad y confidencialidad a través de un protocolo de aplicación local\"><a href=\"StructureDefinition-IdentidadGenero.html\">Identidad de Género:</a></td><td colspan=\"3\"><ul><li>5</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Extensión de Sexdo biológico al nacer para Chile\"><a href=\"StructureDefinition-SexoNacimiento820.html\">Sexo biológico al nacer:</a></td><td colspan=\"3\"><ul><li>1</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Se reconoce como pueblos indígenas u originarios en Chile a: mapuche, aymara, Rapanui, lickanantay, quechuas, colla, diaguitas, kawésqar, yagán y chango.\">Extensión de Pueblos Indígenas u Origenarios:</td><td colspan=\"3\"><ul><li>Pueblos: <span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena 2}\">Aymara</span></li><li>Otros: Aymara-Nui</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.\">Nivel Instruccion:</td><td colspan=\"3\"><ul><li>Ucurso: <span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado 8}\">8vo Básico</span></li><li>Univel: <span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob 3}\">Básica o Primaria</span></li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Información sobre la Religión o Credo declarada por el paciente\"><a href=\"StructureDefinition-ReligionesCultos.html\">Extensión que define Religion o Culto:</a></td><td colspan=\"3\"><ul><li><span title=\"Codes: {https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion 2}\">Evangélica</span></li></ul></td></tr></table></div>"
   },
   "extension" : [{
-    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NombreSocial",
-    "valueString" : "Leia"
-  },
-  {
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/SexoNacimiento820",
     "valueCode" : "1"
   },
@@ -25,8 +21,78 @@
   {
     "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/IdentidadGenero",
     "valueCode" : "5"
+  },
+  {
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/ReligionesCultos",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSReligion",
+        "code" : "2",
+        "display" : "Evangélica"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "Pueblos",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPuebloIndigena",
+          "code" : "2",
+          "display" : "Aymara"
+        }]
+      }
+    },
+    {
+      "url" : "Otros",
+      "valueString" : "Aymara-Nui"
+    }],
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/PueblosIndigenas"
+  },
+  {
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "urn:iso:std:iso:3166",
+        "code" : "152",
+        "display" : "Chile"
+      }]
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "Ucurso",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUCursoAprobado",
+          "code" : "8",
+          "display" : "8vo Básico"
+        }]
+      }
+    },
+    {
+      "url" : "Univel",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSUNivelAprob",
+          "code" : "3",
+          "display" : "Básica o Primaria"
+        }]
+      }
+    }],
+    "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/NivelInstruccion"
   }],
   "identifier" : [{
+    "extension" : [{
+      "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/CodigoPais",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "152",
+          "display" : "Chile"
+        }]
+      }
+    }],
     "use" : "official",
     "type" : {
       "coding" : [{
@@ -35,30 +101,45 @@
         "display" : "Chile"
       }]
     },
-    "system" : "http://regcivil.cl/Validacion/Passport",
     "value" : "78223444-1"
   }],
-  "active" : true,
   "name" : [{
     "use" : "official",
-    "family" : "Organa",
+    "family" : "Con Rombos",
     "_family" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
-        "valueString" : "Skywalker"
+        "valueString" : "Man"
       }]
     },
-    "given" : ["Luke",
-    "Solo"]
+    "given" : ["Calcetin",
+    "Izquierdo"]
+  },
+  {
+    "use" : "usual",
+    "given" : ["Titin"]
   }],
   "telecom" : [{
     "system" : "email",
-    "value" : "LukeSky@organa.cl",
-    "use" : "home"
+    "value" : "calcetin@conrombos.man"
+  },
+  {
+    "system" : "phone",
+    "value" : "5555555555"
   }],
   "gender" : "male",
-  "birthDate" : "1980-08-04",
+  "birthDate" : "1999-09-19",
   "address" : [{
+    "extension" : [{
+      "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/TipoViaDireccion",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSDireccionTipoVia",
+          "code" : "1",
+          "display" : "Calle"
+        }]
+      }
+    }],
     "use" : "home",
     "line" : ["Calle 4 Norte, 52, pieza 802"],
     "city" : "Arica",
@@ -72,5 +153,24 @@
       "code" : "D",
       "display" : "Divorced"
     }]
-  }
+  },
+  "contact" : [{
+    "relationship" : [{
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/5.1.0/CodeSystem-v2-0131.html",
+        "code" : "C"
+      }]
+    }],
+    "name" : {
+      "family" : "Triviño",
+      "given" : ["Tulio"]
+    },
+    "telecom" : [{
+      "system" : "phone",
+      "value" : "666666666"
+    }]
+  }],
+  "generalPractitioner" : [{
+    "display" : "Hospital San Juan de Dios"
+  }]
 }

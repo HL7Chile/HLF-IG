@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.HLF.HOSP\Artifacts Summary - FHIR v5.0.0</title>
+    <title>Artifacts Summary - Guía de Implementación Procesos de Hospitalizado v0.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"5"}
-    h3,h4,h5,h6{--heading-prefix:"5.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"6"}
+    h3,h4,h5,h6{--heading-prefix:"6.0"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -49,7 +49,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación Procesos de Hospitalizado</span>
             <br/>
-            <span style="display:inline-block;">0.4.0 - ci-build
+            <span style="display:inline-block;">0.7.0 - ci-build
 
 
             </span>
@@ -98,6 +98,9 @@
       </li>
     </ul>
   </li>
+  <li>
+    <a href="transacciones.html">Transacciones</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -130,7 +133,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.4.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación Procesos de Hospitalizado - Local Development build (v0.7.0). See the <a href="https://hospitallaflorida.cl/fhir/hlfhosp/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -176,8 +179,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="SearchParameter-complejidad.html"
-                     title="SearchParameter/complejidad">complejidad</a>
+                  <a href="SearchParameter-Complejidad.html"
+                     title="SearchParameter/Complejidad">Complejidad</a>
                </td>
                <td>
 <p>Retorna las Unidades Clinicas HLF que tienen la complejidad indicada</p>
@@ -185,8 +188,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="SearchParameter-is-pediatrica.html"
-                     title="SearchParameter/is-pediatrica">is-pediatrica</a>
+                  <a href="SearchParameter-IsPediatrica.html"
+                     title="SearchParameter/IsPediatrica">IsPediatrica</a>
                </td>
                <td>
 <p>Retorna las Unidades Clinicas HLF que son pediatricas</p>
@@ -211,6 +214,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Perfil de observaciones asociado a los aspectos laborales  de un paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BundleSolicitudHLF.html"
+                     title="StructureDefinition/BundleSolicitudHLF">BundleSolicitudHLF</a>
+               </td>
+               <td>
+<p>Perfil para un empaquetador de recursos FHIR en solicitud de hospitalización</p>
 </td>
             </tr>
             <tr>
@@ -317,6 +329,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-CodigoPais.html"
+                     title="StructureDefinition/CodigoPais">Código de identificación de país</a>
+               </td>
+               <td>
+<p>Extensión para el código de identificación de país</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-PueblosIndigenas.html"
                      title="StructureDefinition/PueblosIndigenas">Extensión de Pueblos Indígenas u Origenarios</a>
                </td>
@@ -362,20 +383,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-NivelInstrucion.html"
-                     title="StructureDefinition/NivelInstrucion">Nivel Instrucción</a>
+                  <a href="StructureDefinition-NivelInstruccion.html"
+                     title="StructureDefinition/NivelInstruccion">Nivel Instruccion</a>
                </td>
                <td>
 <p>El nivel de instrucción se refiere al último año aprobado en el ciclo de educación más avanzado que declare haber cursado la persona en el Sistema Educativo.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-NombreSocial.html"
-                     title="StructureDefinition/NombreSocial">Nombre Social de Paciente</a>
-               </td>
-               <td>
-<p>Esta extensión permite agregar un nombre social al paciente</p>
 </td>
             </tr>
             <tr>
@@ -398,6 +410,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-SexoReg.html"
+                     title="StructureDefinition/SexoReg">Sexo Registral</a>
+               </td>
+               <td>
+<p>Extensión para dato es de del sexo registrado oficialmente por el/la paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-SexoNacimiento820.html"
                      title="StructureDefinition/SexoNacimiento820">Sexo biológico al nacer</a>
                </td>
@@ -407,11 +428,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-SexoReg.html"
-                     title="StructureDefinition/SexoReg">Sexo Registral</a>
+                  <a href="StructureDefinition-TipoViaDireccion.html"
+                     title="StructureDefinition/TipoViaDireccion">Tipo Vía Dirección</a>
                </td>
                <td>
-<p>Extensión para dato es de del sexo registrado oficialmente por el/la paciente</p>
+<p>Extensión para definir el tipo de vía en la dirección del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Discapacidad.html"
+                     title="StructureDefinition/Discapacidad">Tipo de discapacidad</a>
+               </td>
+               <td>
+<p>Extensión para el tipo de discapacidad</p>
 </td>
             </tr>
             <tr>
@@ -437,6 +467,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-VSCodigoPaises.html" title="ValueSet/VSCodigoPaises">Codigo Paises</a>
+               </td>
+               <td>
+<p>ValueSet de Códigos de Paises según ISO 3166-1</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-VSEspecialidadMedica.html"
                      title="ValueSet/VSEspecialidadMedica">Codigos de especialidades médicas</a>
                </td>
@@ -446,11 +484,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSComplejidadCama.html"
-                     title="ValueSet/VSComplejidadCama">Complejidad Cama</a>
+                  <a href="ValueSet-VSComplejidad.html" title="ValueSet/VSComplejidad">Complejidad</a>
                </td>
                <td>
-<p>Códigos para identificar la complejidad de una cama HLF</p>
+<p>Códigos para identificar la complejidad HLF</p>
 </td>
             </tr>
             <tr>
@@ -468,6 +505,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Definición de diagnóstico o condición mórbida del paciente, definido en CIE-10</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VSDireccionTipoVia.html"
+                     title="ValueSet/VSDireccionTipoVia">Dirección Tipo Vía</a>
+               </td>
+               <td>
+<p>ValueSet de Código de tipo de vía según norma técnica 820 ‘Estándares de Información de Salud’ del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VSDiscapacidad.html" title="ValueSet/VSDiscapacidad">Discapacidad</a>
+               </td>
+               <td>
+<p>Valueset de Discapacidad</p>
 </td>
             </tr>
             <tr>
@@ -531,6 +585,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="ValueSet-TPUR.html" title="ValueSet/TPUR">Tipo de urgencia</a>
+               </td>
+               <td>
+<p>ValueSet Tipo de urgencia</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="ValueSet-VSTiposDocumentos.html"
                      title="ValueSet/VSTiposDocumentos">Tipos de Documentos</a>
                </td>
@@ -548,7 +610,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSUNivelAprob.html" title="ValueSet/VSUNivelAprob">Ultimo nivel aprobado</a>
+                  <a href="ValueSet-VSOcupaciones.html" title="ValueSet/VSOcupaciones">Ultimo nivel aprobado</a>
                </td>
                <td>
 <p>Código del último nivel aprobado</p>
@@ -556,7 +618,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSOcupaciones.html" title="ValueSet/VSOcupaciones">Ultimo nivel aprobado</a>
+                  <a href="ValueSet-VSUNivelAprob.html" title="ValueSet/VSUNivelAprob">Ultimo nivel aprobado</a>
                </td>
                <td>
 <p>Código del último nivel aprobado</p>
@@ -576,11 +638,58 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CSComplejidadCama.html"
-                     title="CodeSystem/CSComplejidadCama">Complejidad cama</a>
+                  <a href="CodeSystem-CTOC.html" title="CodeSystem/CTOC">Categoría ocupacional</a>
                </td>
                <td>
-<p>Códigos para identificar la complejidad de una cama HLF</p>
+<p>Categoría ocupacional</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CSComplejidad.html" title="CodeSystem/CSComplejidad">Complejidad</a>
+               </td>
+               <td>
+<p>Códigos para identificar la complejidad HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CMDR.html" title="CodeSystem/CMDR">Complemento de dirección</a>
+               </td>
+               <td>
+<p>Complemento de dirección</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CMES.html" title="CodeSystem/CMES">Consulta médica especialidad</a>
+               </td>
+               <td>
+<p>Consulta médica especialidad</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CMGR.html" title="CodeSystem/CMGR">Consulta médica general</a>
+               </td>
+               <td>
+<p>Consulta médica general</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-COES.html" title="CodeSystem/COES">Consulta odontológica especialidad</a>
+               </td>
+               <td>
+<p>Consulta odontológica especialidad</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CBFN.html" title="CodeSystem/CBFN">Código beneficiarios FONASA</a>
+               </td>
+               <td>
+<p>Código beneficiarios FONASA</p>
 </td>
             </tr>
             <tr>
@@ -602,6 +711,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-CSCie10Prueba.html" title="CodeSystem/CSCie10Prueba">Códigos de ejemplo CIE-10</a>
+               </td>
+               <td>
+<p>Algunos códigos en CIE-10 para la validación de la guía. La implementación debe considerar contar con un CS a nivel terminológico con la clasificación completa</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-CSIdentidadGenero.html"
                      title="CodeSystem/CSIdentidadGenero">Códigos para Identidad de Género</a>
                </td>
@@ -616,6 +733,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Codigos definidos para el sexo de nacimiento de un paciente en Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CSDireccionTipoVia.html"
+                     title="CodeSystem/CSDireccionTipoVia">Dirección Tipo Vía</a>
+               </td>
+               <td>
+<p>Código de tipo de vía según norma técnica 820 ‘Estándares de Información de Salud’ del Departamento de Estadística e Información de Salud del Ministerio de Salud de Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-DSCP.html" title="CodeSystem/DSCP">Discapacidad</a>
+               </td>
+               <td>
+<p>Discapacidad</p>
 </td>
             </tr>
             <tr>
@@ -688,6 +822,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-TPUR.html" title="CodeSystem/TPUR">Tipo de urgencia</a>
+               </td>
+               <td>
+<p>Tipo de urgencia</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-CSUCursoAprobado.html"
                      title="CodeSystem/CSUCursoAprobado">Ultimo Curso Aprobado</a>
                </td>
@@ -701,6 +843,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Código del último nivel aprobado</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-AUCS.html" title="CodeSystem/AUCS">Área urbano censal</a>
+               </td>
+               <td>
+<p>Área urbano censal</p>
 </td>
             </tr>
          </tbody>
@@ -717,32 +867,34 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-EjNivEduca.html" title="Observation/EjNivEduca">Ejemplo de nivel educacional de paciente</a>
+                  <a href="Condition-EjDiagnosticoCondHLfIMAGINARIO1.html"
+                     title="Condition/EjDiagnosticoCondHLfIMAGINARIO1">Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente</a>
                </td>
                <td>
-<p>Ejemplo para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF</p>
+<p>Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-EjOcupacion.html" title="Observation/EjOcupacion">Ejemplo de Ocupación del Paciente</a>
+                  <a href="Condition-EjDiagnosticoCondHLfIMAGINARIO2.html"
+                     title="Condition/EjDiagnosticoCondHLfIMAGINARIO2">Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente</a>
                </td>
                <td>
-<p>Ejemplo para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF</p>
+<p>Ejemplo Diagnósticos1 y Condiciones Mórbidas del Paciente</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Observation-EjPesoRecienNacido.html"
-                     title="Observation/EjPesoRecienNacido">Ejemplo de Peso Pediátrico</a>
+                  <a href="Condition-EjDiagnosticoCondHLfIMAGINARIO3.html"
+                     title="Condition/EjDiagnosticoCondHLfIMAGINARIO3">Ejemplo Diagnósticos3 y Condiciones Mórbidas del Paciente</a>
                </td>
                <td>
-<p>Ejemplo para el uso de un recurso de Observación asociado al peso medido al momento de nacer</p>
+<p>Ejemplo Diagnósticos3 y Condiciones Mórbidas del Paciente</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-007.html" title="Patient/007">Ejemplo de Recurso de Paciente HLF</a>
+                  <a href="Patient-007.html" title="Patient/007">Ejemplo Paciente HLF 1</a>
                </td>
                <td>
 <p>Paciente ficticio según datos requeridos por Hospital que contiene: 
@@ -757,10 +909,185 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-EjPacienteHLF2.html" title="Patient/EjPacienteHLF2">Ejemplo Paciente HLF 2</a>
+                  <a href="Patient-008.html" title="Patient/008">Ejemplo Paciente HLF 2</a>
                </td>
                <td>
-<p>Ejemplo de paciente HLF con el conjunto mínimo de datos requeridos para el uso de la API de HLF</p>
+<p>Paciente ficticio según datos requeridos por Hospital que contiene: 
+     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente
+     * La dirección se declara con códigos por extensión.
+     * Se agrega identidad de género y sexo registral
+     * Se declara sexo de nacimiento</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-009.html" title="Patient/009">Ejemplo Paciente HLF 3</a>
+               </td>
+               <td>
+<p>Paciente ficticio según datos requeridos por Hospital que contiene: 
+     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente
+     * La dirección se declara con códigos por extensión.
+     * Se agrega identidad de género y sexo registral
+     * Se declara sexo de nacimiento</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ServiceRequest-EjSolicitudHospitalizacion.html"
+                     title="ServiceRequest/EjSolicitudHospitalizacion">Ejemplo Solicitud Hospitalizacion</a>
+               </td>
+               <td>
+<p>Ejemplo Solicitud Hospitalizacion</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="HealthcareService-EjUnidadClinicaHLFIMAGINARIO.html"
+                     title="HealthcareService/EjUnidadClinicaHLFIMAGINARIO">Ejemplo Unidad ClinicaHLF</a>
+               </td>
+               <td>
+<p>Ejemplo Unidad ClinicaHLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjOcupacion2.html" title="Observation/EjOcupacion2">Ejemplo de Ocupación 2 del Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo 2 para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjOcupacion3.html" title="Observation/EjOcupacion3">Ejemplo de Ocupación 3 del Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo 2 para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjOcupacion.html" title="Observation/EjOcupacion">Ejemplo de Ocupación del Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo para el uso de un recurso de Observación asociado a la Ocupación  de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjNivEduca.html" title="Observation/EjNivEduca">Ejemplo de nivel educacional de paciente</a>
+               </td>
+               <td>
+<p>Ejemplo para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-EjRegistroAtencionIMAGINARIO.html"
+                     title="Encounter/EjRegistroAtencionIMAGINARIO">Ejemplo1 Registro atencion Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo1 Registro atencion Paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjPesoRecienNacido1.html"
+                     title="Observation/EjPesoRecienNacido1">Ejemplo1 de Peso Pediátrico</a>
+               </td>
+               <td>
+<p>Ejemplo1 para el uso de un recurso de Observación asociado al peso medido al momento de nacer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Coverage-EjPrevision1.html" title="Coverage/EjPrevision1">Ejemplo1 previsión del paciente</a>
+               </td>
+               <td>
+<p>Ejemplo1 para la previsión del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-EjRegistroAtencion2.html"
+                     title="Encounter/EjRegistroAtencion2">Ejemplo2 Registro atencion Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo2 Registro atencion Paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjPesoRecienNacido2.html"
+                     title="Observation/EjPesoRecienNacido2">Ejemplo2 de Peso Pediátrico</a>
+               </td>
+               <td>
+<p>Ejemplo2 para el uso de un recurso de Observación asociado al peso medido al momento de nacer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjNivEduca2.html" title="Observation/EjNivEduca2">Ejemplo2 de nivel educacional de paciente</a>
+               </td>
+               <td>
+<p>Ejemplo2 para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Coverage-EjPrevision2.html" title="Coverage/EjPrevision2">Ejemplo2 previsión del paciente</a>
+               </td>
+               <td>
+<p>Ejemplo2 para la previsión del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Encounter-EjRegistroAtencion3.html"
+                     title="Encounter/EjRegistroAtencion3">Ejemplo3 Registro atencion Paciente</a>
+               </td>
+               <td>
+<p>Ejemplo3 Registro atencion Paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjPesoRecienNacido3.html"
+                     title="Observation/EjPesoRecienNacido3">Ejemplo3 de Peso Pediátrico</a>
+               </td>
+               <td>
+<p>Ejemplo3 para el uso de un recurso de Observación asociado al peso medido al momento de nacer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-EjNivEduca3.html" title="Observation/EjNivEduca3">Ejemplo3 de nivel educacional de paciente</a>
+               </td>
+               <td>
+<p>Ejemplo3 para el uso de un recurso de Observación asociado a Nivel educacional de un paciente HLF</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Coverage-EjPrevision3.html" title="Coverage/EjPrevision3">Ejemplo3 previsión del paciente</a>
+               </td>
+               <td>
+<p>Ejemplo3 para la previsión del paciente</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Parameters-PatchSolicitudHospitalizacionEj.html"
+                     title="Parameters/PatchSolicitudHospitalizacionEj">PATCH Solicitud Hospitalizacion</a>
+               </td>
+               <td>
+<p>Recurso Parameters para realizar la operación PATCH del recurso ServiceRequest que representa una solicitud de hospitalización.</p>
 </td>
             </tr>
          </tbody>
@@ -790,7 +1117,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Fri, Jun 30, 2023 18:27-0400">2023-06-30</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hospitallaflorida.cl/">Hospital Eloisa Diaz de la Florida</a>.  Package fhir.hlf.hosp#0.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Sep 13, 2023 17:11-0300">2023-09-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

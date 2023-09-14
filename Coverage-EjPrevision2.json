@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Coverage",
+  "id" : "EjPrevision2",
+  "meta" : {
+    "profile" : ["https://hospitallaflorida.cl/fhir/hlfhosp/StructureDefinition/Prevision"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Coverage</b><a name=\"EjPrevision2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Coverage &quot;EjPrevision2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Prevision.html\">Prevision</a></p></div><p><b>status</b>: active</p><p><b>kind</b>: insurance</p><p><b>type</b>: FONASA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-CSPrevision.html\">Prevision del Paciente</a>#5 &quot;SISA&quot;)</span></p><p><b>beneficiary</b>: <a href=\"Patient-008.html\">Patient/008</a> &quot; PEREZ&quot;</p></div>"
+  },
+  "status" : "active",
+  "kind" : "insurance",
+  "type" : {
+    "coding" : [{
+      "system" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSPrevision",
+      "code" : "5",
+      "display" : "SISA"
+    }],
+    "text" : "FONASA"
+  },
+  "beneficiary" : {
+    "reference" : "Patient/008"
+  }
+}

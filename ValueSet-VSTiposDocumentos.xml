@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="VSTiposDocumentos"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-CSCodigoDNI.html"><code>https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI</code></a></li><li>Include all codes defined in <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Placeholder</div>
   </text>
   <url value="https://hospitallaflorida.cl/fhir/hlfhosp/ValueSet/VSTiposDocumentos"/>
-  <version value="0.4.0"/>
+  <version value="0.7.0"/>
   <name value="VSTiposDocumentos"/>
   <title value="Tipos de Documentos"/>
   <status value="active"/>
@@ -25,13 +25,6 @@
     </telecom>
   </contact>
   <description value="Tipos de Documentos para identificación según tabla HL7 V3 y CodeSystem local."/>
-  <jurisdiction>
-    <coding>
-      <system value="urn:iso:std:iso:3166"/>
-      <code value="CL"/>
-      <display value="Chile"/>
-    </coding>
-  </jurisdiction>
   <compose>
     <include>
       <system value="https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSCodigoDNI"/>

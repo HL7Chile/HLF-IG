@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "CSComplejidad",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+  },
+  "url" : "https://hospitallaflorida.cl/fhir/hlfhosp/CodeSystem/CSComplejidad",
+  "version" : "0.7.0",
+  "name" : "CSComplejidad",
+  "title" : "Complejidad",
+  "status" : "active",
+  "experimental" : true,
+  "date" : "2023-06-22T00:00:00-03:00",
+  "publisher" : "Hospital Eloisa Diaz de la Florida",
+  "contact" : [{
+    "name" : "Hospital Eloisa Diaz de la Florida",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.hospitallaflorida.cl/"
+    },
+    {
+      "system" : "email",
+      "value" : "leonardo.arancibia@hospitallaflorida.cl"
+    }]
+  }],
+  "description" : "Códigos para identificar la complejidad HLF",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "baja",
+    "display" : "Baja",
+    "definition" : "Complejidad baja"
+  },
+  {
+    "code" : "media",
+    "display" : "Media",
+    "definition" : "Complejidad media"
+  },
+  {
+    "code" : "intermedia",
+    "display" : "Intermedia",
+    "definition" : "Complejidad intermedia"
+  },
+  {
+    "code" : "alta",
+    "display" : "Alta",
+    "definition" : "Complejidad alta"
+  }]
+}
